@@ -1,0 +1,48 @@
+{{ $actions := .Params.hero_actions }}
+{{ $variant := .Params.hero_variant }}
+<section class="hero">
+  {{ if eq $variant "plain-centered" }}
+    <div class="container hero-plain hero-plain--centered">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lead }}
+        <p class="lead">{{ . }}</p>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        {{ with .Params.eyebrow }}
+          <p class="eyebrow">{{ . }}</p>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.lead }}
+          <p class="lead">{{ . }}</p>
+        {{ end }}
+
+        {{ with $actions }}
+          <div class="hero-actions">
+            {{ range . }}
+              <a class="button {{ if eq .style "secondary" }}button--secondary{{ else }}button--primary{{ end }}" href="{{ .url | relURL }}">{{ .label }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+
+      {{ if or .Params.scope .Params.hero_note }}
+        <aside class="hero-panel">
+          <h2>{{ .Params.hero_note_title | default "Current scope" }}</h2>
+          {{ with .Params.hero_note }}
+            <p>{{ . }}</p>
+          {{ end }}
+          {{ with .Params.scope }}
+            <ul class="hero-list">
+              {{ range . }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        </aside>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>

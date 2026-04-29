@@ -1,0 +1,27 @@
+baseURL: "http://127.0.0.1:1313/"
+languageCode: "en"
+title: "Kimika Teorikoa"
+enableRobotsTXT: true
+
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  site_tagline: "Euskal Herriko Unibertsitatea & DIPC"
+  footer_note: "Structure prototype for the migration from WordPress to Hugo/HugoBlox."
+  utility_nav:
+    - name: Home
+      url: /
+    - name: About Us
+      url: /about/
+    - name: Contact and Location
+      url: /contact/
+    - name: Consolidated Research Group
+      url: /consolidated-group/

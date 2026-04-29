@@ -1,0 +1,52 @@
+items:
+- id: berti-2025-pt-graphene
+  type: article
+  title: 'Ultra-Low Atomic Diffusion Barrier on Two-Dimensional Materials: The Case of Pt on Epitaxial Graphene'
+  doi: 10.1021/acsnano.5c13305
+  year: 2025
+  journal: ACS Nano
+  volume: '19'
+  issue: '40'
+  pages: 35921-35932
+  groups:
+  - matcat
+  tags:
+  - MatCat-NanoSurf
+  - MatCat
+  - EJ1584
+  toc_image: /images/publications/toc/acsnano-5c13305.png
+  toc_link: https://pubs.acs.org/doi/10.1021/acsnano.5c13305
+  authors:
+  - Andrea Berti
+  - Ramon M. Bergua
+  - Jose M. Mercero
+  - Deborah Perco
+  - Paolo Lacovig
+  - Silvano Lizzit
+  - Elisa Jimenez-Izal
+  - Alessandro Baraldi
+- id: cartagena-2025-eutectozymes-as-soft-hybrid
+  type: article
+  title: Eutectozymes as Soft Hybrid Materials for Advanced Biocatalysis
+  doi: 10.1002/adma.202517014
+  year: 2025
+  journal: Advanced Materials
+  volume: ''
+  issue: ''
+  pages: e17014
+  groups:
+  - isom
+  tags:
+  - IT2067
+  authors:
+  - Manuel Eduardo Martinez Cartagena
+  - Lucia Suarez
+  - Aitor Ontoria
+  - Francisca J. Benitez
+  - Elixabete Rezabal
+  - María Soledad Orellano
+  - Marcelo Calderón
+  - Cristián Huck‐Iriart
+  - Agustin S. Picco
+  - Matias L. Picchio
+  - Ana Beloqui

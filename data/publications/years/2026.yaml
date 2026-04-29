@@ -1,0 +1,18 @@
+items:
+  - id: "maceiras-2026-glycidol-polymerization"
+    type: "article"
+    title: "An insight into the monomeric isomerism in the polymerization of glycidol with B(C6F5)3: A DFT study of the initiation, propagation and cyclization steps"
+    doi: "10.1016/j.polymer.2026.129792"
+    year: 2026
+    journal: "Polymer"
+    volume: "350"
+    issue: ""
+    pages: "129792"
+    groups: ["polkt"]
+    tags: ["IT2067"]
+    authors:
+      - "Xuban Gastearena"
+      - "Fernando Ruipérez"
+      - "Fabienne Barroso-Bujans"
+      - "Anabel Lam"
+      - "Jon M. Matxain"

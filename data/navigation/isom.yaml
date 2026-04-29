@@ -1,0 +1,11 @@
+items:
+  - name: Home
+    url: /isom/
+  - name: Members
+    url: /isom/members/
+  - name: Research
+    url: /isom/research/
+  - name: Publications
+    url: /isom/publications/
+  - name: Contact
+    url: /isom/contact/

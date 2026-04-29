@@ -1,0 +1,146 @@
+{{ define "main" }}
+  {{ if and (not .Params.hide_hero) (not .Params.hide_page_hero) }}
+    {{ partial "page-hero.html" . }}
+  {{ end }}
+  <section class="page-content">
+    <div class="container page-layout">
+      {{ if .Params.matcat_plain }}
+        <article class="subgroup-home subgroup-home--matcat">
+          <section class="subgroup-split">
+            <div class="subgroup-intro">
+              <h1>Welcome to the MatCat Laboratory</h1>
+              <p>MatCat Laboratory operates within the Donostia Kimika Teorikoa research group and specializes in theoretical and computational approaches to catalysis and materials. Under the leadership of Dr. Elisa Jimenez-Izal and Prof. Jose M. Mercero, the lab aims to advance fundamental understanding of catalytic processes at surfaces, electrochemical interfaces and materials with uncommon chemical bonding through state-of-the-art electronic structure methods and multiscale modeling.</p>
+              <p>The core research lines of the laboratory are outlined in the diagram.</p>
+            </div>
+
+            <div class="subgroup-diagram">
+              <div class="matcat-wheel" aria-label="MatCat research areas">
+                <div class="matcat-wheel__outer"></div>
+                <div class="matcat-wheel__hub">
+                  <span>MatCat</span>
+                  <span>Lab</span>
+                </div>
+
+                <span class="matcat-wheel__label matcat-wheel__label--left">Exotic Matter</span>
+                <span class="matcat-wheel__label matcat-wheel__label--right">
+                  <span>Metal</span>
+                  <span>Nanoclusters</span>
+                  <span>on Surfaces</span>
+                </span>
+                <span class="matcat-wheel__label matcat-wheel__label--bottom">
+                  <span>Heterogeneous</span>
+                  <span>Catalysis</span>
+                  <span>and</span>
+                  <span>Electrocatalysis</span>
+                </span>
+              </div>
+            </div>
+          </section>
+        </article>
+      {{ else if .Params.isom_plain }}
+        <article class="subgroup-home subgroup-home--isom">
+          <section class="subgroup-split subgroup-split--isom">
+            <div class="subgroup-intro">
+              <h1>Welcome to the ISoM Laboratory</h1>
+              <p>ISoM Laboratory operates within the Donostia Kimika Teorikoa research group and provides the structural home for the subgroup pages on ionic and soft matter. This section now follows the same migration pattern as MatCat so members, publications, research and contact content can evolve with a shared layout and consistent navigation.</p>
+              <p>The visual block on the right serves as the subgroup landing diagram and can later be replaced or refined with the final ISoM-specific scheme.</p>
+            </div>
+
+            <div class="subgroup-diagram">
+              <div class="isom-orbit" aria-label="ISoM research areas">
+                <div class="isom-orbit__halo isom-orbit__halo--outer"></div>
+                <div class="isom-orbit__halo isom-orbit__halo--inner"></div>
+                <div class="isom-orbit__core">
+                  <span>ISoM</span>
+                  <span>Lab</span>
+                </div>
+                <span class="isom-orbit__label isom-orbit__label--top">Ionic Liquids</span>
+                <span class="isom-orbit__label isom-orbit__label--right">Soft Interfaces</span>
+                <span class="isom-orbit__label isom-orbit__label--bottom">Hybrid Systems</span>
+                <span class="isom-orbit__label isom-orbit__label--left">Molecular Modelling</span>
+              </div>
+            </div>
+          </section>
+        </article>
+      {{ else if .Params.biokt_plain }}
+        <article class="subgroup-home subgroup-home--biokt">
+          <section class="subgroup-split subgroup-split--biokt">
+            <div class="subgroup-intro">
+              <h1>Welcome to the Bio-KT Laboratory</h1>
+              <p>Bio-KT Laboratory operates within the Donostia Kimika Teorikoa research group. This new section mirrors the shared subgroup structure already used elsewhere so members, research, publications and contact content can grow with a common navigation and visual language.</p>
+              <p>The visual block on the right is a provisional landing motif that can later be replaced by the final Bio-KT-specific scheme.</p>
+            </div>
+
+            <div class="subgroup-diagram">
+              <div class="biokt-cluster" aria-label="Bio-KT research areas">
+                <div class="biokt-cluster__core">
+                  <span>Bio-KT</span>
+                  <span>Lab</span>
+                </div>
+                <span class="biokt-cluster__label biokt-cluster__label--top">Line 01</span>
+                <span class="biokt-cluster__label biokt-cluster__label--right">Line 02</span>
+                <span class="biokt-cluster__label biokt-cluster__label--bottom">Line 03</span>
+              </div>
+            </div>
+          </section>
+        </article>
+      {{ else if .Params.polkt_plain }}
+        <article class="subgroup-home subgroup-home--polkt">
+          <section class="subgroup-split subgroup-split--polkt">
+            <div class="subgroup-intro">
+              <h1>Welcome to the Pol-KT Laboratory</h1>
+              <p>Pol-KT Laboratory operates within the Donostia Kimika Teorikoa research group. This migration scaffold sets up the same section structure as the other KT subgroups so the lab can be expanded consistently page by page.</p>
+              <p>The visual block on the right is a provisional landing motif and will be easy to replace once the final Pol-KT scheme is ready.</p>
+            </div>
+
+            <div class="subgroup-diagram">
+              <div class="polkt-chain" aria-label="Pol-KT research areas">
+                <div class="polkt-chain__backbone"></div>
+                <span class="polkt-chain__node polkt-chain__node--one">01</span>
+                <span class="polkt-chain__node polkt-chain__node--two">02</span>
+                <span class="polkt-chain__node polkt-chain__node--three">03</span>
+                <div class="polkt-chain__core">
+                  <span>Pol-KT</span>
+                  <span>Lab</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      {{ else }}
+        <article class="{{ if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">
+          {{ if or .Params.hide_hero .Params.hide_page_hero }}
+            <header class="page-title-inline page-title-inline--centered">
+              <h1>{{ .Title }}</h1>
+              {{ with .Params.lead }}
+                <p class="lead">{{ . }}</p>
+              {{ end }}
+            </header>
+          {{ end }}
+          {{ .Content }}
+        </article>
+
+        {{ if and .Pages (not .Params.hide_child_section) }}
+          <section class="child-section">
+            <div class="section-heading">
+              <h2>Pages in this section</h2>
+              <p>This is the structural entry point for the subgroup and its first child pages.</p>
+            </div>
+            <div class="child-grid">
+              {{ range .Pages.ByWeight }}
+                <article class="child-card">
+                  <p class="child-card__eyebrow">{{ .Section | upper }}</p>
+                  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                  {{ with .Params.lead }}
+                    <p>{{ . }}</p>
+                  {{ end }}
+                  <a class="text-link" href="{{ .RelPermalink }}">Open page</a>
+                </article>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

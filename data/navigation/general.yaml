@@ -1,0 +1,59 @@
+items:
+  - name: Members
+    url: /members/
+    children:
+      - name: Researchers
+        url: /members/#researcher
+      - name: Postdocs
+        url: /members/#postdoc
+      - name: PhD
+        url: /members/#phd
+      - name: Former Members
+        url: /former-members/
+  - name: Research Groups
+    url: /research-groups/
+    children:
+      - name: iSoM-KT
+        url: /isom/
+      - name: MatCat-KT
+        url: /matcat/
+      - name: Bio-KT
+        url: /biokt/
+      - name: Pol-KT
+        url: /polkt/
+      - name: NOFT-KT
+        url: /noft/
+      - name: MolEleS-KT
+        url: https://molecular-electronic-structure-group.github.io
+      - name: QCD-KT
+        url: https://quantchemdev.github.io
+      - name: MoMag-KT
+        url: https://www.danielreta.com
+  - name: Publications
+    url: /publications/
+    children:
+      - name: Articles
+        url: /publications/#articles
+      - name: Books and Chapters
+        url: /publications/#books-and-chapters
+      - name: PhD Thesis
+        url: /publications/#phd-thesis
+  - name: Conferences
+    url: /conferences/
+  - name: KT-Seminars
+    url: /kt-seminars/
+  - name: Outreach
+    url: /outreach/
+    children:
+      - name: Blogs
+        url: /outreach/#blogs
+      - name: Radio
+        url: /outreach/#radio
+      - name: Social Networks
+        url: /outreach/#social-networks
+      - name: TV
+        url: /outreach/#tv
+  - name: Tech Profile
+    url: /tech-profile/
+  - name: Gallery
+    url: /gallery/

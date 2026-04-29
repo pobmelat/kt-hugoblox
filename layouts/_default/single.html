@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <section class="page-content">
+    <div class="container page-layout">
+      {{ if .Params.member_type }}
+        <article class="prose prose--plain">
+          {{ partial "member-profile-block.html" . }}
+          {{ partial "member-publications-block.html" . }}
+          {{ if .Content }}
+            {{ .Content }}
+          {{ end }}
+        </article>
+      {{ else }}
+        <article class="{{ if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">
+          {{ if not .Params.hide_page_hero }}
+            {{ partial "page-hero.html" . }}
+          {{ else }}
+            <header class="page-title-inline page-title-inline--centered">
+              <h1>{{ .Title }}</h1>
+              {{ with .Params.lead }}
+                <p class="lead">{{ . }}</p>
+              {{ end }}
+            </header>
+          {{ end }}
+          {{ .Content }}
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

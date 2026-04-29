@@ -1,0 +1,62 @@
+{{ $member := . }}
+<section class="member-profile member-profile--{{ $member.Params.id }}">
+  <div class="member-profile__top">
+    <div class="member-profile__avatar">
+      {{ with $member.Params.photo }}
+        <img src="{{ . | relURL }}" alt="{{ $member.Title }}">
+      {{ else }}
+        <span aria-hidden="true">{{ substr $member.Title 0 1 }}</span>
+      {{ end }}
+    </div>
+
+    <div class="member-profile__summary">
+      {{ with $member.Params.group_labels }}
+        <p class="member-profile__eyebrow">{{ delimit . " · " }}</p>
+      {{ end }}
+
+      <h1 class="member-profile__name">{{ $member.Title }}</h1>
+
+      {{ with $member.Params.role }}
+        <p class="member-profile__title">{{ . }}</p>
+      {{ end }}
+
+      {{ with $member.Params.position }}
+        <p class="member-profile__meta">{{ . }}</p>
+      {{ end }}
+
+      {{ with $member.Params.affiliation }}
+        <p class="member-profile__meta">{{ . }}</p>
+      {{ end }}
+
+      {{ if or $member.Params.orcid $member.Params.researcher_id $member.Params.google_scholar $member.Params.research_gate $member.Params.scopus }}
+        <div class="member-profile__links">
+          {{ with $member.Params.orcid }}
+            <a href="{{ . }}" aria-label="ORCID" title="ORCID">
+              <img src="{{ "/icons/orcid.svg" | relURL }}" alt="ORCID">
+            </a>
+          {{ end }}
+          {{ with $member.Params.researcher_id }}
+            <a href="{{ . }}" aria-label="Web of Science" title="Web of Science">
+              <img src="{{ "/icons/wos.png" | relURL }}" alt="Web of Science">
+            </a>
+          {{ end }}
+          {{ with $member.Params.google_scholar }}
+            <a href="{{ . }}" aria-label="Google Scholar" title="Google Scholar">
+              <img src="{{ "/icons/scholar.svg" | relURL }}" alt="Google Scholar">
+            </a>
+          {{ end }}
+          {{ with $member.Params.research_gate }}
+            <a href="{{ . }}" aria-label="ResearchGate" title="ResearchGate">
+              <img src="{{ "/icons/ResG.webp" | relURL }}" alt="ResearchGate">
+            </a>
+          {{ end }}
+          {{ with $member.Params.scopus }}
+            <a href="{{ . }}" aria-label="Scopus" title="Scopus">
+              <img src="{{ "/icons/scopus.webp" | relURL }}" alt="Scopus">
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

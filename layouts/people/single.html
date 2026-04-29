@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <section class="page-content">
+    <div class="container page-layout">
+      <article class="prose prose--plain">
+        {{ partial "member-profile-block.html" . }}
+        {{ partial "member-publications-block.html" . }}
+        {{ if .Content }}
+          {{ .Content }}
+        {{ end }}
+      </article>
+    </div>
+  </section>
+{{ end }}

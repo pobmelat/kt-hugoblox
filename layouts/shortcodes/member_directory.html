@@ -1,0 +1,255 @@
+{{ $group := .Get "group" }}
+{{ $mode := .Get "mode" | default "active" }}
+{{ $people := where site.RegularPages "Section" "people" }}
+{{ $people = where $people "Params.member_type" "ne" nil }}
+{{ $activeSections := slice
+  (dict "key" "researcher" "title" "Researchers")
+  (dict "key" "postdoc" "title" "Postdoctoral Researchers")
+  (dict "key" "phd" "title" "PhD Students")
+}}
+{{ $formerSections := slice
+  (dict "key" "former_postdoc" "title" "Former Postdoctoral Researchers")
+  (dict "key" "former_phd" "title" "Former PhD Students")
+}}
+{{ $sections := cond (eq $mode "former") $formerSections $activeSections }}
+{{ $dataOrderRoot := index hugo.Data "member_order" }}
+
+<section class="member-directory">
+  {{ if $group }}
+    {{ $matches := slice }}
+    {{ range sort $people "Params.weight" }}
+      {{ if and (in (.Params.groups | default (slice)) $group) (or (eq .Params.member_type "researcher") (eq .Params.member_type "postdoc") (eq .Params.member_type "phd")) }}
+        {{ $matches = $matches | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $orderedMatches := slice }}
+    {{ $groupOrderPath := printf "content/%s/member_order.yaml" $group }}
+    {{ $groupOrderData := dict }}
+    {{ $groupIDs := slice }}
+    {{ if fileExists $groupOrderPath }}
+      {{ $groupOrderData = transform.Unmarshal (readFile $groupOrderPath) }}
+    {{ end }}
+    {{ with $groupOrderData }}
+      {{ $groupIDs = index . "ids" | default (slice) }}
+    {{ end }}
+    {{ if gt (len $groupIDs) 0 }}
+      {{ range $groupIDs }}
+        {{ $targetID := . }}
+        {{ range $matches }}
+          {{ if eq .Params.id $targetID }}
+            {{ $orderedMatches = $orderedMatches | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      {{ $activeKeys := slice "researcher" "postdoc" "phd" }}
+      {{ range $activeKeys }}
+        {{ $orderData := index $dataOrderRoot . }}
+        {{ $ids := slice }}
+        {{ with $orderData }}
+          {{ $ids = index . "ids" | default (slice) }}
+        {{ end }}
+        {{ range $ids }}
+          {{ $targetID := . }}
+          {{ range $matches }}
+            {{ if eq .Params.id $targetID }}
+              {{ $orderedMatches = $orderedMatches | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ range sort $matches "Params.weight" }}
+      {{ if not (in $orderedMatches .) }}
+        {{ $orderedMatches = $orderedMatches | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{ if gt (len $orderedMatches) 0 }}
+      <div class="member-grid">
+        {{ range $orderedMatches }}
+          {{ $member := . }}
+          <article class="member-card member-card--{{ .Params.id }}">
+            <div class="member-card__avatar">
+              {{ with .Params.photo }}
+                <img src="{{ . | relURL }}" alt="{{ $member.Title }}">
+              {{ else }}
+                <span aria-hidden="true">{{ substr $member.Title 0 1 }}</span>
+              {{ end }}
+            </div>
+            <div class="member-card__body">
+              <h3 class="member-card__name">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h3>
+
+              {{ with .Params.role }}
+                <p class="member-card__title">{{ . }}</p>
+              {{ end }}
+
+              {{ with .Params.group_labels }}
+                <div class="member-card__groups">
+                  {{ range . }}
+                    <span class="member-card__group">{{ . }}</span>
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ with .Params.position }}
+                <p class="member-card__meta">{{ . }}</p>
+              {{ end }}
+
+              {{ with .Params.affiliation }}
+                <p class="member-card__meta">{{ . }}</p>
+              {{ end }}
+
+              {{ if or .Params.orcid .Params.researcher_id .Params.google_scholar .Params.research_gate .Params.scopus }}
+                <div class="member-card__links">
+                  {{ with .Params.orcid }}
+                    <a href="{{ . }}" aria-label="ORCID" title="ORCID">
+                      <img src="{{ "/icons/orcid.svg" | relURL }}" alt="ORCID">
+                    </a>
+                  {{ end }}
+                  {{ with .Params.researcher_id }}
+                    <a href="{{ . }}" aria-label="Web of Science" title="Web of Science">
+                      <img src="{{ "/icons/wos.png" | relURL }}" alt="Web of Science">
+                    </a>
+                  {{ end }}
+                  {{ with .Params.google_scholar }}
+                    <a href="{{ . }}" aria-label="Google Scholar" title="Google Scholar">
+                      <img src="{{ "/icons/scholar.svg" | relURL }}" alt="Google Scholar">
+                    </a>
+                  {{ end }}
+                  {{ with .Params.research_gate }}
+                    <a href="{{ . }}" aria-label="ResearchGate" title="ResearchGate">
+                      <img src="{{ "/icons/ResG.webp" | relURL }}" alt="ResearchGate">
+                    </a>
+                  {{ end }}
+                  {{ with .Params.scopus }}
+                    <a href="{{ . }}" aria-label="Scopus" title="Scopus">
+                      <img src="{{ "/icons/scopus.webp" | relURL }}" alt="Scopus">
+                    </a>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="member-directory__empty">No entries added yet.</p>
+    {{ end }}
+  {{ else }}
+    {{ range $sections }}
+      {{ $sectionKey := .key }}
+      {{ $matches := slice }}
+      {{ range sort $people "Params.weight" }}
+        {{ if eq .Params.member_type $sectionKey }}
+          {{ $matches = $matches | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $orderedMatches := slice }}
+      {{ $orderData := index $dataOrderRoot $sectionKey }}
+      {{ $ids := slice }}
+      {{ with $orderData }}
+        {{ $ids = index . "ids" | default (slice) }}
+      {{ end }}
+      {{ range $ids }}
+        {{ $targetID := . }}
+        {{ range $matches }}
+          {{ if eq .Params.id $targetID }}
+            {{ $orderedMatches = $orderedMatches | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ range sort $matches "Params.weight" }}
+        {{ if not (in $orderedMatches .) }}
+          {{ $orderedMatches = $orderedMatches | append . }}
+        {{ end }}
+      {{ end }}
+
+      <section class="member-directory__section" id="{{ $sectionKey }}">
+        <div class="section-heading">
+          <h2>{{ .title }}</h2>
+        </div>
+
+        {{ if gt (len $orderedMatches) 0 }}
+          <div class="member-grid">
+            {{ range $orderedMatches }}
+              {{ $member := . }}
+              <article class="member-card member-card--{{ .Params.id }}">
+                <div class="member-card__avatar">
+                  {{ with .Params.photo }}
+                    <img src="{{ . | relURL }}" alt="{{ $member.Title }}">
+                  {{ else }}
+                    <span aria-hidden="true">{{ substr $member.Title 0 1 }}</span>
+                  {{ end }}
+                </div>
+                <div class="member-card__body">
+                  <h3 class="member-card__name">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </h3>
+
+                  {{ with .Params.role }}
+                    <p class="member-card__title">{{ . }}</p>
+                  {{ end }}
+
+                  {{ with .Params.group_labels }}
+                    <div class="member-card__groups">
+                      {{ range . }}
+                        <span class="member-card__group">{{ . }}</span>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+
+                  {{ with .Params.position }}
+                    <p class="member-card__meta">{{ . }}</p>
+                  {{ end }}
+
+                  {{ with .Params.affiliation }}
+                    <p class="member-card__meta">{{ . }}</p>
+                  {{ end }}
+
+                  {{ with .Params.note }}
+                    <p class="member-card__note">{{ . }}</p>
+                  {{ end }}
+
+                  {{ if or .Params.orcid .Params.researcher_id .Params.google_scholar .Params.research_gate .Params.scopus }}
+                    <div class="member-card__links">
+                      {{ with .Params.orcid }}
+                        <a href="{{ . }}" aria-label="ORCID" title="ORCID">
+                          <img src="{{ "/icons/orcid.svg" | relURL }}" alt="ORCID">
+                        </a>
+                      {{ end }}
+                      {{ with .Params.researcher_id }}
+                        <a href="{{ . }}" aria-label="Web of Science" title="Web of Science">
+                          <img src="{{ "/icons/wos.png" | relURL }}" alt="Web of Science">
+                        </a>
+                      {{ end }}
+                      {{ with .Params.google_scholar }}
+                        <a href="{{ . }}" aria-label="Google Scholar" title="Google Scholar">
+                          <img src="{{ "/icons/scholar.svg" | relURL }}" alt="Google Scholar">
+                        </a>
+                      {{ end }}
+                      {{ with .Params.research_gate }}
+                        <a href="{{ . }}" aria-label="ResearchGate" title="ResearchGate">
+                          <img src="{{ "/icons/ResG.webp" | relURL }}" alt="ResearchGate">
+                        </a>
+                      {{ end }}
+                      {{ with .Params.scopus }}
+                        <a href="{{ . }}" aria-label="Scopus" title="Scopus">
+                          <img src="{{ "/icons/scopus.webp" | relURL }}" alt="Scopus">
+                        </a>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="member-directory__empty">No entries added yet.</p>
+        {{ end }}
+      </section>
+    {{ end }}
+  {{ end }}
+</section>

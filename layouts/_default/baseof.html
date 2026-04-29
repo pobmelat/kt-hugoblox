@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Params.lead }}{{ . }}{{ else }}Structure prototype for the Kimika Teorikoa migration.{{ end }}">
+  {{ $styles := resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+</head>
+<body class="page-shell">
+  {{ partial "site-header.html" . }}
+  {{ block "main" . }}{{ end }}
+  {{ partial "site-footer.html" . }}
+  {{ $script := resources.Get "js/navigation.js" | minify | fingerprint }}
+  <script src="{{ $script.RelPermalink }}" defer></script>
+</body>
+</html>

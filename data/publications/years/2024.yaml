@@ -1,0 +1,63 @@
+items:
+  - id: "ugartemendia-2024-trivalent-oxygen-graphene"
+    type: "article"
+    title: "Deciphering the chemical bonding of the trivalent oxygen atom in oxygen doped graphene"
+    doi: "10.1039/d4sc00142g"
+    year: 2024
+    journal: "Chem. Sci."
+    volume: "15"
+    issue: "16"
+    pages: "6151-6159"
+    groups: ["matcat"]
+    tags: ["MatCat", "MatCat-Exotic", "EJ1584"]
+    toc_image: "/images/publications/toc/d4sc00142g.png"
+    toc_link: "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d4sc00142g"
+    authors:
+      - "Andoni Ugartemendia"
+      - "Irene Casademont-Reig"
+      - "Lili Zhao"
+      - "Zuxian Zhang"
+      - "Gernot Frenking"
+      - "Jesus M. Ugalde"
+      - "Aran Garcia-Lekue"
+      - "Elisa Jimenez-Izal"
+
+  - id: "ugartemendia-2024-ptge-pemfc"
+    type: "article"
+    title: "Boosting synergistic effects between PtGe nanoalloys and 2D materials for PEMFC applications"
+    doi: "10.1016/j.ijhydene.2024.09.279"
+    year: 2024
+    journal: "International Journal of Hydrogen Energy"
+    volume: "89"
+    issue: ""
+    pages: "233-253"
+    groups: ["matcat"]
+    tags: ["MatCat", "MatCat-HetCatE", "EJ1584"]
+    toc_image: "/images/publications/toc/ijhydene-2024-09-279.jpg"
+    toc_link: "https://www.sciencedirect.com/science/article/pii/S0360319924039880"
+    authors:
+      - "Andoni Ugartemendia"
+      - "Ramon M. Bergua"
+      - "Jose M. Mercero"
+      - "Elisa Jimenez-Izal"
+
+  - id: "ugartemendia-2024-ptge-co-oxidation"
+    type: "article"
+    title: "Deposited PtGe Clusters as Active and Durable Catalysts for CO Oxidation"
+    doi: "10.1002/cctc.202301137"
+    year: 2024
+    journal: "ChemCatChem"
+    volume: "16"
+    issue: "3"
+    pages: ""
+    groups: ["matcat"]
+    tags: ["MatCat", "MatCat-HetCatE", "EJ1584"]
+    toc_image: "/images/publications/toc/cctc-202301137.png"
+    toc_link: "https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cctc.202301137"
+    authors:
+      - "Andoni Ugartemendia"
+      - "Jose M. Mercero"
+      - "Abel de Cozar"
+      - "Marko M. Melander"
+      - "Jaakko Akola"
+      - "Elisa Jimenez-Izal"

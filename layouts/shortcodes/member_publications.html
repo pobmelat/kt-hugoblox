@@ -1,0 +1,15 @@
+{{ $memberID := .Get "id" }}
+{{ $member := .Page }}
+{{ if $memberID }}
+  {{ range where site.RegularPages "Section" "people" }}
+    {{ if eq .Params.id $memberID }}
+      {{ $member = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $member.Params.id }}
+  {{ partial "member-publications-block.html" $member }}
+{{ else }}
+  <p class="member-directory__empty">No publications linked yet.</p>
+{{ end }}

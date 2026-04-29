@@ -1,0 +1,282 @@
+{{ $group := .Get "group" }}
+{{ $items := slice }}
+{{ range $year, $bucket := hugo.Data.publications.years }}
+  {{ with $bucket.items }}
+    {{ range . }}
+      {{ $items = $items | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $matches := slice }}
+{{ $tagSet := slice }}
+{{ $groupLabels := dict
+  "isom" "ISoM-KT"
+  "matcat" "MatCat-KT"
+  "biokt" "Bio-KT"
+  "polkt" "Pol-KT"
+  "noft" "NOFT-KT"
+  "moleles" "MolEleS-KT"
+  "qcd" "QCD-KT"
+  "momag" "MoMag-KT"
+}}
+
+{{ range $items }}
+  {{ $inGroup := true }}
+  {{ if $group }}
+    {{ $inGroup = in .groups $group }}
+  {{ end }}
+  {{ if and $inGroup (eq .type "article") }}
+    {{ $matches = $matches | append . }}
+    {{ if not $group }}
+      {{ range .groups }}
+        {{ $groupLabel := index $groupLabels . | default (upper .) }}
+        {{ if not (in $tagSet $groupLabel) }}
+          {{ $tagSet = $tagSet | append $groupLabel }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ range .tags }}
+      {{ $showInToolbar := false }}
+      {{ if or (findRE `^[A-Z]{2}\d{3,}$` .) (findRE `^[A-Z]{2}\d{4,}$` .) }}
+        {{ $showInToolbar = true }}
+      {{ end }}
+      {{ if and $group (in . "MatCat") }}
+        {{ $showInToolbar = true }}
+      {{ end }}
+      {{ if and $showInToolbar (not (in $tagSet .)) }}
+        {{ $tagSet = $tagSet | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $group }}
+  {{ range $groupKey, $groupLabel := $groupLabels }}
+    {{ if not (in $tagSet $groupLabel) }}
+      {{ $tagSet = $tagSet | append $groupLabel }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section class="publication-directory" data-publication-directory>
+  {{ if gt (len $tagSet) 0 }}
+    <div class="publication-toolbar">
+      <span class="publication-toolbar__label">Tags</span>
+      <div class="publication-tags publication-tags--toolbar">
+        <a class="publication-tag publication-tag--reset" href="#all" data-publication-filter="all">All</a>
+        {{ range sort $tagSet }}
+          {{ $slug := . | urlize }}
+          <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{ if gt (len $matches) 0 }}
+    <ol class="publication-list" data-publication-list>
+      {{ range (sort $matches "year" "asc" | collections.Reverse) }}
+        {{ $tagSlugs := slice }}
+        {{ $bibKey := .id | default ((replace .title " " "-") | urlize) }}
+        {{ $bibtexLines := slice
+          (printf "@article{%s," $bibKey)
+          (printf "  title = {%s}," .title)
+        }}
+        {{ with .authors }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  author = {%s}," (delimit . " and ")) }}
+        {{ end }}
+        {{ with .journal }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  journal = {%s}," .) }}
+        {{ end }}
+        {{ with .year }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  year = {%v}," .) }}
+        {{ end }}
+        {{ with .volume }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  volume = {%s}," .) }}
+        {{ end }}
+        {{ with .issue }}
+          {{ if ne . "" }}
+            {{ $bibtexLines = $bibtexLines | append (printf "  number = {%s}," .) }}
+          {{ end }}
+        {{ end }}
+        {{ with .pages }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  pages = {%s}," .) }}
+        {{ end }}
+        {{ with .doi }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  doi = {%s}," .) }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  url = {%s}," (printf "https://doi.org/%s" .)) }}
+        {{ end }}
+        {{ $bibtexLines = $bibtexLines | append "}" }}
+        {{ $bibtex := delimit $bibtexLines "\n" }}
+        {{ if not $group }}
+          {{ range .groups }}
+            {{ $groupLabel := index $groupLabels . | default (upper .) }}
+            {{ $tagSlugs = $tagSlugs | append ($groupLabel | urlize) }}
+          {{ end }}
+        {{ end }}
+        {{ range .tags }}
+          {{ $tagSlugs = $tagSlugs | append (. | urlize) }}
+        {{ end }}
+        <li class="publication-entry" data-publication-item data-tags="{{ delimit $tagSlugs " " }}">
+          <span class="publication-entry__number" data-publication-number></span>
+          {{ with .authors }}
+            <p class="publication-entry__authors">{{ delimit . "; " }}</p>
+          {{ end }}
+
+          <h3 class="publication-entry__title">{{ .title }}</h3>
+
+          <div class="publication-entry__citation-row">
+            <p class="publication-entry__citation">
+            {{ with .journal }}<em>{{ . }}</em>{{ end }},
+            <strong>{{ .year }}</strong>
+            {{ with .volume }}, {{ . }}{{ end }}
+            {{ with .issue }}({{ . }}){{ end }}
+            {{ with .pages }}, {{ . }}{{ end }}
+            </p>
+            <div class="publication-entry__actions publication-entry__actions--inline">
+              {{ with .doi }}
+                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" aria-label="Open DOI" title="Open DOI">
+                  <span class="publication-entry__action-text">DOI</span>
+                </a>
+              {{ end }}
+              <details class="publication-bibtex-details">
+                <summary
+                  class="publication-entry__action publication-entry__action--bib"
+                  aria-label="Open BibTeX"
+                  title="Open BibTeX"
+                >
+                  <span class="publication-entry__action-text">BibTeX</span>
+                </summary>
+                <div class="publication-bibtex">
+                  <div class="publication-bibtex__header">
+                    <span class="publication-bibtex__label">BibTeX</span>
+                    <div class="publication-bibtex__controls">
+                      <button
+                        class="publication-bibtex__copy"
+                        type="button"
+                        data-bibtex-copy
+                        aria-label="Copy BibTeX"
+                        title="Copy BibTeX"
+                      >Copy</button>
+                      <button
+                        class="publication-bibtex__close"
+                        type="button"
+                        data-bibtex-close
+                        aria-label="Close BibTeX"
+                        title="Close BibTeX"
+                      >Close</button>
+                    </div>
+                  </div>
+                  <pre class="publication-bibtex__code" data-bibtex-code>{{ $bibtex }}</pre>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          {{ with .tags }}
+            <div class="publication-tags">
+              {{ range . }}
+                {{ $slug := . | urlize }}
+                <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ else }}
+    <p class="publication-directory__empty">No publication entries added yet.</p>
+  {{ end }}
+</section>
+
+<script>
+  (() => {
+    const root = document.currentScript?.previousElementSibling;
+    if (!root || !root.matches('[data-publication-directory]')) return;
+
+    const filters = Array.from(root.querySelectorAll('[data-publication-filter]'));
+    const detailsBlocks = Array.from(root.querySelectorAll('.publication-bibtex-details'));
+    const items = Array.from(root.querySelectorAll('[data-publication-item]'));
+
+    const applyFilter = (slug) => {
+      const active = slug && slug !== 'all' ? slug : 'all';
+      const visibleItems = [];
+
+      items.forEach((item) => {
+        const tags = (item.getAttribute('data-tags') || '').split(/\s+/).filter(Boolean);
+        const visible = active === 'all' || tags.includes(active);
+        item.hidden = !visible;
+        if (visible) visibleItems.push(item);
+      });
+
+      visibleItems.forEach((item, index) => {
+        const number = visibleItems.length - index;
+        const slot = item.querySelector('[data-publication-number]');
+        if (slot) slot.textContent = `${number}.`;
+      });
+
+      filters.forEach((link) => {
+        link.classList.toggle('is-active', link.getAttribute('data-publication-filter') === active);
+      });
+    };
+
+    const readHash = () => {
+      const hash = window.location.hash || '#all';
+      return hash.startsWith('#tag-') ? hash.replace('#tag-', '') : 'all';
+    };
+
+    root.addEventListener('click', (event) => {
+      const link = event.target.closest('[data-publication-filter]');
+      if (!link) return;
+      event.preventDefault();
+      const slug = link.getAttribute('data-publication-filter') || 'all';
+      history.replaceState(null, '', slug === 'all' ? '#all' : `#tag-${slug}`);
+      applyFilter(slug);
+    });
+
+    detailsBlocks.forEach((details) => {
+      details.addEventListener('toggle', () => {
+        if (!details.open) return;
+        detailsBlocks.forEach((other) => {
+          if (other !== details) other.open = false;
+        });
+      });
+    });
+
+    root.addEventListener('click', async (event) => {
+      const closeButton = event.target.closest('[data-bibtex-close]');
+      if (closeButton) {
+        event.preventDefault();
+        event.stopPropagation();
+        const details = closeButton.closest('.publication-bibtex-details');
+        if (details) details.open = false;
+        return;
+      }
+
+      const copyButton = event.target.closest('[data-bibtex-copy]');
+      if (copyButton) {
+        event.preventDefault();
+        event.stopPropagation();
+        const details = copyButton.closest('.publication-bibtex-details');
+        const code = details?.querySelector('[data-bibtex-code]');
+        const bibtex = code?.textContent?.trim();
+        if (!bibtex) return;
+        try {
+          await navigator.clipboard.writeText(bibtex);
+          copyButton.textContent = 'Copied';
+          window.setTimeout(() => {
+            copyButton.textContent = 'Copy';
+          }, 1400);
+        } catch (_) {
+          copyButton.textContent = 'Error';
+          window.setTimeout(() => {
+            copyButton.textContent = 'Copy';
+          }, 1400);
+        }
+        return;
+      }
+    });
+
+    window.addEventListener('hashchange', () => applyFilter(readHash()));
+    applyFilter(readHash());
+  })();
+</script>

@@ -1,0 +1,15 @@
+{{ $memberID := .Get "id" }}
+{{ $member := .Page }}
+{{ if $memberID }}
+  {{ range where site.RegularPages "Section" "people" }}
+    {{ if eq .Params.id $memberID }}
+      {{ $member = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $member.Params.id }}
+  {{ partial "member-profile-block.html" $member }}
+{{ else }}
+  <p class="member-directory__empty">Member profile not found.</p>
+{{ end }}

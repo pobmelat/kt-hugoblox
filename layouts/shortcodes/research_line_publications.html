@@ -1,0 +1,183 @@
+{{ $tagParam := .Get "tag" | default "" }}
+{{ $tags := slice }}
+{{ if $tagParam }}
+  {{ range (split $tagParam ",") }}
+    {{ $clean := trim . " " }}
+    {{ if $clean }}
+      {{ $tags = $tags | append $clean }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $items := slice }}
+{{ range $year, $bucket := hugo.Data.publications.years }}
+  {{ with $bucket.items }}
+    {{ range . }}
+      {{ $items = $items | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $matches := slice }}
+{{ range $items }}
+  {{ $item := . }}
+  {{ if eq .type "article" }}
+    {{ $include := false }}
+    {{ if gt (len $tags) 0 }}
+      {{ range $tags }}
+        {{ if in ($item.tags | default (slice)) . }}
+          {{ $include = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if $include }}
+      {{ $matches = $matches | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section class="research-publications">
+  <div class="section-heading">
+    <h2>Selected Publications</h2>
+  </div>
+
+  {{ if gt (len $matches) 0 }}
+    <div class="research-publication-list">
+      {{ range (sort $matches "year" "asc" | collections.Reverse) }}
+        {{ $item := . }}
+        {{ $bibKey := .id | default ((replace .title " " "-") | urlize) }}
+        {{ $bibtexLines := slice
+          (printf "@article{%s," $bibKey)
+          (printf "  title = {%s}," .title)
+        }}
+        {{ with .authors }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  author = {%s}," (delimit . " and ")) }}
+        {{ end }}
+        {{ with .journal }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  journal = {%s}," .) }}
+        {{ end }}
+        {{ with .year }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  year = {%v}," .) }}
+        {{ end }}
+        {{ with .volume }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  volume = {%s}," .) }}
+        {{ end }}
+        {{ with .issue }}
+          {{ if ne . "" }}
+            {{ $bibtexLines = $bibtexLines | append (printf "  number = {%s}," .) }}
+          {{ end }}
+        {{ end }}
+        {{ with .pages }}
+          {{ if ne . "" }}
+            {{ $bibtexLines = $bibtexLines | append (printf "  pages = {%s}," .) }}
+          {{ end }}
+        {{ end }}
+        {{ with .doi }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  doi = {%s}," .) }}
+          {{ $bibtexLines = $bibtexLines | append (printf "  url = {%s}," (printf "https://doi.org/%s" .)) }}
+        {{ end }}
+        {{ $bibtexLines = $bibtexLines | append "}" }}
+        {{ $bibtex := delimit $bibtexLines "\n" }}
+
+        <article class="research-publication-entry">
+          {{ with .authors }}
+            <p class="publication-entry__authors">{{ delimit . "; " }}</p>
+          {{ end }}
+
+          <h3 class="publication-entry__title">
+            {{ with .doi }}
+              <a href="https://doi.org/{{ . }}">{{ $item.title }}</a>
+            {{ else }}
+              {{ $item.title }}
+            {{ end }}
+          </h3>
+
+          <div class="publication-entry__citation-row">
+            <p class="publication-entry__citation">
+              {{ with .journal }}<em>{{ . }}</em>{{ end }},
+              <strong>{{ .year }}</strong>
+              {{ with .volume }}, {{ . }}{{ end }}
+              {{ with .issue }}({{ . }}){{ end }}
+              {{ with .pages }}, {{ . }}{{ end }}
+            </p>
+            <div class="publication-entry__actions publication-entry__actions--inline">
+              {{ with .doi }}
+                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" aria-label="Open DOI" title="Open DOI">
+                  <span class="publication-entry__action-text">DOI</span>
+                </a>
+              {{ end }}
+              <details class="publication-bibtex-details">
+                <summary class="publication-entry__action publication-entry__action--bib" aria-label="Open BibTeX" title="Open BibTeX">
+                  <span class="publication-entry__action-text">BibTeX</span>
+                </summary>
+                <div class="publication-bibtex">
+                  <div class="publication-bibtex__header">
+                    <span class="publication-bibtex__label">BibTeX</span>
+                    <div class="publication-bibtex__controls">
+                      <button class="publication-bibtex__copy" type="button" data-bibtex-copy aria-label="Copy BibTeX" title="Copy BibTeX">Copy</button>
+                      <button class="publication-bibtex__close" type="button" data-bibtex-close aria-label="Close BibTeX" title="Close BibTeX">Close</button>
+                    </div>
+                  </div>
+                  <pre class="publication-bibtex__code" data-bibtex-code>{{ $bibtex }}</pre>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          {{ if and .toc_image .toc_link }}
+            <div class="research-publication-entry__toc">
+              <a href="{{ .toc_link }}" target="_blank" rel="noopener">
+                <img src="{{ .toc_image | relURL }}" alt="Graphical abstract for {{ .title }}">
+              </a>
+            </div>
+          {{ else if .toc_image }}
+            <div class="research-publication-entry__toc">
+              <img src="{{ .toc_image | relURL }}" alt="Graphical abstract for {{ .title }}">
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="publication-directory__empty">No publication entries tagged for this research line yet.</p>
+  {{ end }}
+</section>
+
+<script>
+  (() => {
+    const root = document.currentScript?.previousElementSibling;
+    if (!root || !root.matches('.research-publications')) return;
+    const detailsBlocks = Array.from(root.querySelectorAll('.publication-bibtex-details'));
+
+    root.addEventListener('click', (event) => {
+      const copyButton = event.target.closest('[data-bibtex-copy]');
+      const closeButton = event.target.closest('[data-bibtex-close]');
+      if (copyButton) {
+        const details = copyButton.closest('.publication-bibtex-details');
+        const code = details?.querySelector('[data-bibtex-code]');
+        const text = code?.textContent || '';
+        if (text && navigator.clipboard) {
+          navigator.clipboard.writeText(text).then(() => {
+            const original = copyButton.textContent;
+            copyButton.textContent = 'Copied';
+            setTimeout(() => copyButton.textContent = original, 1200);
+          });
+        }
+      }
+
+      if (closeButton) {
+        const details = closeButton.closest('.publication-bibtex-details');
+        if (details) details.open = false;
+      }
+    });
+
+    detailsBlocks.forEach((details) => {
+      details.addEventListener('toggle', () => {
+        if (!details.open) return;
+        detailsBlocks.forEach((other) => {
+          if (other !== details) other.open = false;
+        });
+      });
+    });
+  })();
+</script>

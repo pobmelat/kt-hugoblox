@@ -1,0 +1,11 @@
+items:
+  - name: Home
+    url: /biokt/
+  - name: Members
+    url: /biokt/members/
+  - name: Research
+    url: /biokt/research/
+  - name: Publications
+    url: /biokt/publications/
+  - name: Contact
+    url: /biokt/contact/
