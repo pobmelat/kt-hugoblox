@@ -1768,6 +1768,11 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   object-position: center 2%;
 }
 
+.member-card--unai-calvo .member-card__avatar img {
+  object-position: center 10%;
+}
+
+
 .member-card__body {
   max-width: 240px;
   margin: 0 auto;
