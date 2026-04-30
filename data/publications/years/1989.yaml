@@ -1,0 +1,15 @@
+items:
+- id: 10-1016-s0040-4020-01-89530-2
+  type: article
+  title: CONFORMATIONS AND CHARGE-DISTRIBUTIONS IN 1,2-DINITROSOETHYLENE AND FUROXAN .2. ABINITIO ELECTROSTATIC POTENTIALS AND RELATIVE BOND STRENGTHS
+  doi: 10.1016/s0040-4020(01)89530-2
+  year: 1989
+  journal: Tetrahedron
+  volume: '45'
+  issue: '20'
+  pages: 6537-6544
+  authors:
+  - E. Sedano
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '758'

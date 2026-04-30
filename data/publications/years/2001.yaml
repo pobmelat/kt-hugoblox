@@ -1,0 +1,180 @@
+items:
+- id: 10-1021-jp0112121
+  type: article
+  title: Aluminum (III) interactions with sulfur-containing amino acid chains
+  doi: 10.1021/jp0112121
+  year: 2001
+  journal: Journal of Physical Chemistry A
+  volume: '105'
+  issue: '31'
+  pages: 7446-7453
+  authors:
+  - J. M. Mercero
+  - A. Irigoras
+  - X. Lopez
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '245'
+- id: 10-1103-physreva-64-044501
+  type: article
+  title: Determination of the integrated x-ray scattering intensities through the electron-pair relative-motion density at the origin
+  doi: 10.1103/PhysRevA.64.044501
+  year: 2001
+  journal: Physical Review A
+  volume: '64'
+  issue: '4'
+  authors:
+  - E. Valderrama
+  - X. Fradera
+  - J. M. Ugalde
+  teachpress_id: '799'
+- id: rn403
+  type: article
+  title: Development of an ab initio database for biological phosphate hydrolysis
+  year: 2001
+  journal: Abstracts of Papers of the American Chemical Society
+  volume: '222'
+  pages: U400-U401
+  authors:
+  - S. Z. Zlatkova
+  - K. Range
+  - X. Lopez
+  - D. York
+  teachpress_id: '824'
+- id: 10-1063-1-1384417
+  type: article
+  title: 'Electron-electron counterbalance density for molecules: Exchange and correlation effects'
+  doi: 10.1063/1.1384417
+  year: 2001
+  journal: Journal of Chemical Physics
+  volume: '115'
+  issue: '5'
+  pages: 1987-1994
+  authors:
+  - E. Valderrama
+  - X. Fradera
+  - J. M. Ugalde
+  teachpress_id: '800'
+- id: 10-1103-physreva-64-013201
+  type: article
+  title: Electronic excitation energies of small ZniSi clusters
+  doi: 10.1103/PhysRevA.64.013201
+  year: 2001
+  journal: Physical Review A
+  volume: '63'
+  issue: '1'
+  authors:
+  - J. M. Matxain
+  - A. Irigoras
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '612'
+- id: rn401
+  type: article
+  title: New semiempirical specific reaction parameter Hamiltonian for biological phosphate hydrolysis
+  year: 2001
+  journal: Abstracts of Papers of the American Chemical Society
+  volume: '222'
+  pages: U401-U401
+  authors:
+  - X. Lopez
+  - S. Z. Zlatkova
+  - D. M. York
+  teachpress_id: '581'
+- id: 10-1016-s0009-2614-01-00222-6
+  type: article
+  title: On the critical stability of dipole bound dianions
+  doi: 10.1016/s0009-2614(01)00222-6
+  year: 2001
+  journal: Chemical Physics Letters
+  volume: '337'
+  issue: 4-6
+  pages: 355-360
+  authors:
+  - C. Sarasola
+  - J. E. Fowler
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '749'
+- id: rn402
+  type: article
+  title: Parameterization of an AM1/d Hamiltonian to treat nucleophilic reactions on phosphates of biological interest
+  year: 2001
+  journal: Abstracts of Papers of the American Chemical Society
+  volume: '222'
+  pages: U395-U395
+  authors:
+  - X. Lopez
+  teachpress_id: '553'
+- id: 10-1103-physreva-64-053201
+  type: article
+  title: 'Small clusters of group-(II-VI) materials: ZniXi'
+  doi: 10.1103/PhysRevA.64.053201
+  year: 2001
+  journal: Physical Review A
+  volume: '64'
+  issue: '5'
+  authors:
+  - J. M. Matxain
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '230'
+- id: 10-1021-ja010683y
+  type: article
+  title: 'Solvent effects on the reaction coordinate of the hydrolysis of phosphates and sulfates: Application of Hammond and anti-Hammond postulates to understand hydrolysis in solution'
+  doi: 10.1021/ja010683y
+  year: 2001
+  journal: Journal of the American Chemical Society
+  volume: '123'
+  issue: '47'
+  pages: 11755-11763
+  authors:
+  - X. Lopez
+  - A. Dejaegere
+  - M. Karplus
+  teachpress_id: '556'
+- id: 10-1016-s0040-4020-01-01048-1
+  type: article
+  title: 'Synthesis of a novel diarylphosphinic acid: a distorted ground state mimic and transition state analogue for amide hydrolysis'
+  doi: 10.1016/s0040-4020(01)01048-1
+  year: 2001
+  journal: Tetrahedron
+  volume: '57'
+  issue: '52'
+  pages: 10299-10307
+  authors:
+  - M. Schuman
+  - X. Lopez
+  - M. Karplus
+  - V. Gouverneur
+  teachpress_id: '754'
+- id: 10-1021-ja003103q
+  type: article
+  title: The ferrocene-lithium cation complex in the gas phase
+  doi: 10.1021/ja003103q
+  year: 2001
+  journal: Journal of the American Chemical Society
+  volume: '123'
+  issue: '21'
+  pages: 5040-5043
+  authors:
+  - A. Irigoras
+  - J. M. Mercero
+  - I. Silanes
+  - J. M. Ugalde
+  teachpress_id: '223'
+- id: 10-1088-0953-4075-34-3-306
+  type: article
+  title: The separation of the dynamical and non-dynamical electron correlation effects
+  doi: 10.1088/0953-4075/34/3/306
+  year: 2001
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '34'
+  issue: '3'
+  pages: 275-283
+  authors:
+  - E. Valderrama
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '278'

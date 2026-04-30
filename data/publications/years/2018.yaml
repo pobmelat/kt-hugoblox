@@ -1,0 +1,993 @@
+items:
+- id: 10-1021-acsnano-7b09011
+  type: article
+  title: 'Acid-Base Control of Valency within Carboranedithiol Self-Assembled Monolayers: Molecules Do the Can-Can'
+  doi: 10.1021/acsnano.7b09011
+  year: 2018
+  journal: Acs Nano
+  volume: '12'
+  issue: '3'
+  pages: 2211-2221
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - J. C. Thomas
+  - D. P. Goronzy
+  - A. C. Serino
+  - H. S. Auluck
+  - O. R. Irving
+  - E. Jimenez-Izal
+  - J. M. Deirmenjian
+  - J. Machacek
+  - P. Sautet
+  - A. N. Alexandrova
+  - T. Base
+  - P. S. Weiss
+  teachpress_id: '773'
+- id: 10-1039-c8cp02962h
+  type: article
+  title: 'Aluminum and Fenton reaction: how can the reaction be modulated by speciation? A computational study using citrate as a test case'
+  doi: 10.1039/c8cp02962h
+  year: 2018
+  journal: Physical Chemistry Chemical Physics
+  volume: '20'
+  issue: '23'
+  pages: 16256-16265
+  authors:
+  - J. I. Mujika
+  - G. Dalla Torre
+  - X. Lopez
+  teachpress_id: '643'
+- id: 10-1016-j-jinorgbio-2017-10-014
+  type: article
+  title: 'Aluminum''s preferential binding site in proteins: sidechain of amino acids versus backbone interactions'
+  doi: 10.1016/j.jinorgbio.2017.10.014
+  year: 2018
+  journal: Journal of Inorganic Biochemistry
+  volume: '181'
+  pages: 111-116
+  authors:
+  - J. I. Mujika
+  - G. D. Torre
+  - E. Formoso
+  - R. Grande-Aztatzi
+  - S. J. Grabowski
+  - C. Exley
+  - X. Lopez
+  teachpress_id: '653'
+- id: 10-1007-s10910-018-0870-0
+  type: article
+  title: Analytic second-order energy derivatives in natural orbital functional theory
+  doi: 10.1007/s10910-018-0870-0
+  year: 2018
+  journal: Journal of Mathematical Chemistry
+  volume: '56'
+  issue: '5'
+  pages: 1445-1455
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - I. Mitxelena
+  - M. Piris
+  teachpress_id: '631'
+- id: 10-1002-smll-201801771
+  type: article
+  title: Building Structures Atom by Atom via Electron Beam Manipulation
+  doi: 10.1002/smll.201801771
+  year: 2018
+  journal: Small
+  volume: '14'
+  issue: '38'
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - O. Dyck
+  - S. Kim
+  - E. Jimenez-Izal
+  - A. N. Alexandrova
+  - S. V. Kalinin
+  - S. Jesse
+  teachpress_id: '356'
+- id: 10-1021-acsnano-8b06467
+  type: article
+  title: Chirality-Induced Electron Spin Polarization and Enantiospecific Response in Solid-State Cross-Polarization Nuclear Magnetic Resonance
+  doi: 10.1021/acsnano.8b06467
+  year: 2018
+  journal: Acs Nano
+  volume: '12'
+  issue: '11'
+  pages: 11426-11433
+  authors:
+  - J. I. Santos
+  - I. Rivilla
+  - F. P. Cossio
+  - J. M. Matxain
+  - M. Grzelczak
+  - S. K. S. Mazinani
+  - J. M. Ugalde
+  - V. Mujica
+  teachpress_id: '743'
+- id: 10-1021-acs-jpca-8b06673
+  type: article
+  title: Comparison of Electron and Ion Emission from Xenon Cluster-Induced Ignition of Helium Nanodroplets
+  doi: 10.1021/acs.jpca.8b06673
+  year: 2018
+  journal: Journal of Physical Chemistry A
+  volume: '122'
+  issue: '41'
+  pages: 8107-8113
+  authors:
+  - M. Kelbg
+  - A. Heidenreich
+  - L. Kazak
+  - M. Zabel
+  - B. Krebs
+  - K. H. Meiwes-Broer
+  - J. Tiggesbaumker
+  teachpress_id: '522'
+- id: 10-1146-annurev-physchem-050317-014216
+  type: inbook
+  title: Computational Design of Clusters for Catalysis
+  doi: 10.1146/annurev-physchem-050317-014216
+  year: 2018
+  volume: '69'
+  pages: 377-400
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - E. Jimenez-Izal
+  - A. N. Alexandrova
+  teachpress_id: '508'
+- id: 10-1002-cphc-201800274
+  type: article
+  title: Coordination of Be and Mg Centres by HCN Ligands - Be...N and Mg...N Interactions
+  doi: 10.1002/cphc.201800274
+  year: 2018
+  journal: Chemphyschem
+  volume: '19'
+  issue: '15'
+  pages: 1830-1840
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '431'
+- id: 10-1021-acs-nanolett-7b05297
+  type: article
+  title: Coupling of Molecular Emitters and Plasmonic Cavities beyond the Point-Dipole Approximation
+  doi: 10.1021/acs.nanolett.7b05297
+  year: 2018
+  journal: NANO LETTERS
+  volume: '18'
+  issue: '4'
+  pages: 2358-2364
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Tomas Neuman
+  - Ruben Esteban
+  - David Casanova
+  - Francisco J. Garcia-Vidal
+  - Javier Aizpurua
+  teachpress_id: '1230'
+- id: wos-000435539905536
+  type: article
+  title: DFT functional calibration from highly-accurate energies and densities at different correlation regimes
+  year: 2018
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '255'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  teachpress_id: '994'
+- id: 10-1103-physreva-98-022504
+  type: article
+  title: Dynamic electron-correlation energy in the natural-orbital-functional second-order-Moller-Plesset method from the orbital-invariant perturbation theory
+  doi: 10.1103/PhysRevA.98.022504
+  year: 2018
+  journal: Physical Review A
+  volume: '98'
+  issue: '2'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '674'
+- id: 10-1021-acs-nanolett-7b03150
+  type: article
+  title: 'Effect of Aspect Ratio on Multiparticle Auger Recombination in Single-Walled Carbon Nanotubes: Time Domain Atomistic Simulation'
+  doi: 10.1021/acs.nanolett.7b03150
+  year: 2018
+  journal: NANO LETTERS
+  volume: '18'
+  issue: '1'
+  pages: 58-63
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Sougata Pal
+  - David Casanova
+  - Oleg V. Prezhdo
+  teachpress_id: '1234'
+- id: 10-1021-acs-jpca-7b12556
+  type: article
+  title: Electron-Pair Distribution in Chemical Bond Formation
+  doi: 10.1021/acs.jpca.7b12556
+  year: 2018
+  journal: Journal of Physical Chemistry A
+  volume: '122'
+  issue: '7'
+  pages: 1916-+
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - M. Rodriguez-Mayorga
+  - M. Via-Nadal
+  - M. Sola
+  - J. M. Ugalde
+  - X. Lopez
+  - E. Matito
+  teachpress_id: '725'
+- id: 10-1002-chem-201801069
+  type: article
+  title: 'Fullerene-Based Materials as Hole-Transporting/Electron-Blocking Layers: Applications in Perovskite Solar Cells'
+  doi: 10.1002/chem.201801069
+  year: 2018
+  journal: Chemistry-a European Journal
+  volume: '24'
+  issue: '34'
+  pages: 8524-8529
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - S. F. Volker
+  - M. Valles-Pelarda
+  - J. Pascual
+  - S. Collavini
+  - F. Ruiperez
+  - E. Zuccatti
+  - L. E. Hueso
+  - R. Tena-Zaera
+  - I. Mora-Sero
+  - J. L. Delgado
+  teachpress_id: '809'
+- id: 10-1007-s00894-017-3569-4
+  type: article
+  title: Hydrogen bonds and other interactions as a response to protect doublet/octet electron structure
+  doi: 10.1007/s00894-017-3569-4
+  year: 2018
+  journal: Journal of Molecular Modeling
+  volume: '24'
+  issue: '1'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '432'
+- id: 10-1021-acs-jpcb-8b05975
+  type: article
+  title: Instrumental Effects in the Dynamics of an Ultrafast Folding Protein under Mechanical Force
+  doi: 10.1021/acs.jpcb.8b05975
+  year: 2018
+  journal: Journal of Physical Chemistry B
+  volume: '122'
+  issue: '49'
+  pages: 11147-11154
+  authors:
+  - D. De Sancho
+  - J. Schonfelder
+  - R. B. Best
+  - R. Perez-Jimenez
+  - V. Munoz
+  teachpress_id: '348'
+- id: 10-1002-cphc-201800085
+  type: article
+  title: 'Isomerism, Diradical Signature, and Raman Spectroscopy: Underlying Connections in Diamino Oligophenyl Dications'
+  doi: 10.1002/cphc.201800085
+  year: 2018
+  journal: CHEMPHYSCHEM
+  volume: '19'
+  issue: '12'
+  pages: 1465-1470
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Samara Medina Rivero
+  - Paula Mayorga Burrezo
+  - Maria Eugenia Sandoval-Salinas
+  - Tao Li
+  - Francisco J. Ramirez
+  - David Casanova
+  - Xinping Wang
+  - Juan Casado
+  teachpress_id: '1228'
+- id: 10-1016-j-chempr-2018-03-020
+  type: article
+  title: Macrocyclic Polyradicaloids with Unusual Super-ring Structure and Global Aromaticity
+  doi: 10.1016/j.chempr.2018.03.020
+  year: 2018
+  journal: CHEM
+  volume: '4'
+  issue: '7'
+  pages: 1586-1595
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Chunchen Liu
+  - Maria Eugenia Sandoval-Salinas
+  - Yongseok Hong
+  - Tullimilli Y. Gopalakrishna
+  - Hoa Phan
+  - Naoki Aratani
+  - Tun Seng Herng
+  - Jun Ding
+  - Hiroko Yamada
+  - Dongho Kim
+  - David Casanova
+  - Jishan Wu
+  teachpress_id: '1227'
+- id: 10-1002-slct-201703137
+  type: article
+  title: 'Magnesium Bonds: From Divalent Mg Centres to Trigonal and Tetrahedral Coordination'
+  doi: 10.1002/slct.201703137
+  year: 2018
+  journal: Chemistryselect
+  volume: '3'
+  issue: '11'
+  pages: 3147-3154
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '433'
+- id: 10-1038-s41467-018-05107-6
+  type: article
+  title: Mechanical architecture and folding of E. coli type 1 pilus domains
+  doi: 10.1038/s41467-018-05107-6
+  year: 2018
+  journal: Nature Communications
+  volume: '9'
+  authors:
+  - A. Alonso-Caballero
+  - J. Schonfelder
+  - S. Poly
+  - F. Corsetti
+  - D. De Sancho
+  - E. Artacho
+  - R. Perez-Jimenez
+  teachpress_id: '292'
+- id: 10-1002-chem-201800878
+  type: article
+  title: 'Metal Cluster Electrides: A New Type of Molecular Electride with Delocalised Polyattractor Character'
+  doi: 10.1002/chem.201800878
+  year: 2018
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '24'
+  issue: '39'
+  pages: 9853-9859
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ouissam El Bakouri
+  - Veronica Postils
+  - Marc Garcia-Borras
+  - Miquel Duran
+  - Josep M. Luis
+  - Simone Calvello
+  - Alessandro Soncini
+  - Eduard Matito
+  - Ferran Feixas
+  - Miquel Sola
+  teachpress_id: '992'
+- id: 10-1002-anie-201712104
+  type: article
+  title: Molecular-Barrier-Enhanced Aromatic Fluorophores in Cocrystals with Unity Quantum Efficiency
+  doi: 10.1002/anie.201712104
+  year: 2018
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '57'
+  issue: '7'
+  pages: 1928-1932
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Huanqing Ye
+  - Guangfeng Liu
+  - Sheng Liu
+  - David Casanova
+  - Xin Ye
+  - Xutang Tao
+  - Qichun Zhang
+  - Qihua Xiong
+  teachpress_id: '1233'
+- id: 10-1063-1-5020294
+  type: article
+  title: 'MSM/RD: Coupling Markov state models of molecular kinetics with reaction-diffusion simulations'
+  doi: 10.1063/1.5020294
+  year: 2018
+  journal: Journal of Chemical Physics
+  volume: '148'
+  issue: '21'
+  authors:
+  - M. Dibak
+  - M. J. Razo
+  - D. De Sancho
+  - C. Schutte
+  - F. Noe
+  teachpress_id: '350'
+- id: 10-1021-acs-jpcc-8b03118
+  type: article
+  title: Multicenter Bonding Effects in Oxygen Vacancy in the Bulk and on the Surface of MgO
+  doi: 10.1021/acs.jpcc.8b03118
+  year: 2018
+  journal: Journal of Physical Chemistry C
+  volume: '122'
+  issue: '22'
+  pages: 11933-11937
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - I. A. Popov
+  - E. Jimenez-Izal
+  - A. N. Alexandrova
+  - A. I. Boldyrev
+  teachpress_id: '702'
+- id: 10-1021-acscatal-8b02443
+  type: article
+  title: Nanoalloying MgO-Deposited Pt Clusters with Si To Control the Selectivity of Alkane Dehydrogenation
+  doi: 10.1021/acscatal.8b02443
+  year: 2018
+  journal: Acs Catalysis
+  volume: '8'
+  issue: '9'
+  pages: 8346-8356
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - E. Jimenez-Izal
+  - H. C. Zhai
+  - J. Y. Liu
+  - A. N. Alexandrova
+  teachpress_id: '520'
+- id: 10-1039-c7cp07581b
+  type: article
+  title: New electron delocalization tools to describe the aromaticity in porphyrinoids
+  doi: 10.1039/c7cp07581b
+  year: 2018
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '20'
+  issue: '4'
+  pages: 2787-2796
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Irene Casademont-Reig
+  - Tatiana Woller
+  - Julia Contreras-Garcia
+  - Mercedes Alonso
+  - Miquel Torrent-Sucarrat
+  - Eduard Matito
+  teachpress_id: '997'
+- id: rn304
+  type: article
+  title: 'NOF-MP2: Global method for electron correlation'
+  year: 2018
+  journal: Abstracts of Papers of the American Chemical Society
+  volume: '255'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '675'
+- id: 10-1088-1361-648x-aaa659
+  type: article
+  title: On the performance of natural orbital functional approximations in the Hubbard model (vol 29, 425602, 2017)
+  doi: 10.1088/1361-648X/aaa659
+  year: 2018
+  journal: Journal of Physics-Condensed Matter
+  volume: '30'
+  issue: '8'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - I. Mitxelena
+  - M. Piris
+  - M. Rodriguez-Mayorga
+  teachpress_id: '637'
+- id: 10-1039-c8cp05048a
+  type: article
+  title: 'Optical properties of quadrupolar and bi-quadrupolar dyes: intra and inter chromophoric interactions'
+  doi: 10.1039/c8cp05048a
+  year: 2018
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '20'
+  issue: '38'
+  pages: 24623-24632
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Olatz Uranga-Barandiaran
+  - Manon Catherin
+  - Elena Zaborova
+  - Anthony D'Aleo
+  - Frederic Fages
+  - Frederic Castet
+  - David Casanova
+  teachpress_id: '1223'
+- id: 10-1039-c7gc03396f
+  type: article
+  title: Organocatalysed depolymerisation of PET in a fully sustainable cycle using thermally stable protic ionic salt
+  doi: 10.1039/c7gc03396f
+  year: 2018
+  journal: Green Chemistry
+  volume: '20'
+  issue: '6'
+  pages: 1205-1212
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - C. Jehanno
+  - I. Flores
+  - A. P. Dove
+  - A. J. Muller
+  - F. Ruiperez
+  - H. Sardon
+  teachpress_id: '505'
+- id: 10-1021-acs-jctc-8b00164
+  type: article
+  title: 'Overcoming the Failure of Correlation for Out-of-Plane Motions in a Simple Aromatic: Rovibrational Quantum Chemical Analysis of c-C3H2'
+  doi: 10.1021/acs.jctc.8b00164
+  year: 2018
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '14'
+  issue: '4'
+  pages: 2155-2164
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ryan C. Fortenberry
+  - Carlie M. Novak
+  - Joshua P. Layfield
+  - Eduard Matito
+  - Timothy J. Lee
+  teachpress_id: '993'
+- id: 10-1021-acs-jpcb-7b12450
+  type: article
+  title: Oxidation of Acid, Base, and Amide Side-Chain Amino Acid Derivatives via Hydroxyl Radical
+  doi: 10.1021/acs.jpcb.7b12450
+  year: 2018
+  journal: Journal of Physical Chemistry B
+  volume: '122'
+  issue: '19'
+  pages: 4956-4971
+  authors:
+  - J. Uranga
+  - J. I. Mujika
+  - R. Grande-Aztatzi
+  - J. M. Matxain
+  teachpress_id: '796'
+- id: 10-1140-epjb-e2018-90078-8
+  type: article
+  title: Phase dilemma in natural orbital functional theory from the N-representability perspective
+  doi: 10.1140/epjb/e2018-90078-8
+  year: 2018
+  journal: European Physical Journal B
+  volume: '91'
+  issue: '6'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - I. Mitxelena
+  - M. Rodriguez-Mayorga
+  - M. Piris
+  teachpress_id: '639'
+- id: 10-1002-cphc-201800329
+  type: article
+  title: Potential Use of Squarates and Croconates as Singlet Fission Sensitizers
+  doi: 10.1002/cphc.201800329
+  year: 2018
+  journal: CHEMPHYSCHEM
+  volume: '19'
+  issue: '17'
+  pages: 2224-2233
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - D. Lopez-Carballeira
+  - D. Casanova
+  - F. Ruiperez
+  teachpress_id: '1225'
+- id: 10-1063-1-5040336
+  type: article
+  title: Probing the structures and bonding of auropolyynes, Au (C C)(n) Au- (n=1-3), using high-resolution photoelectron imaging
+  doi: 10.1063/1.5040336
+  year: 2018
+  journal: Journal of Chemical Physics
+  volume: '149'
+  issue: '14'
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - I. Leon
+  - F. Ruiperez
+  - J. M. Ugalde
+  - L. S. Wang
+  teachpress_id: '545'
+- id: 10-1016-j-polymer-2018-04-076
+  type: article
+  title: Reprocessable and recyclable crosslinked poly(urea-urethane)s based on dynamic amine/urea exchange
+  doi: 10.1016/j.polymer.2018.04.076
+  year: 2018
+  journal: Polymer
+  volume: '145'
+  pages: 127-136
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - A. Erice
+  - A. R. Luzuriaga
+  - J. M. Matxain
+  - F. Ruiperez
+  - J. M. Asua
+  - H. J. Grande
+  - A. Rekondo
+  teachpress_id: '362'
+- id: 10-1038-s42004-018-0060-9
+  type: article
+  title: Reversible two-state folding of the ultrafast protein gpW under mechanical force
+  doi: 10.1038/s42004-018-0060-9
+  year: 2018
+  journal: Communications Chemistry
+  volume: '1'
+  authors:
+  - J. Schonfelder
+  - D. De Sancho
+  - R. Berkovich
+  - R. B. Best
+  - V. Munoz
+  - R. Perez-Jimenez
+  teachpress_id: '753'
+- id: 10-1021-acs-joc-7b03248
+  type: article
+  title: Revised Theoretical Model on Enantiocontrol in Phosphoric Acid Catalyzed H-Transfer Hydrogenation of Quinoline
+  doi: 10.1021/acs.joc.7b03248
+  year: 2018
+  journal: Journal of Organic Chemistry
+  volume: '83'
+  issue: '5'
+  pages: 2779-2787
+  tags:
+  - SUS-KT
+  authors:
+  - J. Pastor
+  - E. Rezabal
+  - A. Voituriez
+  - J. F. Betzer
+  - A. Marinetti
+  - G. Frison
+  teachpress_id: '664'
+- id: 10-1063-1-5018895
+  type: article
+  title: Short-range density functional correlation within the restricted active space CI method
+  doi: 10.1063/1.5018895
+  year: 2018
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '148'
+  issue: '12'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1231'
+- id: 10-1039-c7sc05493a
+  type: article
+  title: Stable 2D anti-ferromagnetically coupled fluorenyl radical dendrons
+  doi: 10.1039/c7sc05493a
+  year: 2018
+  journal: CHEMICAL SCIENCE
+  volume: '9'
+  issue: '13'
+  pages: 3395-3400
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Jian Wang
+  - Gakhyun Kim
+  - Maria Eugenia Sandoval-Salinas
+  - Hoa Phan
+  - Tullimilli Y. Gopalakrishna
+  - Xuefeng Lu
+  - David Casanova
+  - Dongho Kim
+  - Jishan Wu
+  teachpress_id: '1229'
+- id: 10-1002-open-201800003
+  type: article
+  title: Sulfenamides as Building Blocks for Efficient Disulfide-Based Self-Healing Materials. A Quantum Chemical Study
+  doi: 10.1002/open.201800003
+  year: 2018
+  journal: Chemistryopen
+  volume: '7'
+  issue: '3'
+  pages: 248-255
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - F. Ruiperez
+  - M. Galdeano
+  - E. Gimenez
+  - J. M. Matxain
+  teachpress_id: '729'
+- id: 10-1021-jacs-8b06051
+  type: article
+  title: Supramolecular-Enhanced Charge Transfer within Entangled Polyamide Chains as the Origin of the Universal Blue Fluorescence of Polymer Carbon Dots
+  doi: 10.1021/jacs.8b06051
+  year: 2018
+  journal: Journal of the American Chemical Society
+  volume: '140'
+  issue: '40'
+  pages: 12862-12869
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - L. Vallan
+  - E. P. Urriolabeitia
+  - F. Ruiperez
+  - J. M. Matxain
+  - R. Canton-Vitoria
+  - N. Tagmatarchis
+  - A. M. Benito
+  - W. K. Maser
+  teachpress_id: '804'
+- id: 10-3390-molecules23051183
+  type: article
+  title: Tetrel Bonds with -Electrons Acting as Lewis BasesTheoretical Results and Experimental Evidences
+  doi: 10.3390/molecules23051183
+  year: 2018
+  journal: Molecules
+  volume: '23'
+  issue: '5'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '434'
+- id: 10-1039-c8cp03737j
+  type: article
+  title: The electronic structure and stability of germanium tubes Ge30H12 and Ge33H12
+  doi: 10.1039/c8cp03737j
+  year: 2018
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '20'
+  issue: '36'
+  pages: 23467-23479
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Long Van Duong
+  - Eduard Matito
+  - Miquel Sola
+  - Hadi Behzadi
+  - Mohammad Jafar Momeni
+  - Minh Tho Nguyen
+  teachpress_id: '990'
+- id: 10-1039-c8cp00135a
+  type: article
+  title: 'The role of topology in organic molecules: origin and comparison of the radical character in linear and cyclic oligoacenes and related oligomers'
+  doi: 10.1039/c8cp00135a
+  year: 2018
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '20'
+  issue: '10'
+  pages: 7112-7124
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - A. Perez-Guardiola
+  - M. E. Sandoval-Salinas
+  - D. Casanova
+  - E. San-Fabian
+  - A. J. Perez-Jimenez
+  - J. C. Sancho-Garcia
+  teachpress_id: '1232'
+- id: 10-1039-c8cp91727b
+  type: article
+  title: The stability of biradicaloid versus closed-shell E(mu-XR) (2) (E = P, As; X = N, P, As) rings. Does aromaticity play a role? (vol 18, pg 11879, 2016)
+  doi: 10.1039/c8cp91727b
+  year: 2018
+  journal: Physical Chemistry Chemical Physics
+  volume: '20'
+  issue: '17'
+  pages: 12323-12323
+  authors:
+  - R. Grande-Aztatzi
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '221'
+- id: 10-1021-acs-chemrev-7b00601
+  type: article
+  title: Theoretical Modeling of Singlet Fission
+  doi: 10.1021/acs.chemrev.7b00601
+  year: 2018
+  journal: CHEMICAL REVIEWS
+  volume: 118(15
+  issue: 15, SI
+  pages: SI), 7164-7207
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1226'
+- id: 10-1002-chem-201801880
+  type: article
+  title: Thieno[3,4-c]pyrrole-4,6-dione Oligothiophenes Have Two Crossed Paths for Electron Delocalization
+  doi: 10.1002/chem.201801880
+  year: 2018
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '24'
+  issue: '51'
+  pages: 13523-13534
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Dafei Yuan
+  - Samara Medina Rivero
+  - Paula Mayorga Burrezo
+  - Longbin Ren
+  - Maria E. Sandoval-Salinas
+  - Slawomir J. Grabowski
+  - David Casanova
+  - Xiaozhang Zhu
+  - Juan Casado
+  teachpress_id: '1224'
+- id: 10-1021-acsenergylett-8b01608
+  type: article
+  title: Time-Domain ab lnitio Analysis Rationalizes the Unusual Temperature Dependence of Charge Carrier Relaxation in Lead Halide Perovskite
+  doi: 10.1021/acsenergylett.8b01608
+  year: 2018
+  journal: ACS ENERGY LETTERS
+  volume: '3'
+  issue: '11'
+  pages: 2713-2720
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Wei Li
+  - Jianfeng Tang
+  - David Casanova
+  - Oleg V. Prezhdo
+  teachpress_id: '1222'
+- id: 10-1002-anie-201709515
+  type: article
+  title: Transition-Metal π-Ligation of a Tetrahalodiborane
+  doi: 10.1002/anie.201709515
+  year: 2018
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '57'
+  issue: '2'
+  pages: 412-416
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Holger Braunschweig
+  - Rian D. Dewhurst
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Jonas H. Muessig
+  teachpress_id: '998'
+- id: 10-1039-c8dt01341a
+  type: article
+  title: 'Tuning the affinity of catechols and salicylic acids towards Al(III): characterization of Al-chelator interactions'
+  doi: 10.1039/c8dt01341a
+  year: 2018
+  journal: DALTON TRANSACTIONS
+  volume: '47'
+  issue: '29'
+  pages: 9592-9607
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Gabriele Dalla Torre
+  - Jon I. Mujika
+  - Elena Formoso
+  - Eduard Matito
+  - Maria J. Ramos
+  - Xabier Lopez
+  teachpress_id: '991'
+- id: 10-1002-jcc-25056
+  type: article
+  title: Two faces of triel bonds in boron trihalide complexes
+  doi: 10.1002/jcc.25056
+  year: 2018
+  journal: Journal of Computational Chemistry
+  volume: '39'
+  issue: '9'
+  pages: 472-480
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '435'
+- id: wos-000435537706575
+  type: article
+  title: Weak and strong correlation contributions to the Coulomb Hole
+  year: 2018
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '255'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  teachpress_id: '995'

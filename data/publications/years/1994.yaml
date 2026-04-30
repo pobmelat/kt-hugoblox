@@ -1,0 +1,152 @@
+items:
+- id: 10-1021-j100060a014
+  type: article
+  title: AB-INITIO CHARACTERIZATION OF GASEOUS (CO2P)(+) SPECIES
+  doi: 10.1021/j100060a014
+  year: 1994
+  journal: Journal of Physical Chemistry
+  volume: '98'
+  issue: '9'
+  pages: 2294-2297
+  authors:
+  - X. Lopez
+  - F. P. Cossio
+  - J. M. Ugalde
+  - C. Barrientos
+  - A. Largo
+  teachpress_id: '555'
+- id: 10-1021-ja00100a028
+  type: article
+  title: CATALYTIC AND SOLVENT EFFECTS ON THE CYCLOADDITION REACTION BETWEEN KETENES AND CARBONYL-COMPOUNDS TO FORM 2-OXETANONES
+  doi: 10.1021/ja00100a028
+  year: 1994
+  journal: Journal of the American Chemical Society
+  volume: '116'
+  issue: '21'
+  pages: 9613-9619
+  authors:
+  - B. Lecea
+  - A. Arrieta
+  - G. Roa
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '543'
+- id: 10-1021-ja00102a036
+  type: article
+  title: CHARACTERIZATION OF THE P(+)L(N), ION-MOLECULE CLUSTERS OF THE FIRST-ROW AND SECOND-ROW HYDRIDES
+  doi: 10.1021/ja00102a036
+  year: 1994
+  journal: Journal of the American Chemical Society
+  volume: '116'
+  issue: '23'
+  pages: 10670-10678
+  authors:
+  - X. Lopez
+  - A. Irigoras
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '558'
+- id: 10-1021-ja00084a054
+  type: article
+  title: CHIRAL CONTROL IN THE STAUDINGER REACTION BETWEEN KETENES AND IMINES - A THEORETICAL SCF-MO STUDY ON ASYMMETRIC TORQUOSELECTIVITY
+  doi: 10.1021/ja00084a054
+  year: 1994
+  journal: Journal of the American Chemical Society
+  volume: '116'
+  issue: '5'
+  pages: 2085-2093
+  authors:
+  - F. P. Cossio
+  - A. Arrieta
+  - B. Lecea
+  - J. M. Ugalde
+  teachpress_id: '329'
+- id: 10-1088-0953-4075-27-3-009
+  type: article
+  title: EXCHANGE ENERGY FROM GAUSSIAN-TYPE BASIS-SETS
+  doi: 10.1088/0953-4075/27/3/009
+  year: 1994
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '27'
+  issue: '3'
+  pages: 423-427
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  - M. Aguado
+  teachpress_id: '788'
+- id: 10-1016-s0040-4039-00-73385-5
+  type: article
+  title: ROLE OF THE ISOMERIZATION PATHWAYS IN THE STAUDINGER REACTION - A THEORETICAL-STUDY ON THE INTERACTION BETWEEN ACTIVATED KETENES AND IMIDATES
+  doi: 10.1016/s0040-4039(00)73385-5
+  year: 1994
+  journal: Tetrahedron Letters
+  volume: '35'
+  issue: '25'
+  pages: 4465-4468
+  authors:
+  - A. Arrieta
+  - J. M. Ugalde
+  - F. P. Cossio
+  - B. Lecea
+  teachpress_id: '303'
+- id: 10-1016-0040-4039-94-80128-2
+  type: article
+  title: THEORETICAL AND EXPERIMENTAL STUDIES ON THE PERISELECTIVITY OF THE CYCLOADDITION REACTION BETWEEN ACTIVATED KETENES AND CONJUGATED IMINES
+  doi: 10.1016/0040-4039(94)80128-2
+  year: 1994
+  journal: Tetrahedron Letters
+  volume: '35'
+  issue: '42'
+  pages: 7825-7828
+  authors:
+  - I. Arrastia
+  - A. Arrieta
+  - J. M. Ugalde
+  - F. P. Cossio
+  - B. Lecea
+  teachpress_id: '302'
+- id: 10-1021-j100066a013
+  type: article
+  title: THEORETICAL-STUDY OF THE C2P RADICAL AND (C2P)(+) SPECIES
+  doi: 10.1021/j100066a013
+  year: 1994
+  journal: Journal of Physical Chemistry
+  volume: '98'
+  issue: '15'
+  pages: 3985-3988
+  authors:
+  - A. Largo
+  - C. Barrientos
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '533'
+- id: 10-1021-j100063a017
+  type: article
+  title: TOPOLOGICAL ANALYSIS OF THE CHARGE-DENSITY FOR PHOSPHORUS ION-MOLECULE COMPLEXES BOUND TO WATER AND AMMONIA MOLECULES
+  doi: 10.1021/j100063a017
+  year: 1994
+  journal: Journal of Physical Chemistry
+  volume: '98'
+  issue: '12'
+  pages: 3148-3153
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - F. P. Cossio
+  - A. Largo
+  - C. Barrientos
+  teachpress_id: '574'
+- id: 10-1103-physreva-49-3081
+  type: article
+  title: UPPER-BOUNDS TO THE ELECTRON-ELECTRON COALESCENCE DENSITY IN TERMS OF THE ONE-ELECTRON DENSITY-FUNCTION
+  doi: 10.1103/PhysRevA.49.3081
+  year: 1994
+  journal: Physical Review A
+  volume: '49'
+  issue: '4'
+  pages: 3081-3082
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  teachpress_id: '785'

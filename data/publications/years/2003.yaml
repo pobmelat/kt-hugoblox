@@ -1,0 +1,209 @@
+items:
+- id: 10-1007-s00214-002-0417-z
+  type: article
+  title: A charge-scaling method to treat solvent in QM/MM simulations
+  doi: 10.1007/s00214-002-0417-z
+  year: 2003
+  journal: Theoretical Chemistry Accounts
+  volume: '109'
+  issue: '3'
+  pages: 118-124
+  authors:
+  - A. R. Dinner
+  - X. Lopez
+  - M. Karplus
+  teachpress_id: '352'
+- id: 10-1021-jp035228y
+  type: article
+  title: A theoretical evaluation of the pK(a) for twisted amides using density functional theory and dielectric continuum methods
+  doi: 10.1021/jp035228y
+  year: 2003
+  journal: Journal of Physical Chemistry A
+  volume: '107'
+  issue: '31'
+  pages: 6099-6107
+  authors:
+  - J. I. Mujika
+  - J. M. Mercero
+  - X. Lopez
+  teachpress_id: '261'
+- id: 10-1021-jp022014s
+  type: article
+  title: 'Alkaline hydrolysis of amide bonds: Effect of bond twist and nitrogen pyramidalization'
+  doi: 10.1021/jp022014s
+  year: 2003
+  journal: Journal of Physical Chemistry A
+  volume: '107'
+  issue: '13'
+  pages: 2304-2315
+  authors:
+  - X. Lopez
+  - J. I. Mujika
+  - G. M. Blackburn
+  - M. Karplus
+  teachpress_id: '560'
+- id: 10-1021-jp035226d
+  type: article
+  title: 'Clusters of group II-VI materials: CdiOi (i <= 15)'
+  doi: 10.1021/jp035226d
+  year: 2003
+  journal: Journal of Physical Chemistry A
+  volume: '107'
+  issue: '46'
+  pages: 9918-9923
+  authors:
+  - J. M. Matxain
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '231'
+- id: rn171
+  type: inproceedings
+  title: 'Electron correlation: Quantum chemistry''s holy grail'
+  year: 2003
+  volume: '116'
+  pages: 205-239
+  authors:
+  - J. M. Mercero
+  - E. Valderrama
+  - J. M. Ugalde
+  teachpress_id: '259'
+- id: 10-1021-ja0264504
+  type: article
+  title: Electronic excitation energies of ZniOi clusters
+  doi: 10.1021/ja0264504
+  year: 2003
+  journal: Journal of the American Chemical Society
+  volume: '125'
+  issue: '31'
+  pages: 9494-9499
+  authors:
+  - J. M. Matxain
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '232'
+- id: 10-1016-s0009-2614-03-00365-8
+  type: article
+  title: Electronic metastable bound states of Mn-2(2+) and Co-2(2+)
+  doi: 10.1016/s0009-2614(03)00365-8
+  year: 2003
+  journal: Chemical Physics Letters
+  volume: '372'
+  issue: 1-2
+  pages: 82-89
+  authors:
+  - R. P. Diez
+  - J. A. Alonso
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '351'
+- id: 10-1016-j-chemphys-2003-08-031
+  type: article
+  title: Incremental binding free energies of aluminum (III) vs. magnesium (II) complexes
+  doi: 10.1016/j.chemphys.2003.08.031
+  year: 2003
+  journal: Chemical Physics
+  volume: '295'
+  issue: '2'
+  pages: 175-184
+  authors:
+  - J. M. Mercero
+  - J. I. Mujika
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '252'
+- id: 10-1080-0026897031000137715
+  type: article
+  title: Minimal dipole charge for a dipole-bound dianion
+  doi: 10.1080/0026897031000137715
+  year: 2003
+  journal: Molecular Physics
+  volume: '101'
+  issue: '16'
+  pages: 2529-2532
+  authors:
+  - I. Silanes
+  - H. J. J. Van Dam
+  - J. M. Ugalde
+  teachpress_id: '764'
+- id: 10-1007-s00214-002-0422-2
+  type: article
+  title: 'Parameterization of semiempirical methods to treat nucleophilic attacks to biological phosphates: AM1/d parameters for phosphorus'
+  doi: 10.1007/s00214-002-0422-2
+  year: 2003
+  journal: Theoretical Chemistry Accounts
+  volume: '109'
+  issue: '3'
+  pages: 149-159
+  authors:
+  - X. Lopez
+  - D. M. York
+  teachpress_id: '579'
+- id: 10-1002-chem-200390145
+  type: article
+  title: 'Shape and symmetry of heptacoordinate transition-metal complexes: Structural trends'
+  doi: 10.1002/chem.200390145
+  year: 2003
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '9'
+  issue: '6'
+  pages: 1281-1295
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - D Casanova
+  - P Alemany
+  - JM Bofill
+  - S Alvarez
+  teachpress_id: '1307'
+- id: 10-1021-jp036296n
+  type: article
+  title: Stability and arornaticity of BiNi rings and fullerenes
+  doi: 10.1021/jp036296n
+  year: 2003
+  journal: Journal of Physical Chemistry A
+  volume: '107'
+  issue: '46'
+  pages: 10004-10010
+  authors:
+  - J. M. Matxain
+  - J. M. Ugalde
+  - M. D. Towler
+  - R. J. Needs
+  teachpress_id: '624'
+- id: 10-1016-s0009-2614-03-00988-6
+  type: article
+  title: The electronic states of Fe-2(+)
+  doi: 10.1016/s0009-2614(03)00988-6
+  year: 2003
+  journal: Chemical Physics Letters
+  volume: '376'
+  issue: 3-4
+  pages: 310-317
+  authors:
+  - A. Irigoras
+  - M. D. Michelini
+  - E. Sicilia
+  - N. Russo
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '224'
+- id: 10-1103-physrevlett-90-258101
+  type: article
+  title: 'Time-dependent density-functional approach for biological chromophores: The case of the green fluorescent protein'
+  doi: 10.1103/PhysRevLett.90.258101
+  year: 2003
+  journal: Physical Review Letters
+  volume: '90'
+  issue: '25'
+  authors:
+  - M. A. L. Marques
+  - X. Lopez
+  - D. Varsano
+  - A. Castro
+  - A. Rubio
+  teachpress_id: '600'

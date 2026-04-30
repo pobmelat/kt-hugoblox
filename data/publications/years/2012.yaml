@@ -1,0 +1,547 @@
+items:
+- id: 10-1039-c2cp23502a
+  type: article
+  title: A computational study on the intriguing mechanisms of the gas-phase thermal activation of methane by bare Ni(H)(OH) (+)
+  doi: 10.1039/c2cp23502a
+  year: 2012
+  journal: Physical Chemistry Chemical Physics
+  volume: '14'
+  issue: '26'
+  pages: 9306-9310
+  authors:
+  - O. Lakuntza
+  - J. M. Matxain
+  - F. Ruiperez
+  - M. Besora
+  - F. Maseras
+  - J. M. Ugalde
+  - M. Schlangen
+  - H. Schwarz
+  teachpress_id: '527'
+- id: 10-1039-c2jm33744d
+  type: article
+  title: A first-principles study of II-VI (II = Zn; VI = O, S, Se, Te) semiconductor nanostructures
+  doi: 10.1039/c2jm33744d
+  year: 2012
+  journal: Journal of Materials Chemistry
+  volume: '22'
+  issue: '40'
+  pages: 21453-21465
+  authors:
+  - J. M. Azpiroz
+  - I. Infante
+  - X. Lopez
+  - J. M. Ugalde
+  - F. De Angelis
+  teachpress_id: '305'
+- id: 10-1039-c2cp40671c
+  type: article
+  title: Aluminum speciation in biological environments. The deprotonation of free and aluminum bound citrate in aqueous solution
+  doi: 10.1039/c2cp40671c
+  year: 2012
+  journal: Physical Chemistry Chemical Physics
+  volume: '14'
+  issue: '36'
+  pages: 12465-12475
+  authors:
+  - J. I. Mujika
+  - J. M. Ugalde
+  - X. Lopez
+  teachpress_id: '655'
+- id: 10-1039-c2cp40898h
+  type: article
+  title: An interpretation of the absorption and emission spectra of the gold dimer using modern theoretical tools
+  doi: 10.1039/c2cp40898h
+  year: 2012
+  journal: Physical Chemistry Chemical Physics
+  volume: '14'
+  issue: '24'
+  pages: 8732-8741
+  authors:
+  - K. R. Geethalakshmi
+  - F. Ruiperez
+  - S. Knecht
+  - J. M. Ugalde
+  - M. D. Morse
+  - I. Infante
+  teachpress_id: '394'
+- id: 10-1063-1-4747341
+  type: article
+  title: 'Avoided crossings, conical intersections, and low-lying excited states with a single reference method: The restricted active space spin-flip configuration interaction approach'
+  doi: 10.1063/1.4747341
+  year: 2012
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '137'
+  issue: '8'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1273'
+- id: 10-1039-c2cp40839b
+  type: article
+  title: 'CBe5E- (E = Al, Ga, In, Tl): planar pentacoordinate carbon in heptaatomic clusters'
+  doi: 10.1039/c2cp40839b
+  year: 2012
+  journal: Physical Chemistry Chemical Physics
+  volume: '14'
+  issue: '43'
+  pages: 14764-14768
+  authors:
+  - A. C. Castro
+  - G. Martinez-Guajardo
+  - T. Johnson
+  - J. M. Ugalde
+  - Y. B. Wu
+  - J. M. Mercero
+  - T. Heine
+  - K. J. Donald
+  - G. Merino
+  teachpress_id: '212'
+- id: wos-000324475104702
+  type: article
+  title: Chemical bonding and aromaticity from electronic delocalization descriptors
+  year: 2012
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '243'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1094'
+- id: 10-1039-c2cp41506b
+  type: article
+  title: 'Continuous symmetry measures of irreducible representations: application to molecular orbitals'
+  doi: 10.1039/c2cp41506b
+  year: 2012
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '14'
+  issue: '33'
+  pages: 11816-11823
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Pere Alemany
+  - David Casanova
+  - Santiago Alvarez
+  teachpress_id: '1274'
+- id: 10-1002-jcc-23059
+  type: article
+  title: Electron-pair density decomposition for core-valence separable systems
+  doi: 10.1002/jcc.23059
+  year: 2012
+  journal: Journal of Computational Chemistry
+  volume: '33'
+  issue: '28'
+  pages: 2243-2249
+  authors:
+  - J. Wang
+  - Y. Wang
+  - J. M. Ugalde
+  teachpress_id: '812'
+- id: 10-1021-jp304473p
+  type: article
+  title: 'Glycine Adsorption at Nonstoichiometric (010) Hydroxyapatite Surfaces: A B3LYP Study'
+  doi: 10.1021/jp304473p
+  year: 2012
+  journal: Journal of Physical Chemistry C
+  volume: '116'
+  issue: '27'
+  pages: 14561-14567
+  authors:
+  - E. Jimenez-Izal
+  - F. Chiatti
+  - M. Corno
+  - A. Rimola
+  - P. Ugliengo
+  teachpress_id: '510'
+- id: 10-1088-1367-2630-14-7-075017
+  type: article
+  title: Ion energetics in electron-rich nanoplasmas
+  doi: 10.1088/1367-2630/14/7/075017
+  year: 2012
+  journal: New Journal of Physics
+  volume: '14'
+  authors:
+  - A. Heidenreich
+  - I. Infante
+  - J. M. Ugalde
+  teachpress_id: '477'
+- id: 10-1039-c2cp42513k
+  type: article
+  title: 'Local spins: improved Hilbert-space analysis'
+  doi: 10.1039/c2cp42513k
+  year: 2012
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '14'
+  issue: '44'
+  pages: 15291-15298
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eloy Ramos-Cordoba
+  - Eduard Matito
+  - Pedro Salvador
+  - Istvan Mayer
+  teachpress_id: '1096'
+- id: 10-1039-c1ob06444d
+  type: article
+  title: Mechanism of C-terminal intein cleavage in protein splicing from QM/MM molecular dynamics simulations
+  doi: 10.1039/c1ob06444d
+  year: 2012
+  journal: Organic & Biomolecular Chemistry
+  volume: '10'
+  issue: '6'
+  pages: 1207-1218
+  authors:
+  - J. I. Mujika
+  - X. Lopez
+  - A. J. Mulholland
+  teachpress_id: '647'
+- id: 10-1021-jp209863p
+  type: article
+  title: Modeling Surface Passivation of ZnS Quantum Dots
+  doi: 10.1021/jp209863p
+  year: 2012
+  journal: Journal of Physical Chemistry C
+  volume: '116'
+  issue: '4'
+  pages: 2740-2750
+  authors:
+  - J. M. Azpiroz
+  - X. Lopez
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '307'
+- id: 10-1021-bi300584p
+  type: article
+  title: 'Molecular Dynamics Simulations of Iron- and Aluminum-Loaded Serum Transferrin: Protonation of Tyr188 Is Necessary To Prompt Metal Release'
+  doi: 10.1021/bi300584p
+  year: 2012
+  journal: Biochemistry
+  volume: '51'
+  issue: '35'
+  pages: 7017-7027
+  authors:
+  - J. I. Mujika
+  - B. Escribano
+  - E. Akhmatskaya
+  - J. M. Ugalde
+  - X. Lopez
+  teachpress_id: '644'
+- id: 10-1039-c2cp42210g
+  type: article
+  title: Molecular structures of M2N22- (M and N = B, Al, and Ga) clusters using the gradient embedded genetic algorithm
+  doi: 10.1039/c2cp42210g
+  year: 2012
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '14'
+  issue: '43'
+  pages: 14850-14859
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Rafael Islas
+  - Jordi Poater
+  - Eduard Matito
+  - Miquel Sola
+  teachpress_id: '1038'
+- id: 10-1063-1-3682244
+  type: article
+  title: 'Non-Born-Oppenheimer electronic and nuclear densities for a Hooke-Calogero three-particle model: Non-uniqueness of density-derived molecular structure'
+  doi: 10.1063/1.3682244
+  year: 2012
+  journal: Journal of Chemical Physics
+  volume: '136'
+  issue: '8'
+  authors:
+  - E. V. Ludena
+  - L. Echevarria
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '588'
+- id: 10-1016-j-comptc-2012-05-006
+  type: article
+  title: Non-covalent interactions in NH4+center dot center dot center dot(C2H2)(n) ammonium cation-acetylene
+  doi: 10.1016/j.comptc.2012.05.006
+  year: 2012
+  journal: Computational and Theoretical Chemistry
+  volume: '992'
+  pages: 70-77
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '407'
+- id: 10-1016-j-comptc-2012-07-025
+  type: article
+  title: Non-covalent interactions Preface
+  doi: 10.1016/j.comptc.2012.07.025
+  year: 2012
+  journal: Computational and Theoretical Chemistry
+  volume: '998'
+  pages: 1-1
+  authors:
+  - I. Alkorta
+  - S. J. Grabowski
+  teachpress_id: '290'
+- id: 10-1002-chem-201102326
+  type: article
+  title: O-O Bond Formation Mediated by a Hexanuclear Iron Complex Supported on a Stannoxane Core
+  doi: 10.1002/chem.201102326
+  year: 2012
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '18'
+  issue: '10'
+  pages: 2787-2791
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Subrata Kundu
+  - Eduard Matito
+  - Stephan Walleck
+  - Florian F. Pfaff
+  - Florian Heims
+  - Battist Rabay
+  - Josep M. Luis
+  - Anna Company
+  - Beatrice Braun
+  - Thorsten Glaser
+  - Kallol Ray
+  teachpress_id: '1095'
+- id: 10-1021-ct300414t
+  type: article
+  title: 'Performance of PNOF5 Natural Orbital Functional for Radical Formation Reactions: Hydrogen Atom Abstraction and C-C and O-O Homolytic Bond Cleavage in Selected Molecules'
+  doi: 10.1021/ct300414t
+  year: 2012
+  journal: Journal of Chemical Theory and Computation
+  volume: '8'
+  issue: '8'
+  pages: 2646-2652
+  groups:
+  - noft
+  - qcd
+  tags:
+  - NOFT
+  - QCD-KT
+  authors:
+  - X. Lopez
+  - F. Ruiperez
+  - M. Piris
+  - J. M. Matxain
+  - E. Matito
+  - J. M. Ugalde
+  teachpress_id: '567'
+- id: 10-1016-j-cplett-2011-11-030
+  type: article
+  title: Planar tetracoordinate carbon in CE42- (E = Al-Tl) clusters
+  doi: 10.1016/j.cplett.2011.11.030
+  year: 2012
+  journal: Chemical Physics Letters
+  volume: 519-20
+  pages: 29-33
+  authors:
+  - A. C. Castro
+  - M. Audiffred
+  - J. M. Mercero
+  - J. M. Ugalde
+  - M. A. Mendez-Rojas
+  - G. Merino
+  teachpress_id: '211'
+- id: 10-1016-j-jinorgbio-2012-09-008
+  type: article
+  title: 'Pro-oxidant activity of aluminum: Promoting the Fenton reaction by reducing Fe(III) to Fe(II)'
+  doi: 10.1016/j.jinorgbio.2012.09.008
+  year: 2012
+  journal: Journal of Inorganic Biochemistry
+  volume: '117'
+  pages: 118-123
+  authors:
+  - F. Ruiperez
+  - J. J. Mujika
+  - J. M. Ugalde
+  - C. Exley
+  - X. Lopez
+  teachpress_id: '731'
+- id: 10-1021-jp2109303
+  type: article
+  title: QTAIM Characteristics of Halogen Bond and Related Interactions
+  doi: 10.1021/jp2109303
+  year: 2012
+  journal: Journal of Physical Chemistry A
+  volume: '116'
+  issue: '7'
+  pages: 1838-1845
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '408'
+- id: 10-1039-c2cp41273j
+  type: article
+  title: 'Self-assembling endohedrally doped CdS nanoclusters: new porous solid phases of CdS'
+  doi: 10.1039/c2cp41273j
+  year: 2012
+  journal: Physical Chemistry Chemical Physics
+  volume: '14'
+  issue: '27'
+  pages: 9676-9682
+  groups:
+  - matcat
+  tags:
+  - MatCat-NanoSurf
+  authors:
+  - E. Jimenez-Izal
+  - J. M. Matxain
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '516'
+- id: 10-1016-j-cplett-2012-02-041
+  type: article
+  title: sp(3) Hybrid orbitals and ionization energies of methane from PNOF5
+  doi: 10.1016/j.cplett.2012.02.041
+  year: 2012
+  journal: Chemical Physics Letters
+  volume: '531'
+  pages: 272-274
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Matxain
+  - M. Piris
+  - J. M. Mercero
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '236'
+- id: 10-1002-cphc-201200182
+  type: article
+  title: 'Stabilizing H-3(-): Or Are We Stabilizing a Proton?'
+  doi: 10.1002/cphc.201200182
+  year: 2012
+  journal: Chemphyschem
+  volume: '13'
+  issue: '9'
+  pages: 2286-2288
+  authors:
+  - S. J. Grabowski
+  - R. Hoffmann
+  teachpress_id: '454'
+- id: 10-1063-1-4709769
+  type: article
+  title: 'The extended Koopmans'' theorem: Vertical ionization potentials from natural orbital functional theory'
+  doi: 10.1063/1.4709769
+  year: 2012
+  journal: Journal of Chemical Physics
+  volume: '136'
+  issue: '17'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '693'
+- id: 10-1002-cphc-201200205
+  type: article
+  title: The Nature of Chemical Bonds from PNOF5 Calculations
+  doi: 10.1002/cphc.201200205
+  year: 2012
+  journal: Chemphyschem
+  volume: '13'
+  issue: '9'
+  pages: 2297-2303
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Matxain
+  - M. Piris
+  - J. Uranga
+  - X. Lopez
+  - G. Merino
+  - J. M. Ugalde
+  teachpress_id: '618'
+- id: 10-1063-1-4717461
+  type: article
+  title: 'The three-electron harmonium atom: The lowest-energy doublet and quadruplet states'
+  doi: 10.1063/1.4717461
+  year: 2012
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '136'
+  issue: '19'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jerzy Cioslowski
+  - Krzysztof Strasburger
+  - Eduard Matito
+  teachpress_id: '1092'
+- id: 10-1021-ct300050c
+  type: article
+  title: Toward a Unique Definition of the Local Spin
+  doi: 10.1021/ct300050c
+  year: 2012
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '8'
+  issue: '4'
+  pages: 1270-1279
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eloy Ramos-Cordoba
+  - Eduard Matito
+  - Istvan Mayer
+  - Pedro Salvador
+  teachpress_id: '1093'
+- id: 10-1039-c2cc33304j
+  type: article
+  title: Unexpected trends in halogen-bond based noncovalent adducts
+  doi: 10.1039/c2cc33304j
+  year: 2012
+  journal: Chemical Communications
+  volume: '48'
+  issue: '62'
+  pages: 7708-7710
+  authors:
+  - S. M. Huber
+  - E. Jimenez-Izal
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '485'
+- id: 10-1002-jrs-4063
+  type: article
+  title: Vibrational spectroscopy of self-assembling aromatic peptide derivates
+  doi: 10.1002/jrs.4063
+  year: 2012
+  journal: Journal of Raman Spectroscopy
+  volume: '43'
+  issue: '10'
+  pages: 1397-1406
+  authors:
+  - W. Nuansing
+  - A. Rebollo
+  - J. M. Mercero
+  - J. Zuniga
+  - A. M. Bittner
+  teachpress_id: '264'

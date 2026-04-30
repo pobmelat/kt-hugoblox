@@ -1,63 +1,1254 @@
 items:
-  - id: "ugartemendia-2024-trivalent-oxygen-graphene"
-    type: "article"
-    title: "Deciphering the chemical bonding of the trivalent oxygen atom in oxygen doped graphene"
-    doi: "10.1039/d4sc00142g"
-    year: 2024
-    journal: "Chem. Sci."
-    volume: "15"
-    issue: "16"
-    pages: "6151-6159"
-    groups: ["matcat"]
-    tags: ["MatCat", "MatCat-Exotic", "EJ1584"]
-    toc_image: "/images/publications/toc/d4sc00142g.png"
-    toc_link: "https://pubs.rsc.org/en/content/articlelanding/2024/sc/d4sc00142g"
-    authors:
-      - "Andoni Ugartemendia"
-      - "Irene Casademont-Reig"
-      - "Lili Zhao"
-      - "Zuxian Zhang"
-      - "Gernot Frenking"
-      - "Jesus M. Ugalde"
-      - "Aran Garcia-Lekue"
-      - "Elisa Jimenez-Izal"
-
-  - id: "ugartemendia-2024-ptge-pemfc"
-    type: "article"
-    title: "Boosting synergistic effects between PtGe nanoalloys and 2D materials for PEMFC applications"
-    doi: "10.1016/j.ijhydene.2024.09.279"
-    year: 2024
-    journal: "International Journal of Hydrogen Energy"
-    volume: "89"
-    issue: ""
-    pages: "233-253"
-    groups: ["matcat"]
-    tags: ["MatCat", "MatCat-HetCatE", "EJ1584"]
-    toc_image: "/images/publications/toc/ijhydene-2024-09-279.jpg"
-    toc_link: "https://www.sciencedirect.com/science/article/pii/S0360319924039880"
-    authors:
-      - "Andoni Ugartemendia"
-      - "Ramon M. Bergua"
-      - "Jose M. Mercero"
-      - "Elisa Jimenez-Izal"
-
-  - id: "ugartemendia-2024-ptge-co-oxidation"
-    type: "article"
-    title: "Deposited PtGe Clusters as Active and Durable Catalysts for CO Oxidation"
-    doi: "10.1002/cctc.202301137"
-    year: 2024
-    journal: "ChemCatChem"
-    volume: "16"
-    issue: "3"
-    pages: ""
-    groups: ["matcat"]
-    tags: ["MatCat", "MatCat-HetCatE", "EJ1584"]
-    toc_image: "/images/publications/toc/cctc-202301137.png"
-    toc_link: "https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cctc.202301137"
-    authors:
-      - "Andoni Ugartemendia"
-      - "Jose M. Mercero"
-      - "Abel de Cozar"
-      - "Marko M. Melander"
-      - "Jaakko Akola"
-      - "Elisa Jimenez-Izal"
+- id: 10-1002-chem-202303549
+  type: article
+  title: '3,4-Dimethylenecyclobutene: A Building Block for Design of Macrocycles with Excited State Aromatic Low-Lying High-Spin States'
+  doi: 10.1002/chem.202303549
+  year: 2024
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '30'
+  issue: '27'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Preethanuj Preethalayam
+  - Juan Carlos Roldao
+  - Frederic Castet
+  - David Casanova
+  - Slavko Radenkovic
+  - Henrik Ottosson
+  teachpress_id: '1154'
+- id: 10-1039-d3py01047c
+  type: article
+  title: A combined computational and experimental study of metathesis and nucleophile-mediated exchange mechanisms in boronic ester-containing vitrimers
+  doi: 10.1039/d3py01047c
+  year: 2024
+  journal: Polym. Chem.
+  volume: '15'
+  issue: '3'
+  pages: 181--192
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - Jacopo Teotonico
+  - Daniele Mantione
+  - Laura Ballester-Bayarri
+  - Marta Ximenis
+  - Haritz Sardon
+  - Nicholas Ballard
+  - Fernando Ruipérez
+  teachpress_id: '857'
+- id: 10-1016-bs-aiq-2024-04-002
+  type: article
+  title: 'Advances in approximate natural orbital functionals: From historical perspectives to contemporary developments'
+  doi: 10.1016/bs.aiq.2024.04.002
+  year: 2024
+  journal: Advances in Quantum Chemistry
+  volume: '90'
+  pages: 15-66
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Mario Piris
+  teachpress_id: '922'
+- id: 10-1021-acs-inorgchem-4c02314
+  type: article
+  title: Alloxazine-Based Ligands and Their Ruthenium Complexes as NADH Oxidation Catalysts and G4 Binders
+  doi: 10.1021/acs.inorgchem.4c02314
+  year: 2024
+  journal: Inorg. Chem.
+  volume: '63'
+  issue: '35'
+  pages: 16362--16373
+  tags:
+  - SUS-KT
+  authors:
+  - Maria Jesus Móran Plata
+  - Laura Marretta
+  - Lander Gaztelumendi
+  - German E. Pieslinger
+  - Romina R. Carballo
+  - Elixabete Rezabal
+  - Giampaolo Barone
+  - Virginia Martínez-Martínez
+  - Alessio Terenzi
+  - Luca Salassa
+  teachpress_id: '888'
+- id: 10-1063-5-0208809
+  type: article
+  title: Alternative CNDOL Fockians for fast and accurate description of molecular exciton properties
+  doi: 10.1063/5.0208809
+  year: 2024
+  journal: J. Chem. Phys.
+  volume: '160'
+  issue: '21'
+  pages: '214108'
+  authors:
+  - Luis A. Montero-Cabrera
+  - Ana L. Montero-Alejo
+  - Alan Aspuru-Guzik
+  - José M. García de la Vega
+  - Mario Piris
+  - Lourdes A. Díaz-Fernández
+  - Yoana Pérez-Badell
+  - Alberto Guerra-Barroso
+  - Javier E. Alfonso-Ramos
+  - Javier Rodríguez
+  - María E. Fuentes
+  - Carlos M. de Armas
+  teachpress_id: '882'
+- id: 10-1039-d3ra07675j
+  type: article
+  title: An integrated experimental and theoretical approach to probe Cr( vi ) uptake using decorated halloysite nanotubes for efficient water treatment
+  doi: 10.1039/d3ra07675j
+  year: 2024
+  journal: RSC Adv.
+  volume: '14'
+  issue: '5'
+  pages: 2947--2960
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - Syed Nadeem Ahmad Shah
+  - Sonia Zulfiqar
+  - Fernando Ruipérez
+  - Muhammad Rafique
+  - Mudassir Iqbal
+  - Michael J. Forrester
+  - Muhammad Ilyas Sarwar (Late)
+  - Eric W. Cochran
+  teachpress_id: '860'
+- id: 10-1063-5-0206187
+  type: article
+  title: 'APOST-3D: Chemical concepts from wavefunction analysis'
+  doi: 10.1063/5.0206187
+  year: 2024
+  volume: '160'
+  issue: '17'
+  authors:
+  - P. Salvador
+  - E. Ramos-Cordoba
+  - M. Montilla
+  - L. Pujal
+  - M. Gimferrer
+  teachpress_id: '879'
+- id: 10-1002-adfm-202406097
+  type: article
+  title: Artificial Spores as Multi‐Functional Biocatalysts to Perform Biosynthetic Cascades
+  doi: 10.1002/adfm.202406097
+  year: 2024
+  journal: Adv Funct Materials
+  authors:
+  - Maialen Iturralde
+  - Magdalena Ripoll
+  - Desiré di Silvio
+  - Marta Gallego
+  - Daniel A. Grajales‐Hernández
+  - Xabier López
+  - Lorena Betancor
+  - Fernando López‐Gallego
+  teachpress_id: '878'
+- id: 10-1063-5-0207325
+  type: article
+  title: Assessing the global natural orbital functional approximation on model systems with strong correlation
+  doi: 10.1063/5.0207325
+  year: 2024
+  journal: J. Chem. Phys.
+  volume: '160'
+  issue: '20'
+  pages: '204106'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Ion Mitxelena
+  - Mario Piris
+  teachpress_id: '881'
+- id: 10-1093-brain-awae046
+  type: article
+  title: Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features
+  doi: 10.1093/brain/awae046
+  year: 2024
+  volume: '147'
+  issue: '8'
+  pages: 2867--2883
+  authors:
+  - Pablo Iruzubieta
+  - Alberto Damborenea
+  - Mihaela Ioghen
+  - Simon Bajew
+  - Roberto Fernandez-Torrón
+  - Ana Töpf
+  - Álvaro Herrero-Reiriz
+  - Diana Epure
+  - Katharina Vill
+  - Aurelio Hernández-Laín
+  - María Manterola
+  - Mikel Azkargorta
+  - Oihane Pikatza-Menoio
+  - Laura Pérez-Fernandez
+  - Mikel García-Puga
+  - Gisela Gaina
+  - Alexandra Bastian
+  - Ioana Streata
+  - Maggie C Walter
+  - Wolfgang Müller-Felber
+  - Simone Thiele
+  - Saioa Moragón
+  - Nerea Bastida-Lertxundi
+  - Aitziber López-Cortajarena
+  - Felix Elortza
+  - Gorka Gereñu
+  - Sonia Alonso-Martin
+  - Volker Straub
+  - David de Sancho
+  - Raluca Teleanu
+  - Adolfo López de Munain
+  - Lorea Blázquez
+  teachpress_id: '886'
+- id: ugartemendia-2024-ptge-pemfc
+  type: article
+  title: Boosting synergistic effects between PtGe nanoalloys and 2D materials for PEMFC applications
+  doi: 10.1016/j.ijhydene.2024.09.279
+  year: 2024
+  journal: International Journal of Hydrogen Energy
+  volume: '89'
+  pages: 233--253
+  groups:
+  - matcat
+  tags:
+  - MatCat-HetCatEl
+  - MatCat-KT
+  - MatCat-HetCatE
+  - MatCat
+  - EJ1584
+  authors:
+  - Andoni Ugartemendia
+  - Ramón M. Bergua
+  - Jose M. Mercero
+  - Elisa Jimenez-Izal
+  teachpress_id: '894'
+  toc_image: /images/publications/toc/ijhydene-2024-09-279.jpg
+  toc_link: https://www.sciencedirect.com/science/article/pii/S0360319924039880
+- id: 10-1002-chem-202401282
+  type: article
+  title: Can Aromaticity Be Evaluated Using Atomic Partitions Based on the Hilbert-Space?
+  doi: 10.1002/chem.202401282
+  year: 2024
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '30'
+  issue: '44'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Joan Grebol-Tomas
+  - Eduard Matito
+  - Pedro Salvador
+  teachpress_id: '959'
+- id: 10-1039-d4sc02269f
+  type: article
+  title: Core-electron contributions to the magnetic response of molecules with heavy elements and their significance in aromaticity assessments
+  doi: 10.1039/d4sc02269f
+  year: 2024
+  journal: CHEMICAL SCIENCE
+  volume: '15'
+  issue: '32'
+  pages: 12906-12921
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Mesias Orozco-Ic
+  - Luis Soriano-Agueda
+  - Dage Sundholm
+  - Eduard Matito
+  - Gabriel Merino
+  teachpress_id: '960'
+- id: ugartemendia-2024-trivalent-oxygen-graphene
+  type: article
+  title: Deciphering the chemical bonding of the trivalent oxygen atom in oxygen doped graphene
+  doi: 10.1039/d4sc00142g
+  year: 2024
+  journal: Chem. Sci.
+  volume: '15'
+  issue: '16'
+  pages: 6151--6159
+  groups:
+  - matcat
+  tags:
+  - MatCat-ExMat
+  - MatCat-Exotic
+  - MatCat
+  - EJ1584
+  authors:
+  - Andoni Ugartemendia
+  - Irene Casademont-Reig
+  - Lili Zhao
+  - Zuxian Zhang
+  - Gernot Frenking
+  - Jesus M. Ugalde
+  - Aran Garcia-Lekue
+  - Elisa Jimenez-Izal
+  teachpress_id: '873'
+  toc_image: /images/publications/toc/d4sc00142g.png
+  toc_link: https://pubs.rsc.org/en/content/articlelanding/2024/sc/d4sc00142g
+- id: ugartemendia-2024-ptge-co-oxidation
+  type: article
+  title: Deposited PtGe Clusters as Active and Durable Catalysts for CO Oxidation**
+  doi: 10.1002/cctc.202301137
+  year: 2024
+  journal: ChemCatChem
+  volume: '16'
+  issue: '3'
+  groups:
+  - matcat
+  tags:
+  - MatCat-HetCatEl
+  - MatCat-KT
+  - MatCat-HetCatE
+  - MatCat
+  - EJ1584
+  authors:
+  - Andoni Ugartemendia
+  - Jose M. Mercero
+  - Abel de Cózar
+  - Marko M. Melander
+  - Jaakko Akola
+  - Elisa Jimenez‐Izal
+  teachpress_id: '853'
+  toc_image: /images/publications/toc/cctc-202301137.png
+  toc_link: https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cctc.202301137
+- id: 10-1002-cphc-202400095
+  type: article
+  title: Doping Efects on Ethane/Ethylene Dehydrogenation Catalyzed by Pt 2 X Nanoclusters
+  doi: 10.1002/cphc.202400095
+  year: 2024
+  journal: ChemPhysChem
+  volume: '25'
+  issue: '12'
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - Andoni Ugartemendia
+  - José M. Mercero
+  - Elisa Jimenez‐Izal
+  - Abel de Cózar
+  teachpress_id: '909'
+- id: 10-1038-s41566-024-01458-3
+  type: article
+  title: Efficient near-infrared organic light-emitting diodes with emission from spin doublet excitons
+  doi: 10.1038/s41566-024-01458-3
+  year: 2024
+  journal: NATURE PHOTONICS
+  volume: '18'
+  issue: '9'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Hwan-Hee Cho
+  - Sebastian Gorgon
+  - Giacomo Londi
+  - Samuele Giannini
+  - Changsoon Cho
+  - Pratyush Ghosh
+  - Claire Tonnele
+  - David Casanova
+  - Yoann Olivier
+  - Tomi K. Baikie
+  - Feng Li
+  - David Beljonne
+  - Neil C. Greenham
+  - Richard H. Friend
+  - Emrys W. Evans
+  teachpress_id: '1150'
+- id: 10-1021-acs-jctc-4c00933
+  type: article
+  title: Electron-Spin Relaxation in Boron-Doped Graphene Nanoribbons
+  doi: 10.1021/acs.jctc.4c00933
+  year: 2024
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '20'
+  issue: '22'
+  pages: 9906-9916
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Roberto A. Boto
+  - Antonio Cebreiro-Gallardo
+  - Rodrigo E. Menchon
+  - David Casanova
+  teachpress_id: '1144'
+- id: 10-1021-acs-jctc-4c00185
+  type: article
+  title: Electronic Couplings for Triplet-Triplet Annihilation Upconversion in Crystal Rubrene
+  doi: 10.1021/acs.jctc.4c00185
+  year: 2024
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '20'
+  issue: '10'
+  pages: 4288-4297
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Aitor Diaz-Andres
+  - Claire Tonnele
+  - David Casanova
+  teachpress_id: '1152'
+- id: 10-1021-acs-jpclett-3c03621
+  type: article
+  title: 'Enhanced Charge Separation in Single Atom Cobalt Based Graphitic Carbon Nitride: Time Domain Ab Initio Analysis'
+  doi: 10.1021/acs.jpclett.3c03621
+  year: 2024
+  journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
+  volume: '15'
+  issue: '8'
+  pages: 2202-2208
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Sraddha Agrawal
+  - David Casanova
+  - Dhara J. Trivedi
+  - Oleg V. Prezhdo
+  teachpress_id: '1156'
+- id: 10-1021-acs-jctc-3c01194
+  type: article
+  title: Excited States by Coupling Piris Natural Orbital Functionals with the Extended Random-Phase Approximation
+  doi: 10.1021/acs.jctc.3c01194
+  year: 2024
+  journal: J. Chem. Theory Comput.
+  volume: '20'
+  pages: 2140-2151
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Juan Felipe Huan Lew-Yee
+  - Iván Alejandro Bonfil-Rivera
+  - Mario Piris
+  - Jorge M. del Campo
+  teachpress_id: '861'
+- id: 10-1039-d4sc05810k
+  type: article
+  title: Exploring the potential of natural orbital functionals
+  doi: 10.1039/d4sc05810k
+  year: 2024
+  journal: Chem. Sci.
+  volume: '15'
+  issue: '42'
+  pages: 17284--17291
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Mario Piris
+  teachpress_id: '895'
+- id: 10-1021-acs-inorgchem-4c03139
+  type: article
+  title: 'From (Sub)Porphyrins to (Sub)Phthalocyanines: Aromaticity Signatures in the UV-Vis Absorption Spectra'
+  doi: 10.1021/acs.inorgchem.4c03139
+  year: 2024
+  journal: INORGANIC CHEMISTRY
+  volume: '63'
+  issue: '39'
+  pages: 18251-18262
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Silva Escayola
+  - Jorge Labella
+  - Dariusz W. Szczepanik
+  - Albert Poater
+  - Tomas Torres
+  - Miquel Sola
+  - Eduard Matito
+  teachpress_id: '958'
+- id: 10-1002-chem-202304050
+  type: article
+  title: Gold‐Promoted Biocompatible Selenium Arylation of Small Molecules, Peptides and Proteins
+  doi: 10.1002/chem.202304050
+  year: 2024
+  journal: Chemistry A European J
+  volume: '30'
+  issue: '15'
+  authors:
+  - Douglas H. Nakahata
+  - Ioannis Kanavos
+  - Maria Zubiria‐Ulacia
+  - Alex Inague
+  - Luca Salassa
+  - Ryszard Lobinski
+  - Sayuri Miyamoto
+  - Jon Mattin Matxain
+  - Luisa Ronga
+  - Raphael E. F. de Paiva
+  teachpress_id: '859'
+- id: 10-1016-j-jbc-2024-107133
+  type: article
+  title: High-throughput virtual search of small molecules for controlling the mechanical stability of human CD4
+  doi: 10.1016/j.jbc.2024.107133
+  year: 2024
+  journal: Journal of Biological Chemistry
+  volume: '300'
+  issue: '4'
+  authors:
+  - Antonio Reifs
+  - Alba Fernandez-Calvo
+  - Borja Alonso-Lerma
+  - Jörg Schönfelder
+  - David Franco
+  - Mariano Ortega-Muñoz
+  - Salvador Casares
+  - Concepcion Jimenez-Lopez
+  - Laura Saa
+  - Aitziber L. Cortajarena
+  - David De Sancho
+  - Eider San Sebastian
+  - Raul Perez-Jimenez
+  teachpress_id: '898'
+- id: 10-1039-d4cc01769b
+  type: article
+  title: Hydrogen bond types which do not fit accepted definitions
+  doi: 10.1039/d4cc01769b
+  year: 2024
+  journal: Chem. Commun.
+  volume: '60'
+  issue: '49'
+  pages: 6239--6255
+  authors:
+  - Sławomir J. Grabowski
+  teachpress_id: '880'
+- id: 10-1016-j-mtchem-2024-101993
+  type: article
+  title: Kinetics of heterogeneous polymerization of glycidol with B(C6F5)3 in toluene in the absence and presence of water
+  doi: 10.1016/j.mtchem.2024.101993
+  year: 2024
+  journal: Materials Today Chemistry
+  volume: '37'
+  authors:
+  - Eric Gómez Urreizti
+  - Xuban Gastearena
+  - Anabel Lam
+  - Estibaliz González de San Román
+  - José I. Miranda
+  - Jon M. Matxain
+  - Fabienne Barroso-Bujans
+  teachpress_id: '889'
+- id: 10-3390-biom14080951
+  type: article
+  title: Metabolites from Marine Macroorganisms of the Red Sea Acting as Promoters or Inhibitors of Amylin Aggregation
+  doi: 10.3390/biom14080951
+  year: 2024
+  journal: Biomolecules
+  volume: '14'
+  issue: '8'
+  authors:
+  - Mawadda Alghrably
+  - Mohamed A. Tammam
+  - Aikaterini Koutsaviti
+  - Vassilios Roussis
+  - Xabier Lopez
+  - Giulia Bennici
+  - Abeer Sharfalddin
+  - Hanan Almahasheer
+  - Carlos M. Duarte
+  - Abdul-Hamid Emwas
+  - Efstathia Ioannou
+  - Mariusz Jaremko
+  teachpress_id: '891'
+- id: 10-1021-jacs-4c05378
+  type: article
+  title: Mixed Stereochemistry Macrocycle Acts as a Helix-Stabilizing Peptide N-Cap
+  doi: 10.1021/jacs.4c05378
+  year: 2024
+  journal: J. Am. Chem. Soc.
+  volume: '146'
+  issue: '35'
+  pages: 24348--24357
+  authors:
+  - Fabian Hink
+  - Julen Aduriz-Arrizabalaga
+  - Xabier Lopez
+  - Hiroaki Suga
+  - David De Sancho
+  - Joseph M. Rogers
+  teachpress_id: '892'
+- id: 10-1039-d4tc02550d
+  type: article
+  title: Modeling of pressure-induced charge transfer character in piezoluminescent pyridylvinylanthracene crystals
+  doi: 10.1039/d4tc02550d
+  year: 2024
+  journal: JOURNAL OF MATERIALS CHEMISTRY C
+  volume: '12'
+  issue: '34'
+  pages: 13495-13507
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Josianne Owona
+  - David Casanova
+  - Lionel Truflandier
+  - Frederic Castet
+  - Claire Tonnele
+  teachpress_id: '1148'
+- id: 10-1039-d4dt00629a
+  type: article
+  title: Modulated spin dynamics of [Co 2 ] coordination helicates via differential strand composition
+  doi: 10.1039/d4dt00629a
+  year: 2024
+  journal: Dalton Trans.
+  volume: '53'
+  issue: '17'
+  pages: 7611--7618
+  authors:
+  - Leoní A. Barrios
+  - Nuria Capó
+  - Hanae Boulehjour
+  - Daniel Reta
+  - Inés Tejedor
+  - Olivier Roubeau
+  - Guillem Aromí
+  teachpress_id: '875'
+- id: 10-1016-j-apsusc-2024-160798
+  type: article
+  title: PdTi alloys as an excellent catalyst for semi-hydrogenation reactions
+  doi: 10.1016/j.apsusc.2024.160798
+  year: 2024
+  journal: Applied Surface Science
+  volume: '672'
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - Ramon M. Bergua
+  - Theodoros Pavloudis
+  - Andoni Ugartemendia
+  - Richard E. Palmer
+  - Elisa Jimenez-Izal
+  teachpress_id: '887'
+- id: 10-1039-d4sc04732j
+  type: article
+  title: Perylene-derivative singlet exciton fission in water solution
+  doi: 10.1039/d4sc04732j
+  year: 2024
+  journal: CHEMICAL SCIENCE
+  volume: '15'
+  issue: '43'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Chloe Magne
+  - Simona Streckaite
+  - Roberto A. Boto
+  - Eduardo Dominguez-Ojeda
+  - Marina Gromova
+  - Andrea Echeverri
+  - Flavio Siro Brigiano
+  - Minh-Huong Ha-Thi
+  - Marius Fanckevicius
+  - Vidmantas Jasinskas
+  - Annamaria Quaranta
+  - Andrew A. Pascal
+  - Matthieu Koepf
+  - David Casanova
+  - Thomas Pino
+  - Bruno Robert
+  - Julia Contreras-Garcia
+  - Daniel Finkelstein-Shapiro
+  - Vidmantas Gulbinas
+  - Manuel J. Llansola-Portoles
+  teachpress_id: '1146'
+- id: 10-1039-d4sc90232g
+  type: article
+  title: Perylene-derivative singlet exciton fission in water solution (vol 15, pg 17831, 2024)
+  doi: 10.1039/d4sc90232g
+  year: 2024
+  journal: CHEMICAL SCIENCE
+  volume: '16'
+  issue: '1'
+  pages: '448'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Chloe Magne
+  - Simona Streckaite
+  - Roberto A. Boto
+  - Eduardo Dominguez-Ojeda
+  - Marina Gromova
+  - Andrea Echeverri
+  - Flavio Siro Brigiano
+  - Minh-Huong Ha-Thi
+  - Marius Franckevicius
+  - Vidmantas Jasinskas
+  - Annamaria Quaranta
+  - Andrew A. Pascal
+  - Matthieu Koepf
+  - David Casanova
+  - Thomas Pino
+  - Bruno Robert
+  - Julia Contreras-Garcia
+  - Daniel Finkelstein-Shapiro
+  - Vidmantas Gulbinas
+  - Manuel J. Llansola-Portoles
+  teachpress_id: '1143'
+- id: 10-1039-d4nr00606b
+  type: article
+  title: 'Photocatalytic activity of dual defect modified graphitic carbon nitride is robust to tautomerism: machine learning assisted ab initio quantum dynamics'
+  doi: 10.1039/d4nr00606b
+  year: 2024
+  journal: NANOSCALE
+  volume: '16'
+  issue: '18'
+  pages: 8986-8995
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Sraddha Agrawal
+  - Bipeng Wang
+  - Yifan Wu
+  - David Casanova
+  - Oleg V. Prezhdo
+  teachpress_id: '1153'
+- id: 10-1021-acs-jctc-4c00329
+  type: article
+  title: Physically Motivated Improvements of Variational Quantum Eigensolvers
+  doi: 10.1021/acs.jctc.4c00329
+  year: 2024
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '20'
+  issue: '12'
+  pages: 5133-5144
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Nonia Vaquero-Sabater
+  - Abel Carreras
+  - Roman Orus
+  - Nicholas J. Mayhall
+  - David Casanova
+  teachpress_id: '1151'
+- id: 10-1016-j-ijsolstr-2024-113014
+  type: article
+  title: Prediction of long-term creep modulus of thermoplastics using brief tests and interpretable machine learning
+  doi: 10.1016/j.ijsolstr.2024.113014
+  year: 2024
+  journal: International Journal of Solids and Structures
+  volume: '304'
+  authors:
+  - Héctor Lobato
+  - Carlos Cernuda
+  - Kepa Zulueta
+  - Aitor Arriaga
+  - Jon M. Matxain
+  - Aizeti Burgoa
+  teachpress_id: '890'
+- id: 10-1021-acs-jpclett-4c01616
+  type: article
+  title: Predictive Guidelines for Electrocyclization of Dithienylethenes
+  doi: 10.1021/acs.jpclett.4c01616
+  year: 2024
+  journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
+  volume: '15'
+  issue: '31'
+  pages: 8042-8048
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Claudia Climent
+  - Zhen Xu
+  - Michael O. Wolf
+  - David Casanova
+  teachpress_id: '1147'
+- id: 10-1039-d4cc03025g
+  type: article
+  title: Promoting exchange coupling in (Cp iPr 5 ) 2 Gd 2 X 3 complexes
+  doi: 10.1039/d4cc03025g
+  year: 2024
+  journal: Chem. Commun.
+  volume: '60'
+  issue: '83'
+  pages: 11988--11991
+  authors:
+  - Grégoire David
+  - Boris Le Guennic
+  - Daniel Reta
+  teachpress_id: '896'
+- id: 10-1016-j-future-2024-04-060
+  type: article
+  title: 'Quantum-centric supercomputing for materials science: A perspective on challenges and future directions'
+  doi: 10.1016/j.future.2024.04.060
+  year: 2024
+  journal: FUTURE GENERATION COMPUTER SYSTEMS-THE INTERNATIONAL JOURNAL OF ESCIENCE
+  volume: '160'
+  pages: 666-710
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Yuri Alexeev
+  - Maximilian Amsler
+  - Marco Antonio Barroca
+  - Sanzio Bassini
+  - Torey Battelle
+  - Daan Camps
+  - David Casanova
+  - Young Jay Choi
+  - Frederic T. Chong
+  - Charles Chung
+  - Christopher Codella
+  - Antonio D. Corcoles
+  - James Cruise
+  - Alberto Di Meglio
+  - Ivan Duran
+  - Thomas Eckl
+  - Sophia Economou
+  - Stephan Eidenbenz
+  - Bruce Elmegreen
+  - Clyde Fare
+  - Ismael Faro
+  - Cristina Sanz Fernandez
+  - Rodrigo Neumann Barros Ferreira
+  - Keisuke Fuji
+  - Bryce Fuller
+  - Laura Gagliardi
+  - Giulia Galli
+  - Jennifer R. Glick
+  - Isacco Gobbi
+  - Pranav Gokhale
+  - Salvador de la Puente Gonzalez
+  - Johannes Greiner
+  - Bill Gropp
+  - Michele Grossi
+  - Emanuel Gull
+  - Burns Healy
+  - Matthew R. Hermes
+  - Benchen Huang
+  - Travis S. Humble
+  - Nobuyasu Ito
+  - Artur F. Izmaylov
+  - Ali Javadi-Abhari
+  - Douglas Jennewein
+  - Shantenu Jha
+  - Liang Jiang
+  - Barbara Jones
+  - Wibe Albert Jong
+  - Petar Jurcevic
+  - William Kirby
+  - Stefan Kister
+  - Masahiro Kitagawa
+  - Joel Klassen
+  - Katherine Klymko
+  - Kwangwon Koh
+  - Masaaki Kondo
+  - Doga Murat Kurkcuoglu
+  - Krzysztof Kurowski
+  - Teodoro Laino
+  - Ryan Landfield
+  - Matt Leininger
+  - Vicente Leyton-Ortega
+  - Ang Li
+  - Meifeng Lin
+  - Junyu Liu
+  - Nicolas Lorente
+  - Andre Luckow
+  - Simon Martiel
+  - Francisco Martin-Fernandez
+  - Margaret Martonosi
+  - Claire Marvinney
+  - Arcesio Castaneda Medina
+  - Dirk Merten
+  - Antonio Mezzacapo
+  - Kristel Michielsen
+  - Abhishek Mitra
+  - Tushar Mittal
+  - Kyungsun Moon
+  - Joel Moore
+  - Sarah Mostame
+  - Mario Motta
+  - Young-Hye Na
+  - Yunseong Nam
+  - Prineha Narang
+  - Yu-ya Ohnishi
+  - Daniele Ottaviani
+  - Matthew Otten
+  - Scott Pakin
+  - Vincent R. Pascuzzi
+  - Edwin Pednault
+  - Tomasz Piontek
+  - Jed Pitera
+  - Patrick Rall
+  - Gokul Subramanian Ravi
+  - Niall Robertson
+  - Matteo A. C. Rossi
+  - Piotr Rydlichowski
+  - Hoon Ryu
+  - Georgy Samsonidze
+  - Mitsuhisa Sato
+  - Nishant Saurabh
+  - Vidushi Sharma
+  - Kunal Sharma
+  - Soyoung Shin
+  - George Slessman
+  - Mathias Steiner
+  - Iskandar Sitdikov
+  - In-Saeng Suh
+  - Eric D. Switzer
+  - Wei Tang
+  - Joel Thompson
+  - Synge Todo
+  - Minh C. Tran
+  - Dimitar Trenev
+  - Christian Trott
+  - Huan-Hsin Tseng
+  - Norm M. Tubman
+  - Esin Tureci
+  - David Garcia Valinas
+  - Sofia Vallecorsa
+  - Christopher Wever
+  - Konrad Wojciechowski
+  - Xiaodi Wu
+  - Shinjae Yoo
+  - Nobuyuki Yoshioka
+  - Victor Wen-zhe Yu
+  - Seiji Yunoki
+  - Sergiy Zhuk
+  - Dmitry Zubarev
+  teachpress_id: '1149'
+- id: 10-1039-d4cp00304g
+  type: article
+  title: Reverse intersystem crossing mechanisms in doped triangulenes
+  doi: 10.1039/d4cp00304g
+  year: 2024
+  journal: Phys. Chem. Chem. Phys.
+  volume: '26'
+  issue: '15'
+  pages: 11459--11468
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Asier E. Izu
+  - Jon M. Matxain
+  - David Casanova
+  teachpress_id: '872'
+- id: 10-1039-d3cp04516a
+  type: article
+  title: Second-order nonlinear optical properties of X-shaped pyrazine derivatives
+  doi: 10.1039/d3cp04516a
+  year: 2024
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '26'
+  issue: '3'
+  pages: 1709-1721
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Veronica Postils
+  - Zuzana Buresova
+  - David Casanova
+  - Benoit Champagne
+  - Filip Bures
+  - Vincent Rodriguez
+  - Frederic Castet
+  teachpress_id: '1158'
+- id: 10-1021-acs-jctc-3c01067
+  type: article
+  title: Small-Occupation Density Functional Correlation Energy Correction to Wave Function Approximations
+  doi: 10.1021/acs.jctc.3c01067
+  year: 2024
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '20'
+  issue: '3'
+  pages: 1118-1129
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Jose Aaron Rodriguez-Jimenez
+  - Abel Carreras
+  - David Casanova
+  teachpress_id: '1157'
+- id: 10-1063-5-0213719
+  type: article
+  title: Softmax parameterization of the occupation numbers for natural orbital functionals based on electron pairing approaches
+  doi: 10.1063/5.0213719
+  year: 2024
+  journal: J. Chem. Phys.
+  volume: '160'
+  issue: '24'
+  pages: '244107'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Lizeth Franco
+  - Iván A. Bonfil-Rivera
+  - Juan Felipe Huan Lew-Yee
+  - Mario Piris
+  - Jorge M. del Campo
+  - Rodrigo A. Vargas-Hernández
+  teachpress_id: '885'
+- id: 10-1021-acs-jctc-3c01339
+  type: article
+  title: 'Spurious Oscillations Caused by Density Functional Approximations: Who is to Blame? Exchange or Correlation?'
+  doi: 10.1021/acs.jctc.3c01339
+  year: 2024
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '20'
+  issue: '8'
+  pages: 3144-3153
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Sebastian P. Sitkiewicz
+  - Ruben R. Ferradas
+  - Eloy Ramos-Cordoba
+  - Robert Zalesny
+  - Eduard Matito
+  - Josep M. Luis
+  teachpress_id: '961'
+- id: 10-1039-d4cp03233k
+  type: article
+  title: 'Structural insights into carboxylic-acid based DES across H-bond donor ratios: impact of CL&Pol refinement'
+  doi: 10.1039/d4cp03233k
+  year: 2024
+  journal: Phys. Chem. Chem. Phys.
+  volume: '26'
+  issue: '43'
+  pages: 27486--27497
+  tags:
+  - SUS-KT
+  authors:
+  - Jon Zubeltzu
+  - Elixabete Rezabal
+  teachpress_id: '897'
+- id: 10-1002-pro-5030
+  type: article
+  title: The strongest protein binder is surprisingly labile
+  doi: 10.1002/pro.5030
+  year: 2024
+  journal: Protein Science
+  volume: '33'
+  issue: '7'
+  authors:
+  - Alba Fernandez‐Calvo
+  - Antonio Reifs
+  - Laura Saa
+  - Aitziber L. Cortajarena
+  - David De Sancho
+  - Raul Perez‐Jimenez
+  teachpress_id: '884'
+- id: 10-1002-cphc-202300849
+  type: article
+  title: Theoretical Insights into Bifurcated Intramolecular Dihydrogen Bonds
+  doi: 10.1002/cphc.202300849
+  year: 2024
+  journal: ChemPhysChem
+  volume: '25'
+  issue: '4'
+  authors:
+  - Samira Gholami
+  - Mohammad Aarabi
+  - Sławomir J. Grabowski
+  teachpress_id: '854'
+- id: 10-1063-5-0188491
+  type: article
+  title: Time evolution of natural orbitals in ab initio molecular dynamics
+  doi: 10.1063/5.0188491
+  year: 2024
+  journal: J. Chem. Phys.
+  volume: '160'
+  issue: '7'
+  pages: '071102'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Alejandro Rivero-Santamaría
+  - Mario Piris
+  teachpress_id: '862'
+- id: 10-1021-acs-jpclett-4c03010
+  type: article
+  title: Time-Resolved Chemical Bonding Structure Evolution by Direct-Dynamics Chemical Simulations
+  doi: 10.1021/acs.jpclett.4c03010
+  year: 2024
+  journal: J. Phys. Chem. Lett.
+  volume: '15'
+  pages: 12138-12143
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - Mario Piris
+  - Xabier Lopez
+  - Jesus M. Ugalde
+  teachpress_id: '900'
+- id: 10-1021-acsapm-4c00840
+  type: article
+  title: Tuning Reprocessing Temperature of Aliphatic Polyurethane Networks by Alkoxyamine Selection
+  doi: 10.1021/acsapm.4c00840
+  year: 2024
+  journal: ACS Appl. Polym. Mater.
+  volume: '6'
+  issue: '12'
+  pages: 7057--7065
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - Fermin Elizalde
+  - Vincent Pertici
+  - Robert Aguirresarobe
+  - Marta Ximenis
+  - Giulia Vozzolo
+  - Luis Lezama
+  - Fernando Ruipérez
+  - Didier Gigmes
+  - Haritz Sardon
+  teachpress_id: '883'
+- id: 10-1021-acs-joc-3c02485
+  type: article
+  title: 'Understanding Aromaticity in [5]Helicene-Bridged Cyclophanes: A Comprehensive Study'
+  doi: 10.1021/acs.joc.3c02485
+  year: 2024
+  journal: JOURNAL OF ORGANIC CHEMISTRY
+  volume: '89'
+  issue: '4'
+  pages: 2459-2466
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Mesias Orozco-Ic
+  - Luis Soriano-Agueda
+  - Silvia Escayola
+  - Dage Sundholm
+  - Gabriel Merino
+  - Eduard Matito
+  teachpress_id: '963'
+- id: 10-1038-s42005-024-01651-4
+  type: article
+  title: Unveiling the electronic origin of lanthanide based Metal Organic Framework with ideal spin filtering capacity
+  doi: 10.1038/s42005-024-01651-4
+  year: 2024
+  journal: Commun Phys
+  volume: '7'
+  issue: '1'
+  groups:
+  - matcat
+  tags:
+  - MatCat-ExMat
+  - MatCat-Exotic
+  authors:
+  - Xuban Gastearena
+  - Jesus M. Ugalde
+  - German E. Pieslinger
+  - Eider San Sebastian
+  - Elisa Jimenez-Izal
+  teachpress_id: '876'
+- id: 10-1039-d4cp00484a
+  type: article
+  title: 'Unveiling the quantum secrets of triel metal triangles: a tale of stability, aromaticity, and relativistic effects'
+  doi: 10.1039/d4cp00484a
+  year: 2024
+  journal: Phys. Chem. Chem. Phys.
+  volume: '26'
+  issue: '16'
+  pages: 12619--12627
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Sílvia Escayola
+  - Elisa Jimenez-Izal
+  - Eduard Matito
+  - Jesus M. Ugalde
+  - Rafael Grande-Aztatzi
+  - Jose M. Mercero
+  teachpress_id: '874'
+- id: 10-1038-s41467-023-44486-3
+  type: article
+  title: Vibronic effects on the quantum tunnelling of magnetisation in Kramers single-molecule magnets
+  doi: 10.1038/s41467-023-44486-3
+  year: 2024
+  journal: Nat Commun
+  volume: '15'
+  issue: '1'
+  authors:
+  - Andrea Mattioni
+  - Jakob K. Staab
+  - William J. A. Blackmore
+  - Daniel Reta
+  - Jake Iles-Smith
+  - Ahsan Nazir
+  - Nicholas F. Chilton
+  teachpress_id: '856'
+- id: 10-1002-pol-20240112
+  type: article
+  title: Zwitterionic ring expansion polymerization of tert ‐butyl glycidyl ether with B(C 6 F 5 ) 3 towards the generation of cyclic chains
+  doi: 10.1002/pol.20240112
+  year: 2024
+  journal: Journal of Polymer Science
+  volume: '62'
+  issue: '12'
+  pages: 2704--2715
+  authors:
+  - Carlo Andrea Pagnacco
+  - Xuban Gastearena
+  - Estibaliz González de San Román
+  - Jon M. Matxain
+  - Fabienne Barroso‐Bujans
+  teachpress_id: '871'

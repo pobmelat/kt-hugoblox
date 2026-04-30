@@ -1,0 +1,78 @@
+items:
+- id: 10-1021-j100032a019
+  type: article
+  title: G1 AND G2 STUDY OF THE TRIPLET H-4, C, O, P (+) POTENTIAL-ENERGY SURFACE - MECHANISMS FOR THE REACTION OF P+ (P-3) WITH METHANOL
+  doi: 10.1021/j100032a019
+  year: 1995
+  journal: Journal of Physical Chemistry
+  volume: '99'
+  issue: '32'
+  pages: 12170-12178
+  authors:
+  - E. M. Cruz
+  - X. Lopez
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '335'
+- id: 10-1021-j100018a010
+  type: article
+  title: MECHANISMS FOR THE REACTION OF TRIPLEX P+ WITH XH (X=CL, F) - FORMATION OF THE P-X BOND
+  doi: 10.1021/j100018a010
+  year: 1995
+  journal: Journal of Physical Chemistry
+  volume: '99'
+  issue: '18'
+  pages: 6812-6818
+  authors:
+  - X. Lopez
+  - M. Ayerbe
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '554'
+- id: 10-1021-ja00154a034
+  type: article
+  title: ON THE STEREOCHEMICAL OUTCOME OF THE CATALYZED AND UNCATALYZED CYCLOADDITION REACTION BETWEEN ACTIVATED KETENES AND ALDEHYDES TO FORM CIS-2-OXETANONES AND TRANS-2-OXETANONES - AN AB-INITIO STUDY
+  doi: 10.1021/ja00154a034
+  year: 1995
+  journal: Journal of the American Chemical Society
+  volume: '117'
+  issue: '49'
+  pages: 12314-12321
+  authors:
+  - B. Lecea
+  - A. Arrieta
+  - X. Lopez
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '542'
+- id: 10-1021-ja00154a033
+  type: article
+  title: SUBSTITUENT AND SOLVENT EFFECTS IN THE 2+2 -CYCLOADDITION REACTION BETWEEN OLEFINS AND ISOCYANATES
+  doi: 10.1021/ja00154a033
+  year: 1995
+  journal: Journal of the American Chemical Society
+  volume: '117'
+  issue: '49'
+  pages: 12306-12313
+  authors:
+  - F. P. Cossio
+  - G. Roa
+  - B. Lecea
+  - J. M. Ugalde
+  teachpress_id: '330'
+- id: 10-1021-j100017a023
+  type: article
+  title: THEORETICAL-STUDIES OF POSSIBLE PROCESSES FOR THE INTERSTELLAR PRODUCTION OF PHOSPHORUS-COMPOUNDS - THE REACTION OF P+ WITH ACETYLENE
+  doi: 10.1021/j100017a023
+  year: 1995
+  journal: Journal of Physical Chemistry
+  volume: '99'
+  issue: '17'
+  pages: 6432-6440
+  authors:
+  - A. Largo
+  - C. Barrientos
+  - X. Lopez
+  - F. P. Cossio
+  - J. M. Ugalde
+  teachpress_id: '532'

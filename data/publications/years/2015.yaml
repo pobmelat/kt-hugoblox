@@ -1,0 +1,596 @@
+items:
+- id: 10-1039-c4dt03445g
+  type: article
+  title: A theoretical study of the aromaticity in neutral and anionic borole compounds
+  doi: 10.1039/c4dt03445g
+  year: 2015
+  journal: DALTON TRANSACTIONS
+  volume: '44'
+  issue: '15'
+  pages: 6740-6747
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Miquel Sola
+  - Holger Braunschweig
+  - Christian Hoerl
+  - Ivo Krummenacher
+  - Johannes Wahler
+  teachpress_id: '1102'
+- id: 10-1016-j-jinorgbio-2015-08-017
+  type: article
+  title: Aluminum and its effect in the equilibrium between folded/unfolded conformation of NADH
+  doi: 10.1016/j.jinorgbio.2015.08.017
+  year: 2015
+  journal: Journal of Inorganic Biochemistry
+  volume: '152'
+  pages: 139-146
+  authors:
+  - E. Formoso
+  - J. I. Mujika
+  - S. J. Grabowski
+  - X. Lopez
+  teachpress_id: '374'
+- id: 10-1039-c5ra06796k
+  type: article
+  title: Aluminum interaction with 2,3-diphosphoglyceric acid. A computational studyle
+  doi: 10.1039/c5ra06796k
+  year: 2015
+  journal: Rsc Advances
+  volume: '5'
+  issue: '78'
+  pages: 63874-63881
+  authors:
+  - N. Luque
+  - J. I. Mujika
+  - E. Formoso
+  - X. Lopez
+  teachpress_id: '594'
+- id: 10-1021-acs-jctc-5b00144
+  type: article
+  title: 'Bright Fission: Singlet Fission into a Pair of Emitting States'
+  doi: 10.1021/acs.jctc.5b00144
+  year: 2015
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '11'
+  issue: '6'
+  pages: 2642-2650
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1254'
+- id: 10-1021-acs-jpcb-5b09825
+  type: article
+  title: center dot OH Oxidation Toward S- and OH-Containing Amino Acids
+  doi: 10.1021/acs.jpcb.5b09825
+  year: 2015
+  journal: Journal of Physical Chemistry B
+  volume: '119'
+  issue: '50'
+  pages: 15430-15442
+  authors:
+  - J. Uranga
+  - J. I. Mujika
+  - J. M. Matxain
+  teachpress_id: '797'
+- id: 10-1039-c5ra05142h
+  type: article
+  title: Ceramide increases free volume voids in DPPC membranes
+  doi: 10.1039/c5ra05142h
+  year: 2015
+  journal: Rsc Advances
+  volume: '5'
+  issue: '55'
+  pages: 44282-44290
+  authors:
+  - E. Axpe
+  - A. B. Garcia-Arribas
+  - J. I. Mujika
+  - D. Merida
+  - A. Alonso
+  - X. Lopez
+  - J. A. Garcia
+  - J. M. Ugalde
+  - F. M. Goni
+  - F. Plazaola
+  teachpress_id: '304'
+- id: 10-1039-c5cp00219b
+  type: article
+  title: Cleavage of hydrogen by activation at a single non-metal centre - towards new hydrogen storage materials
+  doi: 10.1039/c5cp00219b
+  year: 2015
+  journal: Physical Chemistry Chemical Physics
+  volume: '17'
+  issue: '20'
+  pages: 13539-13546
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '418'
+- id: 10-1039-c5py00838g
+  type: article
+  title: Determining the effect of side reactions on product distributions in RAFT polymerization by MALDI-TOF MS
+  doi: 10.1039/c5py00838g
+  year: 2015
+  journal: Polymer Chemistry
+  volume: '6'
+  issue: '30'
+  pages: 5437-5450
+  authors:
+  - A. Veloso
+  - W. Garcia
+  - A. Agirre
+  - N. Ballard
+  - F. Ruiperez
+  - J. C. Cal
+  - J. M. Asua
+  teachpress_id: '806'
+- id: 10-1038-srep08425
+  type: article
+  title: Energetics and Structural Characterization of the large-scale Functional Motion of Adenylate Kinase
+  doi: 10.1038/srep08425
+  year: 2015
+  journal: Scientific Reports
+  volume: '5'
+  authors:
+  - E. Formoso
+  - V. Limongelli
+  - M. Parrinello
+  teachpress_id: '371'
+- id: 10-1002-pola-27473
+  type: article
+  title: Experimental and Computational Studies of Ring-Opening Polymerization of Ethylene Brassylate Macrolactone and Copolymerization with epsilon-Caprolactone and TBD-Guanidine Organic Catalyst
+  doi: 10.1002/pola.27473
+  year: 2015
+  journal: Journal of Polymer Science Part a-Polymer Chemistry
+  volume: '53'
+  issue: '4'
+  pages: 552-561
+  authors:
+  - A. Pascual
+  - H. Sardon
+  - F. Ruiperez
+  - R. Gracia
+  - P. Sudam
+  - A. Veloso
+  - D. Mecerreyes
+  teachpress_id: '662'
+- id: 10-1179-1942787514y-0000000046
+  type: article
+  title: 'Flexible estimation of transport demand functions: recommendations for public policy makers'
+  doi: 10.1179/1942787514y.0000000046
+  year: 2015
+  journal: Transportation Letters-the International Journal of Transportation Research
+  volume: '7'
+  issue: '5'
+  pages: 241-251
+  authors:
+  - J. Bilbao-Ubillos
+  - A. Fernandez-Sainz
+  - N. Heidenreich
+  - S. Sperlich
+  teachpress_id: '320'
+- id: 10-1063-1-4934799
+  type: article
+  title: 'H4: A challenging system for natural orbital functional approximations'
+  doi: 10.1063/1.4934799
+  year: 2015
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '143'
+  issue: '16'
+  groups:
+  - noft
+  - qcd
+  tags:
+  - NOFT
+  - QCD-KT
+  authors:
+  - Eloy Ramos-Cordoba
+  - Xabier Lopez
+  - Mario Piris
+  - Eduard Matito
+  teachpress_id: '1114'
+- id: 10-1021-acs-jpclett-5b00198
+  type: article
+  title: High Yield Ultrafast Intramolecular Singlet Exciton Fission in a Quinoidal Bithiophene
+  doi: 10.1021/acs.jpclett.5b00198
+  year: 2015
+  journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
+  volume: '6'
+  issue: '8'
+  pages: 1375-1384
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Oleg Varnavski
+  - Neranga Abeyasinghe
+  - Juan Arago
+  - Juan J. Serrano-Perez
+  - Enrigue Orti
+  - Juan T. Lopez Navarrete
+  - Kazuo Takimiya
+  - David Casanova
+  - Juan Casado
+  - Theodore III Goodson
+  teachpress_id: '1255'
+- id: 10-1021-om5011947
+  type: article
+  title: 'Homopolymerization of Ethylene by Palladium Phosphine Sulfonate Catalysts: The Role of Structural and Environmental Factors'
+  doi: 10.1021/om5011947
+  year: 2015
+  journal: Organometallics
+  volume: '34'
+  issue: '1'
+  pages: 373-380
+  tags:
+  - SUS-KT
+  authors:
+  - E. Rezabal
+  - J. M. Asua
+  - J. M. Ugalde
+  teachpress_id: '714'
+- id: 10-1039-c5cp01774b
+  type: article
+  title: 'Ionic liquids as solvents of polar and non-polar solutes: affinity and coordination'
+  doi: 10.1039/c5cp01774b
+  year: 2015
+  journal: Physical Chemistry Chemical Physics
+  volume: '17'
+  issue: '22'
+  pages: 14588-14597
+  tags:
+  - SUS-KT
+  authors:
+  - E. Rezabal
+  - T. Schafer
+  teachpress_id: '718'
+- id: 10-1080-00319104-2015-1029478
+  type: article
+  title: Is the Hartree-Fock prediction that the chemical potential mu of non-relativistic neutral atoms is equal to minus the ionisation potential I sensitive to electron correlation?
+  doi: 10.1080/00319104.2015.1029478
+  year: 2015
+  journal: Physics and Chemistry of Liquids
+  volume: '53'
+  issue: '6'
+  pages: 696-705
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - N. H. March
+  teachpress_id: '685'
+- id: rn614
+  type: inbook
+  title: LASER ENERGY DEPOSITION IN NANODROPLETS AND NUCLEAR FUSION DRIVEN BY COULOMB EXPLOSION
+  year: 2015
+  volume: '157'
+  pages: 165-181
+  authors:
+  - A. Heidenreich
+  teachpress_id: '474'
+- id: 10-1016-j-comptc-2014-08-004
+  type: article
+  title: 'Lewis acid-Lewis base interactions: From NFH3+center dot center dot center dot NCH and NF4+center dot center dot center dot NCH complexes to NFH3+center dot center dot center dot(NCH)(n) and NF4+center dot center dot center dot(NCH)(n) clusters'
+  doi: 10.1016/j.comptc.2014.08.004
+  year: 2015
+  journal: Computational and Theoretical Chemistry
+  volume: '1053'
+  pages: 289-297
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '419'
+- id: 10-1021-acs-jpca-5b02788
+  type: article
+  title: Low-Lying Isomers of Free-Space Halogen Clusters with Tetrahedral and Octahedral Symmetry in Relation to Stable Molecules Such as SF6
+  doi: 10.1021/acs.jpca.5b02788
+  year: 2015
+  journal: Journal of Physical Chemistry A
+  volume: '119'
+  issue: '40'
+  pages: 10190-10194
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - N. H. March
+  teachpress_id: '686'
+- id: 10-1039-c5cc00215j
+  type: article
+  title: On the existence and characterization of molecular electrides
+  doi: 10.1039/c5cc00215j
+  year: 2015
+  journal: CHEMICAL COMMUNICATIONS
+  volume: '51'
+  issue: '23'
+  pages: 4865-4868
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Veronica Postils
+  - Marc Garcia-Borras
+  - Miquel Sola
+  - Josep M. Luis
+  - Eduard Matito
+  teachpress_id: '1103'
+- id: 10-1021-acs-jpca-5b01585
+  type: article
+  title: Performance of PNOF6 for Hydrogen Abstraction Reactions
+  doi: 10.1021/acs.jpca.5b01585
+  year: 2015
+  journal: Journal of Physical Chemistry A
+  volume: '119'
+  issue: '27'
+  pages: 6981-6988
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - X. Lopez
+  - M. Piris
+  - F. Ruiperez
+  - J. M. Ugalde
+  teachpress_id: '566'
+- id: 10-1002-cphc-201402876
+  type: article
+  title: 'pi-Hole Bonds: Boron and Aluminum Lewis Acid Centers'
+  doi: 10.1002/cphc.201402876
+  year: 2015
+  journal: Chemphyschem
+  volume: '16'
+  issue: '7'
+  pages: 1470-1479
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '420'
+- id: 10-1039-c4cp05659k
+  type: article
+  title: Planar pentacoordinate carbons in CBe54- derivatives
+  doi: 10.1039/c4cp05659k
+  year: 2015
+  journal: Physical Chemistry Chemical Physics
+  volume: '17'
+  issue: '6'
+  pages: 4620-4624
+  authors:
+  - R. Grande-Aztatzi
+  - J. L. Cabellos
+  - R. Islas
+  - I. Infante
+  - J. M. Mercero
+  - A. Restrepo
+  - G. Merino
+  teachpress_id: '216'
+- id: 10-1039-c4cp04840g
+  type: article
+  title: 'Pnicogen and hydrogen bonds: complexes between PH3X+ and PH2X systems'
+  doi: 10.1039/c4cp04840g
+  year: 2015
+  journal: Physical Chemistry Chemical Physics
+  volume: '17'
+  issue: '5'
+  pages: 3261-3272
+  authors:
+  - I. Alkorta
+  - J. Elguero
+  - S. J. Grabowski
+  teachpress_id: '288'
+- id: 10-1007-s00214-015-1756-x
+  type: article
+  title: PNOF5 calculations based on the
+  doi: 10.1007/s00214-015-1756-x
+  year: 2015
+  journal: Theoretical Chemistry Accounts
+  volume: '134'
+  issue: '12'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - X. Lopez
+  - M. Piris
+  teachpress_id: '561'
+- id: 10-1039-c5cs00066a
+  type: article
+  title: Quantifying aromaticity with electron delocalisation measures
+  doi: 10.1039/c5cs00066a
+  year: 2015
+  journal: CHEMICAL SOCIETY REVIEWS
+  volume: '44'
+  issue: '18'
+  pages: 6434-6451
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1101'
+- id: 10-1063-1-4921635
+  type: article
+  title: Quantifying charge resonance and multiexciton character in coupled chromophores by charge and spin cumulant analysis
+  doi: 10.1063/1.4921635
+  year: 2015
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '142'
+  issue: '22'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Anatoliy V. Luzanov
+  - David Casanova
+  - Xintian Feng
+  - Anna I. Krylov
+  teachpress_id: '1253'
+- id: 10-1039-c5cs00341e
+  type: article
+  title: Recent developments and future prospects of all-metal aromatic compounds
+  doi: 10.1039/c5cs00341e
+  year: 2015
+  journal: Chemical Society Reviews
+  volume: '44'
+  issue: '18'
+  pages: 6519-6534
+  authors:
+  - J. M. Mercero
+  - A. I. Boldyrev
+  - G. Merino
+  - J. M. Ugalde
+  teachpress_id: '238'
+- id: 10-1080-09654313-2013-817544
+  type: article
+  title: Renewal through Culture? The Role of Museums in the Renewal of Industrial Regions in Europe
+  doi: 10.1080/09654313.2013.817544
+  year: 2015
+  journal: European Planning Studies
+  volume: '23'
+  issue: '8'
+  pages: 1441-1455
+  authors:
+  - M. Heidenreich
+  - B. Plaza
+  teachpress_id: '483'
+- id: 10-1063-1-4936583
+  type: article
+  title: Robust validation of approximate 1-matrix functionals with few-electron harmonium atoms
+  doi: 10.1063/1.4936583
+  year: 2015
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '143'
+  issue: '21'
+  groups:
+  - noft
+  - qcd
+  tags:
+  - NOFT
+  - QCD-KT
+  authors:
+  - Jerzy Cioslowski
+  - Mario Piris
+  - Eduard Matito
+  teachpress_id: '1113'
+- id: 10-1021-jacs-5b05457
+  type: article
+  title: 'Sulfur-Bridged Terthiophene Dimers: How Sulfur Oxidation State Controls Interchromophore Electronic Coupling'
+  doi: 10.1021/jacs.5b05457
+  year: 2015
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '137'
+  issue: '39'
+  pages: 12552-12564
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Chad D. Cruz
+  - Peter R. Christensen
+  - Eric L. Chronister
+  - David Casanova
+  - Michael O. Wolf
+  - Christopher J. Bardeen
+  teachpress_id: '1252'
+- id: 10-1039-c4cp04976d
+  type: article
+  title: 'The effect of TiO2 surface on the electron injection efficiency in PbS quantum dot solar cells: a first-principles study'
+  doi: 10.1039/c4cp04976d
+  year: 2015
+  journal: Physical Chemistry Chemical Physics
+  volume: '17'
+  issue: '8'
+  pages: 6076-6086
+  authors:
+  - J. M. Azpiroz
+  - J. M. Ugalde
+  - L. Etgar
+  - I. Infante
+  - F. De Angelis
+  teachpress_id: '311'
+- id: 10-1002-chem-201501350
+  type: article
+  title: 'The Electronic Structure of the Al3- Anion: Is it Aromatic?'
+  doi: 10.1002/chem.201501350
+  year: 2015
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '21'
+  issue: '27'
+  pages: 9610-9614
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jose M. Mercero
+  - Eduard Matito
+  - Fernando Ruiperez
+  - Ivan Infante
+  - Xabier Lopez
+  - Jesus M. Ugalde
+  teachpress_id: '1115'
+- id: 10-1002-qua-24869
+  type: article
+  title: 'Theoretical Investigations of the Perylene Electronic Structure: Monomer, Dimers, and Excimers'
+  doi: 10.1002/qua.24869
+  year: 2015
+  journal: INTERNATIONAL JOURNAL OF QUANTUM CHEMISTRY
+  volume: '115'
+  issue: '7'
+  pages: 442-452
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1256'
+- id: 10-1016-j-comptc-2014-09-030
+  type: article
+  title: Three-center bonding analyzed from correlated and uncorrelated third-order reduced density matrices
+  doi: 10.1016/j.comptc.2014.09.030
+  year: 2015
+  journal: COMPUTATIONAL AND THEORETICAL CHEMISTRY
+  volume: '1053'
+  issue: SI
+  pages: 173-179
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Mauricio Rodriguez-Mayorga
+  - Eduard Matito
+  - Miguel Sola
+  teachpress_id: '1116'
+- id: 10-3390-molecules200611297
+  type: article
+  title: Triel Bonds, pi-Hole-pi-Electrons Interactions in Complexes of Boron and Aluminium Trihalides and Trihydrides with Acetylene and Ethylene
+  doi: 10.3390/molecules200611297
+  year: 2015
+  journal: Molecules
+  volume: '20'
+  issue: '6'
+  pages: 11297-11316
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '421'

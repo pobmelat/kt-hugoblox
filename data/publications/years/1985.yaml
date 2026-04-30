@@ -1,0 +1,26 @@
+items:
+- id: 10-1088-0022-3700-18-20-006
+  type: article
+  title: AN ANALYSIS OF THE EXCHANGE CORRELATION-EFFECTS IN THE ISOELECTRONIC SERIES OF THE 2S GROUND-STATE OF LITHIUM IN TERMS OF THE INTERELECTRONIC DISTANCE
+  doi: 10.1088/0022-3700/18/20/006
+  year: 1985
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '18'
+  issue: '20'
+  pages: 4019-4029
+  authors:
+  - J. M. Ugalde
+  teachpress_id: '776'
+- id: 10-1088-0022-3700-18-20-001
+  type: article
+  title: THE RADIUS OF THE FERMI HOLE IN ATOMS
+  doi: 10.1088/0022-3700/18/20/001
+  year: 1985
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '18'
+  issue: '20'
+  pages: L701-L705
+  authors:
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '782'

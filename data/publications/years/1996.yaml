@@ -1,0 +1,147 @@
+items:
+- id: 10-1021-jp953533g
+  type: article
+  title: Ab initio characterization of gaseous (HnP(o)(o)C)(+) species
+  doi: 10.1021/jp953533g
+  year: 1996
+  journal: Journal of Physical Chemistry
+  volume: '100'
+  issue: '21'
+  pages: 8758-8762
+  authors:
+  - A. Irigoras
+  - F. P. Cossio
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '491'
+- id: 10-1021-jp9530764
+  type: article
+  title: Ab initio studies on the structure of silyl isocyanate in the gas phase, in solution, and in the crystalline state
+  doi: 10.1021/jp9530764
+  year: 1996
+  journal: Journal of Physical Chemistry
+  volume: '100'
+  issue: '23'
+  pages: 9619-9623
+  authors:
+  - G. Roa
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '721'
+- id: 10-1103-physreva-54-2868
+  type: article
+  title: Bound electronic states in a statically screened electric-dipole potential
+  doi: 10.1103/PhysRevA.54.2868
+  year: 1996
+  journal: Physical Review A
+  volume: '54'
+  issue: '4'
+  pages: 2868-2873
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  teachpress_id: '786'
+- id: 10-1021-ja952257g
+  type: article
+  title: Characterization of (P(+)L(x))L(y) ion molecule clusters of first-row hydrides
+  doi: 10.1021/ja952257g
+  year: 1996
+  journal: Journal of the American Chemical Society
+  volume: '118'
+  issue: '11'
+  pages: 2718-2725
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '573'
+- id: 10-1139-v96-116
+  type: article
+  title: On the accuracy of density functional theory for ion-molecule clusters. A case study of PL(n)(+) clusters of the first and second row hydrides
+  doi: 10.1139/v96-116
+  year: 1996
+  journal: Canadian Journal of Chemistry
+  volume: '74'
+  issue: '6'
+  pages: 1032-1048
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - C. Sarasola
+  - F. P. Cossio
+  teachpress_id: '578'
+- id: 10-1139-v96-203
+  type: article
+  title: On the dissociation energy of Ti(OH2)(+). An MCSCF, CCSD(T), and DFT study
+  doi: 10.1139/v96-203
+  year: 1996
+  journal: Canadian Journal of Chemistry-Revue Canadienne De Chimie
+  volume: '74'
+  issue: '10'
+  pages: 1824-1829
+  authors:
+  - A. Irigoras
+  - J. M. Ugalde
+  - X. Lopez
+  - C. Sarasola
+  teachpress_id: '497'
+- id: 10-1021-jp953779l
+  type: article
+  title: On the molecular and electronic structures of the H3TiTiH3 species
+  doi: 10.1021/jp953779l
+  year: 1996
+  journal: Journal of Physical Chemistry
+  volume: '100'
+  issue: '30'
+  pages: 12277-12279
+  authors:
+  - A. Garcia
+  - J. M. Ugalde
+  teachpress_id: '390'
+- id: 10-1016-0166-1280-95-04450-7
+  type: article
+  title: Performance of Becke's exchange functional fitted for gaussian basis sets
+  doi: 10.1016/0166-1280(95)04450-7
+  year: 1996
+  journal: Theochem-Journal of Molecular Structure
+  volume: '363'
+  issue: '3'
+  pages: 279-290
+  authors:
+  - A. Garcia
+  - E. M. Cruz
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '384'
+- id: 10-1021-jo951867w
+  type: article
+  title: Solvent and substituent effects in the periselectivity of the Staudinger reaction between ketenes and alpha,beta-unsaturated imines. A theoretical and experimental study
+  doi: 10.1021/jo951867w
+  year: 1996
+  journal: Journal of Organic Chemistry
+  volume: '61'
+  issue: '9'
+  pages: 3070-3079
+  authors:
+  - B. Lecea
+  - I. Arrastia
+  - A. Arrieta
+  - G. Roa
+  - X. Lopez
+  - M. I. Arriortua
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '541'
+- id: 10-1139-v96-277
+  type: article
+  title: Theoretical study of the PSi2 radical
+  doi: 10.1139/v96-277
+  year: 1996
+  journal: Canadian Journal of Chemistry-Revue Canadienne De Chimie
+  volume: '74'
+  issue: '12'
+  pages: 2476-2480
+  authors:
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '360'

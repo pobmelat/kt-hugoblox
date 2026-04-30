@@ -1,0 +1,171 @@
+items:
+- id: 10-1021-jp992415g
+  type: article
+  title: Aluminum(III) interactions with the acid derivative amino acid chains
+  doi: 10.1021/jp992415g
+  year: 2000
+  journal: Journal of Physical Chemistry A
+  volume: '104'
+  issue: '30'
+  pages: 7053-7060
+  authors:
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '244'
+- id: 10-1103-physreva-62-034502
+  type: article
+  title: Charge-density concentration and electron-electron coalescence density in atoms and molecules
+  doi: 10.1103/PhysRevA.62.034502
+  year: 2000
+  journal: Physical Review A
+  volume: '62'
+  issue: '3'
+  authors:
+  - X. Fradera
+  - M. Duran
+  - E. Valderrama
+  - J. M. Ugalde
+  teachpress_id: '378'
+- id: 10-1016-s0166-1280-00-00475-9
+  type: article
+  title: Cusp conditions for non-Coulombic interactions
+  doi: 10.1016/s0166-1280(00)00475-9
+  year: 2000
+  journal: Journal of Molecular Structure-Theochem
+  volume: '527'
+  pages: 27-33
+  authors:
+  - I. Silanes
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '763'
+- id: 10-1016-s0166-1280-99-00431-5
+  type: article
+  title: Density functional studies of the n center dot a sigma charge-transfer complexes between NH3 and BrX (X = Cl, Br)
+  doi: 10.1016/s0166-1280(99)00431-5
+  year: 2000
+  journal: Journal of Molecular Structure-Theochem
+  volume: '501'
+  pages: 207-214
+  authors:
+  - A. Garcia
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '389'
+- id: 10-1021-ja990726z
+  type: article
+  title: Primary reaction of the titanium-catalyzed oligomerization of phosphorus in the gas phase
+  doi: 10.1021/ja990726z
+  year: 2000
+  journal: Journal of the American Chemical Society
+  volume: '122'
+  issue: '7'
+  pages: 1411-1413
+  authors:
+  - A. Irigoras
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '496'
+- id: 10-1002-sici-1096-987x-20000115-21-1-lt-43-aid-jcc5-gt-3-0-co-2-8
+  type: article
+  title: Quantum mechanical calculations on phosphate hydrolysis reactions
+  doi: 10.1002/(sici)1096-987x(20000115)21:1&lt;43::aid-jcc5&gt;3.0.co;2-8
+  year: 2000
+  journal: Journal of Computational Chemistry
+  volume: '21'
+  issue: '1'
+  pages: 43-51
+  authors:
+  - J. M. Mercero
+  - P. Barrett
+  - C. W. Lam
+  - J. E. Fowler
+  - J. M. Ugalde
+  - L. G. Pedersen
+  teachpress_id: '237'
+- id: 10-1063-1-480666
+  type: article
+  title: 'Radial moments of the electron density: Gas phase results and the effects of solvation'
+  doi: 10.1063/1.480666
+  year: 2000
+  journal: Journal of Chemical Physics
+  volume: '112'
+  issue: '3'
+  pages: 1113-1121
+  authors:
+  - S. K. Worsnop
+  - R. J. Boyd
+  - J. M. Elorza
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '814'
+- id: 10-1021-ja991657r
+  type: article
+  title: 'Reactivity of Co+(F-3,F-5), Ni+(D-2,F-4), and Cu+(S-1,D-3): Reaction of Co+, Ni+, and Cu+ with water'
+  doi: 10.1021/ja991657r
+  year: 2000
+  journal: Journal of the American Chemical Society
+  volume: '122'
+  issue: '1'
+  pages: 114-122
+  authors:
+  - A. Irigoras
+  - O. Elizalde
+  - I. Silanes
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '492'
+- id: 10-1103-physreva-62-053201
+  type: article
+  title: 'Small clusters of II-VI materials: ZniOi'
+  doi: 10.1103/PhysRevA.62.053201
+  year: 2000
+  journal: Physical Review A
+  volume: '62'
+  issue: '5'
+  authors:
+  - J. M. Matxain
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '610'
+- id: 10-1103-physreva-61-053201
+  type: article
+  title: 'Small clusters of II-VI materials: ZniSi'
+  doi: 10.1103/PhysRevA.61.053201
+  year: 2000
+  journal: Physical Review A
+  volume: '61'
+  issue: '5'
+  authors:
+  - J. M. Matxain
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '611'
+- id: 10-1021-jp991957v
+  type: article
+  title: 'The curiously stable B-13(+) cluster and its neutral and anionic counterparts: The advantages of planarity'
+  doi: 10.1021/jp991957v
+  year: 2000
+  journal: Journal of Physical Chemistry A
+  volume: '104'
+  issue: '2'
+  pages: 397-403
+  authors:
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '377'
+- id: 10-1002-sici-1521-3773-20000218-39-4-lt-717-aid-anie717-gt-3-0-co-2-e
+  type: article
+  title: 'Water clusters: Towards an understanding based on first principles of their static and dynamic properties'
+  doi: 10.1002/(sici)1521-3773(20000218)39:4&lt;717::aid-anie717&gt;3.0.co;2-e
+  year: 2000
+  journal: Angewandte Chemie-International Edition
+  volume: '39'
+  issue: '4'
+  pages: 717-+
+  authors:
+  - J. M. Ugalde
+  - I. Alkorta
+  - J. Elguero
+  teachpress_id: '781'

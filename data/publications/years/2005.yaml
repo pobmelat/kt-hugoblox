@@ -1,0 +1,334 @@
+items:
+- id: 10-1021-ja051544
+  type: article
+  title: 'A joint experimental and theoretical study of cation-pi interactions: Multiple-decker sandwich complexes of ferrocene with alkali metal ions (Li+, Na+, K+, Rb+, Cs+)'
+  doi: 10.1021/ja051544+
+  year: 2005
+  journal: Journal of the American Chemical Society
+  volume: '127'
+  issue: '30'
+  pages: 10656-10666
+  authors:
+  - A. H. Ilkhechi
+  - J. M. Mercero
+  - I. Silanes
+  - M. Bolte
+  - M. Scheibitz
+  - H. W. Lerner
+  - J. M. Ugalde
+  - M. Wagner
+  teachpress_id: '222'
+- id: 10-1016-j-theochem-2005-02-020
+  type: article
+  title: An analysis of the changes in aromaticity and planarity along the reaction path of the simplest Diels-Alder reaction. Exploring the validity of different indicators of aromaticity
+  doi: 10.1016/j.theochem.2005.02.020
+  year: 2005
+  journal: JOURNAL OF MOLECULAR STRUCTURE-THEOCHEM
+  volume: '727'
+  issue: 1-3
+  pages: 165-171
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - J Poater
+  - M Duran
+  - M Solà
+  teachpress_id: '1088'
+- id: 10-1021-jp048033e
+  type: article
+  title: Comment on the ``nature of bonding in the thermal cyclization of (Z)-1,2,4,6-heptatetraene and its heterosubstituted analogues''
+  doi: 10.1021/jp048033e
+  year: 2005
+  journal: JOURNAL OF PHYSICAL CHEMISTRY B
+  volume: '109'
+  issue: '15'
+  pages: 7591-7593
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - M Solà
+  - M Duran
+  - J Poater
+  teachpress_id: '1089'
+- id: 10-1021-om0503139
+  type: article
+  title: Comparative study of various mechanisms for metallocene-catalyzed alpha-olefin polymerization
+  doi: 10.1021/om0503139
+  year: 2005
+  journal: Organometallics
+  volume: '24'
+  issue: '13'
+  pages: 3233-3246
+  authors:
+  - M. Silanes
+  - J. M. Ugalde
+  teachpress_id: '765'
+- id: 10-1021-jp0538464
+  type: article
+  title: Comparison of the AIM delocalization index and the Mayer and Fuzzy atom bond orders
+  doi: 10.1021/jp0538464
+  year: 2005
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '109'
+  issue: '43'
+  pages: 9904-9910
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - J Poater
+  - M Solà
+  - M Duran
+  - P Salvador
+  teachpress_id: '1087'
+- id: 10-1021-jp053146z
+  type: article
+  title: 'Density functional study of the in-line mechanism of methanolysis of cyclic phosphate and thiophosphate esters in solution: Insight into thio effects in RNA transesterification'
+  doi: 10.1021/jp053146z
+  year: 2005
+  journal: Journal of Physical Chemistry B
+  volume: '109'
+  issue: '42'
+  pages: 19987-20003
+  authors:
+  - Y. Liu
+  - B. A. Gregersen
+  - X. Lopez
+  - D. M. York
+  teachpress_id: '550'
+- id: 10-1007-s10910-004-1465-5
+  type: article
+  title: Electron correlation studies by means of local-scaling transformations and electron-pair density functions
+  doi: 10.1007/s10910-004-1465-5
+  year: 2005
+  journal: Journal of Mathematical Chemistry
+  volume: '37'
+  issue: '3'
+  pages: 211-231
+  authors:
+  - E. G. Valderrama
+  - J. M. Ugalde
+  teachpress_id: '801'
+- id: 10-1016-j-cplett-2005-07-015
+  type: article
+  title: Extracular densities of the non-Born-Oppenheimer Hookean H-2 molecule
+  doi: 10.1016/j.cplett.2005.07.015
+  year: 2005
+  journal: Chemical Physics Letters
+  volume: '412'
+  issue: 4-6
+  pages: 381-385
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - E. V. Ludena
+  teachpress_id: '577'
+- id: 10-1039-b502568k
+  type: article
+  title: Kinetic isotope effects on thio-substituted biological phosphoryl transfer reactions from density-functional theory
+  doi: 10.1039/b502568k
+  year: 2005
+  journal: Chemical Communications
+  volume: (31)
+  issue: '31'
+  pages: 3909-3911
+  authors:
+  - Y. Liu
+  - X. Lopez
+  - D. M. York
+  teachpress_id: '551'
+- id: 10-1021-ic050648i
+  type: article
+  title: 'Magnetic properties of cyano-bridged Ln3+-M3+ complexes. Part I: Trinuclear complexes (Ln3+ = La, Ce, Pr, Nd, Sm; M3+ = FeLS, Co) with bpy as blocking ligand'
+  doi: 10.1021/ic050648i
+  year: 2005
+  journal: INORGANIC CHEMISTRY
+  volume: '44'
+  issue: '20'
+  pages: 6939-6948
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - A Figuerola
+  - J Ribas
+  - M Llunell
+  - D Casanova
+  - M Maestro
+  - S Alvarez
+  - C Diaz
+  teachpress_id: '1302'
+- id: 10-1021-ic050650
+  type: article
+  title: 'Magnetism of cyano-bridged Ln3+-M3+ complexes. Part II: One-dimensional complexes (Ln3+ = Eu, Tb, Dy, Ho, Er, Tm; M3+ = Fe or Co) with bpy as blocking ligand'
+  doi: 10.1021/ic050650+
+  year: 2005
+  journal: INORGANIC CHEMISTRY
+  volume: '44'
+  issue: '20'
+  pages: 6949-6958
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - A Figuerola
+  - J Ribas
+  - D Casanova
+  - M Maestro
+  - S Alvarez
+  - C Diaz
+  teachpress_id: '1303'
+- id: 10-1063-1-1940611
+  type: article
+  title: Non-Born-Oppenheimer treatment of the H-2 Hookean molecule
+  doi: 10.1063/1.1940611
+  year: 2005
+  journal: Journal of Chemical Physics
+  volume: '123'
+  issue: '2'
+  authors:
+  - E. V. Ludena
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '590'
+- id: 10-1021-ja050935l
+  type: article
+  title: 'Optical absorption of the blue fluorescent protein: A first-principles study'
+  doi: 10.1021/ja050935l
+  year: 2005
+  journal: Journal of the American Chemical Society
+  volume: '127'
+  issue: '35'
+  pages: 12329-12337
+  authors:
+  - X. Lopez
+  - M. A. L. Marques
+  - A. Castro
+  - A. Rubio
+  teachpress_id: '559'
+- id: rn112
+  type: inproceedings
+  title: Pair densities for the Hooke and Hooke-Calogero models of the non-Born-Oppenheimer hydrogen molecule
+  year: 2005
+  volume: 4A-4B
+  pages: 1217-1221
+  authors:
+  - E. V. Ludena
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '591'
+- id: 10-1016-j-ccr-2005-03-031
+  type: article
+  title: Shape maps and polyhedral interconversion paths in transition metal chemistry
+  doi: 10.1016/j.ccr.2005.03.031
+  year: 2005
+  journal: COORDINATION CHEMISTRY REVIEWS
+  volume: '249'
+  issue: 17-18
+  pages: 1693-1708
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - S Alvarez
+  - P Alemany
+  - D Casanova
+  - J Cirera
+  - M Llunell
+  - D Avnir
+  teachpress_id: '1304'
+- id: 10-1021-jp0465940
+  type: article
+  title: Structure and properties of ZnS nanoclusters
+  doi: 10.1021/jp0465940
+  year: 2005
+  journal: Journal of Physical Chemistry B
+  volume: '109'
+  issue: '7'
+  pages: 2703-2709
+  authors:
+  - S. Hamad
+  - C. R. A. Catlow
+  - E. Spano
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '470'
+- id: 10-1063-1-1824895
+  type: article
+  title: 'The aromatic fluctuation index (FLU): A new aromaticity index based on electron delocalization - art. no. 014109'
+  doi: 10.1063/1.1824895
+  year: 2005
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '122'
+  issue: '1'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - M Duran
+  - M Solà
+  teachpress_id: '1090'
+- id: 10-1002-chem-200400799
+  type: article
+  title: 'The rich stereochemistry of eight-vertex polyhedra: A continuous shape measures study'
+  doi: 10.1002/chem.200400799
+  year: 2005
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '11'
+  issue: '5'
+  pages: 1479-1494
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - D Casanova
+  - M Llunell
+  - P Alemany
+  - S Alvarez
+  teachpress_id: '1305'
+- id: 10-1016-j-ijms-2004-09-018
+  type: article
+  title: Theoretical methods that help understanding the structure and reactivity of gas phase ions
+  doi: 10.1016/j.ijms.2004.09.018
+  year: 2005
+  journal: International Journal of Mass Spectrometry
+  volume: '240'
+  issue: '1'
+  pages: 37-99
+  authors:
+  - J. M. Mercero
+  - J. M. Matxain
+  - X. Lopez
+  - D. M. York
+  - A. Largo
+  - L. A. Eriksson
+  - J. M. Ugalde
+  teachpress_id: '249'
+- id: 10-1021-ja044873v
+  type: article
+  title: 'Water-promoted hydrolysis of a highly twisted amide: Rate acceleration caused by the twist of the amide bond'
+  doi: 10.1021/ja044873v
+  year: 2005
+  journal: Journal of the American Chemical Society
+  volume: '127'
+  issue: '12'
+  pages: 4445-4453
+  authors:
+  - J. I. Mujika
+  - J. M. Mercero
+  - X. Lopez
+  teachpress_id: '262'

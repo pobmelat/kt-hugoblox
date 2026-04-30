@@ -1,0 +1,563 @@
+items:
+- id: 10-3390-sym2021156
+  type: article
+  title: A Critical Assessment of the Performance of Magnetic and Electronic Indices of Aromaticity
+  doi: 10.3390/sym2021156
+  year: 2010
+  journal: SYMMETRY-BASEL
+  volume: '2'
+  issue: '2'
+  pages: 1156-1179
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Miquel Sola
+  - Ferran Feixas
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Jordi Poater
+  teachpress_id: '1056'
+- id: 10-1021-ct100034p
+  type: article
+  title: A Test to Evaluate the Performance of Aromaticity Descriptors in All-Metal and Semimetal Clusters. An Appraisal of Electronic and Magnetic Indicators of Aromaticity
+  doi: 10.1021/ct100034p
+  year: 2010
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '6'
+  issue: '4'
+  pages: 1118-1130
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1057'
+- id: 10-1139-v10-031
+  type: article
+  title: Ab initio calculations on C6H6 center dot center dot center dot(HF)(n) clusters - X-H center dot center dot center dot pi hydrogen bond
+  doi: 10.1139/v10-031
+  year: 2010
+  journal: Canadian Journal of Chemistry
+  volume: '88'
+  issue: '8'
+  pages: 769-778
+  authors:
+  - S. J. Grabowski
+  - J. M. Ugalde
+  teachpress_id: '460'
+- id: 10-1021-jp101874p
+  type: article
+  title: Ab Initio Study of Microsolvated Al3+-Aromatic Amino Acid Complexes
+  doi: 10.1021/jp101874p
+  year: 2010
+  journal: Journal of Physical Chemistry B
+  volume: '114'
+  issue: '27'
+  pages: 9017-9022
+  authors:
+  - J. Larrucea
+  - E. Rezabal
+  - T. Marino
+  - N. Russo
+  - J. M. Ugalde
+  teachpress_id: '537'
+- id: 10-1021-ct900641w
+  type: article
+  title: 'Approximate Inclusion of Triple Excitations in Combined Coupled Cluster/Molecular Mechanics: Calculations of Electronic Excitation Energies in Solution for Acrolein, Water, Formamide, and N-Methylacetamide'
+  doi: 10.1021/ct900641w
+  year: 2010
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '6'
+  issue: '3'
+  pages: 839-850
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Kristian Sneskov
+  - Eduard Matito
+  - Jacob Kongsted
+  - Ove Christiansen
+  teachpress_id: '1058'
+- id: 10-1021-jp103047p
+  type: article
+  title: 'Bond Paths Show Preferable Interactions: Ab Initio and QTAIM Studies on the X-H center dot center dot center dot pi Hydrogen Bond'
+  doi: 10.1021/jp103047p
+  year: 2010
+  journal: Journal of Physical Chemistry A
+  volume: '114'
+  issue: '26'
+  pages: 7223-7229
+  authors:
+  - S. J. Grabowski
+  - J. M. Ugalde
+  teachpress_id: '461'
+- id: 10-1039-c004427j
+  type: article
+  title: Calculation of local spins for correlated wave functions
+  doi: 10.1039/c004427j
+  year: 2010
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '12'
+  issue: '37'
+  pages: 11308-11314
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - I. Mayer
+  - E. Matito
+  teachpress_id: '1061'
+- id: 10-1063-1-3481578
+  type: article
+  title: 'Communication: The role of the positivity N-representability conditions in natural orbital functional theory'
+  doi: 10.1063/1.3481578
+  year: 2010
+  journal: Journal of Chemical Physics
+  volume: '133'
+  issue: '11'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '691'
+- id: 10-1063-1-3298694
+  type: article
+  title: 'Communications: Accurate description of atoms and molecules by natural orbital functional theory'
+  doi: 10.1063/1.3298694
+  year: 2010
+  journal: Journal of Chemical Physics
+  volume: '132'
+  issue: '3'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '692'
+- id: 10-1016-j-cplett-2010-09-004
+  type: article
+  title: Complete basis set limit extrapolation calculations with PNOF3
+  doi: 10.1016/j.cplett.2010.09.004
+  year: 2010
+  journal: Chemical Physics Letters
+  volume: '499'
+  issue: 1-3
+  pages: 164-167
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Matxain
+  - M. Piris
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '616'
+- id: 10-1021-ct100069q
+  type: article
+  title: Computational Study of Promising Organic Dyes for High-Performance Sensitized Solar Cells
+  doi: 10.1021/ct100069q
+  year: 2010
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '6'
+  issue: '4'
+  pages: 1219-1227
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Francois P. Rotzinger
+  - Mihael Graetzel
+  teachpress_id: '1284'
+- id: 10-1021-jp105291u
+  type: article
+  title: Effects of The Nanoplasma Electrons on Coulomb Explosion of Xenon Clusters
+  doi: 10.1021/jp105291u
+  year: 2010
+  journal: Journal of Physical Chemistry C
+  volume: '114'
+  issue: '48'
+  pages: 20636-20647
+  authors:
+  - A. Heidenreich
+  - J. Jortner
+  teachpress_id: '478'
+- id: 10-1021-ct1003548
+  type: article
+  title: 'Electron Localization Function at the Correlated Level: A Natural Orbital Formulation'
+  doi: 10.1021/ct1003548
+  year: 2010
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '6'
+  issue: '9'
+  pages: 2736-2742
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Miguel Duran
+  - Miguel Sola
+  - Bernard Silvi
+  teachpress_id: '1054'
+- id: 10-1016-j-cplett-2010-05-008
+  type: article
+  title: High-level ab initio calculations on low barrier hydrogen bonds and proton bound homodimers
+  doi: 10.1016/j.cplett.2010.05.008
+  year: 2010
+  journal: Chemical Physics Letters
+  volume: '493'
+  issue: 1-3
+  pages: 37-44
+  authors:
+  - S. J. Grabowski
+  - J. M. Ugalde
+  teachpress_id: '462'
+- id: 10-1016-j-chemphys-2009-10-018
+  type: article
+  title: Hydrocarbons as proton donors in C-H center dot center dot center dot N and C-H center dot center dot center dot S hydrogen bonds
+  doi: 10.1016/j.chemphys.2009.10.018
+  year: 2010
+  journal: Chemical Physics
+  volume: '367'
+  issue: '1'
+  pages: 1-6
+  authors:
+  - M. Domagala
+  - S. J. Grabowski
+  teachpress_id: '353'
+- id: 10-1021-jo9022414
+  type: article
+  title: Intramolecular Double Proton Transfer from 2-Hydroxy-2-iminoacetic Acid to 2-Amino-2-oxoacetic Acid
+  doi: 10.1021/jo9022414
+  year: 2010
+  journal: Journal of Organic Chemistry
+  volume: '75'
+  issue: '5'
+  pages: 1419-1426
+  authors:
+  - B. Bankiewicz
+  - S. Wojtulewski
+  - S. J. Grabowski
+  teachpress_id: '316'
+- id: 10-1142-s0217979210057274
+  type: article
+  title: 'KINETIC ENERGY FUNCTIONALS: EXACT ONES FROM ANALYTIC MODEL WAVE FUNCTIONS AND APPROXIMATE ONES IN ORBITAL-FREE MOLECULAR DYNAMICS'
+  doi: 10.1142/s0217979210057274
+  year: 2010
+  journal: International Journal of Modern Physics B
+  volume: '24'
+  issue: 25-26
+  pages: 5139-5151
+  authors:
+  - V. V. Karasiev
+  - X. Lopez
+  - J. M. Ugalde
+  - E. V. Ludena
+  teachpress_id: '521'
+- id: 10-1002-chem-200902996
+  type: article
+  title: Ligand Association/Dissociation Paths and Ill-Defined Coordination Numbers
+  doi: 10.1002/chem.200902996
+  year: 2010
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '16'
+  issue: '22'
+  pages: 6567-6581
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Antonio Ruiz-Martinez
+  - David Casanova
+  - Santiago Alvarez
+  teachpress_id: '1286'
+- id: 10-1021-jp909004y
+  type: article
+  title: Molecular Dynamics Simulation of Bovine Pancreatic Ribonuclease A-CpA and Transition State-like Complexes
+  doi: 10.1021/jp909004y
+  year: 2010
+  journal: Journal of Physical Chemistry B
+  volume: '114'
+  issue: '21'
+  pages: 7371-7382
+  authors:
+  - E. Formoso
+  - J. M. Matxain
+  - X. Lopez
+  - D. M. York
+  teachpress_id: '373'
+- id: 10-1039-b924972a
+  type: article
+  title: Patterns of π-electron delocalization in aromatic and antiaromatic organic compounds in the light of Huckel's 4n+2 rule
+  doi: 10.1039/b924972a
+  year: 2010
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '12'
+  issue: '26'
+  pages: 7126-7137
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Miquel Sola
+  - Jordi Poater
+  teachpress_id: '1059'
+- id: 10-1039-c003379k
+  type: article
+  title: 'Performance of PNOF3 for reactivity studies: X BO and X CN isomerization reactions (X = H, Li) as a case study'
+  doi: 10.1039/c003379k
+  year: 2010
+  journal: Physical Chemistry Chemical Physics
+  volume: '12'
+  issue: '40'
+  pages: 12931-12934
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - X. Lopez
+  - M. Piris
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '564'
+- id: 10-1039-b926389f
+  type: article
+  title: 'Properties of harmonium atoms from FCI calculations: Calibration and benchmarks for the ground state of the two-electron species'
+  doi: 10.1039/b926389f
+  year: 2010
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '12'
+  issue: '25'
+  pages: 6712-6716
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Jerzy Cioslowski
+  - Sergei F. Vyboishchikov
+  teachpress_id: '1060'
+- id: 10-1039-c0cp01326a
+  type: article
+  title: 'Quantifying the symmetry content of the electronic structure of molecules: molecular orbitals and the wave function'
+  doi: 10.1039/c0cp01326a
+  year: 2010
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '12'
+  issue: '47'
+  pages: 15523-15529
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Pere Alemany
+  teachpress_id: '1281'
+- id: 10-1002-cphc-200901020
+  type: article
+  title: Quantum Chemical Study of the Reaction between Ni+ and H2S
+  doi: 10.1002/cphc.200901020
+  year: 2010
+  journal: Chemphyschem
+  volume: '11'
+  issue: '14'
+  pages: 3172-3178
+  authors:
+  - O. Lakuntza
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '529'
+- id: 10-1063-1-3372793
+  type: article
+  title: Quantum Monte Carlo study of the ground state and low-lying excited states of the scandium dimer (vol 128, 194315, 2008)
+  doi: 10.1063/1.3372793
+  year: 2010
+  journal: Journal of Chemical Physics
+  volume: '132'
+  issue: '13'
+  authors:
+  - J. M. Matxain
+  - E. Rezabal
+  - X. Lopez
+  - J. M. Ugalde
+  - L. Gagliardi
+  teachpress_id: '620'
+- id: 10-1021-ct100304c
+  type: article
+  title: 'Scalar and Spin-Orbit Relativistic Corrections to the NICS and the Induced Magnetic Field: The case of the E122- Spherenes (E = Ge, Sn, Pb)'
+  doi: 10.1021/ct100304c
+  year: 2010
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '6'
+  issue: '9'
+  pages: 2701-2705
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Abril Carolina Castro
+  - Edison Osorio
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - William Tiznado
+  - Gabriel Merino
+  teachpress_id: '1053'
+- id: 10-1039-b9nj00507b
+  type: article
+  title: Spectroscopic and theoretical studies on some new pyrrol-2-yl-chloromethyl ketones
+  doi: 10.1039/b9nj00507b
+  year: 2010
+  journal: New Journal of Chemistry
+  volume: '34'
+  issue: '3'
+  pages: 556-566
+  authors:
+  - A. T. Dubis
+  - M. Domagala
+  - S. J. Grabowski
+  teachpress_id: '355'
+- id: 10-1021-jp909357c
+  type: article
+  title: Structure and Stability of the Endohedrally Doped (X@CdiSi)(i=4,9,12,15,16)(q=0,+/- 1)
+  doi: 10.1021/jp909357c
+  year: 2010
+  journal: Journal of Physical Chemistry C
+  volume: '114'
+  issue: '6'
+  pages: 2476-2483
+  groups:
+  - matcat
+  tags:
+  - MatCat-NanoSurf
+  authors:
+  - E. Jimenez-Izal
+  - J. M. Matxain
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '514'
+- id: 10-1002-jcc-21532
+  type: article
+  title: Symmetry Measures of the Electron Density
+  doi: 10.1002/jcc.21532
+  year: 2010
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '31'
+  issue: '13'
+  pages: 2389-2404
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Pere Alemany
+  - Santiago Alvarez
+  teachpress_id: '1282'
+- id: wos-000208164705005
+  type: article
+  title: 'Test to evaluate the performance of aromaticity descriptors in all-metal and semimetal clusters: An appraisal of electronic and magnetic indicators of aromaticity'
+  year: 2010
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '240'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jordi Poater
+  - Ferran Feixas
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Miquel Sola
+  teachpress_id: '1055'
+- id: 10-1021-ja104772w
+  type: article
+  title: 'Theoretical Study of Substituted PBPB Dimers: Structural Analysis, Tetraradical Character, and Excited States'
+  doi: 10.1021/ja104772w
+  year: 2010
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '132'
+  issue: '32'
+  pages: 11314-11322
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Franziska Bell
+  - David Casanova
+  - Martin Head-Gordon
+  teachpress_id: '1283'
+- id: 10-1002-chem-200903404
+  type: article
+  title: 'Tuning the Magnetic Moment of [Ru2(DPhF)3(O2CMe)L]+ Complexes (DPhF=N,N′-Diphenylformamidinate): A Theoretical Explanation of the Axial Ligand Influence'
+  doi: 10.1002/chem.200903404
+  year: 2010
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '16'
+  issue: '21'
+  pages: 6203-6211
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - M. Carmen Barral
+  - David Casanova
+  - Santiago Herrero
+  - Reyes Jimenez-Aparicio
+  - M. Rosario Torres
+  - Francisco A. Urbanos
+  teachpress_id: '1285'
+- id: 10-1021-ct100229f
+  type: article
+  title: Using Electronic Energy Derivative Information in Automated Potential Energy Surface Construction for Vibrational Calculations
+  doi: 10.1021/ct100229f
+  year: 2010
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '6'
+  issue: '10'
+  pages: 3162-3175
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Manuel Sparta
+  - Mikkel B. Hansen
+  - Eduard Matito
+  - Daniele Toffoli
+  - Ove Christiansen
+  teachpress_id: '1052'

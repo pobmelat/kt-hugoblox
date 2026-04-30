@@ -1,0 +1,654 @@
+items:
+- id: 10-1039-c3cp51687c
+  type: article
+  title: A DFT/TDDFT study on the optoelectronic properties of the amine-capped magic (CdSe)(13) nanocluster
+  doi: 10.1039/c3cp51687c
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '26'
+  pages: 10996-11005
+  authors:
+  - J. M. Azpiroz
+  - J. M. Matxain
+  - I. Infante
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '308'
+- id: 10-1002-qua-24020
+  type: article
+  title: A natural orbital functional based on an explicit approach of the two-electron cumulant
+  doi: 10.1002/qua.24020
+  year: 2013
+  journal: International Journal of Quantum Chemistry
+  volume: '113'
+  issue: '5'
+  pages: 620-630
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '669'
+- id: 10-1039-c3cp51798e
+  type: article
+  title: 'Benchmark calculations of metal carbonyl cations: relativistic vs. electron correlation effects'
+  doi: 10.1039/c3cp51798e
+  year: 2013
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '15'
+  issue: '46'
+  pages: 20080-20090
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Pedro Salvador
+  - Jacek Styszynski
+  teachpress_id: '1091'
+- id: 10-1016-j-comptc-2012-07-016
+  type: article
+  title: Bounds on the PNOF5 natural geminal occupation numbers
+  doi: 10.1016/j.comptc.2012.07.016
+  year: 2013
+  journal: Computational and Theoretical Chemistry
+  volume: '1003'
+  pages: 123-126
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '670'
+- id: 10-1063-1-4802585
+  type: article
+  title: 'Communication: Chemical bonding in carbon dimer isovalent series from the natural orbital functional theory perspective'
+  doi: 10.1063/1.4802585
+  year: 2013
+  journal: Journal of Chemical Physics
+  volume: '138'
+  issue: '15'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Matxain
+  - F. Ruiperez
+  - I. Infante
+  - X. Lopez
+  - J. M. Ugalde
+  - G. Merino
+  - M. Piris
+  teachpress_id: '621'
+- id: 10-1021-jp4016933
+  type: article
+  title: Complexes between Dihydrogen and Amine, Phosphine, and Arsine Derivatives. Hydrogen Bond versus Pnictogen Interaction
+  doi: 10.1021/jp4016933
+  year: 2013
+  journal: Journal of Physical Chemistry A
+  volume: '117'
+  issue: '15'
+  pages: 3243-3251
+  authors:
+  - S. J. Grabowski
+  - I. Alkorta
+  - J. Elguero
+  teachpress_id: '452'
+- id: 10-2533-chimia-2013-116
+  type: article
+  title: Computational Comparison of CPDT to other Conjugated Linkers in Triarylamine-based Organic Dyes
+  doi: 10.2533/chimia.2013.116
+  year: 2013
+  journal: CHIMIA
+  volume: '67'
+  issue: '3'
+  pages: 116-120
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Claudia Climent
+  - David Casanova
+  teachpress_id: '1272'
+- id: 10-1007-s00894-012-1548-3
+  type: article
+  title: Computational study of Be-2 using Piris natural orbital functionals
+  doi: 10.1007/s00894-012-1548-3
+  year: 2013
+  journal: Journal of Molecular Modeling
+  volume: '19'
+  issue: '5'
+  pages: 1967-1972
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Matxain
+  - F. Ruiperez
+  - M. Piris
+  teachpress_id: '622'
+- id: 10-1002-chem-201203862
+  type: article
+  title: Computational Study on the Attack of (OH)-O-center dot Radicals on Aromatic Amino Acids
+  doi: 10.1002/chem.201203862
+  year: 2013
+  journal: Chemistry-a European Journal
+  volume: '19'
+  issue: '21'
+  pages: 6862-6873
+  authors:
+  - J. I. Mujika
+  - J. Uranga
+  - J. M. Matxain
+  teachpress_id: '657'
+- id: 10-1080-00268976-2013-788746
+  type: article
+  title: Conversion of laser energy to nuclear energy driven by Coulomb explosion of nanostructures
+  doi: 10.1080/00268976.2013.788746
+  year: 2013
+  journal: Molecular Physics
+  volume: '111'
+  issue: 14-15
+  pages: 2108-2117
+  authors:
+  - A. Heidenreich
+  - I. Last
+  - S. Ron
+  - J. Jortner
+  teachpress_id: '480'
+- id: 10-1007-s00214-013-1347-7
+  type: article
+  title: Cooperativity of hydrogen and halogen bond interactions
+  doi: 10.1007/s00214-013-1347-7
+  year: 2013
+  journal: Theoretical Chemistry Accounts
+  volume: '132'
+  issue: '4'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '409'
+- id: 10-1017-hpl-2013-10
+  type: article
+  title: Coulomb explosion of nanodroplets drives the conversion of laser energy to nuclear energy
+  doi: 10.1017/hpl.2013.10
+  year: 2013
+  journal: High Power Laser Science and Engineering
+  volume: '1'
+  issue: '2'
+  pages: 69-73
+  authors:
+  - I. Last
+  - S. Ron
+  - A. Heidenreich
+  - J. Jortner
+  teachpress_id: '540'
+- id: 10-1002-poc-3109
+  type: article
+  title: Dihydrogen bond and X-H center dot center dot center dot sigma interaction as sub-classes of hydrogen bond
+  doi: 10.1002/poc.3109
+  year: 2013
+  journal: Journal of Physical Organic Chemistry
+  volume: '26'
+  issue: '6'
+  pages: 452-459
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '410'
+- id: 10-1002-jcc-23188
+  type: article
+  title: Efficient implementation of restricted active space configuration interaction with the hole and particle approximation
+  doi: 10.1002/jcc.23188
+  year: 2013
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '34'
+  issue: '9'
+  pages: 720-730
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1270'
+- id: 10-1063-1-4801328
+  type: article
+  title: Electronic spectroscopy and electronic structure of diatomic IrSi
+  doi: 10.1063/1.4801328
+  year: 2013
+  journal: Journal of Chemical Physics
+  volume: '138'
+  issue: '15'
+  authors:
+  - M. A. Garcia
+  - C. Vietz
+  - F. Ruiperez
+  - M. D. Morse
+  - I. Infante
+  teachpress_id: '391'
+- id: 10-1016-j-chemphys-2013-07-006
+  type: article
+  title: 'Electronic structure calculations for the study of D-π-A organic sensitizers: Exploring polythiophene linkers'
+  doi: 10.1016/j.chemphys.2013.07.006
+  year: 2013
+  journal: CHEMICAL PHYSICS
+  volume: '423'
+  pages: 157-166
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Claudia Climent
+  - David Casanova
+  teachpress_id: '1266'
+- id: 10-1021-jp305379s
+  type: article
+  title: First Principle Approach to Solvation by Methylimidazolium-Based Ionic Liquids
+  doi: 10.1021/jp305379s
+  year: 2013
+  journal: Journal of Physical Chemistry B
+  volume: '117'
+  issue: '2'
+  pages: 553-562
+  authors:
+  - E. Rezabal
+  - T. Schafer
+  teachpress_id: '717'
+- id: 10-1016-j-jinorgbio-2013-07-024
+  type: article
+  title: 'Formation of the OOH center dot radical at steps of the boehmite surface and its inhibition by gallic acid: A theoretical study including DFT-based dynamics'
+  doi: 10.1016/j.jinorgbio.2013.07.024
+  year: 2013
+  journal: Journal of Inorganic Biochemistry
+  volume: '128'
+  pages: 164-173
+  authors:
+  - T. Ribeiro
+  - A. Motta
+  - P. Marcus
+  - M. P. Gaigeot
+  - X. Lopez
+  - D. Costa
+  teachpress_id: '720'
+- id: 10-1007-s00894-012-1553-6
+  type: article
+  title: Heavy periodane
+  doi: 10.1007/s00894-012-1553-6
+  year: 2013
+  journal: Journal of Molecular Modeling
+  volume: '19'
+  issue: '5'
+  pages: 1953-1958
+  authors:
+  - J. M. Azpiroz
+  - D. Moreno
+  - A. Ramirez-Manzanares
+  - J. M. Ugalde
+  - M. A. Mendez-Rojas
+  - G. Merino
+  teachpress_id: '309'
+- id: 10-1039-c3cp50537e
+  type: article
+  title: Hydrogen and halogen bonds are ruled by the same mechanisms
+  doi: 10.1039/c3cp50537e
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '19'
+  pages: 7249-7259
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '411'
+- id: 10-1063-1-4817946
+  type: article
+  title: Interpair electron correlation by second-order perturbative corrections to PNOF5
+  doi: 10.1063/1.4817946
+  year: 2013
+  journal: Journal of Chemical Physics
+  volume: '139'
+  issue: '6'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '671'
+- id: 10-1103-physrevb-88-245407
+  type: article
+  title: 'Knock-on damage in bilayer graphene: Indications for a catalytic pathway'
+  doi: 10.1103/PhysRevB.88.245407
+  year: 2013
+  journal: Physical Review B
+  volume: '88'
+  issue: '24'
+  authors:
+  - J. Zubeltzu
+  - A. Chuvilin
+  - F. Corsetti
+  - A. Zurutuza
+  - E. Artacho
+  teachpress_id: '826'
+- id: 10-1002-wcms-1115
+  type: article
+  title: Metalloaromaticity
+  doi: 10.1002/wcms.1115
+  year: 2013
+  journal: WILEY INTERDISCIPLINARY REVIEWS-COMPUTATIONAL MOLECULAR SCIENCE
+  volume: '3'
+  issue: '2'
+  pages: 105-122
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1100'
+- id: 10-1016-j-poly-2013-01-045
+  type: article
+  title: Microwave-assisted facile and expeditive syntheses of phosphorescent cyclometallated iridium(III) complexes
+  doi: 10.1016/j.poly.2013.01.045
+  year: 2013
+  journal: POLYHEDRON
+  volume: '53'
+  pages: 286-294
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Parvej Alam
+  - Inamur Rahaman Laskar
+  - Claudia Climent
+  - David Casanova
+  - Pere Alemany
+  - Maheswararao Karanam
+  - Angshuman Roy Choudhury
+  - J. Raymond Butcher
+  teachpress_id: '1269'
+- id: 10-1021-ic301657c
+  type: article
+  title: 'Molecules with High Bond Orders and Ultrashort Bond Lengths: CrU, MoU, and WU'
+  doi: 10.1021/ic301657c
+  year: 2013
+  journal: Inorganic Chemistry
+  volume: '52'
+  issue: '6'
+  pages: 2838-2843
+  authors:
+  - F. Ruiperez
+  - G. Merino
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '730'
+- id: 10-1007-s00894-012-1463-7
+  type: article
+  title: Non-covalent interactions - QTAIM and NBO analysis
+  doi: 10.1007/s00894-012-1463-7
+  year: 2013
+  journal: Journal of Molecular Modeling
+  volume: '19'
+  issue: '11'
+  pages: 4713-4721
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '412'
+- id: 10-1039-c3cp50892g
+  type: article
+  title: On the directionality of halogen bonding
+  doi: 10.1039/c3cp50892g
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '25'
+  pages: 10350-10357
+  authors:
+  - S. M. Huber
+  - J. D. Scanlon
+  - E. Jimenez-Izal
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '486'
+- id: 10-1021-ic4004774
+  type: article
+  title: Pseudo-symmetry Analysis of the d-block Molecular Orbitals in Four-Coordinate Complexes
+  doi: 10.1021/ic4004774
+  year: 2013
+  journal: INORGANIC CHEMISTRY
+  volume: '52'
+  issue: '11'
+  pages: 6510-6519
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Andres Falceto
+  - David Casanova
+  - Pere Alemany
+  - Santiago Alvarez
+  teachpress_id: '1268'
+- id: 10-1002-jcc-23257
+  type: article
+  title: Pseudosymmetry analysis of molecular orbitals
+  doi: 10.1002/jcc.23257
+  year: 2013
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '34'
+  issue: '15'
+  pages: 1321-1331
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Pere Alemany
+  - Andres Falceto
+  - Abel Carreras
+  - Santiago Alvarez
+  teachpress_id: '1267'
+- id: 10-1039-c2cp43544f
+  type: article
+  title: Quantum chemical study of the catalytic activation of methane by copper oxide and copper hydroxide cations
+  doi: 10.1039/c2cp43544f
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '4'
+  pages: 1148-1153
+  authors:
+  - E. Rezabal
+  - F. Ruiperez
+  - J. M. Ugalde
+  teachpress_id: '716'
+- id: 10-1002-chem-201300222
+  type: article
+  title: Quantum Chemical Study of the Reactions between Pd+/Pt+ and H2O/H2S
+  doi: 10.1002/chem.201300222
+  year: 2013
+  journal: Chemistry-a European Journal
+  volume: '19'
+  issue: '27'
+  pages: 8832-8838
+  authors:
+  - O. Lakuntza
+  - J. M. Matxain
+  - F. Ruiperez
+  - J. M. Ugalde
+  - P. B. Armentrout
+  teachpress_id: '528'
+- id: 10-1039-c2cp43562d
+  type: article
+  title: Resonance-assisted hydrogen bonds revisited. Resonance stabilization vs. charge delocalization
+  doi: 10.1039/c2cp43562d
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '7'
+  pages: 2514-2522
+  authors:
+  - R. W. Gora
+  - M. Maj
+  - S. J. Grabowski
+  teachpress_id: '400'
+- id: 10-1039-c2cp43293e
+  type: article
+  title: Restricted active space spin-flip (RAS-SF) with arbitrary number of spin-flips
+  doi: 10.1039/c2cp43293e
+  year: 2013
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '15'
+  issue: '1'
+  pages: 358-366
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Franziska Bell
+  - Paul M. Zimmerman
+  - David Casanova
+  - Matthew Goldey
+  - Martin Head-Gordon
+  teachpress_id: '1271'
+- id: 10-3390-computation1030031
+  type: article
+  title: Second-Row Transition- Metal Doping of (ZniSi)
+  doi: 10.3390/computation1030031
+  year: 2013
+  journal: Computation
+  volume: '1'
+  issue: '3'
+  pages: 31-45
+  groups:
+  - matcat
+  tags:
+  - MatCat-NanoSurf
+  authors:
+  - E. Jimenez-Izal
+  - J. M. Matxain
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '517'
+- id: 10-1002-chem-201302030
+  type: article
+  title: 'sigma-Hole Bond Versus Hydrogen Bond: From Tetravalent to Pentavalent N, P, and As Atoms'
+  doi: 10.1002/chem.201302030
+  year: 2013
+  journal: Chemistry-a European Journal
+  volume: '19'
+  issue: '43'
+  pages: 14600-14611
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '413'
+- id: 10-1039-c3cp53927j
+  type: article
+  title: Structural, energetic, spectroscopic and QTAIM analyses of cation-pi interactions involving mono-and bi-cyclic ring fused benzene systems
+  doi: 10.1039/c3cp53927j
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '48'
+  pages: 20839-20856
+  authors:
+  - A. Hassan
+  - T. C. Dinadayalane
+  - S. J. Grabowski
+  - J. Leszczynski
+  teachpress_id: '473'
+- id: 10-1063-1-4844075
+  type: article
+  title: The intrapair electron correlation in natural orbital functional theory
+  doi: 10.1063/1.4844075
+  year: 2013
+  journal: Journal of Chemical Physics
+  volume: '139'
+  issue: '23'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  teachpress_id: '689'
+- id: 10-1039-c2cp43559d
+  type: article
+  title: The natural orbital functional theory of the bonding in Cr-2, Mo-2 and W-2
+  doi: 10.1039/c2cp43559d
+  year: 2013
+  journal: Physical Chemistry Chemical Physics
+  volume: '15'
+  issue: '6'
+  pages: 2055-2062
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - F. Ruiperez
+  - M. Piris
+  - J. M. Ugalde
+  - J. M. Matxain
+  teachpress_id: '732'
+- id: 10-1007-s00214-012-1298-4
+  type: article
+  title: The one-electron picture in the Piris natural orbital functional 5 (PNOF5)
+  doi: 10.1007/s00214-012-1298-4
+  year: 2013
+  journal: Theoretical Chemistry Accounts
+  volume: '132'
+  issue: '2'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '695'
+- id: 10-1007-s00894-012-1465-5
+  type: article
+  title: Theoretical study of the pH-dependent antioxidant properties of vitamin C
+  doi: 10.1007/s00894-012-1465-5
+  year: 2013
+  journal: Journal of Molecular Modeling
+  volume: '19'
+  issue: '5'
+  pages: 1945-1952
+  authors:
+  - J. I. Mujika
+  - J. M. Matxain
+  teachpress_id: '649'
+- id: 10-1021-jp4033589
+  type: article
+  title: Toward an Understanding of the Hydrogenation Reaction of MO2 Gas-Phase Clusters (M = Ti, Zr, and Hf)
+  doi: 10.1021/jp4033589
+  year: 2013
+  journal: Journal of Physical Chemistry A
+  volume: '117'
+  issue: '25'
+  pages: 5354-5364
+  authors:
+  - P. Gonzalez-Navarrete
+  - M. Calatayud
+  - J. Andres
+  - F. Ruiperez
+  - D. Roca-Sanjuan
+  teachpress_id: '399'

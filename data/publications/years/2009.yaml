@@ -1,0 +1,310 @@
+items:
+- id: 10-1063-1-3092921
+  type: article
+  title: A hierarchy of potential energy surfaces constructed from energies and energy derivatives calculated on grids
+  doi: 10.1063/1.3092921
+  year: 2009
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '130'
+  issue: '13'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Daniele Toffoli
+  - Ove Christiansen
+  teachpress_id: '1065'
+- id: 10-1080-00268970902740563
+  type: article
+  title: Can correlation bring electrons closer together?
+  doi: 10.1080/00268970902740563
+  year: 2009
+  journal: Molecular Physics
+  volume: '107'
+  issue: 8-12
+  pages: 1089-1093
+  authors:
+  - J. K. Pearson
+  - P. M. W. Gill
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '665'
+- id: 10-1021-ja903694d
+  type: article
+  title: Designing 3-D Molecular Stars
+  doi: 10.1021/ja903694d
+  year: 2009
+  journal: Journal of the American Chemical Society
+  volume: '131'
+  issue: '26'
+  pages: 9426-9431
+  authors:
+  - W. Tiznado
+  - N. Perez-Peralta
+  - R. Islas
+  - A. Toro-Labbe
+  - J. M. Ugalde
+  - G. Merino
+  teachpress_id: '774'
+- id: 10-1063-1-3066652
+  type: article
+  title: 'Double spin-flip approach within equation-of-motion coupled cluster and configuration interaction formalisms: Theory, implementation, and examples'
+  doi: 10.1063/1.3066652
+  year: 2009
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '130'
+  issue: '4'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Lyudmila V. Slipchenko
+  - Anna I. Krylov
+  - Martin Head-Gordon
+  teachpress_id: '1289'
+- id: 10-1021-jp903023c
+  type: article
+  title: Evidence of High center dot OH Radical Quenching Efficiency by Vitamin B-6
+  doi: 10.1021/jp903023c
+  year: 2009
+  journal: Journal of Physical Chemistry B
+  volume: '113'
+  issue: '29'
+  pages: 9629-9632
+  authors:
+  - J. M. Matxain
+  - D. Padro
+  - M. Ristila
+  - A. Strid
+  - L. A. Eriksson
+  teachpress_id: '614'
+- id: 10-1002-jcc-21225
+  type: article
+  title: Iterative Diagonalization for Orbital Optimization in Natural Orbital Functional Theory
+  doi: 10.1002/jcc.21225
+  year: 2009
+  journal: Journal of Computational Chemistry
+  volume: '30'
+  issue: '13'
+  pages: 2078-2086
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '700'
+- id: 10-1021-jp808911p
+  type: article
+  title: 'Modeling Protein Splicing: Reaction Pathway for C-Terminal Splice and Intein Scission'
+  doi: 10.1021/jp808911p
+  year: 2009
+  journal: Journal of Physical Chemistry B
+  volume: '113'
+  issue: '16'
+  pages: 5607-5616
+  authors:
+  - J. I. Mujika
+  - X. Lopez
+  - A. J. Mulholland
+  teachpress_id: '646'
+- id: 10-1021-jp903659u
+  type: article
+  title: Performance of Quasi-Degenerate Scaled Opposite Spin Perturbation Corrections to Single Excitation Configuration Interaction for Excited State Structures and Excitation Energies with Application to the Stokes Shift of 9-Methyl-9,10-dihydro-9-silaphenanthrene
+  doi: 10.1021/jp903659u
+  year: 2009
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '113'
+  issue: '39'
+  pages: 10564-10576
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Young Min Rhee
+  - David Casanova
+  - Martin Head-Gordon
+  teachpress_id: '1287'
+- id: 10-1021-ct800509z
+  type: article
+  title: Quartic-Scaling Analytical Gradient of Quasidegenerate Scaled Opposite Spin Second-Order Perturbation Corrections to Single Excitation Configuration Interaction
+  doi: 10.1021/ct800509z
+  year: 2009
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '5'
+  issue: '5'
+  pages: 1224-1236
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Young Min Rhee
+  - David Casanova
+  - Martin Head-Gordon
+  teachpress_id: '1288'
+- id: 10-1039-b911513g
+  type: article
+  title: 'Restricted active space spin-flip configuration interaction approach: theory, implementation and examples'
+  doi: 10.1039/b911513g
+  year: 2009
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '11'
+  issue: '42'
+  pages: 9779-9790
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Martin Head-Gordon
+  teachpress_id: '1290'
+- id: 10-1021-ja8095043
+  type: article
+  title: Sandwich Complexes of the Metalloaromatic eta(3)-Al3R3 Ligand
+  doi: 10.1021/ja8095043
+  year: 2009
+  journal: Journal of the American Chemical Society
+  volume: '131'
+  issue: '20'
+  pages: 6949-+
+  groups:
+  - matcat
+  tags:
+  - MatCat-NanoSurf
+  authors:
+  - J. M. Mercero
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '253'
+- id: 10-1063-1-3180958
+  type: article
+  title: Spin conserving natural orbital functional theory
+  doi: 10.1063/1.3180958
+  year: 2009
+  journal: Journal of Chemical Physics
+  volume: '131'
+  issue: '2'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Matxain
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '690'
+- id: 10-1002-marc-200900528
+  type: article
+  title: Synthesis of Cationic Polyelectrolytes by Inverse Microemulsion Polymerization
+  doi: 10.1002/marc.200900528
+  year: 2009
+  journal: Macromolecular Rapid Communications
+  volume: '30'
+  issue: '23'
+  pages: 2036-2041
+  authors:
+  - G. Gonzalez
+  - J. M. Ugalde
+  - J. C. Cal
+  - J. M. Asua
+  teachpress_id: '398'
+- id: 10-1016-j-ccr-2008-10-003
+  type: article
+  title: The role of electronic delocalization in transition metal complexes from the electron localization function and the quantum theory of atoms in molecules viewpoints
+  doi: 10.1016/j.ccr.2008.10.003
+  year: 2009
+  journal: COORDINATION CHEMISTRY REVIEWS
+  volume: 253(5-6
+  issue: 5-6, SI
+  pages: SI), 647-665
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Miquel Sola
+  teachpress_id: '1066'
+- id: 10-1007-s00214-009-0535-y
+  type: article
+  title: The vibrational auto-adjusting perturbation theory
+  doi: 10.1007/s00214-009-0535-y
+  year: 2009
+  journal: THEORETICAL CHEMISTRY ACCOUNTS
+  volume: '123'
+  issue: 1-2
+  pages: 41-49
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Juan Manuel Barroso
+  - Emili Besalu
+  - Ove Christiansen
+  - Josep M. Luis
+  teachpress_id: '1064'
+- id: 10-1002-chem-200802472
+  type: article
+  title: Thermally Stable Solids Based on Endohedrally Doped ZnS Clusters
+  doi: 10.1002/chem.200802472
+  year: 2009
+  journal: Chemistry-a European Journal
+  volume: '15'
+  issue: '20'
+  pages: 5138-5144
+  authors:
+  - J. M. Matxain
+  - M. Piris
+  - X. Lopez
+  - J. M. Ugaide
+  teachpress_id: '615'
+- id: 10-1002-jcc-21291
+  type: article
+  title: Tuning Aromaticity in Trigonal Alkaline Earth Metal Clusters and Their Alkali Metal Salts
+  doi: 10.1002/jcc.21291
+  year: 2009
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '30'
+  issue: '16'
+  pages: 2764-2776
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Lluis Blancafort
+  - Juvencio Robles
+  - Miquel Sola
+  teachpress_id: '1062'
+- id: 10-1063-1-3158946
+  type: article
+  title: 'Vibrational coupled cluster theory with full two-mode and approximate three-mode couplings: The VCC[2pt3] model'
+  doi: 10.1063/1.3158946
+  year: 2009
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '131'
+  issue: '3'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Peter Seidler
+  - Eduard Matito
+  - Ove Christiansen
+  teachpress_id: '1063'

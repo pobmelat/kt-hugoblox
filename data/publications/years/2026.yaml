@@ -1,18 +1,400 @@
 items:
-  - id: "maceiras-2026-glycidol-polymerization"
-    type: "article"
-    title: "An insight into the monomeric isomerism in the polymerization of glycidol with B(C6F5)3: A DFT study of the initiation, propagation and cyclization steps"
-    doi: "10.1016/j.polymer.2026.129792"
-    year: 2026
-    journal: "Polymer"
-    volume: "350"
-    issue: ""
-    pages: "129792"
-    groups: ["polkt"]
-    tags: ["IT2067"]
-    authors:
-      - "Xuban Gastearena"
-      - "Fernando Ruipérez"
-      - "Fabienne Barroso-Bujans"
-      - "Anabel Lam"
-      - "Jon M. Matxain"
+- id: https-doi-org-10-1021-acs-jctc-5c01861
+  type: article
+  title: '5- and 6-Membered Rings: A Natural Orbital Functional Study'
+  doi: 10.1021/acs.jctc.5c01861
+  year: 2026
+  journal: Journal of Chemical Theory and Computation
+  volume: '22'
+  pages: 2799-2807
+  groups:
+  - noft
+  tags:
+  - IT2067
+  - NOFT
+  authors:
+  - Ion Mitxelena
+  - Juan Felipe Huan Lew-Yee
+  - Mario Piris
+  teachpress_id: '944'
+- id: 10-1016-j-saa-2025-126772
+  type: article
+  title: Acrylamide molecule detection by surface-enhanced infrared absorption spectroscopy using resonant nanoantennas
+  doi: 10.1016/j.saa.2025.126772
+  year: 2026
+  journal: 'Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy'
+  volume: '345'
+  tags:
+  - IT2067
+  authors:
+  - Santos Merino
+  - Alberto Villar
+  - Ruth Díez-Ahedo
+  - Eider Gárate
+  - Iban Amenabar
+  - Ralph Gay
+  - Jorge Espina
+  - Mario Zapata-Herrera
+  - Roberto A. Boto
+  - Javier Aizpurua
+  teachpress_id: '943'
+- id: maceiras-2026-glycidol-polymerization
+  type: article
+  title: 'An insight into the monomeric isomerism in the polymerization of glycidol with B(C6F5)3: A DFT study of the initiation, propagation and cyclization steps'
+  doi: 10.1016/j.polymer.2026.129792
+  year: 2026
+  journal: Polymer
+  volume: '350'
+  issue: '129792'
+  groups:
+  - polkt
+  tags:
+  - IT2067
+  - POL-KT
+  authors:
+  - Xuban Gastearena
+  - Fernando Ruipérez
+  - Fabienne Barroso-Bujans
+  - Anabel Lam
+  - Jon M. Matxain
+  teachpress_id: '1310'
+- id: 10-1021-acs-jcim-5c01654
+  type: article
+  title: Computational Analysis of a Next-Generation Platinum-Based Chemotherapies that Induce DNA Double-Strand Breaks
+  doi: 10.1021/acs.jcim.5c01654
+  year: 2026
+  journal: J. Chem. Inf. Model.
+  volume: '66'
+  issue: '1'
+  pages: 668--683
+  tags:
+  - IT2067
+  authors:
+  - Amanda R. Guimarães
+  - Óscar R. Ballesteros
+  - Iván Rivilla
+  - Irene Olaizola
+  - Mikel Odriozola-Gimeno
+  - Abel de Cózar
+  - David de Sancho
+  - Xabier Lopez
+  - Jesus M. Banales
+  - Fernando P. Cossío
+  teachpress_id: '935'
+- id: 10-1039-d5sc09067a
+  type: article
+  title: Deciphering the molecular origin of the 19.3 eV electronic excitation energy of H 3 +
+  doi: 10.1039/d5sc09067a
+  year: 2026
+  journal: Chem. Sci.
+  volume: '17'
+  issue: '10'
+  pages: 5029--5037
+  groups:
+  - qcd
+  tags:
+  - IT2067
+  - QCD-KT
+  authors:
+  - Josene M. Toldo
+  - Jakob K. Staab
+  - Eduard Matito
+  - Cina Foroutan-Nejad
+  - Henrik Ottosson
+  teachpress_id: '950'
+- id: 10-1063-5-0316927
+  type: article
+  title: 'DoNOF 2.0: A modern open-source electronic structure program for natural orbital functionals'
+  doi: 10.1063/5.0316927
+  year: 2026
+  journal: The Journal of Chemical Physics
+  volume: '164'
+  pages: '072501'
+  groups:
+  - noft
+  tags:
+  - IT2067
+  - NOFT
+  authors:
+  - Juan Felipe Huan Lew-Yee
+  - Ion Mitxelena
+  - Jorge M. del Campo
+  - Mario Piris
+  teachpress_id: '937'
+- id: 10-1039-d5qo01343g
+  type: article
+  title: 'Electronic structure origins of radical character in triangular fused acenes: sextet stabilization vs. antiaromaticity release'
+  doi: 10.1039/d5qo01343g
+  year: 2026
+  journal: ORGANIC CHEMISTRY FRONTIERS
+  volume: '13'
+  issue: '3'
+  pages: 794-802
+  groups:
+  - moleles
+  tags:
+  - IT2067
+  - MolEles-KT
+  authors:
+  - Jose Aaron Rodriguez-Jimenez
+  - Jan Patrick Calupitan
+  - David Casanova
+  teachpress_id: '1131'
+- id: 10-1039-d5sc05918f
+  type: article
+  title: Interplay between diradical character, aromaticity and conductance in oligothiophenes
+  doi: 10.1039/d5sc05918f
+  year: 2026
+  journal: Chem. Sci.
+  volume: '17'
+  issue: '10'
+  pages: 5125--5144
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Louis Van Nyvel
+  - Irene Casademont-Reig
+  - Jochen Eeckhoudt
+  - Sergio Moles Quintero
+  - Frank De Proft
+  - Paul Geerlings
+  - Mercedes Alonso
+  teachpress_id: '946'
+- id: 10-1039-d5cp03907j
+  type: article
+  title: Limitations of quantum hardware for molecular energy estimation using VQE
+  doi: 10.1039/d5cp03907j
+  year: 2026
+  journal: Phys. Chem. Chem. Phys.
+  volume: '28'
+  issue: '4'
+  pages: 2834--2846
+  groups:
+  - moleles
+  tags:
+  - IT2067
+  - MolEles-KT
+  authors:
+  - Abel Carreras
+  - Román Orús
+  - David Casanova
+  teachpress_id: '939'
+- id: 10-1002-jcc-70293
+  type: article
+  title: Localized Molecular Orbitals for Single Excitation Theories
+  doi: 10.1002/jcc.70293
+  year: 2026
+  journal: J Comput Chem
+  volume: '47'
+  issue: '1'
+  groups:
+  - moleles
+  tags:
+  - IT2067
+  - MolEles-KT
+  authors:
+  - Aaditya Manjanath
+  - David Casanova
+  - Ryoji Sahara
+  - Chao‐Ping Hsu
+  teachpress_id: '941'
+- id: 10-1021-acs-jpclett-5c03753
+  type: article
+  title: Mechanistic Determinants of Oriented Enzyme Immobilization from Martini Simulations
+  doi: 10.1021/acs.jpclett.5c03753
+  year: 2026
+  journal: J. Phys. Chem. Lett.
+  volume: '17'
+  issue: '7'
+  pages: 2094--2102
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  - IT2067
+  authors:
+  - Juan Carlos Jiménez-García
+  - Nicoll Zeballos
+  - Fernando López-Gallego
+  - Xabier López
+  - David De Sancho
+  teachpress_id: '933'
+- id: 10-1039-d6sc00251j
+  type: article
+  title: Photochemical reduction of aryl chlorides, bromides, and iodides via ternary EDA complexes with guanidine bases
+  doi: 10.1039/d6sc00251j
+  year: 2026
+  journal: Chem. Sci.
+  groups:
+  - moleles
+  tags:
+  - IT2067
+  - MolEles-KT
+  authors:
+  - Robert J. Hannan
+  - Alexandria M. Vondran
+  - Sunghwan Cho
+  - Kerry M. Hanson
+  - Claire Tonnelé
+  - David Casanova
+  - Christopher J. Bardeen
+  - Ana Bahamonde
+  teachpress_id: '947'
+- id: 10-1039-d5ra09279e
+  type: article
+  title: 'Polymer-metal oxide interfaces in XHNBR/PA6 blends: computational insights toward sustainable crosslinking'
+  doi: 10.1039/d5ra09279e
+  year: 2026
+  journal: RSC Adv.
+  volume: '16'
+  issue: '10'
+  pages: 9167--9179
+  groups:
+  - polkt
+  tags:
+  - IT2067
+  - POL-KT
+  authors:
+  - Unai Calvo
+  - Jon M. Matxain
+  - Jose Javier Egurrola
+  - Aizeti Burgoa
+  - Fernando Ruipérez
+  teachpress_id: '942'
+- id: 10-1039-d5cp04030b
+  type: article
+  title: 'Pressure- and aggregation-induced modulation of linear and nonlinear optical properties in a push–pull chromophore: insights from computational modelling'
+  doi: 10.1039/d5cp04030b
+  year: 2026
+  journal: Phys. Chem. Chem. Phys.
+  volume: '28'
+  issue: '10'
+  pages: 6636--6648
+  groups:
+  - moleles
+  tags:
+  - IT2067
+  - MolEles-KT
+  authors:
+  - Josianne Owona
+  - Selom J. Goto
+  - Lionel Truflandier
+  - Claire Tonnelé
+  - Frédéric Castet
+  teachpress_id: '948'
+- id: 10-1002-jcc-70371
+  type: article
+  title: 'Quantum Interference and Aromaticity Control in Triazine‐Based Molecular Junctions: A Combined <scp>G</scp> reen''s Function and Density Functional Theory Study'
+  doi: 10.1002/jcc.70371
+  year: 2026
+  journal: J Comput Chem
+  volume: '47'
+  issue: '10'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Sergio Moles Quintero
+  - Artur Brotons‐Rufes
+  - Irene Casademont‐Reig
+  - Albert Poater
+  - Miquel Solà
+  - Sergio Posada‐Pérez
+  - Mercedes Alonso
+  teachpress_id: '1312'
+- id: 10-1016-j-resconrec-2025-108686
+  type: article
+  title: Solvent switch strategy to facilitate the downstream process of chemical recycling of plastics
+  doi: 10.1016/j.resconrec.2025.108686
+  year: 2026
+  journal: Resources, Conservation and Recycling
+  volume: '226'
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  - IT2067
+  authors:
+  - Emelin Luna
+  - Ion Olazabal
+  - Tobias de Somer
+  - Pieter Nachtergaele
+  - Xabier Lopez
+  - Marta Ximenis
+  - Steven de Meester
+  - Haritz Sardon
+  teachpress_id: '936'
+- id: 10-1021-acs-jctc-5c01904
+  type: article
+  title: 'Spin-Permutation Diabatization: A General Framework for Spin Localization and Exchange Coupling'
+  doi: 10.1021/acs.jctc.5c01904
+  year: 2026
+  journal: J. Chem. Theory Comput.
+  volume: '22'
+  issue: '2'
+  pages: 963--971
+  groups:
+  - moleles
+  tags:
+  - IT2067
+  - MolEles-KT
+  authors:
+  - Alicia Omist
+  - David Casanova
+  teachpress_id: '940'
+- id: 10-1002-cmdc-202500751
+  type: article
+  title: Synthesis, Biological Evaluation, and Theoretical Study of Indenoquinolinylphosphine Oxide Derivatives as Topoisomerase 1 Inhibitors and Antiproliferative Agents
+  doi: 10.1002/cmdc.202500751
+  year: 2026
+  journal: ChemMedChem
+  volume: '21'
+  issue: '5'
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  - IT2067
+  authors:
+  - Alba Rodriguez
+  - Elena Formoso
+  - Birgitta R. Knudsen
+  - Cinzia Tesauro
+  - Maria Fuertes
+  - Concepcion Alonso
+  teachpress_id: '1311'
+- id: 10-1016-j-freeradbiomed-2026-02-007
+  type: article
+  title: What lies beyond thioredoxin reductase? Cyclometallated gold compounds reveal Sec selectivity in glutathione peroxidases
+  doi: 10.1016/j.freeradbiomed.2026.02.007
+  year: 2026
+  journal: Free Radical Biology and Medicine
+  volume: '247'
+  pages: 139--156
+  groups:
+  - polkt
+  tags:
+  - IT2067
+  - POL-KT
+  authors:
+  - Ioannis Kanavos
+  - Douglas H. Nakahata
+  - Madeleine S. Barrett
+  - Ancély F. dos Santos
+  - Maria Zubiria-Ulacia
+  - German E. Pieslinger
+  - Ana Beatriz da Silva Teixeira
+  - Isadora Medeiros
+  - Clarissa Ribeiro Reily Rocha
+  - Jonas Eberle
+  - Ryszard Lobinski
+  - Jon Mattin Matxain
+  - Matthew D. Hall
+  - José P. Friedmann Angeli
+  - Elias S.J. Arnér
+  - Luisa Ronga
+  - Raphael E.F. de Paiva
+  teachpress_id: '1309'

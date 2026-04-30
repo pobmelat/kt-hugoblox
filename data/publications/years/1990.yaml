@@ -1,0 +1,58 @@
+items:
+- id: 10-1139-v90-120
+  type: article
+  title: CONFORMATIONS AND CHARGE-DISTRIBUTIONS IN FLUORONITROSOETHYLENES AND NITROSOETHYLENE
+  doi: 10.1139/v90-120
+  year: 1990
+  journal: Canadian Journal of Chemistry-Revue Canadienne De Chimie
+  volume: '68'
+  issue: '5'
+  pages: 762-769
+  authors:
+  - C. Sarasola
+  - F. P. Cossio
+  - J. M. Ugalde
+  teachpress_id: '745'
+- id: 10-1016-0168-583x-90-90064-2
+  type: article
+  title: DYNAMIC SCREENING OF SWIFT HYDROGENLIKE IONS MOVING IN CONDENSED MATTER
+  doi: 10.1016/0168-583x(90)90064-2
+  year: 1990
+  journal: Nuclear Instruments & Methods in Physics Research Section B-Beam Interactions with Materials and Atoms
+  volume: '48'
+  issue: 1-4
+  pages: 21-24
+  authors:
+  - J. L. Minchole
+  - J. M. Ugalde
+  - P. M. Echenique
+  teachpress_id: '627'
+- id: 10-1088-0953-4075-23-7-007
+  type: article
+  title: THE EVALUATION OF EXTRACULE AND INTRACULE DENSITIES IN THE 1ST-ROW HYDRIDES, LIH, BEH, BH, CH, NH, OH AND FH, FROM SELF-CONSISTENT FIELD MOLECULAR-ORBITAL WAVE-FUNCTIONS
+  doi: 10.1088/0953-4075/23/7/007
+  year: 1990
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '23'
+  issue: '7'
+  pages: 1095-1105
+  authors:
+  - C. Sarasola
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '752'
+- id: 10-1002-poc-610030303
+  type: article
+  title: TOPOLOGICAL EVIDENCE FOR AN N-N BOND IN CIS-1,2-DINITROSOETHENE - THE REMARKABLE STRUCTURE OF THE DI-N-OXIDE OF 1,2-DIAZACYCLOBUTADIENE
+  doi: 10.1002/poc.610030303
+  year: 1990
+  journal: Journal of Physical Organic Chemistry
+  volume: '3'
+  issue: '3'
+  pages: 143-146
+  authors:
+  - C. Sarasola
+  - S. C. Choi
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '744'

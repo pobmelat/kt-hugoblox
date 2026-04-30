@@ -1,0 +1,55 @@
+items:
+- id: rn258
+  type: article
+  title: AN ABINITIO SCF-MO STUDY OF THE DECOMPOSITION REACTION OF NITROSOETHYLENE TO FORMALDEHYDE AND HYDROGEN-CYANIDE
+  year: 1992
+  journal: Journal of Molecular Structure-Theochem
+  volume: '90'
+  issue: 1-2
+  pages: 167-174
+  authors:
+  - J. M. Ugalde
+  teachpress_id: '778'
+- id: 10-1088-0953-4075-25-6-005
+  type: article
+  title: ANALYSIS OF THE ELECTRON PAIR DENSITY FOR THE GROUND-STATE OF CARBON-DIOXIDE
+  doi: 10.1088/0953-4075/25/6/005
+  year: 1992
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '25'
+  issue: '6'
+  pages: 1137-1145
+  authors:
+  - L. Dominguez
+  - M. Aguado
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '354'
+- id: rn261
+  type: article
+  title: MOMENTS OF THE ELECTRON-PAIR DISTRIBUTION FUNCTION FOR 1ST ROW DIATOMIC-MOLECULES
+  year: 1992
+  journal: Journal of Molecular Structure-Theochem
+  volume: '85'
+  pages: 311-318
+  authors:
+  - M. Aguado
+  - C. Sarasola
+  - L. Dominguez
+  - J. M. Ugalde
+  teachpress_id: '283'
+- id: 10-1063-1-462566
+  type: article
+  title: THE LAPLACIAN OF THE INTRACULE AND EXTRACULE DENSITIES AND THEIR RELATIONSHIP TO THE SHELL STRUCTURE OF ATOMS
+  doi: 10.1063/1.462566
+  year: 1992
+  journal: Journal of Chemical Physics
+  volume: '96'
+  issue: '9'
+  pages: 6778-6783
+  authors:
+  - C. Sarasola
+  - L. Dominguez
+  - M. Aguado
+  - J. M. Ugalde
+  teachpress_id: '746'

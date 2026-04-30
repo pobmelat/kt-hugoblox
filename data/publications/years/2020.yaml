@@ -1,0 +1,832 @@
+items:
+- id: 10-1039-d0cp01291b
+  type: article
+  title: A new tuned range-separated density functional for the accurate calculation of second hyperpolarizabilities
+  doi: 10.1039/d0cp01291b
+  year: 2020
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '22'
+  issue: '21'
+  pages: 11871-11880
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Pau Besalu-Sala
+  - Sebastian P. Sitkiewicz
+  - Pedro Salvador
+  - Eduard Matito
+  - Josep M. Luis
+  teachpress_id: '983'
+- id: 10-1039-d0cc02525a
+  type: article
+  title: All-metal σ-antiaromaticity in dimeric cluster anion [CuGe9Mes]24-
+  doi: 10.1039/d0cc02525a
+  year: 2020
+  journal: CHEMICAL COMMUNICATIONS
+  volume: '56'
+  issue: '48'
+  pages: 6583-6586
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Zi-Chuan Wang
+  - Nikolay V Tkachenko
+  - Lei Qiao
+  - Eduard Matito
+  - Alvaro Munoz-Castro
+  - Alexander I Boldyrev
+  - Zhong-Ming Sun
+  teachpress_id: '982'
+- id: 10-1088-1361-648x-ab6d11
+  type: article
+  title: An efficient method for strongly correlated electrons in one dimension
+  doi: 10.1088/1361-648X/ab6d11
+  year: 2020
+  journal: Journal of Physics-Condensed Matter
+  volume: '32'
+  issue: '17'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - I. Mitxelena
+  - M. Piris
+  teachpress_id: '632'
+- id: 10-1063-1-5140985
+  type: article
+  title: An efficient method for strongly correlated electrons in two-dimensions
+  doi: 10.1063/1.5140985
+  year: 2020
+  journal: Journal of Chemical Physics
+  volume: '152'
+  issue: '6'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - I. Mitxelena
+  - M. Piris
+  teachpress_id: '633'
+- id: 10-1021-acs-nanolett-0c02349
+  type: article
+  title: 'An Ideal Spin Filter: Long-Range, High-Spin Selectivity in Chiral Helicoidal 3-Dimensional Metal Organic Frameworks'
+  doi: 10.1021/acs.nanolett.0c02349
+  year: 2020
+  journal: Nano Letters
+  volume: '20'
+  issue: '12'
+  pages: 8476-8482
+  authors:
+  - U. Huizi-Rayo
+  - J. Gutierrez
+  - J. M. Seco
+  - V. Mujica
+  - I. Diez-Perez
+  - J. M. Ugalde
+  - A. Tercjak
+  - J. Cepeda
+  - E. San Sebastian
+  teachpress_id: '489'
+- id: 10-1063-5-0012897
+  type: article
+  title: Analytic gradients for spin multiplets in natural orbital functional theory
+  doi: 10.1063/5.0012897
+  year: 2020
+  journal: Journal of Chemical Physics
+  volume: '153'
+  issue: '4'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - I. Mitxelena
+  - M. Piris
+  teachpress_id: '634'
+- id: 10-1063-5-0029146
+  type: article
+  title: 'Calculation of spin-orbit couplings using RASCI spinless one-particle density matrices: Theory and applications'
+  doi: 10.1063/5.0029146
+  year: 2020
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '153'
+  issue: '21'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Abel Carreras
+  - Hanjie Jiang
+  - Pavel Pokhilko
+  - Anna I Krylov
+  - Paul M. Zimmerman
+  - David Casanova
+  teachpress_id: '1197'
+- id: 10-1002-chem-202001945
+  type: article
+  title: 'Comparison of Chemical and Interpretative Methods: the Carbon-Boron pi-Bond as a Test Case**'
+  doi: 10.1002/chem.202001945
+  year: 2020
+  journal: Chemistry-a European Journal
+  volume: '26'
+  issue: '71'
+  pages: 17230-17241
+  authors:
+  - R. Gupta
+  - E. Rezabal
+  - G. Hasrack
+  - G. Frison
+  teachpress_id: '467'
+- id: 10-1039-d0cp00328j
+  type: article
+  title: Competitive binding of HIF-1 alpha and CITED2 to the TAZ1 domain of CBP from molecular simulations
+  doi: 10.1039/d0cp00328j
+  year: 2020
+  journal: Physical Chemistry Chemical Physics
+  volume: '22'
+  issue: '15'
+  pages: 8118-8127
+  authors:
+  - I. Ruiz-Ortiz
+  - D. De Sancho
+  teachpress_id: '736'
+- id: 10-1021-acs-inorgchem-0c01793
+  type: article
+  title: Computational Studies on the Binding Preferences of Molybdenum(II) Phenanthroline Complexes with Duplex DNA. The Important Role of the Ancillary Ligands
+  doi: 10.1021/acs.inorgchem.0c01793
+  year: 2020
+  journal: Inorganic Chemistry
+  volume: '59'
+  issue: '17'
+  pages: 12711-12721
+  authors:
+  - S. Elleuchi
+  - I. O. Luzuriaga
+  - A. Sanchez-Gonzalez
+  - X. Lopez
+  - K. Jarraya
+  - M. J. Calhorda
+  - A. Gil
+  teachpress_id: '359'
+- id: 10-1021-jacs-0c04537
+  type: article
+  title: Enantiospecific Response in Cross-Polarization Solid-State Nuclear Magnetic Resonance of Optically Active Metal Organic Frameworks
+  doi: 10.1021/jacs.0c04537
+  year: 2020
+  journal: Journal of the American Chemical Society
+  volume: '142'
+  issue: '42'
+  pages: 17989-17996
+  authors:
+  - E. San Sebastian
+  - J. Cepeda
+  - U. Huizi-Rayo
+  - A. Terenzi
+  - D. Finkelstein-Shapiro
+  - D. Padro
+  - J. I. Santos
+  - J. M. Matxain
+  - J. M. Ugalde
+  - V. Mujica
+  teachpress_id: '739'
+- id: 10-1002-anie-202009439
+  type: article
+  title: Engineering the Charge-Transfer State to Facilitate Spin-Orbit Charge Transfer Intersystem Crossing in Spirobis[anthracene]diones
+  doi: 10.1002/anie.202009439
+  year: 2020
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '59'
+  issue: '49'
+  pages: 22179-22184
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Meng Lv
+  - Yang Yu
+  - Maria E. Sandoval-Salinas
+  - Jianhua Xu
+  - Zuhai Lei
+  - David Casanova
+  - Youjun Yang
+  - Jinquan Chen
+  teachpress_id: '1199'
+- id: 10-1002-chem-201905122
+  type: article
+  title: Exciton Interactions, Excimer Formation, and [2π+2π] Photodimerization in Nonconjugated Curcuminoid-BF2 Dimers
+  doi: 10.1002/chem.201905122
+  year: 2020
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '26'
+  issue: '17'
+  pages: 3818-3828
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Manon Catherin
+  - Olatz Uranga-Barandiaran
+  - Arnaud Brosseau
+  - Remi Metivier
+  - Gabriel Canard
+  - Anthony D'Aleo
+  - David Casanova
+  - Frederic Castet
+  - Elena Zaborova
+  - Frederic Fages
+  teachpress_id: '1205'
+- id: 10-1021-acs-jpcc-9b07670
+  type: article
+  title: Field-Mediated Chirality Information Transfer in Molecule-Nanoparticle Hybrids
+  doi: 10.1021/acs.jpcc.9b07670
+  year: 2020
+  journal: Journal of Physical Chemistry C
+  volume: '124'
+  issue: '2'
+  pages: 1560-1565
+  authors:
+  - A. Garcia-Etxarri
+  - J. M. Ugalde
+  - J. J. Saenz
+  - V. Mujica
+  teachpress_id: '393'
+- id: 10-1021-acscatal-9b02863
+  type: article
+  title: Flavin Bioorthogonal Photocatalysis Toward Platinum Substrates
+  doi: 10.1021/acscatal.9b02863
+  year: 2020
+  journal: Acs Catalysis
+  volume: '10'
+  issue: '1'
+  pages: 187-196
+  tags:
+  - SUS-KT
+  authors:
+  - J. Gurruchaga-Pereda
+  - V. Martinez-Martinez
+  - E. Rezabal
+  - X. Lopez
+  - C. Garino
+  - F. Mancin
+  - A. L. Cortajarena
+  - L. Salassa
+  teachpress_id: '469'
+- id: 10-1002-cphc-202000544
+  type: article
+  title: Flavylium Fluorophores as Near-Infrared Emitters
+  doi: 10.1002/cphc.202000544
+  year: 2020
+  journal: CHEMPHYSCHEM
+  volume: '21'
+  issue: '20'
+  pages: 2243-2248
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Olatz Uranga-Barandiaran
+  - David Casanova
+  - Frederic Castet
+  teachpress_id: '1200'
+- id: 10-1038-s41586-020-2431-5
+  type: article
+  title: Fluorescent bicolour sensor for low-background neutrinoless double β decay experiments
+  doi: 10.1038/s41586-020-2431-5
+  year: 2020
+  journal: NATURE
+  volume: '583'
+  issue: '7814'
+  pages: 48+
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Ivan Rivilla
+  - Borja Aparicio
+  - Juan M. Bueno
+  - David Casanova
+  - Claire Tonnele
+  - Zoraida Freixa
+  - Pablo Herrero
+  - Celia Rogero
+  - Jose I Miranda
+  - Rosa M. Martinez-Ojeda
+  - Francesc Monrabal
+  - Benet Olave
+  - Thomas Schafer
+  - Pablo Artal
+  - David Nygren
+  - Fernando P. Cossio
+  - Juan J. Gomez-Cadenas
+  teachpress_id: '1202'
+- id: 10-3390-molecules25030711
+  type: article
+  title: How do the Huckel and Baird Rules Fade away in Annulenes?
+  doi: 10.3390/molecules25030711
+  year: 2020
+  journal: MOLECULES
+  volume: '25'
+  issue: '3'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Irene Casademont-Reig
+  - Eloy Ramos-Cordoba
+  - Miquel Torrent-Sucarrat
+  - Eduard Matito
+  teachpress_id: '984'
+- id: 10-1007-s12633-019-00360-w
+  type: article
+  title: How is silicic acid transported in plants?
+  doi: 10.1007/s12633-019-00360-w
+  year: 2020
+  journal: Silicon
+  volume: '12'
+  issue: '11'
+  pages: 2641-2645
+  authors:
+  - C. Exley
+  - G. Guerriero
+  - X. Lopez
+  teachpress_id: '365'
+- id: 10-3390-molecules25204668
+  type: article
+  title: Hydrogen Bond and Other Lewis Acid-Lewis Base Interactions as Preliminary Stages of Chemical Reactions
+  doi: 10.3390/molecules25204668
+  year: 2020
+  journal: Molecules
+  volume: '25'
+  issue: '20'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '439'
+- id: 10-3390-cryst10060460
+  type: article
+  title: Hydrogen Bonds with BF(4)(-)Anion as a Proton Acceptor
+  doi: 10.3390/cryst10060460
+  year: 2020
+  journal: Crystals
+  volume: '10'
+  issue: '6'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '440'
+- id: 10-1021-acscatal-0c03410
+  type: article
+  title: 'Hydrogen Evolution on Restructured B-Rich WB: Metastable Surface States and Isolated Active Sites'
+  doi: 10.1021/acscatal.0c03410
+  year: 2020
+  journal: Acs Catalysis
+  volume: '10'
+  issue: '23'
+  pages: 13867-13877
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - Z. S. Zhang
+  - Z. H. Cui
+  - E. Jimenez-Izal
+  - P. Sautet
+  - A. N. Alexandrova
+  teachpress_id: '820'
+- id: rn515
+  type: article
+  title: Independent Tuning of Viscous and Elastic Properties of Protein Biomaterials
+  year: 2020
+  journal: Biophysical Journal
+  volume: '118'
+  issue: '3'
+  pages: 163A-164A
+  authors:
+  - C. Huerta-Lopez
+  - D. Velazquez-Carreras
+  - L. Gutierrez-Rus
+  - F. M. Martin-Zamora
+  - E. H. Galan
+  - A. Martinez-del-Pozo
+  - D. Sancho
+  - G. R. Plaza
+  - J. Alegre-Cebollada
+  teachpress_id: '487'
+- id: 10-3390-cryst10020130
+  type: article
+  title: Interactions Steering Arrangement of Molecules in Crystals
+  doi: 10.3390/cryst10020130
+  year: 2020
+  journal: Crystals
+  volume: '10'
+  issue: '2'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '441'
+- id: 10-1021-acs-jpca-0c01239
+  type: article
+  title: Investigating the (Poly)Radicaloid Nature of Real-World Organic Compounds with DFT-Based Methods
+  doi: 10.1021/acs.jpca.0c01239
+  year: 2020
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '124'
+  issue: '18'
+  pages: 3590-3600
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Giovanna Salvitti
+  - Fabrizia Negri
+  - Angel J. Perez-Jimenez
+  - Emilio San-Fabian
+  - David Casanova
+  - Juan Carlos Sancho-Garcia
+  teachpress_id: '1204'
+- id: 10-1016-j-molliq-2020-112588
+  type: article
+  title: 'Lignin solvation by ionic liquids: The role of cation'
+  doi: 10.1016/j.molliq.2020.112588
+  year: 2020
+  journal: Journal of Molecular Liquids
+  volume: '303'
+  tags:
+  - SUS-KT
+  authors:
+  - J. Zubeltzu
+  - E. Formoso
+  - E. Rezabal
+  teachpress_id: '828'
+- id: 10-1021-acs-jpclett-0c01467
+  type: article
+  title: MAI Termination Favors Efficient Hole Extraction and Slow Charge Recombination at the MAPbI3/CuSCN Heterojunction
+  doi: 10.1021/acs.jpclett.0c01467
+  year: 2020
+  journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
+  volume: '11'
+  issue: '11'
+  pages: 4481-4489
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Jinlu He
+  - David Casanova
+  - Wei-Hai Fang
+  - Run Long
+  - Oleg V Prezhdo
+  teachpress_id: '1203'
+- id: 10-1039-c9dt04545g
+  type: article
+  title: 'Metal self-assembly mimosine peptides with enhanced antimicrobial activity: towards a new generation of multitasking chelating agents'
+  doi: 10.1039/c9dt04545g
+  year: 2020
+  journal: Dalton Transactions
+  volume: '49'
+  issue: '9'
+  pages: 2862-2879
+  authors:
+  - J. I. Lachowicz
+  - G. Dalla Torre
+  - R. Cappai
+  - E. Randaccio
+  - V. M. Nurchi
+  - R. Bachor
+  - Z. Szewczuk
+  - L. Jaremko
+  - M. Jaremko
+  - M. B. Pisano
+  - S. Cosentino
+  - G. Orru
+  - A. Ibba
+  - J. Mujika
+  - X. Lopez
+  teachpress_id: '523'
+- id: 10-3390-molecules25143294
+  type: article
+  title: Molecular Hydrogen as a Lewis Base in Hydrogen Bonds and Other Interactions
+  doi: 10.3390/molecules25143294
+  year: 2020
+  journal: Molecules
+  volume: '25'
+  issue: '14'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '442'
+- id: 10-1021-acsapm-0c00799
+  type: article
+  title: Nearly Perfect 3D Structures Obtained by Assembly of Printed Parts of Polyamide lonene Self-Healing Elastomer
+  doi: 10.1021/acsapm.0c00799
+  year: 2020
+  journal: Acs Applied Polymer Materials
+  volume: '2'
+  issue: '11'
+  pages: 4352-4359
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - K. O'Harra
+  - N. Sadaba
+  - M. Irigoyen
+  - F. Ruiperez
+  - R. Aguirresarobe
+  - H. Sardon
+  - J. Bara
+  teachpress_id: '658'
+- id: 10-1021-acs-joc-0c01816
+  type: article
+  title: 'On the Mechanism of Cross-Dehydrogenative Couplings between N-aryl Glycinates and Indoles: A Computational Study'
+  doi: 10.1021/acs.joc.0c01816
+  year: 2020
+  journal: Journal of Organic Chemistry
+  volume: '85'
+  issue: '20'
+  pages: 13133-13140
+  authors:
+  - P. Andrade-Sampedro
+  - A. Correa
+  - J. M. Matxain
+  teachpress_id: '295'
+- id: 10-1039-d0cp02992k
+  type: article
+  title: Performance of DFT functionals for calculating the second-order nonlinear optical properties of dipolar merocyanines
+  doi: 10.1039/d0cp02992k
+  year: 2020
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '22'
+  issue: '29'
+  pages: 16579-16594
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Laurie Lescos
+  - Sebastian P. Sitkiewicz
+  - Pierre Beaujean
+  - Mireille Blanchard-Desce
+  - Benoit Champagne
+  - Eduard Matito
+  - Frederic Castet
+  teachpress_id: '981'
+- id: 10-1039-d0se00531b
+  type: article
+  title: Proton trap effect on catechol-pyridine redox polymer nanoparticles as organic electrodes for lithium batteries
+  doi: 10.1039/d0se00531b
+  year: 2020
+  journal: Sustainable Energy & Fuels
+  volume: '4'
+  issue: '8'
+  pages: 3934-3942
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - A. Gallastegui
+  - D. Minudri
+  - N. Casado
+  - N. Goujon
+  - F. Ruiperez
+  - N. Patil
+  - C. Detrembleur
+  - R. Marcilla
+  - D. Mecerreyes
+  teachpress_id: '383'
+- id: 10-1021-acs-organomet-0c00032
+  type: article
+  title: Proton-responsive Ruthenium(II) Catalysts for the Solvolysis of Ammonia-Borane
+  doi: 10.1021/acs.organomet.0c00032
+  year: 2020
+  journal: Organometallics
+  volume: '39'
+  issue: '8'
+  pages: 1238-1248
+  authors:
+  - V. San Nacianceno
+  - M. A. Garralda
+  - J. M. Matxain
+  - Z. Freixa
+  teachpress_id: '738'
+- id: 10-1002-cphc-202000131
+  type: article
+  title: S-H ... O and O-H ... O Hydrogen Bonds-Comparison of Dimers of Thiocarboxylic and Carboxylic Acids
+  doi: 10.1002/cphc.202000131
+  year: 2020
+  journal: Chemphyschem
+  volume: '21'
+  issue: '15'
+  pages: 1653-1664
+  authors:
+  - M. Aarabi
+  - S. Gholami
+  - S. J. Grabowski
+  teachpress_id: '281'
+- id: 10-1021-acscatal-0c00689
+  type: article
+  title: Selective Organocatalytic Preparation of Trimethylene Carbonate from Oxetane and Carbon Dioxide
+  doi: 10.1021/acscatal.0c00689
+  year: 2020
+  journal: Acs Catalysis
+  volume: '10'
+  issue: '10'
+  pages: 5399-5404
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - J. Huang
+  - C. Jehanno
+  - J. C. Worch
+  - F. Ruiperez
+  - H. Sardon
+  - A. P. Dove
+  - O. Coulembier
+  teachpress_id: '484'
+- id: 10-1021-acs-jpcb-0c05976
+  type: article
+  title: 'Slow Folding of a Helical Protein: Large Barriers, Strong Internal Friction, or a Shallow, Bumpy Landscape?'
+  doi: 10.1021/acs.jpcb.0c05976
+  year: 2020
+  journal: Journal of Physical Chemistry B
+  volume: '124'
+  issue: '41'
+  pages: 8973-8983
+  authors:
+  - S. Subramanian
+  - H. Golla
+  - K. Divakar
+  - A. Kannan
+  - D. Sancho
+  - A. N. Naganathan
+  teachpress_id: '769'
+- id: 10-1039-c9cp06507e
+  type: article
+  title: Spin-flip methods in quantum chemistry
+  doi: 10.1039/c9cp06507e
+  year: 2020
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '22'
+  issue: '8'
+  pages: 4326-4342
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Anna I Krylov
+  teachpress_id: '1206'
+- id: 10-1021-acsmacrolett-0c00164
+  type: article
+  title: Synthesis of Functionalized Cyclic Carbonates through Commodity Polymer Upcycling
+  doi: 10.1021/acsmacrolett.0c00164
+  year: 2020
+  journal: Acs Macro Letters
+  volume: '9'
+  issue: '4'
+  pages: 443-447
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - C. Jehanno
+  - J. Demarteau
+  - D. Mantione
+  - M. C. Arno
+  - F. Ruiperez
+  - J. L. Hedrick
+  - A. P. Dove
+  - H. Sardon
+  teachpress_id: '503'
+- id: 10-3390-molecules25112703
+  type: article
+  title: The Nature of Triel Bonds, a Case of B and Al Centres Bonded with Electron Rich Sites
+  doi: 10.3390/molecules25112703
+  year: 2020
+  journal: Molecules
+  volume: '25'
+  issue: '11'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '443'
+- id: 10-1039-d0cp02344b
+  type: article
+  title: The role of CT excitations in PDI aggregates
+  doi: 10.1039/d0cp02344b
+  year: 2020
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '22'
+  issue: '28'
+  pages: 15908-15918
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Maria Zubiria-Ulacia
+  - Jon M. Matxain
+  - David Casanova
+  teachpress_id: '1201'
+- id: 10-1016-j-jinorgbio-2020-111169
+  type: article
+  title: 'Theoretical characterization of Al(III) binding to KSPVPKSPVEEKG: Insights into the propensity of aluminum to interact with key sequences for neurofilament formation'
+  doi: 10.1016/j.jinorgbio.2020.111169
+  year: 2020
+  journal: Journal of Inorganic Biochemistry
+  volume: '210'
+  authors:
+  - R. Grande-Aztatzi
+  - E. Formoso
+  - J. I. Mujika
+  - D. Sancho
+  - X. Lopez
+  teachpress_id: '464'
+- id: 10-1021-acs-macromol-9b02648
+  type: article
+  title: Thioxanthone-Based Photobase Generators for the Synthesis of Polyurethanes via the Photopolymerization of Polyols and Polyisocyanates
+  doi: 10.1021/acs.macromol.9b02648
+  year: 2020
+  journal: Macromolecules
+  volume: '53'
+  issue: '6'
+  pages: 2069-2076
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - N. Zivic
+  - N. Sadaba
+  - N. Almandoz
+  - F. Ruiperez
+  - D. Mecerreyes
+  - H. Sardon
+  teachpress_id: '823'
+- id: 10-1016-j-bpj-2020-05-006
+  type: article
+  title: Toxic and Physiological Metal Uptake and Release by Human Serum Transferrin
+  doi: 10.1016/j.bpj.2020.05.006
+  year: 2020
+  journal: Biophysical Journal
+  volume: '118'
+  issue: '12'
+  pages: 2979-2988
+  authors:
+  - D. J. Reilley
+  - J. T. Fuller
+  - M. R. Nechay
+  - M. Victor
+  - W. Li
+  - J. D. Ruberry
+  - J. I. Mujika
+  - X. Lopez
+  - A. N. Alexandrova
+  teachpress_id: '713'
+- id: 10-1016-j-ccr-2019-213171
+  type: article
+  title: Triel bond and coordination of triel centres - Comparison with hydrogen bond interaction
+  doi: 10.1016/j.ccr.2019.213171
+  year: 2020
+  journal: Coordination Chemistry Reviews
+  volume: '407'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '444'
+- id: 10-1039-d0py00126k
+  type: article
+  title: Understanding the emulsion copolymerization kinetics of vinyl acetate and vinyl silanes
+  doi: 10.1039/d0py00126k
+  year: 2020
+  journal: Polymer Chemistry
+  volume: '11'
+  issue: '13'
+  pages: 2390-2398
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - A. Barquero
+  - F. Ruiperez
+  - M. J. Barandiaran
+  - J. R. Leiza
+  teachpress_id: '317'

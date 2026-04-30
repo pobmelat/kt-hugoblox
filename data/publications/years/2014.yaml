@@ -1,0 +1,672 @@
+items:
+- id: 10-5936-csbj-201403002
+  type: article
+  title: 'Aluminium in Biological Environments: A Computational Approach'
+  doi: 10.5936/csbj.201403002
+  year: 2014
+  journal: Computational and Structural Biotechnology Journal
+  volume: '9'
+  issue: '15'
+  authors:
+  - J. I. Mujika
+  - E. Rezabal
+  - J. M. Mercero
+  - F. Ruiperez
+  - D. Costa
+  - J. M. Ugalde
+  - X. Lopez
+  teachpress_id: '263'
+- id: 10-1021-jp502724w
+  type: article
+  title: 'Aluminum Interaction with Glutamate and alpha-Ketoglutarate: A Computational Study'
+  doi: 10.1021/jp502724w
+  year: 2014
+  journal: Journal of Physical Chemistry B
+  volume: '118'
+  issue: '24'
+  pages: 6680-6686
+  authors:
+  - J. I. Mujika
+  - J. M. Ugalde
+  - X. Lopez
+  teachpress_id: '656'
+- id: 10-1080-00268976-2013-854933
+  type: article
+  title: Assessment of the second-order perturbative corrections to PNOF5
+  doi: 10.1080/00268976.2013.854933
+  year: 2014
+  journal: Molecular Physics
+  volume: '112'
+  issue: 5-6
+  pages: 1-8
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - F. Ruiperez
+  - J. M. Matxain
+  teachpress_id: '699'
+- id: 10-1021-ct400513s
+  type: article
+  title: Benchmark Assessment of Density Functional Methods on Group II-VI MX (M = Zn, Cd; X = S, Se, Te) Quantum Dots
+  doi: 10.1021/ct400513s
+  year: 2014
+  journal: Journal of Chemical Theory and Computation
+  volume: '10'
+  issue: '1'
+  pages: 76-89
+  authors:
+  - J. M. Azpiroz
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '312'
+- id: 10-1063-1-4891301
+  type: article
+  title: Benchmark calculations on the lowest-energy singlet, triplet, and quintet states of the four-electron harmonium atom
+  doi: 10.1063/1.4891301
+  year: 2014
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '141'
+  issue: '4'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jerzy Cioslowski
+  - Krzysztof Strasburger
+  - Eduard Matito
+  teachpress_id: '1098'
+- id: 10-1002-cphc-201402344
+  type: article
+  title: 'Boron and other Triel Lewis Acid Centers: From Hypovalency to Hypervalency'
+  doi: 10.1002/cphc.201402344
+  year: 2014
+  journal: Chemphyschem
+  volume: '15'
+  issue: '14'
+  pages: 2985-2993
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '414'
+- id: 10-1021-jo500488c
+  type: article
+  title: 'Carbo-Cages: A Computational Study'
+  doi: 10.1021/jo500488c
+  year: 2014
+  journal: Journal of Organic Chemistry
+  volume: '79'
+  issue: '12'
+  pages: 5463-5470
+  authors:
+  - J. M. Azpiroz
+  - R. Islas
+  - D. Moreno
+  - M. A. Fernandez-Herrera
+  - S. Pan
+  - P. K. Chattaraj
+  - G. Martinez-Guajardo
+  - J. M. Ugalde
+  - G. Merino
+  teachpress_id: '306'
+- id: 10-1007-s00894-014-2227-3
+  type: article
+  title: CdS nanoclusters doped with divalent atoms
+  doi: 10.1007/s00894-014-2227-3
+  year: 2014
+  journal: Journal of Molecular Modeling
+  volume: '20'
+  issue: '6'
+  authors:
+  - E. Jimenez-Izal
+  - J. M. Azpiroz
+  - R. Gupta
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '509'
+- id: 10-1002-cphc-201301176
+  type: article
+  title: Clusters of Ammonium Cation-Hydrogen Bond versus sigma-Hole Bond
+  doi: 10.1002/cphc.201301176
+  year: 2014
+  journal: Chemphyschem
+  volume: '15'
+  issue: '5'
+  pages: 876-884
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '415'
+- id: 10-1016-j-cplett-2013-11-017
+  type: article
+  title: Could the lithium bond be classified as the sigma-hole bond? - QTAIM and NBO analysis
+  doi: 10.1016/j.cplett.2013.11.017
+  year: 2014
+  journal: Chemical Physics Letters
+  volume: '591'
+  pages: 113-118
+  authors:
+  - P. Lipkowski
+  - S. J. Grabowski
+  teachpress_id: '549'
+- id: 10-1002-chem-201403889
+  type: article
+  title: Distortions of π-Coordinated Arenes with Anionic Character
+  doi: 10.1002/chem.201403889
+  year: 2014
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '20'
+  issue: '45'
+  pages: 14674-14689
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Andres Falceto
+  - David Casanova
+  - Pere Alemany
+  - Santiago Alvarez
+  teachpress_id: '1259'
+- id: 10-1002-chem-201403354
+  type: article
+  title: DNA Aptamers are Functional Molecular Recognition Sensors in Protic Ionic Liquids
+  doi: 10.1002/chem.201403354
+  year: 2014
+  journal: Chemistry-a European Journal
+  volume: '20'
+  issue: '37'
+  pages: 11820-11825
+  authors:
+  - I. Machado
+  - V. C. Ozalp
+  - E. Rezabal
+  - T. Schafer
+  teachpress_id: '595'
+- id: 10-1021-jp501496b
+  type: article
+  title: 'Doped Aluminum Cluster Anions: Size Matters'
+  doi: 10.1021/jp501496b
+  year: 2014
+  journal: Journal of Physical Chemistry A
+  volume: '118'
+  issue: '24'
+  pages: 4309-4314
+  authors:
+  - E. Jimenez-Izal
+  - D. Moreno
+  - J. M. Mercero
+  - J. M. Matxain
+  - M. Audiffred
+  - G. Merino
+  - J. M. Ugalde
+  teachpress_id: '226'
+- id: 10-1021-jp409182r
+  type: article
+  title: Effect of Structural Dynamics on the Opto-Electronic Properties of Bare and Hydrated ZnS QDs
+  doi: 10.1021/jp409182r
+  year: 2014
+  journal: Journal of Physical Chemistry C
+  volume: '118'
+  issue: '6'
+  pages: 3274-3284
+  authors:
+  - J. M. Azpiroz
+  - E. Mosconi
+  - J. M. Ugalde
+  - F. De Angelis
+  teachpress_id: '310'
+- id: 10-1063-1-4904397
+  type: article
+  title: Electron correlation in the GK state of the hydrogen molecule (vol 127, 074307, 2007)
+  doi: 10.1063/1.4904397
+  year: 2014
+  journal: Journal of Chemical Physics
+  volume: '141'
+  issue: '24'
+  authors:
+  - J. Wang
+  - Y. Wang
+  - S. L. Ni
+  - J. M. Ugalde
+  teachpress_id: '811'
+- id: 10-1021-ct4007635
+  type: article
+  title: Electronic Structure Study of Singlet Fission in Tetracene Derivatives
+  doi: 10.1021/ct4007635
+  year: 2014
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '10'
+  issue: '1'
+  pages: 324-334
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1265'
+- id: 10-1021-ma4025637
+  type: article
+  title: Experimental Evidence Shedding Light on the Origin of the Reduction of Branching of Acrylates in ATRP
+  doi: 10.1021/ma4025637
+  year: 2014
+  journal: Macromolecules
+  volume: '47'
+  issue: '3'
+  pages: 964-972
+  authors:
+  - N. Ballard
+  - M. Salsamendi
+  - J. I. Santos
+  - F. Ruiperez
+  - J. R. Leiza
+  - J. M. Asua
+  teachpress_id: '314'
+- id: 10-1002-chem-201304685
+  type: article
+  title: 'Exploring the Potential Energy Surface of E2P4 Clusters (E=Group 13 Element): The Quest for Inverse Carbon-Free Sandwiches'
+  doi: 10.1002/chem.201304685
+  year: 2014
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '20'
+  issue: '16'
+  pages: 4583-4590
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Abril C. Castro
+  - Edison Osorio
+  - Jose Luis Cabellos
+  - Erick Cerpa
+  - Eduard Matito
+  - Miquel Sola
+  - Marcel Swart
+  - Gabriel Merino
+  teachpress_id: '1099'
+- id: 10-1039-c4tc00466c
+  type: article
+  title: 'Facile tuning of the aggregation-induced emission wavelength in a common framework of a cyclometalated iridium(III) complex: micellar encapsulated probe in cellular imaging'
+  doi: 10.1039/c4tc00466c
+  year: 2014
+  journal: JOURNAL OF MATERIALS CHEMISTRY C
+  volume: '2'
+  issue: '28'
+  pages: 5615-5628
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - P. Alam
+  - P. Das
+  - C. Climent
+  - M. Karanam
+  - D. Casanova
+  - A. R. Choudhury
+  - P. Alemany
+  - N. R. Jana
+  - I. R. Laskar
+  teachpress_id: '1264'
+- id: 10-1016-j-cplett-2014-05-029
+  type: article
+  title: Halogen bond with the multivalent halogen acting as the Lewis acid center
+  doi: 10.1016/j.cplett.2014.05.029
+  year: 2014
+  journal: Chemical Physics Letters
+  volume: '605'
+  pages: 131-136
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '416'
+- id: 10-1002-jcc-23580
+  type: article
+  title: How Much Tetraradical Character Is Present in the Si6Ge9 Cluster?
+  doi: 10.1002/jcc.23580
+  year: 2014
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '35'
+  issue: '12'
+  pages: 944-949
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1262'
+- id: 10-1063-1-4890653
+  type: article
+  title: Interacting pairs in natural orbital functional theory
+  doi: 10.1063/1.4890653
+  year: 2014
+  journal: Journal of Chemical Physics
+  volume: '141'
+  issue: '4'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '672'
+- id: 10-1039-c4cp02770a
+  type: article
+  title: 'Mapping the affinity of aluminum(III) for biophosphates: interaction mode and binding affinity in 1:1 complexes'
+  doi: 10.1039/c4cp02770a
+  year: 2014
+  journal: Physical Chemistry Chemical Physics
+  volume: '16'
+  issue: '37'
+  pages: 20107-20119
+  authors:
+  - N. B. Luque
+  - J. I. Mujika
+  - E. Rezabal
+  - J. M. Ugalde
+  - X. Lopez
+  teachpress_id: '593'
+- id: 10-1016-j-orgel-2014-08-058
+  type: article
+  title: Molecular dipole, dye structure and electron lifetime relationship in efficient dye sensitized solar cells based on donor-π-acceptor organic sensitizers
+  doi: 10.1016/j.orgel.2014.08.058
+  year: 2014
+  journal: ORGANIC ELECTRONICS
+  volume: '15'
+  issue: '11'
+  pages: 3162-3172
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Claudia Climent
+  - Lydia Cabau
+  - David Casanova
+  - Peng Wang
+  - Emilio Palomares
+  teachpress_id: '1260'
+- id: wos-000349165104438
+  type: article
+  title: 'Multicenter Bond Index: A versatile tool to characterize electron delocalization and aromaticity'
+  year: 2014
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '248'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Ferran Feixas
+  - Jesus Ugalde
+  - Miquel Sola
+  teachpress_id: '1106'
+- id: 10-1088-0953-4075-47-1-015101
+  type: article
+  title: Natural orbital functional calculations of molecular polarizabilities and second hyperpolarizabilities. The hydrogen molecule as a test case
+  doi: 10.1088/0953-4075/47/1/015101
+  year: 2014
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '47'
+  issue: '1'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - X. Lopez
+  - M. Piris
+  - M. Nakano
+  - B. Champagne
+  teachpress_id: '565'
+- id: 10-1039-c4dt02266a
+  type: article
+  title: 'New `aggregation induced emission (AIE)'' active cyclometalated iridium(III) based phosphorescent sensors: high sensitivity for mercury(II) ions'
+  doi: 10.1039/c4dt02266a
+  year: 2014
+  journal: DALTON TRANSACTIONS
+  volume: '43'
+  issue: '43'
+  pages: 16431-16440
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Parvej Alam
+  - Gurpreet Kaur
+  - Claudia Climent
+  - Saleem Pasha
+  - David Casanova
+  - Pere Alemany
+  - Angshuman Roy Choudhury
+  - Inamur Rahaman Laskar
+  teachpress_id: '1257'
+- id: 10-1021-ct5002736
+  type: article
+  title: New Approximation to the Third-Order Density. Application to the Calculation of Correlated Multicenter Indices
+  doi: 10.1021/ct5002736
+  year: 2014
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '10'
+  issue: '8'
+  pages: 3055-3065
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Miquel Sola
+  - Juan M. Barroso
+  - Jesus M. Ugalde
+  - Eduard Matito
+  teachpress_id: '1097'
+- id: wos-000349165104725
+  type: article
+  title: New stringent conditions for the cumulant matrix
+  year: 2014
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '248'
+  groups:
+  - noft
+  - qcd
+  tags:
+  - NOFT
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Eloy Ramos-Cordoba
+  - Mario Piris
+  - Pedro Salvador
+  teachpress_id: '1105'
+- id: 10-1021-jp505411r
+  type: article
+  title: Optical Properties of 4-Bromobenzaldehyde Derivatives in Chloroform Solution
+  doi: 10.1021/jp505411r
+  year: 2014
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '118'
+  issue: '34'
+  pages: 6914-6921
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Claudia Climent
+  - Pere Alemany
+  - Dongwook Lee
+  - Jinsang Kim
+  - David Casanova
+  teachpress_id: '1261'
+- id: 10-1021-mz500401u
+  type: article
+  title: 'Organocatalyzed Synthesis of Aliphatic Polyesters from Ethylene Brassy late: A Cheap and Renewable Macrolactone'
+  doi: 10.1021/mz500401u
+  year: 2014
+  journal: Acs Macro Letters
+  volume: '3'
+  issue: '9'
+  pages: 849-853
+  authors:
+  - A. Pascual
+  - H. Sardon
+  - A. Veloso
+  - F. Ruiperez
+  - D. Mecerreyes
+  teachpress_id: '663'
+- id: 10-1002-qua-24663
+  type: article
+  title: Perspective on Natural Orbital Functional Theory
+  doi: 10.1002/qua.24663
+  year: 2014
+  journal: International Journal of Quantum Chemistry
+  volume: '114'
+  issue: '18'
+  pages: 1169-1175
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '701'
+- id: 10-1021-jp501447q
+  type: article
+  title: 'Quantum Dot Photoactivation of Pt(IV) Anticancer Agents: Evidence of an Electron Transfer Mechanism Driven by Electronic Coupling'
+  doi: 10.1021/jp501447q
+  year: 2014
+  journal: Journal of Physical Chemistry C
+  volume: '118'
+  issue: '16'
+  pages: 8712-8721
+  authors:
+  - I. Infante
+  - J. M. Azpiroz
+  - N. G. Blanco
+  - E. Ruggiero
+  - J. M. Ugalde
+  - J. C. Mareque-Rivas
+  - L. Salassa
+  teachpress_id: '490'
+- id: wos-000349165104613
+  type: article
+  title: 'Recent advances in local spin analysis: Quantification and characterization of polyradical character'
+  year: 2014
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '248'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eloy Ramos-Cordoba
+  - Eduard Matito
+  - Istvan Mayer
+  - Pedro Salvador
+  teachpress_id: '1107'
+- id: 10-1063-1-4870638
+  type: article
+  title: Second-order perturbative corrections to the restricted active space configuration interaction with the hole and particle approach
+  doi: 10.1063/1.4870638
+  year: 2014
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '140'
+  issue: '14'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1263'
+- id: 10-1021-ic5021077
+  type: article
+  title: 'Stereochemistry of Complexes with Double and Triple Metal-Ligand Bonds: A Continuous Shape Measures Analysis'
+  doi: 10.1021/ic5021077
+  year: 2014
+  journal: INORGANIC CHEMISTRY
+  volume: '53'
+  issue: '22'
+  pages: 12151-12163
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Santiago Alvarez
+  - Babil Menjon
+  - Andres Falceto
+  - David Casanova
+  - Pere Alemany
+  teachpress_id: '1258'
+- id: 10-1039-c3cp53369g
+  type: article
+  title: Tetrel bond-sigma-hole bond as a preliminary stage of the S(N)2 reaction
+  doi: 10.1039/c3cp53369g
+  year: 2014
+  journal: Physical Chemistry Chemical Physics
+  volume: '16'
+  issue: '5'
+  pages: 1824-1834
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '417'
+- id: 10-1039-c3cp54208d
+  type: article
+  title: Topological reaction sites - very strong chalcogen bonds
+  doi: 10.1039/c3cp54208d
+  year: 2014
+  journal: Physical Chemistry Chemical Physics
+  volume: '16'
+  issue: '6'
+  pages: 2430-2442
+  authors:
+  - E. Alikhani
+  - F. Fuster
+  - B. Madebene
+  - S. J. Grabowski
+  teachpress_id: '287'
+- id: 10-1063-1-4903449
+  type: article
+  title: Two new constraints for the cumulant matrix
+  doi: 10.1063/1.4903449
+  year: 2014
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '141'
+  issue: '23'
+  groups:
+  - noft
+  - qcd
+  tags:
+  - NOFT
+  - QCD-KT
+  authors:
+  - Eloy Ramos-Cordoba
+  - Pedro Salvador
+  - Mario Piris
+  - Eduard Matito
+  teachpress_id: '1104'
+- id: 10-1080-00319104-2014-937865
+  type: article
+  title: Weizsacker inhomogeneity kinetic energy term for the inhomogeneous electron liquid characterising some 30 homonuclear diatomic molecules at equilibrium and insight into Teller's theorem in Thomas-Fermi statistical theory
+  doi: 10.1080/00319104.2014.937865
+  year: 2014
+  journal: Physics and Chemistry of Liquids
+  volume: '52'
+  issue: '6'
+  pages: 804-814
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - N. H. March
+  teachpress_id: '684'

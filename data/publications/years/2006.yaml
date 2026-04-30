@@ -1,0 +1,450 @@
+items:
+- id: 10-1021-ed083p1243
+  type: article
+  title: A novel exploration of the Hartree-Fock homolytic bond dissociation problem in the hydrogen molecule by means of electron localization measures
+  doi: 10.1021/ed083p1243
+  year: 2006
+  journal: JOURNAL OF CHEMICAL EDUCATION
+  volume: '83'
+  issue: '8'
+  pages: 1243-1248
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Miquel Duran
+  - Miquel Sola
+  teachpress_id: '1081'
+- id: 10-1016-j-jinorgbio-2005-12-007
+  type: article
+  title: 'A study of the coordination shell of aluminum(III) and magnesium(II) in model protein of the complex formation and environments: Thermodynamics metal exchange reactions'
+  doi: 10.1016/j.jinorgbio.2005.12.007
+  year: 2006
+  journal: Journal of Inorganic Biochemistry
+  volume: '100'
+  issue: '3'
+  pages: 374-384
+  authors:
+  - E. Rezabal
+  - J. M. Mercero
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '267'
+- id: 10-1021-jp064611a
+  type: article
+  title: Activation of methane by the iron dimer cation. A theoretical study
+  doi: 10.1021/jp064611a
+  year: 2006
+  journal: Journal of Physical Chemistry A
+  volume: '110'
+  issue: '45'
+  pages: 12501-12511
+  authors:
+  - S. Chiodo
+  - I. Rivalta
+  - M. D. Michelini
+  - N. Russo
+  - E. Sicilia
+  - J. M. Ugalde
+  teachpress_id: '325'
+- id: 10-1021-jp0631329
+  type: article
+  title: 'Analysis of electron delocalization in aromatic systems:: Individual molecular orbital contributions to para-delocalization indexes (PDI)'
+  doi: 10.1021/jp0631329
+  year: 2006
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '110'
+  issue: '40'
+  pages: 11569-11574
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Mireia Guell
+  - Eduard Matito
+  - Josep M. Luis
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1078'
+- id: 10-1021-jp057387i
+  type: article
+  title: Aromaticity measures from fuzzy-atom bond orders (FBO). The aromatic fluctuation (FLU) and the para-delocalization (PDI) indexes
+  doi: 10.1021/jp057387i
+  year: 2006
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '110'
+  issue: '15'
+  pages: 5108-5113
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - P Salvador
+  - M Duran
+  - M Solà
+  teachpress_id: '1083'
+- id: 10-1016-j-chemphys-2005-08-023
+  type: article
+  title: Bond centred functions in relativistic and non-relativistic calculations for diatomics
+  doi: 10.1016/j.chemphys.2005.08.023
+  year: 2006
+  journal: CHEMICAL PHYSICS
+  volume: '321'
+  issue: '3'
+  pages: 277-284
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - J Kobus
+  - J Styszynski
+  teachpress_id: '1085'
+- id: 10-1021-jp057517n
+  type: article
+  title: Bonding in methylalkalimetals (CH3M)n (M = Li, Na, K; n=1, 4). Agreement and divergences between AIM and ELF analyses
+  doi: 10.1021/jp057517n
+  year: 2006
+  journal: JOURNAL OF PHYSICAL CHEMISTRY B
+  volume: '110'
+  issue: '14'
+  pages: 7189-7198
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - J Poater
+  - FM Bickelhaupt
+  - M Solà
+  teachpress_id: '1084'
+- id: 10-1021-om050790r
+  type: article
+  title: Comparison of Ti, Zr, and Hf as cations for metallocene-catalyzed olefin polymerization
+  doi: 10.1021/om050790r
+  year: 2006
+  journal: Organometallics
+  volume: '25'
+  issue: '19'
+  pages: 4483-4490
+  authors:
+  - I. Silanes
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '272'
+- id: 10-1209-epl-i2006-10335-x
+  type: article
+  title: Counterintuitive effects of the electron correlation in the first-excited (1)Sigma(+)(g) state of the hydrogen molecule
+  doi: 10.1209/epl/i2006-10335-x
+  year: 2006
+  journal: Europhysics Letters
+  volume: '76'
+  issue: '5'
+  pages: 808-814
+  authors:
+  - J. Wang
+  - J. M. Mercero
+  - I. Silanes
+  - J. M. Ugalde
+  teachpress_id: '280'
+- id: 10-1021-cm0604817
+  type: article
+  title: 'Distortions in octahedrally coordinated d0 transition metal oxides:: A continuous symmetry measures approach'
+  doi: 10.1021/cm0604817
+  year: 2006
+  journal: CHEMISTRY OF MATERIALS
+  volume: '18'
+  issue: '14'
+  pages: 3176-3183
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Kang Min Ok
+  - P. Shiv Halasyamani
+  - David Casanova
+  - Miquel Llunell
+  - Pere Alemany
+  - Santiago Alvarez
+  teachpress_id: '1300'
+- id: 10-1063-1-2404665
+  type: article
+  title: Electron correlation in the 3 (1)Sigma(+)(g) and 2 (1)Sigma(+)(u) excited state lithium molecule
+  doi: 10.1063/1.2404665
+  year: 2006
+  journal: Journal of Chemical Physics
+  volume: '125'
+  issue: '23'
+  authors:
+  - J. Wang
+  - L. Zhang
+  - Y. Wang
+  - J. M. Ugalde
+  teachpress_id: '813'
+- id: 10-1002-cphc-200500446
+  type: article
+  title: Electron fluctuation in pericyclic and pseudopericyclic reactions
+  doi: 10.1002/cphc.200500446
+  year: 2006
+  journal: CHEMPHYSCHEM
+  volume: '7'
+  issue: '1'
+  pages: 111-113
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - E Matito
+  - J Poater
+  - M Duran
+  - M Solà
+  teachpress_id: '1086'
+- id: 10-1063-1-2210473
+  type: article
+  title: Electron localization function at the correlated level
+  doi: 10.1063/1.2210473
+  year: 2006
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '125'
+  issue: '2'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Bernard Silvi
+  - Miquel Duran
+  - Miquel Sola
+  teachpress_id: '1082'
+- id: 10-1088-0957-4484-17-16-018
+  type: article
+  title: Electronic excitation energies of ZniSi nanoparticles
+  doi: 10.1088/0957-4484/17/16/018
+  year: 2006
+  journal: Nanotechnology
+  volume: '17'
+  issue: '16'
+  pages: 4100-4105
+  authors:
+  - J. M. Matxain
+  - L. A. Eriksson
+  - J. M. Mercero
+  - J. M. Ugalde
+  - E. Spano
+  - S. Hamad
+  - C. R. A. Catlow
+  teachpress_id: '228'
+- id: 10-1140-epjd-e2006-00024-4
+  type: article
+  title: Exact non-Born-Oppenheimer wave function for the Hooke-Calogero model of the H-2 molecule
+  doi: 10.1140/epjd/e2006-00024-4
+  year: 2006
+  journal: European Physical Journal D
+  volume: '37'
+  issue: '3'
+  pages: 351-359
+  authors:
+  - Y. Lopez
+  - J. M. Ugalde
+  - E. V. Ludena
+  teachpress_id: '582'
+- id: 10-1103-physreva-74-042504
+  type: article
+  title: Exact non-Born-Oppenheimer wave functions for three-particle Hookean systems with arbitrary masses
+  doi: 10.1103/PhysRevA.74.042504
+  year: 2006
+  journal: Physical Review A
+  volume: '74'
+  issue: '4'
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - L. Echevarria
+  - E. V. Ludena
+  teachpress_id: '576'
+- id: 10-1021-jp0603942
+  type: article
+  title: 'Nucleophilic attack on phosphate diesters: A density functional study of in-line reactivity in dianionic, monoanionic, and neutral systems'
+  doi: 10.1021/jp0603942
+  year: 2006
+  journal: Journal of Physical Chemistry B
+  volume: '110'
+  issue: '23'
+  pages: 11525-11539
+  authors:
+  - X. Lopez
+  - A. Dejaegere
+  - F. Leclerc
+  - D. M. York
+  - M. Karplus
+  teachpress_id: '557'
+- id: 10-1016-j-jorganchem-2006-01-038
+  type: article
+  title: Nucleus-independent chemical shift (NICS) profiles in a series of monocyclic planar inorganic compounds
+  doi: 10.1016/j.jorganchem.2006.01.038
+  year: 2006
+  journal: JOURNAL OF ORGANOMETALLIC CHEMISTRY
+  volume: 691(21
+  issue: 21, SI
+  pages: SI), 4359-4366
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Juvencio Robles
+  - Miquel Sola
+  teachpress_id: '1077'
+- id: 10-1021-ja054142a
+  type: article
+  title: On the affinity regulation of the metal-ion-dependent adhesion sites in integrins
+  doi: 10.1021/ja054142a
+  year: 2006
+  journal: Journal of the American Chemical Society
+  volume: '128'
+  issue: '11'
+  pages: 3554-3563
+  authors:
+  - E. San Sebastian
+  - J. M. Mercero
+  - R. H. Stote
+  - A. Dejaegere
+  - F. P. Cossio
+  - X. Lopez
+  teachpress_id: '270'
+- id: wos-000207781608518
+  type: article
+  title: ORGN 863-New electron delocalization-based aromaticity criteria
+  year: 2006
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '232'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jordi Poater
+  - Eduard Matito
+  - Ferran Feixas
+  - Miguel Duran
+  - Miguel Sola
+  teachpress_id: '1079'
+- id: 10-1002-anie-200503597
+  type: article
+  title: Polyhedral interconversion coupled with proton transfer between an ammonium cation and the [Co(CO)4]-ion
+  doi: 10.1002/anie.200503597
+  year: 2006
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '45'
+  issue: '9'
+  pages: 1457-1460
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - D Casanova
+  - P Alemany
+  - S Alvarez
+  teachpress_id: '1301'
+- id: 10-1016-j-jmgm-2006-02-011
+  type: article
+  title: 'QCRNA 1.0: A database of quantum calculations for RNA catalysis'
+  doi: 10.1016/j.jmgm.2006.02.011
+  year: 2006
+  journal: Journal of Molecular Graphics & Modelling
+  volume: '25'
+  issue: '4'
+  pages: 423-433
+  authors:
+  - T. J. Giese
+  - B. A. Gregersen
+  - Y. Liu
+  - K. Nam
+  - E. Mayaan
+  - A. Moser
+  - K. Range
+  - A. N. Faza
+  - C. S. Lopez
+  - A. R. Lera
+  - G. Schaftenaar
+  - X. Lopez
+  - T. S. Lee
+  - G. Karypis
+  - D. M. York
+  teachpress_id: '397'
+- id: 10-1021-jp0604037
+  type: article
+  title: 'Reaction mechanism of the acidic hydrolysis of highly twisted amides: Rate acceleration caused by the twist of the amide bond'
+  doi: 10.1021/jp0604037
+  year: 2006
+  journal: Journal of Physical Chemistry B
+  volume: '110'
+  issue: '30'
+  pages: 15000-15011
+  authors:
+  - J. I. Mujika
+  - E. Formoso
+  - J. M. Mercero
+  - X. Lopez
+  teachpress_id: '260'
+- id: 10-1002-chem-200600052
+  type: article
+  title: 'Resonance structures of the amide bond: The advantages of planarity'
+  doi: 10.1002/chem.200600052
+  year: 2006
+  journal: Chemistry-a European Journal
+  volume: '12'
+  issue: '27'
+  pages: 7215-7224
+  authors:
+  - J. I. Mujika
+  - J. M. Matxain
+  - L. A. Eriksson
+  - X. Lopez
+  teachpress_id: '650'
+- id: 10-1002-chem-200600106
+  type: article
+  title: Sandwich complexes based on the "All-Metal" Al-4(2-) aromatic ring
+  doi: 10.1002/chem.200600106
+  year: 2006
+  journal: Chemistry-a European Journal
+  volume: '12'
+  issue: '17'
+  pages: 4495-4502
+  authors:
+  - J. M. Mercero
+  - E. Formoso
+  - J. M. Matxain
+  - L. A. Eriksson
+  - J. M. Ugalde
+  teachpress_id: '240'
+- id: 10-1063-1-2222352
+  type: article
+  title: 'The aromatic fluctuation index (FLU):: A new aromaticity index based on electron delocalization (vol 122, pg 014109, 2005)'
+  doi: 10.1063/1.2222352
+  year: 2006
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '125'
+  issue: '5'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Miquel Duran
+  - Miquel Sola
+  teachpress_id: '1080'

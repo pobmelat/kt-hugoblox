@@ -1,0 +1,116 @@
+items:
+- id: 10-1103-physreva-59-4255
+  type: article
+  title: Atomic configuration-interaction electron-electron counterbalance densities
+  doi: 10.1103/PhysRevA.59.4255
+  year: 1999
+  journal: Physical Review A
+  volume: '59'
+  issue: '6'
+  pages: 4255-4258
+  authors:
+  - J. M. Mercero
+  - J. E. Fowler
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '242'
+- id: 10-1063-1-479117
+  type: article
+  title: Critical conditions for stable dipole-bound dianions
+  doi: 10.1063/1.479117
+  year: 1999
+  journal: Journal of Chemical Physics
+  volume: '110'
+  issue: '24'
+  pages: 11717-11719
+  authors:
+  - C. Sarasola
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '750'
+- id: 10-1039-a901066a
+  type: article
+  title: Density functional studies of the pseudo-pi.A sigma charge-transfer complex between cyclopropane and chlorine monofluoride
+  doi: 10.1039/a901066a
+  year: 1999
+  journal: Physical Chemistry Chemical Physics
+  volume: '1'
+  issue: '9'
+  pages: 2203-2207
+  authors:
+  - A. Garcia
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '388'
+- id: 10-1103-physreva-60-4375
+  type: article
+  title: Electronic structures of the bound excited quartet states of the helium anion
+  doi: 10.1103/PhysRevA.60.4375
+  year: 1999
+  journal: Physical Review A
+  volume: '60'
+  issue: '6'
+  pages: 4375-4378
+  authors:
+  - J. M. Mercero
+  - J. M. Elorza
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '239'
+- id: 10-1103-physreva-60-3058
+  type: article
+  title: Many low-lying isomers of the cationic and neutral niobium trimer and tetramer
+  doi: 10.1103/PhysRevA.60.3058
+  year: 1999
+  journal: Physical Review A
+  volume: '60'
+  issue: '4'
+  pages: 3058-3070
+  authors:
+  - J. E. Fowler
+  - A. Garcia
+  - J. M. Ugalde
+  teachpress_id: '375'
+- id: 10-1021-ja984469u
+  type: article
+  title: 'Reactivity of Cr+(S-6,D-4), Mn+(S-7,S-5), and Fe+(D-6,F-4): Reaction of Cr+, Mn+, and Fe+ with water'
+  doi: 10.1021/ja984469u
+  year: 1999
+  journal: Journal of the American Chemical Society
+  volume: '121'
+  issue: '37'
+  pages: 8549-8558
+  authors:
+  - A. Irigoras
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '494'
+- id: 10-1021-ja9805829
+  type: article
+  title: 'Reactivity of Sc+(D-3,D-1) and V+(D-5,F-3): Reaction of Sc+ and V+ with water'
+  doi: 10.1021/ja9805829
+  year: 1999
+  journal: Journal of the American Chemical Society
+  volume: '121'
+  issue: '3'
+  pages: 574-580
+  authors:
+  - A. Irigoras
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '495'
+- id: 10-1016-s0009-2614-99-00310-3
+  type: article
+  title: The topological features of the intracule density of the uniform electron gas
+  doi: 10.1016/s0009-2614(99)00310-3
+  year: 1999
+  journal: Chemical Physics Letters
+  volume: '304'
+  issue: 5-6
+  pages: 393-398
+  authors:
+  - X. Fradera
+  - C. Sarasola
+  - J. M. Ugalde
+  - R. J. Boyd
+  teachpress_id: '379'

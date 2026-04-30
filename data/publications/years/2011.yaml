@@ -1,0 +1,698 @@
+items:
+- id: 10-1002-chem-201003093
+  type: article
+  title: A Continuous Symmetry Analysis of Chemical Bonding
+  doi: 10.1002/chem.201003093
+  year: 2011
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '17'
+  issue: '22'
+  pages: 6129-6141
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Chaim Dryzun
+  - Pere Alemany
+  - David Casanova
+  - David Avnir
+  teachpress_id: '1279'
+- id: 10-1063-1-3582792
+  type: article
+  title: A natural orbital functional for multiconfigurational states
+  doi: 10.1063/1.3582792
+  year: 2011
+  journal: Journal of Chemical Physics
+  volume: '134'
+  issue: '16'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - X. Lopez
+  - F. Ruiperez
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '678'
+- id: 10-1016-j-jinorgbio-2011-07-019
+  type: article
+  title: A QM/MM study of the complexes formed by aluminum and iron with serum transferrin at neutral and acidic pH
+  doi: 10.1016/j.jinorgbio.2011.07.019
+  year: 2011
+  journal: Journal of Inorganic Biochemistry
+  volume: '105'
+  issue: '11'
+  pages: 1446-1456
+  authors:
+  - J. I. Mujika
+  - X. Lopez
+  - E. Rezabal
+  - R. Castillo
+  - S. Marti
+  - V. Moliner
+  - J. M. Ugalde
+  teachpress_id: '648'
+- id: 10-1021-jp203465h
+  type: article
+  title: 'Ab Initio Design of Chelating Ligands Relevant to Alzheimer''s Disease: Influence of Metalloaromaticity'
+  doi: 10.1021/jp203465h
+  year: 2011
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: 115(45
+  issue: 45, SI
+  pages: SI), 12659-12666
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Albert Rimola
+  - Jorge Ali-Torres
+  - Cristina Rodriguez-Rodriguez
+  - Jordi Poater
+  - Eduard Matito
+  - Miguel Sola
+  - Mariona Sodupe
+  teachpress_id: '1042'
+- id: 10-1007-s00214-010-0805-8
+  type: article
+  title: Aromaticity and electronic delocalization in all-metal clusters with single, double, and triple aromatic character
+  doi: 10.1007/s00214-010-0805-8
+  year: 2011
+  journal: THEORETICAL CHEMISTRY ACCOUNTS
+  volume: '128'
+  issue: 4-6
+  pages: 419-431
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Miquel Duran
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1048'
+- id: 10-1007-s00214-010-0805-8
+  type: article
+  title: Aromaticity and electronic delocalization in all-metal clusters with single, double, and triple aromatic character
+  year: 2011
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '241'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jordi Poater
+  - Ferran Feixas
+  - Eduard Matito
+  - Miquel Duran
+  - Miquel Sola
+  teachpress_id: '1046'
+- id: 10-1021-ct200053z
+  type: article
+  title: Benchmark Full Configuration Interaction Calculations on the Lowest-Energy 2P and 4P States of the Three-Electron Harmonium Atom
+  doi: 10.1021/ct200053z
+  year: 2011
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '7'
+  issue: '4'
+  pages: 915-920
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jerzy Cioslowski
+  - Eduard Matito
+  teachpress_id: '1044'
+- id: 10-1021-jp2005327
+  type: article
+  title: 'Characteristics of X-H center dot center dot center dot pi Interactions: Ab Initio and QTAIM Studies'
+  doi: 10.1021/jp2005327
+  year: 2011
+  journal: Journal of Physical Chemistry A
+  volume: '115'
+  issue: '18'
+  pages: 4765-4773
+  authors:
+  - S. J. Grabowski
+  - P. Lipkowski
+  teachpress_id: '455'
+- id: 10-1021-ct200048z
+  type: article
+  title: Complete vs Restricted Active Space Perturbation Theory Calculation of the Cr-2 Potential Energy Surface
+  doi: 10.1021/ct200048z
+  year: 2011
+  journal: Journal of Chemical Theory and Computation
+  volume: '7'
+  issue: '6'
+  pages: 1640-1646
+  authors:
+  - F. Ruiperez
+  - F. Aquilante
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '728'
+- id: 10-1007-s00214-010-0807-6
+  type: article
+  title: Computational evaluation of pK(a) for oxygenated side chain containing amino acids interacting with Aluminum
+  doi: 10.1007/s00214-010-0807-6
+  year: 2011
+  journal: Theoretical Chemistry Accounts
+  volume: '128'
+  issue: 4-6
+  pages: 477-484
+  authors:
+  - J. I. Mujika
+  - J. M. Ugalde
+  - X. Lopez
+  teachpress_id: '654'
+- id: 10-1002-chem-201002128
+  type: article
+  title: 'Concurrent Symmetries: The Interplay Between Local and Global Molecular Symmetries'
+  doi: 10.1002/chem.201002128
+  year: 2011
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '17'
+  issue: '1'
+  pages: 359-367
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Jorge Echeverria
+  - Abel Carreras
+  - David Casanova
+  - Pere Alemany
+  - Santiago Alvarez
+  teachpress_id: '1280'
+- id: 10-1021-jp1100544
+  type: article
+  title: Dihydrogen Bonding vs Metal-sigma Interaction in Complexes between H-2 and Metal Hydride
+  doi: 10.1021/jp1100544
+  year: 2011
+  journal: Journal of Physical Chemistry A
+  volume: '115'
+  issue: '2'
+  pages: 201-210
+  authors:
+  - I. Alkorta
+  - J. Elguero
+  - M. Solimannejad
+  - S. J. Grabowski
+  teachpress_id: '289'
+- id: 10-1002-cphc-201100136
+  type: article
+  title: Diradicals and Diradicaloids in Natural Orbital Functional Theory
+  doi: 10.1002/cphc.201100136
+  year: 2011
+  journal: Chemphyschem
+  volume: '12'
+  issue: '6'
+  pages: 1061-1065
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - X. Lopez
+  - F. Ruiperez
+  - M. Piris
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '568'
+- id: 10-1039-c1cp22239b
+  type: article
+  title: Electron delocalization and aromaticity in low-lying excited states of archetypal organic compounds
+  doi: 10.1039/c1cp22239b
+  year: 2011
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '13'
+  issue: '46'
+  pages: 20690-20703
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Jelle Vandenbussche
+  - Patrick Bultinck
+  - Eduard Matito
+  - Miquel Sola
+  teachpress_id: '1051'
+- id: 10-2174-138527211797636192
+  type: article
+  title: Electron Delocalization in Organic Chemistry
+  doi: 10.2174/138527211797636192
+  year: 2011
+  journal: CURRENT ORGANIC CHEMISTRY
+  volume: '15'
+  issue: '20'
+  pages: '3554'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Prof Sola
+  teachpress_id: '1043'
+- id: 10-1021-ct2001123
+  type: article
+  title: 'Electron Localization Function at the Correlated Level: A Natural Orbital Formulation (vol 6, pg 2736, 2010)'
+  doi: 10.1021/ct2001123
+  year: 2011
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '7'
+  issue: '4'
+  pages: '1231'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Miquel Duran
+  - Miquel Sola
+  - Bernard Silvi
+  teachpress_id: '1045'
+- id: 10-1021-ic200061h
+  type: article
+  title: 'Electronic Structure and Bonding in Heteronuclear Dimers of V, Cr, Mo, and W: a CASSCF/CASPT2 Study'
+  doi: 10.1021/ic200061h
+  year: 2011
+  journal: Inorganic Chemistry
+  volume: '50'
+  issue: '19'
+  pages: 9219-9229
+  authors:
+  - F. Ruiperez
+  - J. M. Ugalde
+  - I. Infante
+  teachpress_id: '733'
+- id: 10-1002-chem-201101329
+  type: article
+  title: Electronic Structure and Symmetry in Conjugated π-Electron Systems
+  doi: 10.1002/chem.201101329
+  year: 2011
+  journal: CHEMISTRY-A EUROPEAN JOURNAL
+  volume: '17'
+  issue: '52'
+  pages: 14896-14906
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Pere Alemany
+  - David Casanova
+  - Chaim Dryzun
+  teachpress_id: '1276'
+- id: 10-1021-jp205019s
+  type: article
+  title: 'Halogen Bond and Its Counterparts: Bent''s Rule Explains the Formation of Nonbonding Interactions'
+  doi: 10.1021/jp205019s
+  year: 2011
+  journal: Journal of Physical Chemistry A
+  volume: '115'
+  issue: '44'
+  pages: 12340-12347
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '403'
+- id: 10-1039-c1cp21696a
+  type: article
+  title: Homolytic molecular dissociation in natural orbital functional theory
+  doi: 10.1039/c1cp21696a
+  year: 2011
+  journal: Physical Chemistry Chemical Physics
+  volume: '13'
+  issue: '45'
+  pages: 20129-20135
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Matxain
+  - M. Piris
+  - F. Ruiperez
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '617'
+- id: 10-1021-jp2056859
+  type: article
+  title: 'Intramolecular Hydrogen Bonds: the QTAIM and ELF Characteristics'
+  doi: 10.1021/jp2056859
+  year: 2011
+  journal: Journal of Physical Chemistry A
+  volume: '115'
+  issue: '35'
+  pages: 10078-10086
+  authors:
+  - F. Fuster
+  - S. J. Grabowski
+  teachpress_id: '380'
+- id: 10-1063-1-3521476
+  type: article
+  title: Kinetic energy distribution of multiply charged ions in Coulomb explosion of Xe clusters
+  doi: 10.1063/1.3521476
+  year: 2011
+  journal: Journal of Chemical Physics
+  volume: '134'
+  issue: '7'
+  authors:
+  - A. Heidenreich
+  - J. Jortner
+  teachpress_id: '479'
+- id: 10-1002-ejic-201100561
+  type: article
+  title: Matrix Infrared Spectroscopy and a Theoretical Investigation of SUO and US2
+  doi: 10.1002/ejic.201100561
+  year: 2011
+  journal: European Journal of Inorganic Chemistry
+  volume: (28)
+  issue: '28'
+  pages: 4457-4463
+  authors:
+  - L. Andrews
+  - X. F. Wang
+  - B. Y. Liang
+  - F. Ruiperez
+  - I. Infante
+  - A. D. Raw
+  - J. A. Ibers
+  teachpress_id: '298'
+- id: 10-1021-ja208431r
+  type: article
+  title: 'Mechanism for Singlet Fission in Pentacene and Tetracene: From Single Exciton to Two Triplets'
+  doi: 10.1021/ja208431r
+  year: 2011
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '133'
+  issue: '49'
+  pages: 19944-19952
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Paul M. Zimmerman
+  - Franziska Bell
+  - David Casanova
+  - Martin Head-Gordon
+  teachpress_id: '1275'
+- id: 10-1002-qua-22818
+  type: article
+  title: Model for a Biexciton in a Lateral Quantum Dot Based on Exact Solutions for the Hookean H-2 Molecule. I. Theoretical Aspects
+  doi: 10.1002/qua.22818
+  year: 2011
+  journal: International Journal of Quantum Chemistry
+  volume: '111'
+  issue: 7-8
+  pages: 1808-1818
+  authors:
+  - E. V. Ludena
+  - L. Echevarria
+  - J. M. Ugalde
+  - X. Lopez
+  - A. Corella-Madueno
+  teachpress_id: '589'
+- id: 10-1002-cphc-201100190
+  type: article
+  title: 'Natural Orbital Functional Theory and Reactivity Studies of Diradical Rearrangements: Ethylene Torsion as a Case Study'
+  doi: 10.1002/cphc.201100190
+  year: 2011
+  journal: Chemphyschem
+  volume: '12'
+  issue: '9'
+  pages: 1673-1676
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - X. Lopez
+  - M. Piris
+  - J. M. Matxain
+  - F. Ruiperez
+  - J. M. Ugalde
+  teachpress_id: '563'
+- id: 10-1021-jp200731d
+  type: article
+  title: New Link between Conceptual Density Functional Theory and Electron Delocalization
+  doi: 10.1021/jp200731d
+  year: 2011
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: 115(45
+  issue: 45, SI
+  pages: SI), 12459-12462
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Mihai V. Putz
+  teachpress_id: '1041'
+- id: 10-1063-1-3553558
+  type: article
+  title: 'Note: The weak-correlation limit of the three-electron harmonium atom'
+  doi: 10.1063/1.3553558
+  year: 2011
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '134'
+  issue: '11'
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jerzy Cioslowski
+  - Eduard Matito
+  teachpress_id: '1047'
+- id: 10-1002-jcc-21621
+  type: article
+  title: Performance of 3D-Space-Based Atoms-in-Molecules Methods for Electronic Delocalization Aromaticity Indices
+  doi: 10.1002/jcc.21621
+  year: 2011
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '32'
+  issue: '3'
+  pages: 386-395
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Wouter Heyndrickx
+  - Pedro Salvador
+  - Patrick Bultinck
+  - Miquel Sola
+  - Eduard Matito
+  teachpress_id: '1049'
+- id: 10-1021-jp203290b
+  type: article
+  title: 'Pro-oxidant Activity of Aluminum: Stabilization of the Aluminum Superoxide Radical Ion'
+  doi: 10.1021/jp203290b
+  year: 2011
+  journal: Journal of Physical Chemistry A
+  volume: '115'
+  issue: '24'
+  pages: 6717-6723
+  authors:
+  - J. I. Mujika
+  - F. Ruiperez
+  - I. Infante
+  - J. M. Ugalde
+  - C. Exley
+  - X. Lopez
+  teachpress_id: '652'
+- id: 10-1063-1-3537797
+  type: article
+  title: Quantum chemical assessment of the binding energy of CuO+
+  doi: 10.1063/1.3537797
+  year: 2011
+  journal: Journal of Chemical Physics
+  volume: '134'
+  issue: '6'
+  authors:
+  - E. Rezabal
+  - J. Gauss
+  - J. M. Matxain
+  - R. Berger
+  - M. Diefenbach
+  - M. C. Holthausen
+  teachpress_id: '715'
+- id: rn79
+  type: article
+  title: Rationalizing chemical bonding in molecular Wankel motors
+  year: 2011
+  journal: Abstracts of Papers of the American Chemical Society
+  volume: '242'
+  authors:
+  - A. P. Sergeeva
+  - G. Martinez-Guajardo
+  - A. I. Boldyrev
+  - T. Heine
+  - J. M. Ugalde
+  - G. Merino
+  teachpress_id: '761'
+- id: 10-1021-jp203908n
+  type: article
+  title: 'Red- and Blue-Shifted Hydrogen Bonds: the Bent Rule from Quantum Theory of Atoms in Molecules Perspective'
+  doi: 10.1021/jp203908n
+  year: 2011
+  journal: Journal of Physical Chemistry A
+  volume: '115'
+  issue: '45'
+  pages: 12789-12799
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '404'
+- id: 10-1016-j-cplett-2011-06-080
+  type: article
+  title: Revisiting the foundations of symmetry operation measures for electronic wavefunctions
+  doi: 10.1016/j.cplett.2011.06.080
+  year: 2011
+  journal: CHEMICAL PHYSICS LETTERS
+  volume: '511'
+  issue: 4-6
+  pages: 486-490
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Pere Alemany
+  teachpress_id: '1278'
+- id: 10-1002-cphc-201100520
+  type: article
+  title: The Role of the p Linker in Donor-p-Acceptor Organic Dyes for High-Performance Sensitized Solar Cells
+  doi: 10.1002/cphc.201100520
+  year: 2011
+  journal: CHEMPHYSCHEM
+  volume: '12'
+  issue: '16'
+  pages: 2979-2988
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  teachpress_id: '1277'
+- id: 10-1021-jp108640w
+  type: article
+  title: Thermal Stability of Endohedral First-Row Transition-Metal TM@ZniSi Structures
+  doi: 10.1021/jp108640w
+  year: 2011
+  journal: Journal of Physical Chemistry C
+  volume: '115'
+  issue: '16'
+  pages: 7829-7835
+  groups:
+  - matcat
+  tags:
+  - MatCat-NanoSurf
+  authors:
+  - E. Jimenez-Izal
+  - J. M. Matxain
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '515'
+- id: 10-1002-jcc-21672
+  type: article
+  title: Tuning Aromaticity in Trigonal Alkaline Earth Metal Clusters and Their Alkali Metal Salts (vol 30, pg 2764, 2009)
+  doi: 10.1002/jcc.21672
+  year: 2011
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '32'
+  issue: '2'
+  pages: 372-373
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - J. Oscar C. Jimenez-Halla
+  - Eduard Matito
+  - Lluis Blancafort
+  - Juvencio Robles
+  - Miquel Sola
+  teachpress_id: '1050'
+- id: 10-1021-jp205152n
+  type: article
+  title: Understanding Conjugation and Hyperconjugation from Electronic Delocalization Measures
+  doi: 10.1021/jp205152n
+  year: 2011
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: 115(45
+  issue: 45, SI
+  pages: SI), 13104-13113
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1040'
+- id: 10-1039-c1cc10821b
+  type: article
+  title: Unravelling phenomenon of internal rotation in B-13(+) through chemical bonding analysis
+  doi: 10.1039/c1cc10821b
+  year: 2011
+  journal: Chemical Communications
+  volume: '47'
+  issue: '22'
+  pages: 6242-6244
+  authors:
+  - G. Martinez-Guajardo
+  - A. P. Sergeeva
+  - A. I. Boldyrev
+  - T. Heine
+  - J. M. Ugalde
+  - G. Merino
+  teachpress_id: '602'
+- id: 10-1021-jp2027466
+  type: article
+  title: 'Wetting Property of the Edges of Monoatomic Step on Graphite: Frictional-Force Microscopy and ab Initio Quantum Chemical Studies'
+  doi: 10.1021/jp2027466
+  year: 2011
+  journal: Journal of Physical Chemistry C
+  volume: '115'
+  issue: '30'
+  pages: 14819-14826
+  authors:
+  - S. Panigrahi
+  - A. Bhattacharya
+  - D. Bandyopadhyay
+  - S. J. Grabowski
+  - D. Bhattacharyya
+  - S. Banerjee
+  teachpress_id: '660'
+- id: 10-1021-cr800346f
+  type: article
+  title: What Is the Covalency of Hydrogen Bonding?
+  doi: 10.1021/cr800346f
+  year: 2011
+  journal: Chemical Reviews
+  volume: '111'
+  issue: '4'
+  pages: 2597-2625
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '405'

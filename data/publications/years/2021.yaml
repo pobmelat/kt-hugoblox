@@ -1,0 +1,974 @@
+items:
+- id: 10-1039-d1nj01725j
+  type: article
+  title: 'A size-selective method for increasing the performance of Pt supported on tungstated zirconia catalysts for alkane isomerization: a combined experimental and theoretical DFT study'
+  doi: 10.1039/d1nj01725j
+  year: 2021
+  journal: New Journal of Chemistry
+  volume: '45'
+  issue: '23'
+  pages: 10510-10523
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - J. Vera-Iturriaga
+  - K. G. Madrigal-Carrillo
+  - M. L. Hernandez-Pichardo
+  - J. I. Rodriguez
+  - E. Jimenez-Izal
+  - J. A. M. De la Fuente
+  teachpress_id: '807'
+- id: 10-1002-anie-202104294
+  type: article
+  title: A Trapezoidal Octacyanoquinoid Acceptor Forms Solution and Surface Products by Antiparallel Shape Fitting with Conformational Dipole Momentum Switch
+  doi: 10.1002/anie.202104294
+  year: 2021
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '60'
+  issue: '33'
+  pages: 17887-17892
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Samara Medina Rivero
+  - Javier Urieta-Mora
+  - Agustin Molina-Ontoria
+  - Cristina Martin-Fuentes
+  - Jose I. Urgel
+  - Maria Zubiria-Ulacia
+  - Vega Lloveras
+  - David Casanova
+  - Jose I. Martinez
+  - Jaume Veciana
+  - David Ecija
+  - Nazario Martin
+  - Juan Casado
+  teachpress_id: '1192'
+- id: 10-3390-molecules26175175
+  type: article
+  title: A-X center dot center dot center dot sigma Interactions-Halogen Bonds with sigma-Electrons as the Lewis Base Centre
+  doi: 10.3390/molecules26175175
+  year: 2021
+  journal: Molecules
+  volume: '26'
+  issue: '17'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '445'
+- id: 10-1021-acs-jpclett-1c01908
+  type: article
+  title: 'Benzene Excimer and Excited Multimers: Electronic Character, Interaction Nature, and Aromaticity'
+  doi: 10.1021/acs.jpclett.1c01908
+  year: 2021
+  journal: JOURNAL OF PHYSICAL CHEMISTRY LETTERS
+  volume: '12'
+  issue: '31'
+  pages: 7400-7408
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Aitor Diaz-Andres
+  - David Casanova
+  teachpress_id: '1190'
+- id: 10-1007-s00214-021-02775-4
+  type: article
+  title: 'Chemical reactivity studies by the natural orbital functional second-order Moller-Plesset (NOF-MP2) method: water dehydrogenation by the scandium cation'
+  doi: 10.1007/s00214-021-02775-4
+  year: 2021
+  journal: Theoretical Chemistry Accounts
+  volume: '140'
+  issue: '6'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. M. Mercero
+  - J. M. Ugalde
+  - M. Piris
+  teachpress_id: '258'
+- id: 10-1021-jacs-1c08176
+  type: article
+  title: Chemical Tuning of Exciton versus Charge-Transfer Excited States in Conformationally Restricted Arylene Cages
+  doi: 10.1021/jacs.1c08176
+  year: 2021
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '143'
+  issue: '44'
+  pages: 18548-18558
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Taylor N. Lewis
+  - Claire Tonnele
+  - William G. Shuler
+  - Zachary A. Kasun
+  - Hiroki Sato
+  - Adam J. Berges
+  - Jacob R. Rodriguez
+  - Michael J. Krische
+  - David Casanova
+  - Christopher J. Bardeen
+  teachpress_id: '1186'
+- id: 10-3390-molecules26164939
+  type: article
+  title: Classification of So-Called Non-Covalent Interactions Based on VSEPR Model
+  doi: 10.3390/molecules26164939
+  year: 2021
+  journal: Molecules
+  volume: '26'
+  issue: '16'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '446'
+- id: 10-1021-acs-jpca-0c11183
+  type: article
+  title: 'Coexistence of Intra- and Intermolecular Hydrogen Bonds: Salicylic Acid and Salicylamide and Their Thiol Counterparts'
+  doi: 10.1021/acs.jpca.0c11183
+  year: 2021
+  journal: Journal of Physical Chemistry A
+  volume: '125'
+  issue: '7'
+  pages: 1526-1539
+  authors:
+  - S. Gholami
+  - M. Aarabi
+  - S. J. Grabowski
+  teachpress_id: '395'
+- id: 10-1016-j-xcrp-2021-100339
+  type: article
+  title: Competition between triplet pair formation and excimer-like recombination controls singlet fission yield
+  doi: 10.1016/j.xcrp.2021.100339
+  year: 2021
+  journal: CELL REPORTS PHYSICAL SCIENCE
+  volume: '2'
+  issue: '2'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Yuqing Huang
+  - Irina A. Buyanova
+  - Chanakarn Phansa
+  - Maria E. Sandoval-Salinas
+  - David Casanova
+  - William K. Myers
+  - Neil C. Greenham
+  - Akshay Rao
+  - Weimin M. Chen
+  - Yuttapoom Puttisong
+  teachpress_id: '1195'
+- id: 10-1103-physreve-104-024604
+  type: article
+  title: Computational approach to (ZnS)i nanoclusters in ionic liquids
+  doi: 10.1103/PhysRevE.104.024604
+  year: 2021
+  journal: Physical Review E
+  volume: '104'
+  issue: '2'
+  tags:
+  - SUS-KT
+  authors:
+  - J. Zubeltzu
+  - J. M. Matxain
+  - E. Rezabal
+  teachpress_id: '829'
+- id: 10-1039-d0sc04715e
+  type: article
+  title: Controlling ultralong room temperature phosphorescence in organic compounds with sulfur oxidation state
+  doi: 10.1039/d0sc04715e
+  year: 2021
+  journal: CHEMICAL SCIENCE
+  volume: '12'
+  issue: '1'
+  pages: 188-195
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Zhen Xu
+  - Claudia Climent
+  - Christopher M. Brown
+  - Duane Hean
+  - Christopher J. Bardeen
+  - David Casanova
+  - Michael O. Wolf
+  teachpress_id: '1196'
+- id: 10-1021-acs-jctc-1c00858
+  type: article
+  title: Coupling Natural Orbital Functional Theory and Many-Body Perturbation Theory by Using Nondynamically Correlated Canonical Orbitals
+  doi: 10.1021/acs.jctc.1c00858
+  year: 2021
+  journal: Journal of Chemical Theory and Computation
+  volume: '17'
+  issue: '12'
+  pages: 7562-7574
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Rodriguez-Mayorga
+  - I. Mitxelena
+  - F. Bruneval
+  - M. Piris
+  teachpress_id: '722'
+- id: 10-1016-j-cpc-2020-107651
+  type: article
+  title: 'DoNOF: An open-source implementation of natural-orbital-functional-based methods for quantum chemistry'
+  doi: 10.1016/j.cpc.2020.107651
+  year: 2021
+  journal: Computer Physics Communications
+  volume: '259'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - I. Mitxelena
+  teachpress_id: '697'
+- id: 10-1002-cphc-202100407
+  type: article
+  title: 'Doping Platinum with Germanium: An Effective Way to Mitigate the CO Poisoning'
+  doi: 10.1002/cphc.202100407
+  year: 2021
+  journal: Chemphyschem
+  volume: '22'
+  issue: '15'
+  pages: 1603-1610
+  groups:
+  - matcat
+  tags:
+  - MatCat-KT
+  - MatCat
+  authors:
+  - A. Ugartemendia
+  - K. Peeters
+  - P. Ferrari
+  - A. Cozar
+  - J. M. Mercero
+  - E. Janssens
+  - E. Jimenez-Izal
+  teachpress_id: '277'
+- id: 10-1140-epjs-s11734-021-00190-1
+  type: article
+  title: Efficient tampering of a coulomb exploding cluster embedded in a hydrogen shell
+  doi: 10.1140/epjs/s11734-021-00190-1
+  year: 2021
+  journal: European Physical Journal-Special Topics
+  volume: '230'
+  issue: '23'
+  pages: 4025-4034
+  authors:
+  - A. Heidenreich
+  - M. Mudrich
+  teachpress_id: '481'
+- id: 10-1021-acs-jpca-1c02305
+  type: article
+  title: Electronic Structure and Electron Delocalization in Bare and Dressed Boron Pentamer Clusters
+  doi: 10.1021/acs.jpca.1c02305
+  year: 2021
+  journal: Journal of Physical Chemistry A
+  volume: '125'
+  issue: '24'
+  pages: 5246-5255
+  authors:
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '257'
+- id: 10-1039-d1ma00277e
+  type: article
+  title: Engineering a light-driven cyanine based molecular rotor to enhance the sensitivity towards a viscous medium
+  doi: 10.1039/d1ma00277e
+  year: 2021
+  journal: MATERIALS ADVANCES
+  volume: '2'
+  issue: '14'
+  pages: 4804-4813
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Vishal Kachwal
+  - Abhilasha Srivastava
+  - Sumukh Thakar
+  - Maria Zubiria-Ulacia
+  - Diplesh Gautam
+  - Syamantak Majumder
+  - K. P. Venkatesh
+  - David Casanova
+  - Rajdeep Chowdhury
+  - Nigam Rath
+  - Sudeshna Mukherjee
+  - Pere Alemany
+  - Inamur Rahaman Laskar
+  teachpress_id: '1193'
+- id: 10-1021-acs-jpclett-1c00802
+  type: article
+  title: Enhancing the Photocatalytic Conversion of Pt(IV) Substrates by Flavoprotein Engineering
+  doi: 10.1021/acs.jpclett.1c00802
+  year: 2021
+  journal: Journal of Physical Chemistry Letters
+  volume: '12'
+  issue: '19'
+  pages: 4504-4508
+  tags:
+  - SUS-KT
+  authors:
+  - J. Gurruchaga-Pereda
+  - V. Martinez-Martinez
+  - E. Formoso
+  - O. Azpitarte
+  - E. Rezabal
+  - X. Lopez
+  - A. L. Cortajarena
+  - L. Salassa
+  teachpress_id: '468'
+- id: 10-1039-d1qo00822f
+  type: article
+  title: 'Extended enantiopure ortho-phenylene ethylene (o-OPE)-based helical systems as scaffolds for supramolecular architectures: a study of chiroptical response and its connection to the CISS effect'
+  doi: 10.1039/d1qo00822f
+  year: 2021
+  journal: Organic Chemistry Frontiers
+  volume: '8'
+  issue: '18'
+  pages: 5071-5086
+  authors:
+  - A. M. Ortuno
+  - P. Reine
+  - S. Resa
+  - L. A. Cienfuegos
+  - V. Blanco
+  - J. M. Paredes
+  - A. J. Mota
+  - G. Mazzeo
+  - S. Abbate
+  - J. M. Ugalde
+  - V. Mujica
+  - G. Longhi
+  - D. Miguel
+  - J. M. Cuerva
+  teachpress_id: '659'
+- id: 10-1103-physrevlett-127-233001
+  type: article
+  title: 'Global Natural Orbital Functional: Towards the Complete Description of the Electron Correlation'
+  doi: 10.1103/PhysRevLett.127.233001
+  year: 2021
+  journal: Physical Review Letters
+  volume: '127'
+  issue: '23'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '677'
+- id: 10-1002-anie-202100261
+  type: article
+  title: Guidelines for Tuning the Excited State Huckel-Baird Hybrid Aromatic Character of Pro-Aromatic Quinoidal Compounds**
+  doi: 10.1002/anie.202100261
+  year: 2021
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '60'
+  issue: '18'
+  pages: 10255-10265
+  groups:
+  - moleles
+  - qcd
+  tags:
+  - MolEles-KT
+  - QCD-KT
+  authors:
+  - Silvia Escayola
+  - Claire Tonnele
+  - Eduard Matito
+  - Albert Poater
+  - Henrik Ottosson
+  - Miquel Sola
+  - David Casanova
+  teachpress_id: '980'
+- id: 10-1088-1367-2630-ac1bf3
+  type: article
+  title: 'GW approximation for open-shell molecules: a first-principles study'
+  doi: 10.1088/1367-2630/ac1bf3
+  year: 2021
+  journal: NEW JOURNAL OF PHYSICS
+  volume: '23'
+  issue: '9'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Masoud Mansouri
+  - David Casanova
+  - Peter Koval
+  - Daniel Sanchez-Portal
+  teachpress_id: '1187'
+- id: 10-1002-anie-202108997
+  type: article
+  title: How Aromatic Are Molecular Nanorings? The Case of a Six-Porphyrin Nanoring**
+  doi: 10.1002/anie.202108997
+  year: 2021
+  journal: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
+  volume: '60'
+  issue: '45'
+  pages: 24080-24088
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Irene Casademont-Reig
+  - Raul Guerrero-Aviles
+  - Eloy Ramos-Cordoba
+  - Miquel Torrent-Sucarrat
+  - Eduard Matito
+  teachpress_id: '978'
+- id: 10-1021-acs-jpca-1c02760
+  type: article
+  title: How Many Electrons Does a Molecular Electride Hold?
+  doi: 10.1021/acs.jpca.1c02760
+  year: 2021
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '125'
+  issue: '22'
+  pages: 4819-4835
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Sebastian P. Sitkiewicz
+  - Eloy Ramos-Cordoba
+  - Josep M. Luis
+  - Eduard Matito
+  teachpress_id: '979'
+- id: 10-3390-molecules26226939
+  type: article
+  title: Hydrogen and Lithium Bonds-Lewis Acid Units Possessing Multi-Center Covalent Bonds
+  doi: 10.3390/molecules26226939
+  year: 2021
+  journal: Molecules
+  volume: '26'
+  issue: '22'
+  authors:
+  - M. Aarabi
+  - S. Gholami
+  - S. J. Grabowski
+  teachpress_id: '282'
+- id: 10-1039-d1cp02500g
+  type: article
+  title: Impact of van der Waals interactions on the structural and nonlinear optical properties of azobenzene switches
+  doi: 10.1039/d1cp02500g
+  year: 2021
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '23'
+  issue: '37'
+  pages: 21227-21239
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Carmelo Naim
+  - Frederic Castet
+  - Eduard Matito
+  teachpress_id: '977'
+- id: 10-3390-cryst11010005
+  type: article
+  title: Intramolecular Hydrogen Bond Energy and Its Decomposition-O-H center dot center dot center dot O Interactions
+  doi: 10.3390/cryst11010005
+  year: 2021
+  journal: Crystals
+  volume: '11'
+  issue: '1'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '447'
+- id: 10-3390-polym13183098
+  type: article
+  title: Ionic Inter-Particle Complexation Effect on the Performance of Waterborne Coatings
+  doi: 10.3390/polym13183098
+  year: 2021
+  journal: Polymers
+  volume: '13'
+  issue: '18'
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - M. Argaiz
+  - F. Ruiperez
+  - M. Aguirre
+  - R. Tomovska
+  teachpress_id: '301'
+- id: 10-1016-j-jinorgbio-2021-111520
+  type: article
+  title: Kojic acid derivatives as double face ligands for metal and phosphate ions
+  doi: 10.1016/j.jinorgbio.2021.111520
+  year: 2021
+  journal: Journal of Inorganic Biochemistry
+  volume: '222'
+  authors:
+  - J. I. Lachowicz
+  - D. Todde
+  - K. Aberamchuk
+  - G. Picci
+  - S. Murgia
+  - V. M. Nurchi
+  - M. Klepka
+  - D. Kalinowska
+  - G. Dalla Torre
+  - J. Mujika
+  - X. Lopez
+  - C. Caltagirone
+  teachpress_id: '526'
+- id: 10-1146-annurev-biophys-060320-091827
+  type: inbook
+  title: 'Learning to Model G-Quadruplexes: Current Methods and Perspectives'
+  doi: 10.1146/annurev-biophys-060320-091827
+  year: 2021
+  volume: '50'
+  pages: 209-243
+  authors:
+  - I. O. Luzuriaga
+  - X. Lopez
+  - A. Gil
+  teachpress_id: '341'
+- id: 10-1063-5-0056748
+  type: article
+  title: Markov state models from hierarchical density-based assignment
+  doi: 10.1063/5.0056748
+  year: 2021
+  journal: Journal of Chemical Physics
+  volume: '155'
+  issue: '5'
+  authors:
+  - I. Mitxelena
+  - X. Lopez
+  - D. Sancho
+  teachpress_id: '628'
+- id: 10-1021-acscatal-1c04838
+  type: article
+  title: Mechanism of Hydrogen Sulfide-Dependent Inhibition of FeFe Hydrogenase
+  doi: 10.1021/acscatal.1c04838
+  year: 2021
+  journal: Acs Catalysis
+  volume: '11'
+  issue: '24'
+  pages: 15162-15176
+  authors:
+  - C. Felbek
+  - F. Arrigoni
+  - D. Sancho
+  - A. Jacq-Bailly
+  - R. B. Best
+  - V. Fourmond
+  - L. Bertini
+  - C. Leger
+  teachpress_id: '368'
+- id: 10-1021-acs-inorgchem-1c01088
+  type: article
+  title: Mechanistic Insights into Promoted Hydrolysis of Phosphoester Bonds by MoO2C12(DMF)(2)
+  doi: 10.1021/acs.inorgchem.1c01088
+  year: 2021
+  journal: Inorganic Chemistry
+  volume: '60'
+  issue: '15'
+  pages: 11177-11191
+  authors:
+  - J. Lanuza
+  - A. Sanchez-Gonzalez
+  - N. A. G. Bandeira
+  - X. Lopez
+  - A. Gil
+  teachpress_id: '531'
+- id: 10-1021-acs-jctc-1c00544
+  type: article
+  title: Mild Open-Shell Character of BODIPY and Its Impact on Singlet and Triplet Excitation Energies
+  doi: 10.1021/acs.jctc.1c00544
+  year: 2021
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '17'
+  issue: '9'
+  pages: 5825-5838
+  groups:
+  - moleles
+  - polkt
+  tags:
+  - MolEles-KT
+  - POL-KT
+  authors:
+  - Veronica Postils
+  - Fernando Ruiperez
+  - David Casanova
+  - V. Postils
+  - F. Ruiperez
+  - D. Casanova
+  teachpress_id: '1188'
+- id: 10-1021-acsnano-1c02242
+  type: article
+  title: Nanomechanical Phenotypes in Cardiac Myosin-Binding Protein C Mutants That Cause Hypertrophic Cardiomyopathy
+  doi: 10.1021/acsnano.1c02242
+  year: 2021
+  journal: Acs Nano
+  volume: '15'
+  issue: '6'
+  pages: 10203-10216
+  authors:
+  - C. Suay-Corredera
+  - M. R. Pricolo
+  - D. Velazquez-Carreras
+  - D. Pathak
+  - N. Nandwani
+  - C. Pimenta-Lopes
+  - D. Sanchez-Ortiz
+  - I. Urrutia-Irazabal
+  - S. Vilches
+  - F. Dominguez
+  - G. Frisso
+  - L. Monserrat
+  - P. Garcia-Pavia
+  - D. Sancho
+  - J. A. Spudich
+  - K. M. Ruppel
+  - E. Herrero-Galan
+  - J. Alegre-Cebollada
+  teachpress_id: '768'
+- id: 10-3390-molecules26164737
+  type: article
+  title: New Insights on the Interaction of Phenanthroline Based Ligands and Metal Complexes and Polyoxometalates with Duplex DNA and G-Quadruplexes
+  doi: 10.3390/molecules26164737
+  year: 2021
+  journal: Molecules
+  volume: '26'
+  issue: '16'
+  authors:
+  - A. Sanchez-Gonzalez
+  - N. A. G. Bandeira
+  - I. O. Luzuriaga
+  - F. F. Martins
+  - S. Elleuchi
+  - K. Jarraya
+  - J. Lanuza
+  - X. Lopez
+  - M. J. Calhorda
+  - A. Gil
+  teachpress_id: '740'
+- id: 10-1039-d1py00734c
+  type: article
+  title: Novel imino- and aryl-sulfonate based photoacid generators for the cationic ring-opening polymerization of epsilon-caprolactone
+  doi: 10.1039/d1py00734c
+  year: 2021
+  journal: Polymer Chemistry
+  volume: '12'
+  issue: '28'
+  pages: 4035-4042
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - X. L. Pariza
+  - E. C. Jara
+  - N. Zivic
+  - F. Ruiperez
+  - T. E. Long
+  - H. Sardon
+  teachpress_id: '343'
+- id: rn410
+  type: article
+  title: Pd-Catalyzed C(sp(2))-H Alkoxycarbonylation of Phenethyl- and Benzylamines with Chloroformates as CO Surrogates
+  year: 2021
+  journal: Chemistry-a European Journal
+  volume: '27'
+  issue: '18'
+  pages: 5782-5789
+  authors:
+  - P. Andrade-Sampedro
+  - J. M. Matxain
+  - A. Correa
+  teachpress_id: '296'
+- id: 10-1002-chem-202004989
+  type: article
+  title: Probing the Catalytically Active Species in POM-Catalysed DNA-Model Hydrolysis**
+  doi: 10.1002/chem.202004989
+  year: 2021
+  journal: Chemistry-a European Journal
+  volume: '27'
+  issue: '35'
+  pages: 8977-8984
+  authors:
+  - F. F. Martins
+  - A. Sanchez-Gonzalez
+  - J. Lanuza
+  - H. N. Miras
+  - X. Lopez
+  - N. A. Bandeira
+  - A. Gil
+  teachpress_id: '603'
+- id: 10-1063-5-0036404
+  type: article
+  title: Resolution of the identity approximation applied to PNOF correlation calculations
+  doi: 10.1063/5.0036404
+  year: 2021
+  journal: Journal of Chemical Physics
+  volume: '154'
+  issue: '6'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - J. F. H. Lew-Yee
+  - M. Piris
+  - J. M. Campo
+  teachpress_id: '547'
+- id: 10-1021-acsomega-1c02016
+  type: article
+  title: Role of Dispersion Interactions in Endohedral TM@(ZnS)(12) Structures
+  doi: 10.1021/acsomega.1c02016
+  year: 2021
+  journal: Acs Omega
+  volume: '6'
+  issue: '25'
+  pages: 16612-16622
+  authors:
+  - E. Jimenez-Izal
+  - I. O. Luzuriaga
+  - E. Ramos-Cordoba
+  - J. M. Matxain
+  teachpress_id: '511'
+- id: 10-1002-anie-202014860
+  type: article
+  title: Selective Chemical Upcycling of Mixed Plastics Guided by a Thermally Stable Organocatalyst
+  doi: 10.1002/anie.202014860
+  year: 2021
+  journal: Angewandte Chemie-International Edition
+  volume: '60'
+  issue: '12'
+  pages: 6710-6717
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - C. Jehanno
+  - J. Demarteau
+  - D. Mantione
+  - M. C. Arno
+  - F. Ruiperez
+  - J. L. Hedrick
+  - A. P. Dove
+  - H. Sardon
+  teachpress_id: '504'
+- id: 10-1063-5-0046404
+  type: article
+  title: Short-range DFT energy correction to multiconfigurational wave functions for open-shell systems
+  doi: 10.1063/5.0046404
+  year: 2021
+  journal: JOURNAL OF CHEMICAL PHYSICS
+  volume: '154'
+  issue: '12'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Jose Aaron Rodriguez-Jimenez
+  - Abel Carreras
+  - David Casanova
+  teachpress_id: '1194'
+- id: 10-1088-1367-2630-abf7f9
+  type: article
+  title: Single-shot electron imaging of dopant-induced nanoplasmas
+  doi: 10.1088/1367-2630/abf7f9
+  year: 2021
+  journal: New Journal of Physics
+  volume: '23'
+  issue: '5'
+  authors:
+  - C. Medina
+  - D. Schomas
+  - N. Rendler
+  - M. Debatin
+  - D. Uhl
+  - A. Ngai
+  - L. Ben Ltaief
+  - M. Dumergue
+  - Z. Filus
+  - B. Farkas
+  - R. Flender
+  - L. Haizer
+  - B. Kiss
+  - M. Kurucz
+  - B. Major
+  - S. Toth
+  - F. Stienkemeier
+  - R. Moshammer
+  - T. Pfeifer
+  - S. R. Krishnan
+  - A. Heidenreich
+  - M. Mudrich
+  teachpress_id: '626'
+- id: 10-1039-d0cp05430e
+  type: article
+  title: Spectroscopic properties of open shell diatomic molecules using Piris natural orbital functionals
+  doi: 10.1039/d0cp05430e
+  year: 2021
+  journal: Physical Chemistry Chemical Physics
+  volume: '23'
+  issue: '4'
+  pages: 2953-2963
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - R. Quintero-Monsebaiz
+  - L. I. Perea-Ramirez
+  - M. Piris
+  - A. Vela
+  teachpress_id: '707'
+- id: 10-1038-s41467-021-26689-8
+  type: article
+  title: Spontaneous exciton dissociation enables spin state interconversion in delayed fluorescence organic semiconductors
+  doi: 10.1038/s41467-021-26689-8
+  year: 2021
+  journal: NATURE COMMUNICATIONS
+  volume: '12'
+  issue: '1'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Alexander J. Gillett
+  - Claire Tonnele
+  - Giacomo Londi
+  - Gaetano Ricci
+  - Manon Catherin
+  - Darcy M. L. Unson
+  - David Casanova
+  - Frederic Castet
+  - Yoann Olivier
+  - Weimin M. Chen
+  - Elena Zaborova
+  - Emrys W. Evans
+  - Bluebell H. Drummond
+  - Patrick J. Conaghan
+  - Lin-Song Cui
+  - Neil C. Greenham
+  - Yuttapoom Puttisong
+  - Frederic Fages
+  - David Beljonne
+  - Richard H. Friend
+  teachpress_id: '1185'
+- id: 10-1515-zpc-2020-1647
+  type: article
+  title: Structure and energetics of microscopically inhomogeneous nanoplasmas in exploding clusters
+  doi: 10.1515/zpc-2020-1647
+  year: 2021
+  journal: Zeitschrift Fur Physikalische Chemie-International Journal of Research in Physical Chemistry & Chemical Physics
+  volume: '235'
+  issue: '7'
+  pages: 815-847
+  authors:
+  - I. Last
+  - A. Heidenreich
+  - J. Jortner
+  teachpress_id: '538'
+- id: 10-1039-d1ma00314c
+  type: article
+  title: 'Switching between TADF and RTP: anion-regulated photoluminescence in organic salts and co-crystals'
+  doi: 10.1039/d1ma00314c
+  year: 2021
+  journal: MATERIALS ADVANCES
+  volume: '2'
+  issue: '17'
+  pages: 5777-5784
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Zhen Xu
+  - Duane Hean
+  - Claudia Climent
+  - David Casanova
+  - Michael O. Wolf
+  teachpress_id: '1189'
+- id: 10-1016-j-jorganchem-2021-121906
+  type: article
+  title: The coordination of beryllium and magnesium centres in half-sandwich and sandwich compounds
+  doi: 10.1016/j.jorganchem.2021.121906
+  year: 2021
+  journal: Journal of Organometallic Chemistry
+  volume: '948'
+  authors:
+  - S. J. Grabowski
+  teachpress_id: '448'
+- id: 10-1002-cptc-202000211
+  type: article
+  title: The Doubly Excited State in Singlet Fission
+  doi: 10.1002/cptc.202000211
+  year: 2021
+  journal: CHEMPHOTOCHEM
+  volume: '5'
+  issue: '3'
+  pages: 282-293
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Maria E. Sandoval-Salinas
+  - David Casanova
+  teachpress_id: '1198'
+- id: 10-3390-polym13101573
+  type: article
+  title: Theoretical Characterization of New Frustrated Lewis Pairs for Responsive Materials
+  doi: 10.3390/polym13101573
+  year: 2021
+  journal: Polymers
+  volume: '13'
+  issue: '10'
+  groups:
+  - polkt
+  tags:
+  - POL-KT
+  authors:
+  - M. Galdeano
+  - F. Ruiperez
+  - J. M. Matxain
+  teachpress_id: '381'
+- id: 10-1140-epjs-s11734-021-00107-y
+  type: article
+  title: Two-directional collisional energy exchange between electrons and ions in exploding clusters
+  doi: 10.1140/epjs/s11734-021-00107-y
+  year: 2021
+  journal: European Physical Journal-Special Topics
+  volume: '230'
+  issue: '23'
+  pages: 4045-4055
+  authors:
+  - I. Last
+  - J. Jortner
+  - A. Heidenreich
+  teachpress_id: '539'

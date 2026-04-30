@@ -1,0 +1,117 @@
+items:
+- id: 10-1021-ja00056a026
+  type: article
+  title: A SEMIEMPIRICAL THEORETICAL-STUDY ON THE FORMATION OF BETA-LACTAMS FROM KETENES AND IMINES
+  doi: 10.1021/ja00056a026
+  year: 1993
+  journal: Journal of the American Chemical Society
+  volume: '115'
+  issue: '3'
+  pages: 995-1004
+  authors:
+  - F. P. Cossio
+  - J. M. Ugalde
+  - X. Lopez
+  - B. Lecea
+  - C. Palomo
+  teachpress_id: '331'
+- id: 10-1021-j100139a014
+  type: article
+  title: AB-INITIO STUDY OF PHOSPHORUS ION COMPLEXES OF AMMONIA AND WATER
+  doi: 10.1021/j100139a014
+  year: 1993
+  journal: Journal of Physical Chemistry
+  volume: '97'
+  issue: '37'
+  pages: 9337-9340
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - F. P. Cossio
+  - B. Lecea
+  - A. Largo
+  - C. Barrientos
+  teachpress_id: '575'
+- id: 10-1021-j100118a024
+  type: article
+  title: ABINITIO CHARACTERIZATION OF GASEOUS P2O2
+  doi: 10.1021/j100118a024
+  year: 1993
+  journal: Journal of Physical Chemistry
+  volume: '97'
+  issue: '16'
+  pages: 4078-4079
+  authors:
+  - X. Lopez
+  - C. Sarasola
+  - B. Lecea
+  - A. Largo
+  - C. Barrientos
+  - J. M. Ugalde
+  teachpress_id: '569'
+- id: 10-1021-j100124a013
+  type: article
+  title: ABINITIO CHARACTERIZATION OF NOVEL GASEOUS (PO)2+ SPECIES
+  doi: 10.1021/j100124a013
+  year: 1993
+  journal: Journal of Physical Chemistry
+  volume: '97'
+  issue: '22'
+  pages: 5860-5863
+  authors:
+  - C. Sarasola
+  - X. Lopez
+  - A. Arrieta
+  - C. Barrientos
+  - A. Largo
+  - J. M. Ugalde
+  teachpress_id: '751'
+- id: 10-1039-c39930001450
+  type: article
+  title: AN AB-INITIO STUDY ON THE MECHANISM OF THE ALKENE ISOCYANATE CYCLOADDITION REACTION TO FORM BETA-LACTAMS
+  doi: 10.1039/c39930001450
+  year: 1993
+  journal: Journal of the Chemical Society-Chemical Communications
+  volume: (18)
+  issue: '18'
+  pages: 1450-1452
+  authors:
+  - F. Cossio
+  - B. Lecea
+  - X. Lopez
+  - G. Roa
+  - A. Arrieta
+  - J. M. Ugalde
+  teachpress_id: '328'
+- id: 10-1021-j100110a011
+  type: article
+  title: THEORETICAL-STUDY OF POSSIBLE PROCESSES FOR THE INTERSTELLAR PRODUCTION OF PHOSPHORUS-COMPOUNDS - REACTION OF P+ WITH SH2
+  doi: 10.1021/j100110a011
+  year: 1993
+  journal: Journal of Physical Chemistry
+  volume: '97'
+  issue: '8'
+  pages: 1521-1525
+  authors:
+  - X. Lopez
+  - J. M. Ugalde
+  - C. Barrientos
+  - A. Largo
+  - P. Redondo
+  teachpress_id: '572'
+- id: 10-1016-s0040-4039-00-61743-4
+  type: article
+  title: TRANSITION STRUCTURES FOR THE REFORMATSKY REACTION - A THEORETICAL (MNDO-PM3) STUDY
+  doi: 10.1016/s0040-4039(00)61743-4
+  year: 1993
+  journal: Tetrahedron Letters
+  volume: '34'
+  issue: '38'
+  pages: 6111-6114
+  authors:
+  - J. Maiz
+  - A. Arrieta
+  - X. Lopez
+  - J. M. Ugalde
+  - F. P. Cossio
+  teachpress_id: '597'

@@ -1,0 +1,73 @@
+items:
+- id: 10-1021-j100329a009
+  type: article
+  title: CONFORMATIONS AND CHARGE-DISTRIBUTIONS IN 1,2-DINITROSOETHYLENE AND FUROXAN .1. AN ABINITIO MOLECULAR-ORBITAL STUDY
+  doi: 10.1021/j100329a009
+  year: 1988
+  journal: Journal of Physical Chemistry
+  volume: '92'
+  issue: '18'
+  pages: 5094-5096
+  authors:
+  - E. Sedano
+  - C. Sarasola
+  - J. M. Ugalde
+  - I. X. Irazabalbeitia
+  - A. G. Guerrero
+  teachpress_id: '759'
+- id: 10-1088-0953-4075-21-14-005
+  type: article
+  title: DYNAMIC SCREENING OF HE-LIKE IONS
+  doi: 10.1088/0953-4075/21/14/005
+  year: 1988
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '21'
+  issue: '14'
+  pages: L415-L417
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  - P. M. Echenique
+  teachpress_id: '790'
+- id: 10-1088-0953-4075-21-14-008
+  type: article
+  title: INTRACULE DENSITIES AND ELECTRON CORRELATION IN THE HYDROGEN MOLECULE
+  doi: 10.1088/0953-4075/21/14/008
+  year: 1988
+  journal: Journal of Physics B-Atomic Molecular and Optical Physics
+  volume: '21'
+  issue: '14'
+  pages: 2555-2561
+  authors:
+  - R. J. Boyd
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '321'
+- id: rn276
+  type: article
+  title: MO STUDIES ON BETA-LACTAMS .1. ON THE STRUCTURE AND REACTIVITY OF AZETIDIN-2-ONE WITH SPLIT-VALENCE BASIS-SETS
+  year: 1988
+  journal: Journal of Molecular Structure-Theochem
+  volume: '43'
+  pages: 481-486
+  authors:
+  - E. Sedano
+  - J. M. Ugalde
+  - F. P. Cossio
+  - C. Palomo
+  teachpress_id: '760'
+- id: 10-1103-physrevb-38-735
+  type: article
+  title: VICINAGE EFFECT IN INNER-SHELL IONIZATION
+  doi: 10.1103/PhysRevB.38.735
+  year: 1988
+  journal: Physical Review B
+  volume: '38'
+  issue: '1'
+  pages: 735-736
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  - P. M. Echenique
+  - R. H. Ritchie
+  teachpress_id: '791'

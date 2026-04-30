@@ -1,0 +1,76 @@
+items:
+- id: 10-1021-j100164a027
+  type: article
+  title: A THEORETICAL-STUDY OF THE STRUCTURES AND STABILITIES OF (H2PO)+ SPECIES AND THE PROTON AFFINITIES OF HPO AND POH
+  doi: 10.1021/j100164a027
+  year: 1991
+  journal: Journal of Physical Chemistry
+  volume: '95'
+  issue: '11'
+  pages: 4318-4323
+  authors:
+  - P. Redondo
+  - A. Largo
+  - C. Barrientos
+  - J. M. Ugalde
+  teachpress_id: '711'
+- id: 10-1007-bf01192573
+  type: article
+  title: THE EVALUATION OF ELECTRONIC EXTRACULE AND INTRACULE DENSITIES AND RELATED PROBABILITY FUNCTIONS IN TERMS OF GAUSSIAN-BASIS FUNCTIONS
+  doi: 10.1007/bf01192573
+  year: 1991
+  journal: Journal of Mathematical Chemistry
+  volume: '6'
+  issue: '1'
+  pages: 51-61
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  - L. Dominguez
+  - R. J. Boyd
+  teachpress_id: '789'
+- id: 10-1021-j100170a034
+  type: article
+  title: THEORETICAL-STUDIES OF POSSIBLE PROCESSES FOR INTERSTELLAR PRODUCTION OF PHOSPHORUS-COMPOUNDS - REACTION OF P+ WITH METHANE
+  doi: 10.1021/j100170a034
+  year: 1991
+  journal: Journal of Physical Chemistry
+  volume: '95'
+  issue: '17'
+  pages: 6553-6557
+  authors:
+  - A. Largo
+  - J. R. Flores
+  - C. Barrientos
+  - J. M. Ugalde
+  teachpress_id: '534'
+- id: 10-1021-j100154a034
+  type: article
+  title: THEORETICAL-STUDIES OF POSSIBLE PROCESSES FOR THE INTERSTELLAR PRODUCTION OF PHOSPHORUS-COMPOUNDS - REACTION OF P+ WITH AMMONIA
+  doi: 10.1021/j100154a034
+  year: 1991
+  journal: Journal of Physical Chemistry
+  volume: '95'
+  issue: '1'
+  pages: 170-175
+  authors:
+  - A. Largo
+  - J. R. Flores
+  - C. Barrientos
+  - J. M. Ugalde
+  teachpress_id: '535'
+- id: 10-1021-j100167a019
+  type: article
+  title: THEORETICAL-STUDIES OF POSSIBLE PROCESSES FOR THE INTERSTELLAR PRODUCTION OF PHOSPHORUS-COMPOUNDS - REACTION OF P+ WITH WATER
+  doi: 10.1021/j100167a019
+  year: 1991
+  journal: Journal of Physical Chemistry
+  volume: '95'
+  issue: '14'
+  pages: 5443-5445
+  authors:
+  - A. Largo
+  - P. Redondo
+  - C. Barrientos
+  - J. M. Ugalde
+  teachpress_id: '536'

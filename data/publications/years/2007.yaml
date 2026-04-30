@@ -1,0 +1,328 @@
+items:
+- id: 10-1016-j-jinorgbio-2007-06-010
+  type: article
+  title: A theoretical study of the principles regulating the specificity for Al(III) against Mg(II) in protein cavities
+  doi: 10.1016/j.jinorgbio.2007.06.010
+  year: 2007
+  journal: Journal of Inorganic Biochemistry
+  volume: '101'
+  issue: '9'
+  pages: 1192-1200
+  authors:
+  - E. Rezabal
+  - J. M. Mercero
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '268'
+- id: 10-1021-jp0703206
+  type: article
+  title: 'Aromaticity of distorted benzene rings: Exploring the validity of different indicators of aromaticity'
+  doi: 10.1021/jp0703206
+  year: 2007
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '111'
+  issue: '20'
+  pages: 4513-4521
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Ferran Feixas
+  - Eduard Matito
+  - Jordi Poater
+  - Miquel Sola
+  teachpress_id: '1074'
+- id: 10-1021-ct700027n
+  type: article
+  title: Assessment of approximate density functional methods for the study of the interactions of Al(III) with aromatic amino acids
+  doi: 10.1021/ct700027n
+  year: 2007
+  journal: Journal of Chemical Theory and Computation
+  volume: '3'
+  issue: '5'
+  pages: 1830-1836
+  authors:
+  - E. Rezabal
+  - T. Marino
+  - J. M. Mercero
+  - N. Russo
+  - J. M. Ugalde
+  teachpress_id: '265'
+- id: 10-1021-ic7004776
+  type: article
+  title: Complexation of Al-III by aromatic amino acids in the gas phase
+  doi: 10.1021/ic7004776
+  year: 2007
+  journal: Inorganic Chemistry
+  volume: '46'
+  issue: '16'
+  pages: 6413-6419
+  authors:
+  - E. Rezabal
+  - T. Marino
+  - J. M. Mercero
+  - N. Russo
+  - J. M. Ugalde
+  teachpress_id: '266'
+- id: 10-1063-1-2743019
+  type: article
+  title: 'Dispersion interactions within the Piris natural orbital functional theory: The helium dimer'
+  doi: 10.1063/1.2743019
+  year: 2007
+  journal: Journal of Chemical Physics
+  volume: '126'
+  issue: '21'
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '679'
+- id: 10-1063-1-2768531
+  type: article
+  title: Electron correlation in the GK state of the hydrogen molecule
+  doi: 10.1063/1.2768531
+  year: 2007
+  journal: Journal of Chemical Physics
+  volume: '127'
+  issue: '7'
+  authors:
+  - J. Wang
+  - Y. Wang
+  - S. Lv
+  - J. M. Ugalde
+  teachpress_id: '810'
+- id: 10-1016-j-theochem-2007-01-015
+  type: article
+  title: Electron delocalization and aromaticity measures within the Huckel molecular orbital method
+  doi: 10.1016/j.theochem.2007.01.015
+  year: 2007
+  journal: JOURNAL OF MOLECULAR STRUCTURE-THEOCHEM
+  volume: '811'
+  issue: 1-3
+  pages: 3-11
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Ferran Feixas
+  - Miquel Sola
+  teachpress_id: '1073'
+- id: 10-1039-b605086g
+  type: article
+  title: 'Electron sharing indexes at the correlated level.: Application to aromaticity calculations'
+  doi: 10.1039/b605086g
+  year: 2007
+  journal: FARADAY DISCUSSIONS
+  volume: '135'
+  pages: 325-345
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Eduard Matito
+  - Miquel Sola
+  - Pedro Salvador
+  - Miquel Duran
+  teachpress_id: '1076'
+- id: 10-1021-jp0668697
+  type: article
+  title: Endohedral (X@ZniSi)(i=)(0,+/-)(4-16) nanoclusters
+  doi: 10.1021/jp0668697
+  year: 2007
+  journal: Journal of Physical Chemistry C
+  volume: '111'
+  issue: '9'
+  pages: 3560-3565
+  authors:
+  - J. M. Matxain
+  - L. A. Eriksson
+  - E. Formoso
+  - M. Piris
+  - J. M. Ugalde
+  teachpress_id: '609'
+- id: 10-1002-cphc-200700428
+  type: article
+  title: 'Endohedral stannaspherenes Mn@Sn-12 and its dimer: Ferromagnetic or antiferromagnetic?'
+  doi: 10.1002/cphc.200700428
+  year: 2007
+  journal: Chemphyschem
+  volume: '8'
+  issue: '14'
+  pages: 2096-2099
+  authors:
+  - J. M. Matxain
+  - M. Piris
+  - E. Formoso
+  - J. M. Mercero
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '235'
+- id: 10-1021-ct6001785
+  type: article
+  title: Evaluation of the SCF combination of KS-DFT and 3D-RISM-KH; Solvation effect on conformational equilibria, tautomerization energies, and activation barriers
+  doi: 10.1021/ct6001785
+  year: 2007
+  journal: JOURNAL OF CHEMICAL THEORY AND COMPUTATION
+  volume: '3'
+  issue: '2'
+  pages: 458-476
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - David Casanova
+  - Sergey Gusarov
+  - Andriy Kovalenko
+  - Tom Ziegler
+  teachpress_id: '1299'
+- id: wos-000247898300016
+  type: article
+  title: Is the Aromaticity of the Benzene Ring in the (η6-C6H6)Cr(CO)3 complex Larger than that of the Isolated Benzene Molecule?
+  year: 2007
+  journal: POLISH JOURNAL OF CHEMISTRY
+  volume: '81'
+  issue: 5-6
+  pages: 783-797
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - F. Feixas
+  - J. O. C. Jimenez-Halla
+  - E. Matito
+  - J. Poater
+  - M. Sola
+  teachpress_id: '1075'
+- id: 10-1021-jp071065s
+  type: article
+  title: 'Metal ion dependent adhesion sites in integrins: A combined DFT and QMC study on Mn2+'
+  doi: 10.1021/jp071065s
+  year: 2007
+  journal: Journal of Physical Chemistry B
+  volume: '111'
+  issue: '30'
+  pages: 9099-9103
+  authors:
+  - E. S. Sebastian
+  - J. M. Matxain
+  - L. A. Eriksson
+  - R. H. Stote
+  - A. Dejaegere
+  - F. P. Cossio
+  - X. Lopez
+  teachpress_id: '756'
+- id: rn334
+  type: inbook
+  title: NATURAL ORBITAL FUNCTIONAL THEORY
+  year: 2007
+  volume: '134'
+  pages: 387-427
+  groups:
+  - noft
+  tags:
+  - NOFT
+  authors:
+  - M. Piris
+  teachpress_id: '668'
+- id: 10-1021-jp073773j
+  type: article
+  title: New solids based on B12N12 fullerenes
+  doi: 10.1021/jp073773j
+  year: 2007
+  journal: JOURNAL OF PHYSICAL CHEMISTRY C
+  volume: '111'
+  issue: '36'
+  pages: 13354-13360
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - J. M. Matxain
+  - L. A. Eriksson
+  - J. M. Mercero
+  - X. Lopez
+  - M. Piris
+  - J. M. Ugalde
+  - J. Poater
+  - E. Matito
+  - M. Sola
+  teachpress_id: '1071'
+- id: 10-1021-jp0716132
+  type: article
+  title: Properties of aromaticity indices based on the one-electron density matrix
+  doi: 10.1021/jp0716132
+  year: 2007
+  journal: JOURNAL OF PHYSICAL CHEMISTRY A
+  volume: '111'
+  issue: '28'
+  pages: 6521-6525
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  authors:
+  - Jerzy Cioslowski
+  - Eduard Matito
+  - Miquel Sola
+  teachpress_id: '1072'
+- id: 10-1002-cphc-200700335
+  type: article
+  title: Protein side chains facilitate Mg/Al exchange in model protein binding sites
+  doi: 10.1002/cphc.200700335
+  year: 2007
+  journal: Chemphyschem
+  volume: '8'
+  issue: '14'
+  pages: 2119-2124
+  authors:
+  - E. Rezabal
+  - J. M. Mercero
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '269'
+- id: 10-1021-cm070084b
+  type: article
+  title: 'Reply to comment on ``Distortions in octahedrally coordinated d0 transition metal oxides:: A continuous symmetry measures approach'''''
+  doi: 10.1021/cm070084b
+  year: 2007
+  journal: CHEMISTRY OF MATERIALS
+  volume: '19'
+  issue: '5'
+  pages: '1200'
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - Kang Min Ok
+  - P. Shiv Halasyamani
+  - David Casanova
+  - Miquel Llunell
+  - Pere Alemany
+  - Santiago Alvarez
+  teachpress_id: '1298'
+- id: 10-1002-qua-21186
+  type: article
+  title: Second International Theoretical Biophysics Symposium, Orebro University, Sweden, June 28-July 1, 2005 - Preface
+  doi: 10.1002/qua.21186
+  year: 2007
+  journal: International Journal of Quantum Chemistry
+  volume: '107'
+  issue: '2'
+  pages: 259-260
+  authors:
+  - L. A. Eriksson
+  - N. Russo
+  - J. M. Ugalde
+  teachpress_id: '363'

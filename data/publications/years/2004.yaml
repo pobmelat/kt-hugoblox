@@ -1,0 +1,238 @@
+items:
+- id: 10-1063-1-1630024
+  type: article
+  title: A reinterpretation of the nature of the Fermi hole
+  doi: 10.1063/1.1630024
+  year: 2004
+  journal: Journal of Chemical Physics
+  volume: '120'
+  issue: '2'
+  pages: 540-547
+  authors:
+  - E. V. Ludena
+  - J. M. Ugalde
+  - X. Lopez
+  - J. Fernandez-Rico
+  - G. Ramirez
+  teachpress_id: '592'
+- id: 10-1191-0961203304lu2030oa
+  type: article
+  title: Antiphospholipid antibodies predict early damage in patients with systemic lupus erythematosus
+  doi: 10.1191/0961203304lu2030oa
+  year: 2004
+  journal: Lupus
+  volume: '13'
+  issue: '12'
+  pages: 900-905
+  authors:
+  - G. Ruiz-Irastorza
+  - M. V. Egurbide
+  - A. Martinez-Berriotxoa
+  - J. Ugalde
+  - C. Aguirre
+  teachpress_id: '734'
+- id: 10-1021-jp037195s
+  type: article
+  title: 'Clusters of II-VI materials: CdiXi'
+  doi: 10.1021/jp037195s
+  year: 2004
+  journal: Journal of Physical Chemistry A
+  volume: '108'
+  issue: '47'
+  pages: 10502-10508
+  authors:
+  - J. M. Matxain
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '233'
+- id: 10-1080-00268970412331292768
+  type: article
+  title: Discordant results on the FeO++H-2 reaction reconciled by quantum Monte Carlo theory
+  doi: 10.1080/00268970412331292768
+  year: 2004
+  journal: Molecular Physics
+  volume: '102'
+  issue: 23-24
+  pages: 2635-2637
+  authors:
+  - J. M. Matxain
+  - J. M. Mercero
+  - A. Irigoras
+  - J. M. Ugalde
+  teachpress_id: '234'
+- id: 10-1001-archinte-164-1-77
+  type: article
+  title: High impact of antiphospholipid syndrome on irreversible organ damage and survival of patients with systemic lupus erythematosus
+  doi: 10.1001/archinte.164.1.77
+  year: 2004
+  journal: Archives of Internal Medicine
+  volume: '164'
+  issue: '1'
+  pages: 77-82
+  authors:
+  - G. Ruiz-Irastorza
+  - M. V. Egurbide
+  - J. Ugalde
+  - C. Aguirre
+  teachpress_id: '735'
+- id: 10-1021-ja031815l
+  type: article
+  title: 'Hybrid QM/MM study of thio effects in transphosphorylation reactions: The role of solvation'
+  doi: 10.1021/ja031815l
+  year: 2004
+  journal: Journal of the American Chemical Society
+  volume: '126'
+  issue: '24'
+  pages: 7504-7513
+  authors:
+  - B. A. Gregersen
+  - X. Lopez
+  - D. M. York
+  teachpress_id: '466'
+- id: 10-1021-ja036479n
+  type: article
+  title: Minimal distortion pathways in polyhedral rearrangements
+  doi: 10.1021/ja036479n
+  year: 2004
+  journal: JOURNAL OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '126'
+  issue: '6'
+  pages: 1755-1763
+  groups:
+  - moleles
+  tags:
+  - MolEles-KT
+  authors:
+  - D Casanova
+  - J Cirera
+  - M Llunell
+  - P Alemany
+  - D Avnir
+  - S Alvarez
+  teachpress_id: '1306'
+- id: 10-1002-anie-200460498
+  type: article
+  title: Mono- and multidecker sandwich-like complexes of the tetraazacyclobutadiene aromatic ring
+  doi: 10.1002/anie.200460498
+  year: 2004
+  journal: Angewandte Chemie-International Edition
+  volume: '43'
+  issue: '41'
+  pages: 5485-5488
+  authors:
+  - J. M. Mercero
+  - J. M. Matxain
+  - J. M. Ugalde
+  teachpress_id: '251'
+- id: 10-1002-cphc-200400091
+  type: article
+  title: 'Pseudorotation of natural and chemically modified biological phosphoranes: Implications for RNA catalysis'
+  doi: 10.1002/cphc.200400091
+  year: 2004
+  journal: Chemphyschem
+  volume: '5'
+  issue: '7'
+  pages: 1045-1049
+  authors:
+  - C. S. Lopez
+  - A. N. Faza
+  - B. A. Gregersen
+  - X. Lopez
+  - A. R. Lera
+  - D. M. York
+  teachpress_id: '552'
+- id: 10-1021-ja039888s
+  type: article
+  title: 'Quantitative evaluation of the catalytic activity of dendrimers with only one active center at the core: Application to the nitroaldol (Henry) reaction'
+  doi: 10.1021/ja039888s
+  year: 2004
+  journal: Journal of the American Chemical Society
+  volume: '126'
+  issue: '16'
+  pages: 5243-5252
+  authors:
+  - A. Zubia
+  - F. P. Cossio
+  - L. A. Morao
+  - M. Rieumont
+  - X. Lopez
+  teachpress_id: '830'
+- id: 10-1021-ja039074b
+  type: article
+  title: Sandwich-like complexes based on "all-metal" (Al-4(2-)) aromatic compounds
+  doi: 10.1021/ja039074b
+  year: 2004
+  journal: Journal of the American Chemical Society
+  volume: '126'
+  issue: '11'
+  pages: 3380-3381
+  authors:
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '256'
+- id: 10-1002-qua-20075
+  type: article
+  title: The first solvation shell of aluminum(III) and magnesium(II) cations in a protein model environment
+  doi: 10.1002/qua.20075
+  year: 2004
+  journal: International Journal of Quantum Chemistry
+  volume: '98'
+  issue: '4'
+  pages: 409-424
+  authors:
+  - J. M. Mercero
+  - J. M. Matxain
+  - E. Rezabal
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '250'
+- id: 10-1021-jp0489119
+  type: article
+  title: The spin dependence of the spatial size of Fe(II) and of the structure of Fe(Il)-porphyrins
+  doi: 10.1021/jp0489119
+  year: 2004
+  journal: Journal of Physical Chemistry A
+  volume: '108'
+  issue: '21'
+  pages: 4653-4657
+  authors:
+  - J. M. Ugalde
+  - B. Dunietz
+  - A. Dreuw
+  - M. Head-Gordon
+  - R. J. Boyd
+  teachpress_id: '784'
+- id: 10-1021-ja0356277
+  type: article
+  title: The structure and stability of biological metaphosphate, phosphate, and phosphorane compounds in the gas phase and in solution
+  doi: 10.1021/ja0356277
+  year: 2004
+  journal: Journal of the American Chemical Society
+  volume: '126'
+  issue: '6'
+  pages: 1654-1665
+  authors:
+  - K. Range
+  - M. J. McGrath
+  - X. Lopez
+  - D. M. York
+  teachpress_id: '710'
+- id: 10-1021-jp036558l
+  type: article
+  title: 'Theoretical study of two-state reactivity of transition metal cations: The "difficult" case of iron ion interacting with water, ammonia, and methane'
+  doi: 10.1021/jp036558l
+  year: 2004
+  journal: Journal of Physical Chemistry A
+  volume: '108'
+  issue: '6'
+  pages: 1069-1081
+  authors:
+  - S. Chiodo
+  - O. Kondakova
+  - M. D. Michelini
+  - N. Russo
+  - E. Sicilia
+  - A. Irigoras
+  - J. M. Ugalde
+  teachpress_id: '324'

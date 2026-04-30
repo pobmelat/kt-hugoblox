@@ -1,0 +1,165 @@
+items:
+- id: 10-1021-jp970585s
+  type: article
+  title: Ab-initio studies of alternant X2Y2 rings (X=N, P, As, and Sb and Y=O, S, Se, and Te). Planar versus butterfly structures
+  doi: 10.1021/jp970585s
+  year: 1997
+  journal: Journal of Physical Chemistry A
+  volume: '101'
+  issue: '30'
+  pages: 5574-5579
+  authors:
+  - J. M. Mercero
+  - X. Lopez
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '246'
+- id: 10-1103-physrevlett-79-4112
+  type: article
+  title: Absence of a ''Threshold effect'' in the energy loss of slow protons traversing large-band-gap insulators
+  doi: 10.1103/PhysRevLett.79.4112
+  year: 1997
+  journal: Physical Review Letters
+  volume: '79'
+  issue: '21'
+  pages: 4112-4115
+  authors:
+  - K. Eder
+  - D. Semrad
+  - P. Bauer
+  - R. Golser
+  - P. MaierKomor
+  - F. Aumayr
+  - M. Penalba
+  - A. Arnau
+  - J. M. Ugalde
+  - P. M. Echenique
+  teachpress_id: '358'
+- id: 10-1103-physreva-56-1642
+  type: article
+  title: Atomic and molecular bound ground states of the Yukawa potential
+  doi: 10.1103/PhysRevA.56.1642
+  year: 1997
+  journal: Physical Review A
+  volume: '56'
+  issue: '2'
+  pages: 1642-1645
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  - X. Lopez
+  teachpress_id: '792'
+- id: 10-1021-jp9628646
+  type: article
+  title: Density functional studies of the b pi.a sigma charge-transfer complex formed between ethyne and chlorine monofluoride
+  doi: 10.1021/jp9628646
+  year: 1997
+  journal: Journal of Physical Chemistry A
+  volume: '101'
+  issue: '16'
+  pages: 3021-3024
+  authors:
+  - A. Garcia
+  - E. M. Cruz
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '385'
+- id: rn222
+  type: article
+  title: Evaluation of screened nuclear attraction and electron repulsion molecular integrals over Gaussian basis functions
+  year: 1997
+  journal: International Journal of Quantum Chemistry
+  volume: '62'
+  issue: '3'
+  pages: 273-278
+  authors:
+  - J. M. Ugalde
+  - C. Sarasola
+  teachpress_id: '787'
+- id: 10-1021-jp962357o
+  type: article
+  title: G2 study of the triplet and singlet H-3,P-2 (+) potential energy surfaces. Mechanisms for the reaction of P+(D-1,P-3) with PH3
+  doi: 10.1021/jp962357o
+  year: 1997
+  journal: Journal of Physical Chemistry A
+  volume: '101'
+  issue: '11'
+  pages: 2166-2172
+  authors:
+  - E. M. Cruz
+  - X. Lopez
+  - M. Ayerbe
+  - J. M. Ugalde
+  teachpress_id: '333'
+- id: rn225
+  type: article
+  title: 'G2 study of triplet H-4,Si,P (+) potential energy surface: Mechanism for reaction of P+(P-3) with silane'
+  year: 1997
+  journal: Journal of Computational Chemistry
+  volume: '18'
+  issue: '1'
+  pages: 9-19
+  authors:
+  - E. M. Cruz
+  - X. Lopez
+  - M. Sarobe
+  - F. P. Cossio
+  - J. M. Ugalde
+  teachpress_id: '334'
+- id: 10-1021-jp9712720
+  type: article
+  title: Molecular and electronic structures of TiXH6+ (X=B, Al, Ga) compounds
+  doi: 10.1021/jp9712720
+  year: 1997
+  journal: Journal of Physical Chemistry A
+  volume: '101'
+  issue: '33'
+  pages: 5953-5957
+  authors:
+  - A. Garcia
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '215'
+- id: 10-1016-s0166-1280-96-04948-2
+  type: article
+  title: Properties of some weakly bound complexes obtained with various density functionals
+  doi: 10.1016/s0166-1280(96)04948-2
+  year: 1997
+  journal: Journal of Molecular Structure-Theochem
+  volume: '397'
+  pages: 191-197
+  authors:
+  - A. Garcia
+  - E. M. Cruz
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '386'
+- id: 10-1021-jp970396
+  type: article
+  title: 'Reaction of P+ (P-3) with methylamine: A detailed study of the potential energy surface and reaction mechanisms'
+  doi: 10.1021/jp970396+
+  year: 1997
+  journal: Journal of Physical Chemistry A
+  volume: '101'
+  issue: '26'
+  pages: 4807-4813
+  authors:
+  - E. M. Cruz
+  - J. E. Fowler
+  - X. Lopez
+  - J. M. Ugalde
+  teachpress_id: '332'
+- id: 10-1021-jp9623103
+  type: article
+  title: Transition energies and emission oscillator strengths of helium in model plasma environments
+  doi: 10.1021/jp9623103
+  year: 1997
+  journal: Journal of Physical Chemistry A
+  volume: '101'
+  issue: '10'
+  pages: 1804-1807
+  authors:
+  - X. Lopez
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '570'

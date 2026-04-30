@@ -1,0 +1,112 @@
+items:
+- id: 10-1002-qua-952
+  type: article
+  title: Aluminum (III) interactions with the side chains of aromatic aminoacids
+  doi: 10.1002/qua.952
+  year: 2002
+  journal: International Journal of Quantum Chemistry
+  volume: '90'
+  issue: '2'
+  pages: 859-881
+  authors:
+  - J. M. Mercero
+  - J. M. Matxain
+  - X. Lopez
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '248'
+- id: 10-1103-physreve-66-026408
+  type: article
+  title: Atomic charge states in a weakly coupled plasma environment
+  doi: 10.1103/PhysRevE.66.026408
+  year: 2002
+  journal: Physical Review E
+  volume: '66'
+  issue: '2'
+  authors:
+  - I. Silanes
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '271'
+- id: 10-1021-jp020470a
+  type: article
+  title: Binding of carbon rings to a graphite plane
+  doi: 10.1021/jp020470a
+  year: 2002
+  journal: Journal of Physical Chemistry B
+  volume: '106'
+  issue: '27'
+  pages: 6871-6874
+  authors:
+  - J. M. Ugalde
+  teachpress_id: '779'
+- id: 10-1021-jp014128u
+  type: article
+  title: Hydrogen-bonding interactions between formic acid and pyridine
+  doi: 10.1021/jp014128u
+  year: 2002
+  journal: Journal of Physical Chemistry A
+  volume: '106'
+  issue: '16'
+  pages: 4187-4191
+  authors:
+  - M. J. Fernandez-Berridi
+  - J. J. Iruin
+  - L. Irusta
+  - J. M. Mercero
+  - J. M. Ugalde
+  teachpress_id: '213'
+- id: rn175
+  type: article
+  title: 'Proceedings of the International Conference on "Electronic Structure: Predictions and Applications" - Preface'
+  year: 2002
+  journal: International Journal of Quantum Chemistry
+  volume: '86'
+  issue: '1'
+  pages: 1-1
+  authors:
+  - J. M. Ugalde
+  teachpress_id: '780'
+- id: 10-1002-qua-1618
+  type: article
+  title: Role of electron-electron coalescence density in density functional theory
+  doi: 10.1002/qua.1618
+  year: 2002
+  journal: International Journal of Quantum Chemistry
+  volume: '86'
+  issue: '1'
+  pages: 40-45
+  authors:
+  - E. Valderrama
+  - J. M. Ugalde
+  teachpress_id: '802'
+- id: 10-1021-ja011373i
+  type: article
+  title: 'Theoretical evaluation of pK(a) in phosphoranes: Implications for phosphate ester hydrolysis'
+  doi: 10.1021/ja011373i
+  year: 2002
+  journal: Journal of the American Chemical Society
+  volume: '124'
+  issue: '18'
+  pages: 5010-5018
+  authors:
+  - X. Lopez
+  - M. Schaefer
+  - A. Dejaegere
+  - M. Karplus
+  teachpress_id: '571'
+- id: 10-1002-qua-1601
+  type: article
+  title: Theoretical studies on the hydrolysis of phosphate diesters in the gas phase, solution, and RNase A
+  doi: 10.1002/qua.1601
+  year: 2002
+  journal: International Journal of Quantum Chemistry
+  volume: '86'
+  issue: '1'
+  pages: 10-26
+  authors:
+  - X. Lopez
+  - D. M. York
+  - A. Dejaegere
+  - M. Karplus
+  teachpress_id: '580'

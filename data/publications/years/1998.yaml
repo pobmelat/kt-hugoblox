@@ -1,0 +1,129 @@
+items:
+- id: 10-1063-1-475673
+  type: article
+  title: A spin-density polarization index
+  doi: 10.1063/1.475673
+  year: 1998
+  journal: Journal of Chemical Physics
+  volume: '108'
+  issue: '7'
+  pages: 2824-2830
+  authors:
+  - S. K. Worsnop
+  - R. J. Boyd
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '815'
+- id: 10-1103-physreva-58-383
+  type: article
+  title: Al-12 and the Al@Al-12 clusters
+  doi: 10.1103/PhysRevA.58.383
+  year: 1998
+  journal: Physical Review A
+  volume: '58'
+  issue: '1'
+  pages: 383-388
+  authors:
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '376'
+- id: 10-1021-jp981146b
+  type: article
+  title: Aluminum(III) interactions with the acidic amino acid chains
+  doi: 10.1021/jp981146b
+  year: 1998
+  journal: Journal of Physical Chemistry A
+  volume: '102'
+  issue: '35'
+  pages: 7006-7012
+  authors:
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '243'
+- id: 10-1103-physreva-57-2550
+  type: article
+  title: Bound excited states of H- and He- in the statically screened Coulomb potential
+  doi: 10.1103/PhysRevA.57.2550
+  year: 1998
+  journal: Physical Review A
+  volume: '57'
+  issue: '4'
+  pages: 2550-2555
+  authors:
+  - J. M. Mercero
+  - J. E. Fowler
+  - C. Sarasola
+  - J. M. Ugalde
+  teachpress_id: '241'
+- id: 10-1023-a-1019145913874
+  type: article
+  title: Closed-form analytical solutions for the calculation of the moments of the molecular electron density
+  doi: 10.1023/a:1019145913874
+  year: 1998
+  journal: Journal of Mathematical Chemistry
+  volume: '23'
+  issue: 3-4
+  pages: 405-414
+  authors:
+  - C. Sarasola
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '747'
+- id: 10-1021-jp981988a
+  type: article
+  title: Density functional studies of the n center dot a sigma charge-transfer complex between sulfur dioxide and chlorine monofluoride
+  doi: 10.1021/jp981988a
+  year: 1998
+  journal: Journal of Physical Chemistry A
+  volume: '102'
+  issue: '45'
+  pages: 8974-8978
+  authors:
+  - A. Garcia
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '387'
+- id: 10-1021-jp973365n
+  type: article
+  title: Molecular and electronic structures of (TiXH6)(0/-)
+  doi: 10.1021/jp973365n
+  year: 1998
+  journal: Journal of Physical Chemistry A
+  volume: '102'
+  issue: '11'
+  pages: 2055-2064
+  authors:
+  - A. Garcia
+  - J. M. Mercero
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '214'
+- id: 10-1016-s0009-2614-98-00038-4
+  type: article
+  title: On the oxidation state of the guest atom in endohedral metallofullerene complexes
+  doi: 10.1016/s0009-2614(98)00038-4
+  year: 1998
+  journal: Chemical Physics Letters
+  volume: '285'
+  issue: 3-4
+  pages: 226-229
+  authors:
+  - C. Sarasola
+  - J. M. Elorza
+  - J. M. Ugalde
+  teachpress_id: '748'
+- id: 10-1021-jp973143p
+  type: article
+  title: On the reactivity of Ti+(F-4,F-2). Reaction of Ti+ with OH2
+  doi: 10.1021/jp973143p
+  year: 1998
+  journal: Journal of Physical Chemistry A
+  volume: '102'
+  issue: '1'
+  pages: 293-300
+  authors:
+  - A. Irigoras
+  - J. E. Fowler
+  - J. M. Ugalde
+  teachpress_id: '493'
