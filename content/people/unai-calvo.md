@@ -7,6 +7,7 @@ weight: 226
 member_type: "phd"
 groups: ["polkt"]
 photo: "/images/members/phd/unai-calvo.png"
+photo_position: "center 8%"
 role: "PhD Student"
 orcid: "https://orcid.org/0009-0006-4625-9810"
 publication_names:

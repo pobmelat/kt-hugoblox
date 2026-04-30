@@ -72,7 +72,7 @@
           <article class="member-card member-card--{{ .Params.id }}">
             <div class="member-card__avatar">
               {{ with .Params.photo }}
-                <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .) }}" alt="{{ $member.Title }}">
+                <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .) }}" alt="{{ $member.Title }}"{{ with $member.Params.photo_position }} style="object-position: {{ . }};"{{ end }}>
               {{ else }}
                 <span aria-hidden="true">{{ substr $member.Title 0 1 }}</span>
               {{ end }}
@@ -179,7 +179,7 @@
               <article class="member-card member-card--{{ .Params.id }}">
                 <div class="member-card__avatar">
                   {{ with .Params.photo }}
-                    <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .) }}" alt="{{ $member.Title }}">
+                    <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .) }}" alt="{{ $member.Title }}"{{ with $member.Params.photo_position }} style="object-position: {{ . }};"{{ end }}>
                   {{ else }}
                     <span aria-hidden="true">{{ substr $member.Title 0 1 }}</span>
                   {{ end }}

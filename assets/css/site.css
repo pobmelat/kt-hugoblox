@@ -1235,14 +1235,17 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 
 .footer-links {
   display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 8px 10px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .footer-links a {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
 }
 
 .footer-links a:hover {
