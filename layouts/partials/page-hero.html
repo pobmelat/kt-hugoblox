@@ -22,7 +22,8 @@
         {{ with $actions }}
           <div class="hero-actions">
             {{ range . }}
-              <a class="button {{ if eq .style "secondary" }}button--secondary{{ else }}button--primary{{ end }}" href="{{ .url | relURL }}">{{ .label }}</a>
+              {{ $buttonURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
+              <a class="button {{ if eq .style "secondary" }}button--secondary{{ else }}button--primary{{ end }}" href="{{ $buttonURL }}">{{ .label }}</a>
             {{ end }}
           </div>
         {{ end }}
