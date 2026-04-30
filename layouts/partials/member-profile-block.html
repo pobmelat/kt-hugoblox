@@ -3,7 +3,7 @@
   <div class="member-profile__top">
     <div class="member-profile__avatar">
       {{ with $member.Params.photo }}
-        <img src="{{ . | relURL }}" alt="{{ $member.Title }}">
+        <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .) }}" alt="{{ $member.Title }}">
       {{ else }}
         <span aria-hidden="true">{{ substr $member.Title 0 1 }}</span>
       {{ end }}
@@ -32,27 +32,27 @@
         <div class="member-profile__links">
           {{ with $member.Params.orcid }}
             <a href="{{ . }}" aria-label="ORCID" title="ORCID">
-              <img src="{{ "icons/orcid.svg" | relURL }}" alt="ORCID">
+              <img src="{{ "icons/orcid.svg" | absURL }}" alt="ORCID">
             </a>
           {{ end }}
           {{ with $member.Params.researcher_id }}
             <a href="{{ . }}" aria-label="Web of Science" title="Web of Science">
-              <img src="{{ "icons/wos.png" | relURL }}" alt="Web of Science">
+              <img src="{{ "icons/wos.png" | absURL }}" alt="Web of Science">
             </a>
           {{ end }}
           {{ with $member.Params.google_scholar }}
             <a href="{{ . }}" aria-label="Google Scholar" title="Google Scholar">
-              <img src="{{ "icons/scholar.svg" | relURL }}" alt="Google Scholar">
+              <img src="{{ "icons/scholar.svg" | absURL }}" alt="Google Scholar">
             </a>
           {{ end }}
           {{ with $member.Params.research_gate }}
             <a href="{{ . }}" aria-label="ResearchGate" title="ResearchGate">
-              <img src="{{ "icons/ResG.webp" | relURL }}" alt="ResearchGate">
+              <img src="{{ "icons/ResG.webp" | absURL }}" alt="ResearchGate">
             </a>
           {{ end }}
           {{ with $member.Params.scopus }}
             <a href="{{ . }}" aria-label="Scopus" title="Scopus">
-              <img src="{{ "icons/scopus.webp" | relURL }}" alt="Scopus">
+              <img src="{{ "icons/scopus.webp" | absURL }}" alt="Scopus">
             </a>
           {{ end }}
         </div>

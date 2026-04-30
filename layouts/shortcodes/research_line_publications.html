@@ -127,12 +127,12 @@
           {{ if and .toc_image .toc_link }}
             <div class="research-publication-entry__toc">
               <a href="{{ .toc_link }}" target="_blank" rel="noopener">
-                <img src="{{ .toc_image | relURL }}" alt="Graphical abstract for {{ .title }}">
+                <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .toc_image) }}" alt="Graphical abstract for {{ .title }}">
               </a>
             </div>
           {{ else if .toc_image }}
             <div class="research-publication-entry__toc">
-              <img src="{{ .toc_image | relURL }}" alt="Graphical abstract for {{ .title }}">
+              <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .toc_image) }}" alt="Graphical abstract for {{ .title }}">
             </div>
           {{ end }}
         </article>
