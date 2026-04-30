@@ -7,7 +7,7 @@ weight: 23
 member_type: "researcher"
 photo: "/images/members/researchers/jon-zubeltzu.png"
 groups: ["isom"]
-position: "Profesor Adjunto"
+position: "Profesor Agregado"
 affiliation: "EHU & DIPC"
 publication_names:
   - "Jon Zubeltzu"
