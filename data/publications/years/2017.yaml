@@ -211,6 +211,8 @@ items:
   - Chaim Dryzun
   - David Avnir
   teachpress_id: '1243'
+  doi: 10.1002/9781119356059.ch7
+  journal: Reviews in Computational Chemistry
 - id: 10-1039-c6ob02288j
   type: article
   title: 'Cycloreversion of the CO2 trimer: a paradigmatic pseudopericyclic [2+2+2] cycloaddition reaction'

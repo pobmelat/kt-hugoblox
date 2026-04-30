@@ -1,7 +1,9 @@
 ---
 title: "Xuban Gastearena"
 id: "xuban-gastearena"
-url: "/people/xuban-gastearena/"
+url: "/polkt/people/xuban-gastearena/"
+aliases:
+  - "/people/xuban-gastearena/"
 hide_page_hero: true
 member_type: "phd"
 photo: "/images/members/phd/xuban.png"
@@ -13,4 +15,11 @@ publication_names:
   - "Xuban Gastearena"
   - "X. Gastearena"
   - "X.Gastearena"
+header:
+  variant: "subgroup"
+  menu: "polkt"
+  accent: "polkt"
+  brand_name: "Pol-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/polkt/"
 ---

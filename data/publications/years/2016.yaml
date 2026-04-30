@@ -228,6 +228,9 @@ items:
   - J. Asua
   - F. Ruiperez
   teachpress_id: '607'
+  doi: 10.1039/c5cp06660c
+  issue: '3'
+  pages: 1758-1770
 - id: 10-1039-c5cp06660c
   type: article
   title: Design of new disulfide-based organic compounds for the improvement of self-healing materials
@@ -529,6 +532,8 @@ items:
   - J. M. Ugalde
   - J. M. Matxain
   teachpress_id: '519'
+  doi: 10.1201/b19528-6
+  journal: Series in Material Science and Engineering
 - id: 10-1039-c6ta01457g
   type: article
   title: Nanoporous amide networks based on tetraphenyladamantane for selective CO2 capture
@@ -719,6 +724,7 @@ items:
   - Jordi Poater
   - Miquel Sola
   teachpress_id: '1112'
+  journal: Challenges and Advances in Computational Chemistry and Physics
 - id: 10-1039-c6cp03072f
   type: article
   title: Separation of dynamic and nondynamic correlation
@@ -867,6 +873,7 @@ items:
   authors:
   - S. J. Grabowski
   teachpress_id: '425'
+  journal: Challenges and Advances in Computational Chemistry and Physics
 - id: 10-1038-srep30913
   type: article
   title: What is the mechanism of formation of hydroxyaluminosilicates?

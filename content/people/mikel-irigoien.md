@@ -1,7 +1,9 @@
 ---
 title: "Dr. Mikel Irigoien"
 id: "mikel-irigoien"
-url: "/people/mikel-irigoien/"
+url: "/polkt/people/mikel-irigoien/"
+aliases:
+  - "/people/mikel-irigoien/"
 hide_page_hero: true
 weight: 120
 member_type: "postdoc"
@@ -17,4 +19,11 @@ publication_names:
   - "Mikel Irigoien"
   - "M. Irigoien"
   - "M.Irigoien"
+header:
+  variant: "subgroup"
+  menu: "polkt"
+  accent: "polkt"
+  brand_name: "Pol-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/polkt/"
 ---

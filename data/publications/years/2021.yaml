@@ -551,6 +551,8 @@ items:
   - X. Lopez
   - A. Gil
   teachpress_id: '341'
+  journal: Annual Review of Biophysics
+  issue: '1'
 - id: 10-1063-5-0056748
   type: article
   title: Markov state models from hierarchical density-based assignment
@@ -695,6 +697,7 @@ items:
 - id: rn410
   type: article
   title: Pd-Catalyzed C(sp(2))-H Alkoxycarbonylation of Phenethyl- and Benzylamines with Chloroformates as CO Surrogates
+  doi: 10.1002/chem.202005338
   year: 2021
   journal: Chemistry-a European Journal
   volume: '27'

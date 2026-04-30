@@ -1,7 +1,9 @@
 ---
 title: "Prof. David de Sancho"
 id: "david-de-sancho"
-url: "/people/david-de-sancho/"
+url: "/biokt/people/david-de-sancho/"
+aliases:
+  - "/people/david-de-sancho/"
 hide_page_hero: true
 weight: 20
 member_type: "researcher"
@@ -17,4 +19,11 @@ publication_names:
   - "D.deSancho"
 orcid: "https://orcid.org/0000-0002-8985-2685"
 researcher_id: "https://www.webofscience.com/wos/author/record/C-4995-2009"
+header:
+  variant: "subgroup"
+  menu: "biokt"
+  accent: "biokt"
+  brand_name: "Bio-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/biokt/"
 ---

@@ -59,6 +59,7 @@ items:
 - id: rn175
   type: article
   title: 'Proceedings of the International Conference on "Electronic Structure: Predictions and Applications" - Preface'
+  doi: 10.1002/qua.10072
   year: 2002
   journal: International Journal of Quantum Chemistry
   volume: '86'

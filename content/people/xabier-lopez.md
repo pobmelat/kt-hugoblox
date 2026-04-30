@@ -1,7 +1,9 @@
 ---
 title: "Prof. Xabier Lopez"
 id: "xabier-lopez"
-url: "/people/xabier-lopez/"
+url: "/biokt/people/xabier-lopez/"
+aliases:
+  - "/people/xabier-lopez/"
 hide_page_hero: true
 weight: 11
 member_type: "researcher"
@@ -17,4 +19,11 @@ publication_names:
   - "X.Lopez"
 orcid: "http://orcid.org/0000-0002-2711-3588"
 researcher_id: "http://www.researcherid.com/rid/G-5690-2015"
+header:
+  variant: "subgroup"
+  menu: "biokt"
+  accent: "biokt"
+  brand_name: "Bio-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/biokt/"
 ---

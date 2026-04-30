@@ -272,7 +272,9 @@ items:
 - id: rn614
   type: inbook
   title: LASER ENERGY DEPOSITION IN NANODROPLETS AND NUCLEAR FUSION DRIVEN BY COULOMB EXPLOSION
+  doi: 10.1002/9781118959602.ch14
   year: 2015
+  journal: Advances in Chemical Physics
   volume: '157'
   pages: 165-181
   authors:

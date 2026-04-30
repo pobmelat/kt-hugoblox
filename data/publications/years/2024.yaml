@@ -139,6 +139,7 @@ items:
   - L. Pujal
   - M. Gimferrer
   teachpress_id: '879'
+  journal: The Journal of Chemical Physics
 - id: 10-1002-adfm-202406097
   type: article
   title: Artificial Spores as Multi‐Functional Biocatalysts to Perform Biosynthetic Cascades
@@ -214,6 +215,7 @@ items:
   - Adolfo López de Munain
   - Lorea Blázquez
   teachpress_id: '886'
+  journal: Brain
 - id: ugartemendia-2024-ptge-pemfc
   type: article
   title: Boosting synergistic effects between PtGe nanoalloys and 2D materials for PEMFC applications

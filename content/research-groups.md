@@ -14,7 +14,7 @@ header:
   <article class="research-group-card research-group-card--isom">
     <div class="research-group-card__link">
       <a href="{{< relref \"/isom\" >}}" class="research-group-card__art">
-        <span class="group-emblem group-emblem--isom">iSoM</span>
+        <img class="group-logo group-logo--wide" src="{{< relref \"/\" >}}images/groups/iSoM.png" alt="iSoM logo">
       </a>
       <div class="research-group-card__body">
         <h2><a href="{{< relref \"/isom\" >}}">iSoM-KT</a></h2>
@@ -26,7 +26,7 @@ header:
   <article class="research-group-card research-group-card--matcat">
     <div class="research-group-card__link">
       <a href="{{< relref \"/matcat\" >}}" class="research-group-card__art">
-        <span class="group-emblem group-emblem--matcat">MatCat</span>
+        <img class="group-logo group-logo--wide" src="{{< relref \"/\" >}}images/groups/matcat.png" alt="MatCat logo">
       </a>
       <div class="research-group-card__body">
         <h2><a href="{{< relref \"/matcat\" >}}">MatCat-KT</a></h2>
@@ -38,8 +38,8 @@ header:
   <article class="research-group-card research-group-card--biokt">
     <div class="research-group-card__link">
       <a href="{{< relref \"/biokt\" >}}" class="research-group-card__art">
-        <span class="group-emblem group-emblem--biokt">Bio</span>
-      </a>
+        <img class="group-logo group-logo--wide" src="{{< relref \"/\" >}}images/groups/biokt.png" alt="Bio-KT logo">
+        </a>
       <div class="research-group-card__body">
         <h2><a href="{{< relref \"/biokt\" >}}">Bio-KT</a></h2>
         <p>Electronic structure and modelling strategies aimed at biologically relevant molecules, processes and interactions, co-led by <a class="leader-link" href="{{< relref \"/people/xabier-lopez\" >}}"><b>Xabier Lopez</b></a> and <a class="leader-link" href="{{< relref \"/people/david-de-sancho\" >}}"><b>David de Sancho</b></a>.</p>
@@ -50,8 +50,8 @@ header:
   <article class="research-group-card research-group-card--polkt">
     <div class="research-group-card__link">
       <a href="{{< relref \"/polkt\" >}}" class="research-group-card__art">
-        <span class="group-emblem group-emblem--polkt">Pol</span>
-      </a>
+        <img class="group-logo group-logo--wide" src="{{< relref \"/\" >}}images/groups/polkt.png" alt="Pol-KT logo">
+        </a>
       <div class="research-group-card__body">
         <h2><a href="{{< relref \"/polkt\" >}}">Pol-KT</a></h2>
         <p>Polymer theory and simulation, from molecular-scale structure to functional soft materials and responsive systems, co-led by <a class="leader-link" href="{{< relref \"/people/jon-m-matxain\" >}}"><b>Jon Mattin Matxain</b></a> and <a class="leader-link" href="{{< relref \"/people/fernando-ruiperez\" >}}"><b>Fernando Ruiperez</b></a>.</p>
@@ -98,7 +98,7 @@ header:
   <article class="research-group-card research-group-card--momag">
     <div class="research-group-card__link">
       <a href="https://www.danielreta.com" class="research-group-card__art">
-        <span class="group-emblem group-emblem--momag">MoMag</span>
+        <img class="group-logo group-logo--wide" src="{{< relref \"/\" >}}images/groups/momag.png" alt="MoMag logo">
       </a>
       <div class="research-group-card__body">
         <h2><a href="https://www.danielreta.com">MoMag-KT</a></h2>

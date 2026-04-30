@@ -10,6 +10,7 @@ items:
   authors:
   - J. M. Ugalde
   teachpress_id: '778'
+  doi: 10.1016/0166-1280(92)85038-m
 - id: 10-1088-0953-4075-25-6-005
   type: article
   title: ANALYSIS OF THE ELECTRON PAIR DENSITY FOR THE GROUND-STATE OF CARBON-DIOXIDE
@@ -38,6 +39,7 @@ items:
   - L. Dominguez
   - J. M. Ugalde
   teachpress_id: '283'
+  doi: 10.1016/0166-1280(92)87116-h
 - id: 10-1063-1-462566
   type: article
   title: THE LAPLACIAN OF THE INTRACULE AND EXTRACULE DENSITIES AND THEIR RELATIONSHIP TO THE SHELL STRUCTURE OF ATOMS

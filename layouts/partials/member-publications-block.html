@@ -8,7 +8,7 @@
 
 {{ $normalizedAuthorNames := slice }}
 {{ range $authorNames }}
-  {{ $normalized := . | lower | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` }}
+  {{ $normalized := . | lower | replaceRE `[áàäâãå]` `a` | replaceRE `[éèëê]` `e` | replaceRE `[íìïî]` `i` | replaceRE `[óòöôõ]` `o` | replaceRE `[úùüû]` `u` | replaceRE `ñ` `n` | replaceRE `ç` `c` | replaceRE `[ýÿ]` `y` | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` }}
   {{ if and $normalized (not (in $normalizedAuthorNames $normalized)) }}
     {{ $normalizedAuthorNames = $normalizedAuthorNames | append $normalized }}
   {{ end }}
@@ -28,50 +28,54 @@
   {{ $publication := . }}
   {{ $matched := false }}
   {{ range $publication.authors }}
-    {{ $normalizedPublicationAuthor := . | lower | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` }}
+    {{ $normalizedPublicationAuthor := . | lower | replaceRE `[áàäâãå]` `a` | replaceRE `[éèëê]` `e` | replaceRE `[íìïî]` `i` | replaceRE `[óòöôõ]` `o` | replaceRE `[úùüû]` `u` | replaceRE `ñ` `n` | replaceRE `ç` `c` | replaceRE `[ýÿ]` `y` | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` }}
     {{ if and $normalizedPublicationAuthor (in $normalizedAuthorNames $normalizedPublicationAuthor) }}
       {{ $matched = true }}
     {{ end }}
   {{ end }}
-  {{ if and $matched (eq $publication.type "article") }}
+  {{ if $matched }}
     {{ $matches = $matches | append $publication }}
   {{ end }}
 {{ end }}
+
+{{ $sortedMatches := sort (sort (sort $matches "journal" "asc") "title" "asc") "year" "asc" }}
 
 <section class="member-publications">
   <div class="section-heading">
     <h2>Publications</h2>
   </div>
 
-  {{ if gt (len $matches) 0 }}
-    <ol class="publication-list" start="{{ len $matches }}" reversed>
-      {{ range (sort $matches "year" "asc" | collections.Reverse) }}
-        {{ $bibKey := .id | default ((replace .title " " "-") | urlize) }}
+  {{ if gt (len $sortedMatches) 0 }}
+    <ol class="publication-list">
+      {{ range $index, $publication := collections.Reverse $sortedMatches }}
+        {{ $number := sub (len $sortedMatches) $index }}
+        {{ $bibKey := $publication.id | default ((replace $publication.title " " "-") | urlize) }}
+        {{ $bibType := $publication.type | default "misc" }}
         {{ $bibtexLines := slice
-          (printf "@article{%s," $bibKey)
-          (printf "  title = {%s}," .title)
+          (printf "@%s{%s," $bibType $bibKey)
+          (printf "  title = {%s}," $publication.title)
         }}
-        {{ with .authors }}
+        {{ with $publication.authors }}
           {{ $bibtexLines = $bibtexLines | append (printf "  author = {%s}," (delimit . " and ")) }}
         {{ end }}
-        {{ with .journal }}
+        {{ with $publication.journal }}
           {{ $bibtexLines = $bibtexLines | append (printf "  journal = {%s}," .) }}
         {{ end }}
-        {{ with .year }}
+        {{ with $publication.year }}
           {{ $bibtexLines = $bibtexLines | append (printf "  year = {%v}," .) }}
         {{ end }}
-        {{ with .volume }}
+        {{ with $publication.volume }}
           {{ $bibtexLines = $bibtexLines | append (printf "  volume = {%s}," .) }}
         {{ end }}
-        {{ with .issue }}
+        {{ with $publication.issue }}
           {{ if ne . "" }}
             {{ $bibtexLines = $bibtexLines | append (printf "  number = {%s}," .) }}
           {{ end }}
         {{ end }}
-        {{ with .pages }}
+        {{ with $publication.pages }}
           {{ $bibtexLines = $bibtexLines | append (printf "  pages = {%s}," .) }}
         {{ end }}
-        {{ with .doi }}
+        {{ with $publication.doi }}
           {{ $bibtexLines = $bibtexLines | append (printf "  doi = {%s}," .) }}
           {{ $bibtexLines = $bibtexLines | append (printf "  url = {%s}," (printf "https://doi.org/%s" .)) }}
         {{ end }}
@@ -79,22 +83,24 @@
         {{ $bibtex := delimit $bibtexLines "\n" }}
 
         <li class="publication-entry">
-          {{ with .authors }}
+          <span class="publication-entry__number">{{ $number }}.</span>
+
+          {{ with $publication.authors }}
             <p class="publication-entry__authors">{{ delimit . "; " }}</p>
           {{ end }}
 
-          <h3 class="publication-entry__title">{{ .title }}</h3>
+          <h3 class="publication-entry__title">{{ $publication.title }}</h3>
 
           <div class="publication-entry__citation-row">
             <p class="publication-entry__citation">
-              {{ with .journal }}<em>{{ . }}</em>{{ end }},
-              <strong>{{ .year }}</strong>
-              {{ with .volume }}, {{ . }}{{ end }}
-              {{ with .issue }}({{ . }}){{ end }}
-              {{ with .pages }}, {{ . }}{{ end }}
+              {{ with $publication.journal }}<em>{{ . }}</em>{{ end }}
+              {{ with $publication.year }}, <strong>{{ . }}</strong>{{ end }}
+              {{ with $publication.volume }}, {{ . }}{{ end }}
+              {{ with $publication.issue }}({{ . }}){{ end }}
+              {{ with $publication.pages }}, {{ . }}{{ end }}
             </p>
             <div class="publication-entry__actions publication-entry__actions--inline">
-              {{ with .doi }}
+              {{ with $publication.doi }}
                 <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" aria-label="Open DOI" title="Open DOI">
                   <span class="publication-entry__action-text">DOI</span>
                 </a>
@@ -117,7 +123,7 @@
             </div>
           </div>
 
-          {{ with .tags }}
+          {{ with $publication.tags }}
             <div class="publication-tags">
               {{ range . }}
                 <span class="publication-tag">{{ . }}</span>

@@ -1,7 +1,9 @@
 ---
 title: "Prof. Fernando Ruiperez"
 id: "fernando-ruiperez"
-url: "/people/fernando-ruiperez/"
+url: "/polkt/people/fernando-ruiperez/"
+aliases:
+  - "/people/fernando-ruiperez/"
 hide_page_hero: true
 weight: 24
 member_type: "researcher"
@@ -19,4 +21,11 @@ publication_names:
   - "F. Ruipérez"
 orcid: "https://orcid.org/0000-0002-5585-245X"
 researcher_id: "https://www.webofscience.com/wos/author/record/H-9744-2013"
+header:
+  variant: "subgroup"
+  menu: "polkt"
+  accent: "polkt"
+  brand_name: "Pol-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/polkt/"
 ---
