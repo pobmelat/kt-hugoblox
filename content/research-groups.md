@@ -7,7 +7,7 @@ header:
   accent: "primary"
   brand_name: "Kimika Teorikoa"
   brand_note: "Euskal Herriko Unibertsitatea"
-  brand_url: "{{< relref \"/\" >}}"
+  brand_url: "/"
 ---
 
 <div class="research-groups-directory">
