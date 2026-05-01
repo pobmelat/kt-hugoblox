@@ -13,13 +13,38 @@
 {{ $brandNote := $header.brand_note | default site.Params.site_tagline }}
 {{ $homeURL := "" | absURL }}
 {{ $brandURL := (strings.TrimPrefix "/" ($header.brand_url | default "/")) | absURL }}
+{{ $subgroupLogos := dict
+  "matcat" "/images/groups/matcat2.png"
+  "isom" "/images/groups/iSoM.png"
+  "biokt" "/images/groups/biokt.png"
+  "polkt" "/images/groups/polkt.png"
+  "noft" "/images/groups/donof.png"
+  "moleles" "/images/groups/moleles.png"
+  "qcd" "/images/groups/qcd.png"
+  "momag" "/images/groups/momag.png"
+}}
+{{ $subgroupLogo := $header.subgroup_logo }}
+{{ if and (not $subgroupLogo) (eq ($header.variant | default "main") "subgroup") }}
+  {{ $subgroupLogo = index $subgroupLogos ($header.menu | default $header.accent) }}
+{{ end }}
 
 <header class="site-header site-header--{{ $header.variant | default "main" }} site-header--accent-{{ $header.accent | default "primary" }}">
   <div class="utility-bar">
     <div class="container utility-bar__inner">
-      <nav class="utility-nav" aria-label="Utility navigation">
+      <nav class="utility-nav" aria-label="Research groups navigation">
         {{ range site.Params.utility_nav }}
-          <a href="{{ (strings.TrimPrefix "/" .url) | absURL }}">{{ .name }}</a>
+          {{ $utilityURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
+          <div class="utility-nav__item{{ if .children }} has-children{{ end }}">
+            <a href="{{ $utilityURL }}">{{ .name }}</a>
+            {{ with .children }}
+              <div class="utility-nav__submenu">
+                {{ range . }}
+                  {{ $childURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
+                  <a href="{{ $childURL }}">{{ .name }}</a>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
         {{ end }}
       </nav>
     </div>
@@ -31,6 +56,11 @@
         <a class="brand-lockup__logo-link" href="{{ $homeURL }}" aria-label="Kimika Teorikoa home">
           <img class="brand-lockup__logo" src="{{ "images/logo.png" | relURL }}" alt="Kimika Teorikoa logo">
         </a>
+        {{ with $subgroupLogo }}
+          <a class="brand-lockup__subgroup-logo-link" href="{{ $brandURL }}" aria-label="{{ $header.brand_name | default site.Title }}">
+            <img class="brand-lockup__subgroup-logo" src="{{ (strings.TrimPrefix "/" .) | absURL }}" alt="{{ $header.subgroup_logo_alt | default ($header.brand_name | default "Subgroup logo") }}">
+          </a>
+        {{ end }}
         <a class="brand-lockup__text-link" href="{{ $brandURL }}">
         <span class="brand-lockup__text">
           <span class="brand-lockup__note">{{ if eq $brandNote "Euskal Herriko Unibertsitatea" }}{{ site.Params.site_tagline }}{{ else }}{{ $brandNote }}{{ end }}</span>

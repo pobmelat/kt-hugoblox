@@ -21,9 +21,9 @@ orcid: "https://orcid.org/0000-0002-7106-3717"
 researcher_id: "http://www.researcherid.com/rid/E-6834-2010"
 header:
   variant: "subgroup"
-  menu: "biokt"
-  accent: "biokt"
-  brand_name: "Bio-KT Lab"
+  menu: "isom"
+  accent: "isom"
+  brand_name: "iSoM-KT Lab"
   brand_note: "Euskal Herriko Unibertsitatea & DIPC"
-  brand_url: "/biokt/"
+  brand_url: "/isom/"
 ---

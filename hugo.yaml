@@ -20,9 +20,24 @@ params:
   utility_nav:
     - name: Home
       url: /
-    - name: About Us
-      url: /about/
-    - name: Contact and Location
+    - name: Contact
       url: /contact/
-    - name: Consolidated Research Group
-      url: /consolidated-group/
+    - name: KT-Groups
+      url: /research-groups/
+      children:
+        - name: MatCat-KT
+          url: /matcat/
+        - name: ISoM-KT
+          url: /isom/
+        - name: Pol-KT
+          url: /polkt/
+        - name: Bio-KT
+          url: /biokt/
+        - name: NOFT-KT
+          url: /noft/
+        - name: MolEleS-KT
+          url: https://molecular-electronic-structure-group.github.io
+        - name: QCD-KT
+          url: https://quantchemdev.github.io
+        - name: MoMag-KT
+          url: https://www.danielreta.com

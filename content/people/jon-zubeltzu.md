@@ -14,4 +14,11 @@ publication_names:
   - "J. Zubeltzu"
   - "J.Zubeltzu"
 orcid: "https://orcid.org/0000-0003-0659-2978"
+header:
+  variant: "subgroup"
+  menu: "isom"
+  accent: "isom"
+  brand_name: "iSoM-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/isom/"
 ---

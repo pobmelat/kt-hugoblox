@@ -19,4 +19,11 @@ publication_names:
   - "F.J. Benitez"
   - "Francisca Javiera Benítez Olivares"
   - "Francisca Javiera Benitez Olivares"
+header:
+  variant: "subgroup"
+  menu: "isom"
+  accent: "isom"
+  brand_name: "iSoM-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/isom/"
 ---

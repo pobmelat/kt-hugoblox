@@ -10,7 +10,13 @@ photo: "/images/members/phd/laura-hernandez.jpg"
 role: "PhD Student"
 orcid: "https://orcid.org/0009-0006-1792-7736"
 publication_names:
-  - "Laura Hernandez"
-  - "L. Hernandez"
-  - "L.Hernandez"
+  - "Laura Hernandez-Fernandez"
+  - "L. Hernandez-Fernandez"
+header:
+  variant: "subgroup"
+  menu: "isom"
+  accent: "isom"
+  brand_name: "iSoM-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/isom/"
 ---

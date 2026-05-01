@@ -13,4 +13,11 @@ publication_names:
   - "Mikel Loizate"
   - "M. Loizate"
   - "M.Loizate"
+header:
+  variant: "subgroup"
+  menu: "isom"
+  accent: "isom"
+  brand_name: "iSoM-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/isom/"
 ---

@@ -1,0 +1,42 @@
+{{ $groups := where site.Pages "Params.research_group_card" "ne" nil }}
+{{ $groups = sort $groups "Weight" "asc" }}
+
+<div class="research-groups-directory">
+  {{ range $groups }}
+    {{ $page := . }}
+    {{ $card := .Params.research_group_card }}
+    {{ $target := $page.RelPermalink }}
+    {{ with $card.external_url }}
+      {{ $target = . }}
+    {{ end }}
+
+    <article class="research-group-card research-group-card--{{ $card.key }}">
+      <div class="research-group-card__link">
+        <a href="{{ $target }}" class="research-group-card__art">
+          <img class="group-logo{{ with $card.logo_class }} {{ . }}{{ end }}" src="{{ (strings.TrimPrefix "/" $card.logo) | absURL }}" alt="{{ $card.label }} logo">
+        </a>
+        <div class="research-group-card__body">
+          <h2><a href="{{ $target }}">{{ $card.label }}</a></h2>
+          <p>
+            {{ $card.summary }}
+            {{ with $card.leadership_label }}, {{ . }}{{ end }}
+            {{ with $card.leaders }}
+              {{ range $index, $leader := . }}
+                {{ if gt $index 0 }} and {{ end }}
+                {{ with $leader.page }}
+                  {{ with site.GetPage . }}
+                    <a class="leader-link" href="{{ .RelPermalink }}"><b>{{ $leader.name }}</b></a>
+                  {{ else }}
+                    <b>{{ $leader.name }}</b>
+                  {{ end }}
+                {{ else }}
+                  <b>{{ $leader.name }}</b>
+                {{ end }}
+              {{ end }}
+            {{ end }}.
+          </p>
+        </div>
+      </div>
+    </article>
+  {{ end }}
+</div>

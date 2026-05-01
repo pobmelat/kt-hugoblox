@@ -1,0 +1,68 @@
+{{ define "main" }}
+  {{ $isomURL := relref . "/isom" }}
+  {{ $matcatURL := relref . "/matcat" }}
+  {{ $bioktURL := relref . "/biokt" }}
+  {{ $polktURL := relref . "/polkt" }}
+  {{ $noftURL := relref . "/noft" }}
+  {{ $molelesURL := "https://molecular-electronic-structure-group.github.io" }}
+  {{ $qcdURL := "https://quantchemdev.github.io" }}
+  {{ $momagURL := "https://www.danielreta.com" }}
+  {{ if not .Params.hide_hero }}
+    {{ partial "page-hero.html" . }}
+  {{ end }}
+  <section class="page-content">
+    <div class="container page-layout">
+      {{ if .Params.home_plain }}
+        <article class="home-content">
+          <header class="landing-heading">
+            <h1>Welcome to the Donostia Kimika Teorikoa Group</h1>
+          </header>
+          <section class="landing-split">
+            <div class="landing-intro">
+              <p>Founded in 1990, the Kimika Teorikoa Group in Donostia has established itself as a reference center in theoretical and computational chemistry. Initially led by Prof. Jesus M. Ugalde and currently co-led by Prof. Xabier Lopez, the group has been recognized by the Basque Government as a <a href="{{ "consolidated-group/" | absURL }}">consolidated research group</a>.</p>
+              <p>The team coordinates and participates in more than ten competitive research projects and collaborates internationally across multiple scientific domains.</p>
+              <p>The main research areas are summarized in the diagram shown on the right.</p>
+            </div>
+
+            <div class="landing-diagram">
+              <div class="diagram-card diagram-card--clean">
+                <div class="research-wheel" aria-label="Circular diagram of the research groups">
+                  <div class="research-wheel__line research-wheel__line--v"></div>
+                  <div class="research-wheel__line research-wheel__line--h"></div>
+                  <div class="research-wheel__line research-wheel__line--d1"></div>
+                  <div class="research-wheel__line research-wheel__line--d2"></div>
+
+                  <div class="research-wheel__center">
+                    <img src="{{ "images/logo.png" | relURL }}" alt="Kimika Teorikoa logo">
+                  </div>
+
+                  <a class="research-wheel__sector research-wheel__sector--top-left" href="{{ $momagURL }}" aria-label="MoMag-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--top-right" href="{{ $polktURL }}" aria-label="Pol-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--right-top" href="{{ $matcatURL }}" aria-label="MatCat-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--right-bottom" href="{{ $bioktURL }}" aria-label="Bio-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--bottom-right" href="{{ $noftURL }}" aria-label="NOFT-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--bottom-left" href="{{ $molelesURL }}" aria-label="MolEleS-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--left-bottom" href="{{ $qcdURL }}" aria-label="QCD-KT"></a>
+                  <a class="research-wheel__sector research-wheel__sector--left-top" href="{{ $isomURL }}" aria-label="ISoM-KT"></a>
+
+                  <a class="research-wheel__label research-wheel__label--top-left" href="{{ $momagURL }}">MoMag-KT</a>
+                  <a class="research-wheel__label research-wheel__label--top-right" href="{{ $polktURL }}">Pol-KT</a>
+                  <a class="research-wheel__label research-wheel__label--right-top" href="{{ $matcatURL }}">MatCat-KT</a>
+                  <a class="research-wheel__label research-wheel__label--right-bottom" href="{{ $bioktURL }}">Bio-KT</a>
+                  <a class="research-wheel__label research-wheel__label--bottom-right" href="{{ $noftURL }}">NOFT-KT</a>
+                  <a class="research-wheel__label research-wheel__label--bottom-left" href="{{ $molelesURL }}">MolEleS-KT</a>
+                  <a class="research-wheel__label research-wheel__label--left-bottom" href="{{ $qcdURL }}">QCD-KT</a>
+                  <a class="research-wheel__label research-wheel__label--left-top" href="{{ $isomURL }}">ISoM-KT</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      {{ else }}
+        <article class="prose">
+          {{ .Content }}
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

@@ -1,7 +1,7 @@
 ---
 title: "NOFT-KT Lab"
 hide_hero: true
-weight: 3
+weight: 5
 header:
   variant: "subgroup"
   menu: "noft"
@@ -17,6 +17,16 @@ cascade:
     brand_name: "NOFT-KT Lab"
     brand_note: "Euskal Herriko Unibertsitatea & DIPC"
     brand_url: "/noft/"
+research_group_card:
+  key: "noft"
+  label: "NOFT-KT"
+  logo: "/images/groups/donof.png"
+  logo_class: "group-logo--wide"
+  summary: "Natural orbital functional theory, methodological development and applications in quantum chemistry"
+  leadership_label: "led by"
+  leaders:
+    - page: "/people/mario-piris"
+      name: "Mario Piris"
 ---
 
 Natural Orbital Functional Theory is one of the long-standing methodological pillars of the Donostia Kimika Teorikoa group. The NOFT line develops reduced-density-matrix-based electronic structure methods that aim to describe electron correlation with a cost that scales more favorably than wavefunction approaches while keeping a rigorous N-representability framework.

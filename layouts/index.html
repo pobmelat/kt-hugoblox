@@ -25,35 +25,44 @@
             </div>
 
             <div class="landing-diagram">
-              <div class="diagram-card diagram-card--clean">
-                <div class="research-wheel" aria-label="Circular diagram of the research groups">
-                  <div class="research-wheel__line research-wheel__line--v"></div>
-                  <div class="research-wheel__line research-wheel__line--h"></div>
-                  <div class="research-wheel__line research-wheel__line--d1"></div>
-                  <div class="research-wheel__line research-wheel__line--d2"></div>
+              <div class="group-constellation" aria-label="Research groups">
+                <a class="group-constellation__center" href="{{ "research-groups/" | absURL }}" aria-label="Research Groups">
+                  <img src="{{ "images/logo.png" | relURL }}" alt="Kimika Teorikoa logo">
+                  <span>Research Groups</span>
+                </a>
 
-                  <div class="research-wheel__center">
-                    <img src="{{ "images/logo.png" | relURL }}" alt="Kimika Teorikoa logo">
-                  </div>
-
-                  <a class="research-wheel__sector research-wheel__sector--top-left" href="{{ $momagURL }}" aria-label="MoMag-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--top-right" href="{{ $polktURL }}" aria-label="Pol-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--right-top" href="{{ $matcatURL }}" aria-label="MatCat-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--right-bottom" href="{{ $bioktURL }}" aria-label="Bio-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--bottom-right" href="{{ $noftURL }}" aria-label="NOFT-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--bottom-left" href="{{ $molelesURL }}" aria-label="MolEleS-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--left-bottom" href="{{ $qcdURL }}" aria-label="QCD-KT"></a>
-                  <a class="research-wheel__sector research-wheel__sector--left-top" href="{{ $isomURL }}" aria-label="ISoM-KT"></a>
-
-                  <a class="research-wheel__label research-wheel__label--top-left" href="{{ $momagURL }}">MoMag-KT</a>
-                  <a class="research-wheel__label research-wheel__label--top-right" href="{{ $polktURL }}">Pol-KT</a>
-                  <a class="research-wheel__label research-wheel__label--right-top" href="{{ $matcatURL }}">MatCat-KT</a>
-                  <a class="research-wheel__label research-wheel__label--right-bottom" href="{{ $bioktURL }}">Bio-KT</a>
-                  <a class="research-wheel__label research-wheel__label--bottom-right" href="{{ $noftURL }}">NOFT-KT</a>
-                  <a class="research-wheel__label research-wheel__label--bottom-left" href="{{ $molelesURL }}">MolEleS-KT</a>
-                  <a class="research-wheel__label research-wheel__label--left-bottom" href="{{ $qcdURL }}">QCD-KT</a>
-                  <a class="research-wheel__label research-wheel__label--left-top" href="{{ $isomURL }}">ISoM-KT</a>
-                </div>
+                <a class="group-orbit group-orbit--matcat" href="{{ $matcatURL }}">
+                  <img src="{{ "images/groups/matcat2.png" | relURL }}" alt="MatCat-KT logo">
+                  <span>MatCat-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--isom" href="{{ $isomURL }}">
+                  <img src="{{ "images/groups/iSoM.png" | relURL }}" alt="ISoM-KT logo">
+                  <span>ISoM-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--biokt" href="{{ $bioktURL }}">
+                  <img src="{{ "images/groups/biokt.png" | relURL }}" alt="Bio-KT logo">
+                  <span>Bio-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--polkt" href="{{ $polktURL }}">
+                  <img src="{{ "images/groups/polkt.png" | relURL }}" alt="Pol-KT logo">
+                  <span>Pol-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--noft" href="{{ $noftURL }}">
+                  <img src="{{ "images/groups/donof.png" | relURL }}" alt="NOFT-KT logo">
+                  <span>NOFT-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--moleles" href="{{ $molelesURL }}">
+                  <img src="{{ "images/groups/moleles.png" | relURL }}" alt="MolEleS-KT logo">
+                  <span>MolEleS-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--qcd" href="{{ $qcdURL }}">
+                  <img src="{{ "images/groups/qcd.png" | relURL }}" alt="QCD-KT logo">
+                  <span>QCD-KT</span>
+                </a>
+                <a class="group-orbit group-orbit--momag" href="{{ $momagURL }}">
+                  <img src="{{ "images/groups/momag.png" | relURL }}" alt="MoMag-KT logo">
+                  <span>MoMag-KT</span>
+                </a>
               </div>
             </div>
           </section>
