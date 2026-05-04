@@ -1,15 +1,14 @@
 ---
 title: "Gallery"
-eyebrow: "General site"
-lead: "Placeholder page for the future migration of the group gallery."
-hero_note: "This route will be useful later when we decide whether the gallery stays chronological, grouped by event, or both."
+hide_page_hero: true
+content_frame: false
 header:
   variant: "main"
   menu: "general"
   accent: "primary"
   brand_name: "Kimika Teorikoa"
-  brand_note: "Euskal Herriko Unibertsitatea"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
   brand_url: "/"
 ---
 
-Gallery content will be migrated here.
+{{< gallery_directory >}}

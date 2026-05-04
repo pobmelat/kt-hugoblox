@@ -1,0 +1,41 @@
+{{ $items := hugo.Data.theses.items | default slice }}
+
+<section class="thesis-directory">
+  <ol class="thesis-list">
+    {{ range sort $items "number" "desc" }}
+      <li class="thesis-entry">
+        <span class="thesis-entry__number">{{ .number }}.</span>
+        <div class="thesis-entry__body">
+          <p class="thesis-entry__author">{{ .author }}</p>
+          <h2 class="thesis-entry__title">
+            {{ if .pdf }}
+              <a href="{{ (strings.TrimPrefix "/" .pdf) | absURL }}">{{ .title }}</a>
+            {{ else if and .original_url (not (hasSuffix .original_url ".pdf")) }}
+              <a href="{{ .original_url }}">{{ .title }}</a>
+            {{ else }}
+              {{ .title }}
+            {{ end }}
+          </h2>
+          <p class="thesis-entry__meta">
+            {{ with .year }}<strong>{{ . }}</strong>{{ end }}
+            {{ with .supervisors }}
+              <span>Supervisor{{ if gt (len .) 1 }}s{{ end }}: {{ delimit . ", " }}</span>
+            {{ end }}
+          </p>
+          {{ with .notes }}
+            <p class="thesis-entry__notes">{{ . }}</p>
+          {{ end }}
+          <div class="thesis-entry__actions">
+            {{ if .pdf }}
+              <a class="publication-entry__action" href="{{ (strings.TrimPrefix "/" .pdf) | absURL }}">PDF</a>
+            {{ else }}
+              {{ with .original_url }}
+                <a class="publication-entry__action" href="{{ . }}">Original link</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </li>
+    {{ end }}
+  </ol>
+</section>

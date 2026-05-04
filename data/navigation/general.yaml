@@ -34,26 +34,9 @@ items:
     children:
       - name: Articles
         url: /publications/#articles
-      - name: Books and Chapters
-        url: /publications/#books-and-chapters
       - name: PhD Thesis
-        url: /publications/#phd-thesis
-  - name: Conferences
-    url: /conferences/
+        url: /publications/thesis/
   - name: KT-Seminars
     url: /kt-seminars/
-  - name: Outreach
-    url: /outreach/
-    children:
-      - name: Blogs
-        url: /outreach/#blogs
-      - name: Radio
-        url: /outreach/#radio
-      - name: Social Networks
-        url: /outreach/#social-networks
-      - name: TV
-        url: /outreach/#tv
-  - name: Tech Profile
-    url: /tech-profile/
   - name: Gallery
     url: /gallery/

@@ -1,0 +1,82 @@
+{{ $years := hugo.Data.seminars.items | default slice }}
+{{ $upcoming := slice }}
+{{ with hugo.Data.seminars.next }}
+  {{ $upcoming = .entries | default slice }}
+{{ end }}
+{{ with index hugo.Data.seminars "Next" }}
+  {{ $upcoming = .entries | default $upcoming }}
+{{ end }}
+
+<section class="seminar-archive">
+  {{ if gt (len $upcoming) 0 }}
+    <section class="seminar-year seminar-year--next" aria-labelledby="seminar-year-next">
+      <h2 id="seminar-year-next" class="seminar-year__title">Next seminar</h2>
+      <ol class="seminar-list">
+        {{ range $upcoming }}
+          <li class="seminar-entry seminar-entry--next">
+            <div class="seminar-entry__meta">
+              <p class="seminar-entry__date">{{ .date }}</p>
+              {{ with .place }}
+                <p class="seminar-entry__place">{{ . }}</p>
+              {{ end }}
+            </div>
+            <div class="seminar-entry__talks">
+              {{ range .talks }}
+                <article class="seminar-talk">
+                  <h3 class="seminar-talk__title">{{ if .title }}{{ .title }}{{ else }}Title to be announced{{ end }}</h3>
+                  {{ with .speaker }}
+                    <p class="seminar-talk__speaker">{{ . }}</p>
+                  {{ end }}
+                  {{ with .links }}
+                    <p class="seminar-talk__links">
+                      {{ range . }}
+                        <a href="{{ if hasPrefix .url "/" }}{{ (strings.TrimPrefix "/" .url) | absURL }}{{ else }}{{ .url }}{{ end }}">{{ .label }}</a>
+                      {{ end }}
+                    </p>
+                  {{ end }}
+                </article>
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ol>
+    </section>
+  {{ end }}
+
+  {{ range $years }}
+    <section class="seminar-year" aria-labelledby="seminar-year-{{ .year }}">
+      <h2 id="seminar-year-{{ .year }}" class="seminar-year__title">{{ .year }}</h2>
+      <ol class="seminar-list">
+        {{ range .entries }}
+          <li class="seminar-entry">
+            <div class="seminar-entry__meta">
+              <p class="seminar-entry__date">{{ .date }}</p>
+              {{ with .place }}
+                <p class="seminar-entry__place">{{ . }}</p>
+              {{ end }}
+            </div>
+            <div class="seminar-entry__talks">
+              {{ range .talks }}
+                <article class="seminar-talk">
+                  {{ with .title }}
+                    <h3 class="seminar-talk__title">{{ . }}</h3>
+                  {{ end }}
+                  {{ with .speaker }}
+                    <p class="seminar-talk__speaker">{{ . }}</p>
+                  {{ end }}
+                  {{ with .links }}
+                    <p class="seminar-talk__links">
+                      {{ range . }}
+                        <a href="{{ if hasPrefix .url "/" }}{{ (strings.TrimPrefix "/" .url) | absURL }}{{ else }}{{ .url }}{{ end }}">{{ .label }}</a>
+                      {{ end }}
+                    </p>
+                  {{ end }}
+                </article>
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ol>
+    </section>
+  {{ end }}
+</section>

@@ -1,0 +1,507 @@
+# Generated from https://www.ehu.eus/chemistry/theory/5_kt-seminars/past-group-seminars/
+
+next:
+  entries:
+    - date: "May 15th, 10:00 am"
+      place: "DIPC (Josebe Olarra Auditorium)"
+      talks:
+        - title: ""
+          speaker: "Verònica Postils"
+
+items:
+  - year: 2026
+    entries:
+      - date: "April 30th, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Pt Cluster Nucleation on Graphene/Ir(111): Role of Defects, Diffusion, and Pathways toward Single-Atom Catalysts"
+            speaker: "Ramon Bergua"
+      - date: "April 17th, 10:00 am"
+        place: "Kimika Fakultatea (Salón de Actos)"
+        talks:
+          - title: "Quasiparticles in van der Waals bonded hexagonal Boron Nitride structures"
+            speaker: "Raúl Amaury Quintero Monsebaiz"
+      - date: "March 6th, 10:10 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Can Aromaticity be Evaluated Using Atomic Partitions based on the Hilbert-space?"
+            speaker: "Joan Grèbol"
+      - date: "February 20th, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "SET-driven radical formation in nitroaromatics"
+            speaker: "Lisa Ebo"
+      - date: "February 6th, 10:00 am"
+        place: "Kimika Fakultatea (Salón de Actos)"
+        talks:
+          - title: "Theoretical simulation of metal complexes."
+            speaker: "Julen Aduriz"
+      - date: "January 23th, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "An introduction to quantum computing for quantum chemistry"
+            speaker: "Nonia Vaquero"
+      - date: "January 9th, 10:00 am"
+        place: "Kimika Fakultatea (Salón de Actos)"
+        talks:
+          - title: "Materials Engineering from Atomistic Simulations: Estimating Material Properties via MD"
+            speaker: "Unai Calvo"
+  - year: 2025
+    entries:
+      - date: "December 3rd, 11:00 am"
+        place: "DIPC (Josebe Olarra Seminar Room)"
+        talks:
+          - title: "Modelling Photoluminescence in Organic Systems: Exploring the impact of aggregation and mechanical effects on the molecular, electronic and optical properties"
+            speaker: "Josianne Owona"
+      - date: "November 28th, 10:00 am"
+        place: "DIPC (Josebe Olarra Seminar Room)"
+        talks:
+          - title: "Thermochemical and electrochemical stability of ruthenium oxides: A DFT perspective"
+            speaker: "Iratxe Aguado Ruiz"
+      - date: "November 20th, 12:00"
+        place: "DIPC (Josebe Olarra Seminar Room)"
+        talks:
+          - title: "Integrative computational microscopy: Bridging cellular 3D imaging with physics-based simulations for biological discovery"
+            speaker: "Sergio Cruz"
+      - date: "November 13th (Thursday), 10:00 am"
+        place: "Kimika Fakultatea (Salón de Actos)"
+        talks:
+          - title: "Nonadiabatic Dynamics: Method Development and Applications."
+            speaker: "Edison Salazar"
+      - date: "October 31st, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Correcting DFT-based energies to enhance computational catalysis predictions"
+            speaker: "Ricardo Urrego Ortiz"
+      - date: "October 17th, 10:00 am"
+        place: "Room #1, Faculty of Chemistry"
+        talks:
+          - title: "Optimizing the oxidation potential of perylenes in the singlet and triplet states"
+            speaker: "Francisca Benítez"
+      - date: "September 19, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Number of Bonds in Diatomic Molecules from Excited State Potential Energy Curves"
+            speaker: "Ishita Bhattacharjee"
+      - date: "July 4, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Trick-tracking proteins with molecular modelling"
+            speaker: "Dulce Guzman"
+      - date: "June 13, 10:00 am"
+        place: "Kimika Fakultatea (Salon de Actos)"
+        talks:
+          - title: "Mechanistic Insights into Ligand Photodissociation in Ru(II) Complexes for PACT Applications"
+            speaker: "Stefano Scoditti"
+      - date: "June 6, 10:00 am"
+        place: "Kimika Fakultatea (Salon de Actos)"
+        talks:
+          - title: "Proton Transfer in CAGE 1:2 via Neural Network-based Force Field Simulations"
+            speaker: "Mikel Loizate"
+      - date: "May 16, 10:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "POL-KT – Applying Theoretical Chemistry in Polymer Science"
+            speaker: "Mikel Irigoien"
+      - date: "April 30, 12:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Addressing chemical effects in Surface-Enhanced Raman Scattering"
+            speaker: "Roberto Álvarez Boto"
+      - date: "April 16, 12:00 am"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+          - title: "Analysis of Local Descriptors of Dynamic and Nondynamic Correlation"
+            speaker: "Javier Dominguez"
+      - date: "April 4, 11:00 am"
+        place: "Kimika Fakultatea (Sala de Actos)"
+        talks:
+          - title: "Redefining the dielectric response of nanoconfined liquids: insights from water"
+            speaker: "Jon Zubeltzu"
+      - date: "March 21, 10:00 am"
+        place: "DIPC1 (Sala de Conferencias Josebe Olarra Lizarralde)"
+        talks:
+          - title: "Modelling of the elec. structure and spin conversion processes in triangular-shaped organic systems"
+            speaker: "Gaetano Ricci"
+      - date: "March 7, 11:00 am"
+        place: "DIPC1 (Sala de Conferencias Josebe Olarra Lizarralde)"
+        talks:
+          - title: "Simulation of Ionic Liquids for Energy Applications"
+            speaker: "Hadrián Montes Campos"
+  - year: 2024
+    entries:
+      - date: "October 4, 12:00 pm"
+        talks:
+          - title: "Concepts of Orbital Entanglement and Correlation in Quantum Chemistry"
+            speaker: "Lexin Ding"
+      - date: "October 3, 12:00 pm"
+        talks:
+          - title: "Quantum Anamorphosis: A Novel Quantum Chemical Route for Predicting Magnetic Interactions in Polynuclear Transition Metal Clusters"
+            speaker: "Giovanni Li Manni"
+      - date: "September 13, 12:00 pm"
+        talks:
+          - title: "Understanding Physicochemical properties of the Biomolecules/Biomimetics through Molecular Modeling"
+            speaker: "Nicholus Bhattacharjee"
+      - date: "June 14, 12:00 pm"
+        talks:
+          - title: "Understanding crystallization in solution and at interfaces from first principles"
+            speaker: "Pablo Piaggi"
+      - date: "May 31, 12:00 pm"
+        talks:
+          - title: "Projection technique for the g-matrix calculation"
+            speaker: "Antonio Cebreiro"
+      - date: "May 10, 12:00 pm"
+        talks:
+          - title: "Interactions between electron-deficient systems. Interesting peculiarities"
+            speaker: "Manuel Yanez"
+      - date: "May 3, 12:00 pm"
+        talks:
+          - title: "Exploring the PEMFC Triple Phase Boundary: A Theoretical-Experimental Analysis"
+            speaker: "Juan Carlos Jiménez"
+      - date: "April 26, 12:00 pm"
+        talks:
+          - title: "Quadruple bonding between main-group atoms and the peculiar bonding of fluorine anion F-"
+            speaker: "Gernot Frenking"
+      - date: "March 8, 12:00 pm"
+        talks:
+          - title: "Asymmetric dilanthanide clusters as platforms for addressable qubits"
+            speaker: "Hanae Bouhlejour"
+      - date: "February 23, 12:00 pm"
+        talks:
+          - title: "Computational protein design and engineering"
+            speaker: "Francesca Peccati"
+      - date: "February 8, 12:00 pm"
+        talks:
+          - title: "Excited states by coupling PNOFs with the ERPA ( 2311.05504 )"
+            speaker: "Juan Felipe Huan Lew Yee"
+            links:
+              - label: "2311.05504"
+                url: "https://arxiv.org/abs/2311.05504"
+      - date: "January 26, 12:00 pm"
+        talks:
+          - title: "Time evolution of natural orbitals in ab initio molecular dynamics ( 2311.04802 , 2312.07163 )"
+            speaker: "Mario Piris"
+            links:
+              - label: "2311.04802"
+                url: "https://arxiv.org/abs/2311.04802"
+              - label: "2312.07163"
+                url: "https://arxiv.org/abs/2312.07163"
+  - year: 2023
+    entries:
+      - date: "December 15, 12:00 pm"
+        talks:
+          - title: "Electron spin relaxation in boron-doped graphene nanofragments"
+            speaker: "Roberto Alvarez Boto"
+      - date: "November 24, 12:00 pm"
+        talks:
+          - title: "Rules governing metal coordination in clusters from Aβ-Zn(II) complexes from quantum mechanical calculations"
+            speaker: "Julen Aduriz"
+      - date: "November 10, 12:00 pm"
+        talks:
+          - title: "Multi-Scale Theoretical Investigation of the Linear and Nonlinear Optical Responses of Di-8-ANEPPS Embedded in Complex Environments: on the Way to Explore the Complexity of Cell Membranes"
+            speaker: "Charlotte Bouquiaux"
+      - date: "October 27, 12:00 pm"
+        talks:
+          - title: "Computational characterization of the reaction mechanisms for the polymerization of glycidol with B(C6F5)3 and Lewis bases."
+            speaker: "Xuban Gastearena"
+      - date: "October 20, 12:00 pm"
+        talks:
+          - title: "Electron Correlation: Measures & Diagnostics"
+            speaker: "Eduard Matito"
+      - date: "June 15, 12:00 pm"
+        talks:
+          - title: "Unveiling electron correlation from approximate Coulomb Holes"
+            speaker: "Markel Gonzalez de Txabarri"
+      - date: "June 2, 11:00 am"
+        talks:
+          - title: "Unraveling Entropy: From origins to protein folding"
+            speaker: "David Silva"
+      - date: "May 18, 12:00 pm"
+        talks:
+          - title: "Ground and Excited State Aromaticity as a Strategy to Design Singlet Fission"
+            speaker: "Juan Carlos Roldao"
+      - date: "May 5, 12:00 pm"
+        talks:
+          - title: "Electronic structure method development"
+            speaker: "Andrei Palau"
+      - date: "April 21, 12:00 pm"
+        talks:
+          - title: "Redox photoactivation of metal-complexes bearing flavins"
+            speaker: "Juan Sanchez"
+      - date: "April 5, 12:00 pm"
+        talks:
+          - title: "Development of new density functional approximations"
+            speaker: "Javier Dominguez"
+      - date: "March 10, 12:00 pm"
+        talks:
+          - title: "Graphene nanofragments for quantum computation"
+            speaker: "Roberto Alvarez Boto"
+      - date: "February 24, 12:00 pm"
+        talks:
+          - title: "Hydrongen Tunneling in Catalytic Hydrolysis and Alchoholysis of Silane"
+            speaker: "Jon Mattin Matxain"
+      - date: "February 10, 12:00 pm"
+        talks:
+          - title: "Metal-based prodrugs for cancer chemotherapy"
+            speaker: "Maria Jesus Moran"
+      - date: "January 27, 12:00 pm"
+        talks:
+          - title: "How reliable are modern density functionals to simulate vibrational spectroscopies?"
+            speaker: "Eduard Matito"
+      - date: "January 13, 12:00 pm"
+        talks:
+          - title: "Current developments: mingled methods for the treatment of electron correlation"
+            speaker: "José Aarón Rodríguez Jiménez"
+          - title: "An Alternative Approach to the g-Matrix: Theory and Applications"
+            speaker: "Antonio Cebreiro"
+  - year: 2022
+    entries:
+      - date: "December 16, 12:00 pm."
+        talks:
+          - title: "Ligand binding free energies for drug discovery: A Bayesian network-wide analysis"
+            speaker: "Mario Fernandez Pendas"
+      - date: "November 25, 12:00 pm."
+        talks:
+          - title: "An alternative approach to the g-matrix: theory and applications"
+            speaker: "Antonio Cebreiro"
+          - title: "Pt:Ge ratio as a lever of activity and selectivity control of PtGe clusters"
+            speaker: "Elisa Jimenez"
+      - date: "November 2, 12:00 pm."
+        talks:
+          - title: "Performance of PNOF on the charge delocalization error ( JCP154.064102 )"
+            speaker: "Juan Felipe Huan Lew Yee"
+            links:
+              - label: "JCP154.064102"
+                url: "https://arxiv.org/abs/2012.15662"
+          - title: "Gold compounds for the bio orthogonal chemical modification of proteins"
+            speaker: "Raphael De Paiva"
+      - date: "October 14, 12:00 pm."
+        talks:
+          - title: "DFT study on amyloid beta-zinc coordination"
+            speaker: "Julen Aduriz"
+          - title: "Global Natural Orbital Functional ( PRL127.233001 , JCP156.214102 )"
+            speaker: "Mario Piris"
+            links:
+              - label: "Global Natural Orbital Functional"
+                url: "/files/seminars/talk-piris.pdf"
+              - label: "PRL127.233001"
+                url: "https://arxiv.org/abs/2112.02119"
+              - label: "JCP156.214102"
+                url: "https://arxiv.org/abs/2203.12447"
+      - date: "September 30, 12:00 pm."
+        talks:
+          - title: "Entropy Production and Quantum Effects in Nanothermodynamics"
+            speaker: "Vladimiro Mujica"
+      - date: "May 20, 10:00 am."
+        talks:
+          - title: "Ge as a promoter for the catalytic oxidation of CO by Pt clusters"
+            speaker: "Andoni Ugartemendia"
+          - title: "Chirality transfer phenomena mediated by plasmonic electromagnetic fields"
+            speaker: "Jesus M. Ugalde"
+      - date: "May 6, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Electronic couplings and interactions in rubrene crystal"
+            speaker: "Aitor Díaz-Andrés"
+          - title: "Floating functions method to correct the out-of-plane bending frequencies issue"
+            speaker: "Rubén Ferradás"
+      - date: "April 8, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Natural-orbital based multireference diagnostic for wavefunction methods"
+            speaker: "Xiang Xu"
+          - title: "The strength of a chemical bond"
+            speaker: "Gernot Frenking"
+      - date: "March 24, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Spurious oscillations Affecting the Nuclear Derivatives in KS-DFT"
+            speaker: "Sebastian P. Sitkiewicz"
+          - title: "Flavin-photocatalyzed activation of metal-based anticancer complexes: a brief summary of the last 5 years"
+            speaker: "Luca Salassa"
+      - date: "March 18, 11:00 am. (Zoom Meeting)"
+        talks:
+          - title: "Lowest lying states of X-3 triangles. (X=Al,Ga,In,Tl) Can we determine the origin of their Aromaticity?"
+            speaker: "Txema Mercero"
+          - title: "Aluminum compounds & Entropy"
+            speaker: "David Silva Brea"
+      - date: "February 25, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Liquid-liquid phase separation from composition alone"
+            speaker: "David de Sancho"
+      - date: "February 11, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Triplet Excitonic States Character Description in Perylenebismide Dimers"
+            speaker: "María Zubiria"
+          - title: "Molecular dynamics simulations of solid-state electrolytes for batteries"
+            speaker: "Javier Carrasco (CIC EnergiGUNE)"
+      - date: "January 28, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "A perspective of the KT group: Map of the Group, Research Lines and Overlaps, and Dissemination/Transference Strategies"
+            speaker: "Xabier Lopez; Jon Mattin Matxain"
+  - year: 2021
+    entries:
+      - date: "December 15, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Gallium Arsenide Clusters: On the Doping of Ga12As12"
+            speaker: "Aarón Rodríguez Jiménez"
+          - title: "Metalloenzyme Design by Directed Evolution and Computation"
+            speaker: "Gonzalo Jiménez-Osés (CIC BioGUNE)"
+      - date: "November 17, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "The Intriguing Aromaticity of (Sub)Phthalocyanines"
+            speaker: "Silvia Escayola"
+          - title: "Delocalization Errors in Density Functional Approximations"
+            speaker: "Eloy Ramos-Córdoba"
+      - date: "November 3, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Time-resolved spin-orbit effects in hydrogen halides"
+            speaker: "Antonio Cebreiro"
+      - date: "October 20, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Anticancer and Photophysical properties of a N^C^N-coordinated Pt(II) complex"
+            speaker: "Stefano Scoditti"
+          - title: "Ab initio spin dynamics in single molecule magnets"
+            speaker: "Daniel Reta"
+      - date: "October 6, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Effect of molecular structure in the chain mobility of dichalcogenide-based polymers with self-healing capacity"
+            speaker: "Mikel Irigoyen"
+          - title: "X-rays to probe the biological life of inorganic systems"
+            speaker: "Carlos Sánchez"
+      - date: "June 9, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Chemical tuning of supramolecular excited states in a thiophene cage geometry"
+            speaker: "Claire Tonnelé"
+          - title: "New insights on the interaction of phenanthroline based ligands and metal complexes and polyoxometalates with dna targets"
+            speaker: "Adriá Gil-Mestres"
+      - date: "May 26, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Impact of Van der Waals interactions on structural and nonlinear optical properties of azobenzene switches"
+            speaker: "Carmelo Naim"
+          - title: "Where's the spin? A DFT Study of Mixed-Valence Cyanide-Bridged Ruthenium Polypyridines"
+            speaker: "German Pieslinger"
+      - date: "May 12, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Al-induced conformational changes in neuropeptide fragments: enthalpy-entropy compensation"
+            speaker: "David Silva"
+          - title: "Intramolecular Singlet Fission: Insights from Quantum Dynamical Simulations"
+            speaker: "Pedro B. Coto"
+      - date: "April 28, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Few electron systems confined in Gaussian potential wells: connection to Hooke atoms"
+            speaker: "Xabier Telleria"
+          - title: "NCIPLOT4 – A new step toward the quantitative analysis of noncovalent interactions"
+            speaker: "Roberto Álvarez Boto"
+      - date: "April 14, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Recent developments for the study of molecular photophysics"
+            speaker: "David Casanova"
+          - title: "TBA"
+            speaker: "José Lanuza"
+      - date: "March 31, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "LS-DFT method to study duplex- and G-Quadruplex-DNA interacting Mo-based ligand"
+            speaker: "Iker Ortiz de Luzuriaga"
+          - title: "Computational approach to the synthesis of phosphaphenalenes"
+            speaker: "Abel De Cózar"
+      - date: "February 24, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Computational Study of pincer-metal interactions for self-healing polymers"
+            speaker: "Maialen Galdeano"
+          - title: "Introduction to PyQchem: a python interface for Q-Chem"
+            speaker: "Abel Carreras"
+      - date: "February 10, 12:00 pm. (EHU Blackboard Collaborate)"
+        talks:
+          - title: "Structural and conformational study of FMN-containing miniSOG"
+            speaker: "Oksana Azpitarte"
+          - title: "Deciphering Electron Correlation: Range Separation of the Coulomb Hole"
+            speaker: "Eduard Matito"
+      - date: "January 27, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Conjugated organic diradicals and polyradicals: electronic structure and photophysics"
+            speaker: "María E. Sandoval-Salinas"
+  - year: 2020
+    entries:
+      - date: "December 16, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Doping platinum with germanium: a novel way to mitigate the CO poisoning"
+            speaker: "Andoni Ugartemendia"
+          - title: "Double excitations in BODIPY and their impact on low-lying excited states"
+            speaker: "Verònica Postils Ribó"
+      - date: "December 2, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Formation of one-dimensional coordination polymers in molecular junctions"
+            speaker: "Rubén Ferradás"
+      - date: "November 18, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "The Role of CT States in Molecular excimers"
+            speaker: "Maria Zubiria"
+          - title: "Understanding the mol. basis of anion selectivity in ClC-ec1 ion channels using MD"
+            speaker: "Gabriele dalla Torre"
+      - date: "November 4, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Kinetic and thermodynamic hysteresis in thermal clustering of gold nanoparticles."
+            speaker: "Joscha Kruse"
+          - title: "AdaptiveMasterMSM, a Python package for adaptive sampling simulations"
+            speaker: "Ion Mitxelena"
+      - date: "October 21, 12:00 pm. (Zoom Meeting)"
+        talks:
+          - title: "Computer simulations of intrinsically disordered proteins in the hypoxic response"
+            speaker: "Irene Ruiz"
+          - title: "Surprising insights on Protein aggregation and Protein absorption"
+            speaker: "Ivan Coluzza"
+      - date: "October 7, 12:00 pm (Zoom Meeting)."
+        talks:
+          - title: "A minimal dispersion model based on molecular hydrogen"
+            speaker: "Xiang Xu"
+          - title: "Determinants of reversibility in amyloid formation from molecular simulations"
+            speaker: "Mario Fernandez Pendás"
+      - date: "March 11, 12:00 pm."
+        talks:
+          - title: "Adsorption of CO2 and Alcohols on Graphene"
+            speaker: "Ronen Zangi"
+      - date: "March 4, 12:00 pm."
+        talks:
+          - title: "Development and applications of natural orbital functional theory"
+            speaker: "Ion Mitxelena"
+      - date: "February 12, 12:00 pm."
+        talks:
+          - title: "Flavin catalysis for nanozymes"
+            speaker: "Álvaro Martínez"
+      - date: "January 15, 12pm."
+        talks:
+          - title: "A computational mechanistic study of non-classical platinum anticancer drugs"
+            speaker: "Eslam Moustafa"
+  - year: 2019
+    entries:
+      - date: "December 18, 12:00 pm."
+        talks:
+          - title: "Phosphate Hydrolysis Catalyzed by Molybdenum(VI) Species"
+            speaker: "Jose Lanuza"
+      - date: "December 4, 12:00 pm."
+        talks:
+          - title: "Theoretical approach to II-VI nanoclusters in ionic liquids"
+            speaker: "Jon Zubeltzu"
+      - date: "November 20, 12:00 pm."
+        talks:
+          - title: "Diselenide bond as an alternative to disulfide bond in self-healing materials"
+            speaker: "Mikel Irigoyen"
+      - date: "November 5, 12:00 pm."
+        talks:
+          - title: "Magnetic phase diagrams for few-electron-systems confined in gaussian potentials"
+            speaker: "Xabier Telleria"
+      - date: "October 23, 12:00 pm."
+        talks:
+          - title: "DFT and semi-empirical methods to study duplex- and G-quadruplex-DNA interacting Mo-based drug"
+            speaker: "Iker Ortiz de Luzuriaga"
+      - date: "September 25, 12:00 pm"
+        talks:
+          - title: "Interactions and ordering of Imidazolium-Based Ionic Liquids around Metal Nanoparticles"
+            speaker: "Mohamed Ahmed Nosir"
+      - date: "September 11, 12:00 pm."
+        talks:
+          - title: "Natural Orbital Functional for Multiplets ( PRA100.032508 )"
+            speaker: "Mario Piris"
+            links:
+              - label: "Natural Orbital Functional for Multiplets"
+                url: "/files/seminars/lecture-11-09-19.pdf"
+              - label: "PRA100.032508"
+                url: "https://arxiv.org/abs/1908.05501"

@@ -1,0 +1,30 @@
+{{ $items := hugo.Data.gallery.items | default slice }}
+
+<section class="gallery-directory">
+  {{ range $items }}
+    <section class="gallery-event" id="{{ .slug }}">
+      {{ $eventTitle := .title }}
+      <header class="gallery-event__header">
+        <h2>{{ $eventTitle }}</h2>
+        <p>{{ len .images }} photo{{ if ne (len .images) 1 }}s{{ end }}</p>
+      </header>
+      <div class="gallery-event__grid">
+        {{ range .images }}
+          {{ $src := .src }}
+          {{ if hasPrefix $src "/" }}
+            {{ $src = (strings.TrimPrefix "/" $src) | absURL }}
+          {{ end }}
+          <a class="gallery-photo" href="{{ $src }}">
+            <img
+              src="{{ $src }}"
+              alt="{{ .alt | default $eventTitle }}"
+              loading="lazy"
+              {{ with .width }}width="{{ . }}"{{ end }}
+              {{ with .height }}height="{{ . }}"{{ end }}
+            >
+          </a>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</section>
