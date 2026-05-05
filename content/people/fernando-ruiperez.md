@@ -7,6 +7,7 @@ aliases:
 hide_page_hero: true
 weight: 24
 member_type: "researcher"
+office: "Farmazia Fakultatea; Gasteiz"
 photo: "/images/members/researchers/fernando-ruiperez.png"
 groups: ["polkt"]
 group_labels: ["Pol-KT"]

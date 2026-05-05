@@ -4,10 +4,10 @@
       {{ if .Params.member_type }}
         <article class="prose prose--plain">
           {{ partial "member-profile-block.html" . }}
-          {{ partial "member-publications-block.html" . }}
           {{ if .Content }}
             {{ .Content }}
           {{ end }}
+          {{ partial "member-publications-block.html" . }}
         </article>
       {{ else }}
         <article class="{{ if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">

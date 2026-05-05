@@ -5,6 +5,7 @@ url: "/noft/people/mario-piris/"
 hide_page_hero: true
 weight: 13
 member_type: "researcher"
+office: "DIPC"
 photo: "/images/members/researchers/mario-piris.png"
 groups: ["noft"]
 group_labels: ["NOFT-KT"]

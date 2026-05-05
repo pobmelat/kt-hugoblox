@@ -5,6 +5,8 @@ url: "/people/nicholus-bhattacharjee/"
 hide_page_hero: true
 weight: 115
 member_type: "postdoc"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/postdocs/nicholus.png"
 role: "Postdoctoral Researcher"
 groups: ["momag"]

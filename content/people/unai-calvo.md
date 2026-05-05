@@ -7,6 +7,8 @@ aliases:
 hide_page_hero: true
 weight: 226
 member_type: "phd"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 groups: ["polkt"]
 group_labels: ["Pol-KT"]
 photo: "/images/members/phd/unai-calvo.png"

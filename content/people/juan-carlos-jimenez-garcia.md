@@ -7,6 +7,8 @@ aliases:
 hide_page_hero: true
 weight: 119
 member_type: "postdoc"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/postdocs/juan-carlos-jimenez-garcia.jpeg"
 role: "Postdoctoral Researcher"
 affiliation: "DIPC"

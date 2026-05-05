@@ -2302,6 +2302,54 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   line-height: 1.5;
 }
 
+.member-profile__details {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.member-profile__detail {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  margin: 0;
+  color: #51627d;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.member-profile__detail strong {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.member-profile__detail-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+  transform: translateY(1px);
+}
+
+.member-profile__detail-icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.member-profile__detail-link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.member-profile__detail-link:hover {
+  text-decoration: underline;
+}
+
 .member-profile__links {
   display: flex;
   gap: 16px;
@@ -2331,6 +2379,16 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   height: auto;
   max-width: 24px;
   max-height: 24px;
+}
+
+.member-profile__social-link {
+  color: var(--accent-strong);
+}
+
+.member-profile__social-link svg {
+  display: block;
+  width: 22px;
+  height: 22px;
 }
 
 .publication-directory {

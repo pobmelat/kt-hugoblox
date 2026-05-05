@@ -5,6 +5,8 @@ url: "/people/shivaprasad-a-balahoju/"
 hide_page_hero: true
 weight: 114
 member_type: "postdoc"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/postdocs/shivaprasad.png"
 role: "Postdoctoral Researcher"
 groups: ["momag"]

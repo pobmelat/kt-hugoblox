@@ -5,6 +5,8 @@ url: "/people/mikel-loizate/"
 hide_page_hero: true
 weight: 215
 member_type: "phd"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 groups: ["isom"]
 photo: "/images/members/phd/mikel-loizate.jpg"
 role: "PhD Student"

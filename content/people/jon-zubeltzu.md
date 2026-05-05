@@ -5,6 +5,8 @@ url: "/people/jon-zubeltzu/"
 hide_page_hero: true
 weight: 23
 member_type: "researcher"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/researchers/jon-zubeltzu.png"
 groups: ["isom"]
 position: "Profesor Agregado"

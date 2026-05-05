@@ -5,6 +5,8 @@ url: "/people/roberto-alvarez-boto/"
 hide_page_hero: true
 weight: 27
 member_type: "researcher"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/researchers/roberto-alvarez-boto.png"
 groups: ["momag"]
 group_labels: ["MoMag-KT"]

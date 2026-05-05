@@ -28,7 +28,62 @@
         <p class="member-profile__meta">{{ . }}</p>
       {{ end }}
 
-      {{ if or $member.Params.orcid $member.Params.researcher_id $member.Params.google_scholar $member.Params.research_gate $member.Params.scopus }}
+      {{ if or $member.Params.office $member.Params.location $member.Params.phone $member.Params.email $member.Params.cv }}
+        <div class="member-profile__details">
+          {{ with $member.Params.office }}
+            <p class="member-profile__detail">
+              <span class="member-profile__detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M5 20.25h14v-1.5h-1.5V4.5a.75.75 0 0 0-.75-.75h-9.5a.75.75 0 0 0-.75.75v14.25H5v1.5zm3-15h8v13.5h-2.25v-2.5a.75.75 0 0 0-.75-.75h-2a.75.75 0 0 0-.75.75v2.5H8V5.25zm1.75 2.25v1.5h1.5V7.5h-1.5zm3 0v1.5h1.5V7.5h-1.5zm-3 3v1.5h1.5v-1.5h-1.5zm3 0v1.5h1.5v-1.5h-1.5z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span><strong>Office:</strong> {{ . }}</span>
+            </p>
+          {{ end }}
+          {{ with $member.Params.location }}
+            <p class="member-profile__detail">
+              <span class="member-profile__detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M12 21s-6.5-5.8-6.5-11A6.5 6.5 0 0 1 12 3.5 6.5 6.5 0 0 1 18.5 10c0 5.2-6.5 11-6.5 11zm0-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span><strong>Location:</strong> {{ . }}</span>
+            </p>
+          {{ end }}
+          {{ with $member.Params.phone }}
+            <p class="member-profile__detail">
+              <span class="member-profile__detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M7.2 4.25h2.1c.36 0 .67.25.74.61l.6 3.19a.75.75 0 0 1-.22.68l-1.54 1.5a13.86 13.86 0 0 0 4.89 4.89l1.5-1.54a.75.75 0 0 1 .68-.22l3.19.6c.36.07.61.38.61.74v2.1a1.2 1.2 0 0 1-1.2 1.2h-.8C10.15 19 5 13.85 5 7.45v-.8a1.2 1.2 0 0 1 1.2-1.2z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span><strong>Phone:</strong> {{ . }}</span>
+            </p>
+          {{ end }}
+          {{ with $member.Params.email }}
+            <p class="member-profile__detail">
+              <span class="member-profile__detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M3.75 6.5h16.5A1.75 1.75 0 0 1 22 8.25v7.5a1.75 1.75 0 0 1-1.75 1.75H3.75A1.75 1.75 0 0 1 2 15.75v-7.5A1.75 1.75 0 0 1 3.75 6.5zm0 1.5v.2l8.25 5.6 8.25-5.6V8H3.75zm16.5 8V9.98l-7.76 5.27a.75.75 0 0 1-.98 0L3.75 9.98V16h16.5z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span><strong>Email:</strong> {{ . }}</span>
+            </p>
+          {{ end }}
+          {{ with $member.Params.cv }}
+            <p class="member-profile__detail">
+              <span class="member-profile__detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" focusable="false">
+                  <path d="M6.75 3.75h7.94L19.5 8.56v10.69A1.75 1.75 0 0 1 17.75 21h-11A1.75 1.75 0 0 1 5 19.25v-13.75A1.75 1.75 0 0 1 6.75 3.75zm7.25 1.86V8.5h2.89L14 5.61zm-5.5 6.14h7v1.5h-7v-1.5zm0 3h7v1.5h-7v-1.5zm0-6h3.5v1.5H8.5v-1.5z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span><strong>CV:</strong> <a class="member-profile__detail-link" href="{{ . | absURL }}">Open CV</a></span>
+            </p>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ if or $member.Params.orcid $member.Params.researcher_id $member.Params.google_scholar $member.Params.research_gate $member.Params.scopus $member.Params.twitter $member.Params.bluesky }}
         <div class="member-profile__links">
           {{ with $member.Params.orcid }}
             <a href="{{ . }}" aria-label="ORCID" title="ORCID">
@@ -53,6 +108,20 @@
           {{ with $member.Params.scopus }}
             <a href="{{ . }}" aria-label="Scopus" title="Scopus">
               <img src="{{ "icons/scopus.webp" | absURL }}" alt="Scopus">
+            </a>
+          {{ end }}
+          {{ with $member.Params.twitter }}
+            <a href="{{ . }}" aria-label="X / Twitter" title="X / Twitter" class="member-profile__social-link">
+              <svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true">
+                <path d="M18.9 3H21l-4.59 5.24L22 21h-5.54l-4.34-5.66L7.16 21H5.05l4.91-5.61L2 3h5.69l3.92 5.12L18.9 3zm-.97 16.35h1.54L6.85 4.57H5.2l12.73 14.78z" fill="currentColor"/>
+              </svg>
+            </a>
+          {{ end }}
+          {{ with $member.Params.bluesky }}
+            <a href="{{ . }}" aria-label="Bluesky" title="Bluesky" class="member-profile__social-link">
+              <svg viewBox="0 0 64 57" role="img" focusable="false" aria-hidden="true">
+                <path d="M13.5 4.1C20.2 9.1 27.4 19.3 32 28.4c4.6-9.1 11.8-19.3 18.5-24.3C55.4.5 63-.7 63 8.5c0 1.8-1 15-1.6 17.2-2.1 7.7-9.8 9.6-16.6 8.4 11.9 2 14.9 8.7 8.4 15.4-12.4 12.8-17.8-3.2-19.2-7.3-.3-.8-.4-1.1-.4-.6 0-.5-.1-.2-.4.6-1.4 4.1-6.8 20.1-19.2 7.3-6.5-6.7-3.5-13.4 8.4-15.4-6.8 1.2-14.5-.7-16.6-8.4C2 23.5 1 10.3 1 8.5 1-.7 8.6.5 13.5 4.1z" fill="currentColor"/>
+              </svg>
             </a>
           {{ end }}
         </div>

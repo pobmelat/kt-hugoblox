@@ -5,6 +5,7 @@ url: "/people/edison-salazar/"
 hide_page_hero: true
 weight: 121
 member_type: "postdoc"
+office: "DIPC"
 photo: "/images/members/postdocs/edison.png"
 groups: ["noft"]
 group_labels: ["NOFT-KT"]

@@ -5,6 +5,7 @@ url: "/people/raul-a-quintero-monsebaiz/"
 hide_page_hero: true
 weight: 122
 member_type: "postdoc"
+office: "DIPC"
 photo: "/images/members/postdocs/raul.png"
 groups: ["noft"]
 group_labels: ["NOFT-KT"]

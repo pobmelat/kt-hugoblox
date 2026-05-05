@@ -3,10 +3,10 @@
     <div class="container page-layout">
       <article class="prose prose--plain">
         {{ partial "member-profile-block.html" . }}
-        {{ partial "member-publications-block.html" . }}
         {{ if .Content }}
           {{ .Content }}
         {{ end }}
+        {{ partial "member-publications-block.html" . }}
       </article>
     </div>
   </section>

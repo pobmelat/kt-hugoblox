@@ -5,6 +5,8 @@ url: "/people/hanae-boulehjour/"
 hide_page_hero: true
 weight: 219
 member_type: "phd"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/phd/hanae.png"
 groups: ["momag"]
 group_labels: ["MoMag-KT"]

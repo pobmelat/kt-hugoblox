@@ -6,6 +6,8 @@ aliases:
   - "/people/xuban-gastearena/"
 hide_page_hero: true
 member_type: "phd"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/phd/xuban.png"
 groups: ["polkt"]
 group_labels: ["Pol-KT"]

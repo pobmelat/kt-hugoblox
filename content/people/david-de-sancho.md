@@ -7,6 +7,7 @@ aliases:
 hide_page_hero: true
 weight: 20
 member_type: "researcher"
+office: "DIPC; Building 4"
 photo: "/images/members/researchers/david-de-sancho.png"
 groups: ["biokt"]
 group_labels: ["Bio-KT"]

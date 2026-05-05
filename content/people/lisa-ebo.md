@@ -5,6 +5,8 @@ url: "/people/lisa-ebo/"
 hide_page_hero: true
 weight: 228
 member_type: "phd"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/phd/lisa-ebo.png"
 groups: ["momag"]
 group_labels: ["MoMag-KT"]

@@ -5,6 +5,7 @@ url: "/noft/people/ion-mitxelena/"
 hide_page_hero: true
 weight: 25
 member_type: "researcher"
+office: "DIPC"
 photo: "/images/members/researchers/ion-mitxelena.png"
 groups: ["noft"]
 group_labels: ["NOFT-KT"]

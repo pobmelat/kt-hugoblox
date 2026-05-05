@@ -5,6 +5,8 @@ url: "/people/francisca-j-benitez/"
 hide_page_hero: true
 weight: 123
 member_type: "postdoc"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/postdocs/francisca.jpeg"
 groups: ["isom"]
 group_labels: ["iSoM-KT"]

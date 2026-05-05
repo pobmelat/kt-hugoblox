@@ -5,6 +5,8 @@ url: "/isom/people/elixabete-rezabal/"
 hide_page_hero: true
 weight: 16
 member_type: "researcher"
+office: "Kimika Teorikoa Lab; Kimika Fakultatea"
+location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/researchers/eli.jpg"
 groups: ["isom"]
 group_labels: ["ISoM-KT"]
