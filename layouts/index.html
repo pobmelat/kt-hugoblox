@@ -6,7 +6,7 @@
   {{ $noftURL := relref . "/noft" }}
   {{ $molelesURL := "https://molecular-electronic-structure-group.github.io" }}
   {{ $qcdURL := "https://quantchemdev.github.io" }}
-  {{ $momagURL := "https://www.danielreta.com" }}
+  {{ $momagURL := relref . "/momag"  }}
   {{ if not .Params.hide_hero }}
     {{ partial "page-hero.html" . }}
   {{ end }}

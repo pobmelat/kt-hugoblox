@@ -107,6 +107,29 @@
             </div>
           </section>
         </article>
+	  {{ else if .Params.momag_plain }}
+        <article class="subgroup-home subgroup-home--momag">
+          <section class="subgroup-split subgroup-split--momag">
+            <div class="subgroup-intro">
+              <h1>Welcome to the MoMag-KT Laboratory</h1>
+              <p>MoMag-KT Laboratory operates within the Donostia Kimika Teorikoa research group. This migration scaffold sets up the same section structure as the other KT subgroups so the lab can be expanded consistently page by page.</p>
+              <p>The visual block on the right is a provisional landing motif and will be easy to replace once the final MoMag-KT scheme is ready.</p>
+            </div>
+
+            <div class="subgroup-diagram">
+              <div class="polkt-chain polkt-chain--momag" aria-label="MoMag-KT research areas">
+                <div class="polkt-chain__backbone"></div>
+                <span class="polkt-chain__node polkt-chain__node--one">01</span>
+                <span class="polkt-chain__node polkt-chain__node--two">02</span>
+                <span class="polkt-chain__node polkt-chain__node--three">03</span>
+                <div class="polkt-chain__core">
+                  <span>MoMag-KT</span>
+                  <span>Lab</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
       {{ else }}
         <article class="{{ if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">
           {{ if or .Params.hide_hero .Params.hide_page_hero }}

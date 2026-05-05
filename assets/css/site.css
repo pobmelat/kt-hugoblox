@@ -97,6 +97,12 @@ img {
   --accent-soft: #dff2ef;
 }
 
+.site-header--accent-momag {
+  --accent: #4d8a49;
+  --accent-strong: #2f5f32;
+  --accent-soft: #e7f4df;
+}
+
 .utility-bar {
   background: var(--accent-strong);
   color: rgba(255, 255, 255, 0.9);
@@ -1975,6 +1981,25 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   transform: translateX(-50%);
 }
 
+.polkt-chain--momag {
+  background: linear-gradient(135deg, #f3fbef 0%, #e3f4dc 52%, #f8fcf5 100%);
+  box-shadow: 0 18px 42px rgba(47, 95, 50, 0.14);
+}
+
+.polkt-chain--momag .polkt-chain__backbone {
+  background: linear-gradient(90deg, rgba(77, 138, 73, 0.25), rgba(77, 138, 73, 0.72), rgba(77, 138, 73, 0.25));
+}
+
+.polkt-chain--momag .polkt-chain__core {
+  background: linear-gradient(180deg, #4d8a49, #2f5f32);
+  box-shadow: 0 18px 30px rgba(47, 95, 50, 0.22);
+}
+
+.polkt-chain--momag .polkt-chain__node {
+  color: #2f5f32;
+  box-shadow: 0 12px 28px rgba(47, 95, 50, 0.12);
+}
+
 .research-lines-page--biokt .research-line-card {
   border-color: rgba(193, 96, 88, 0.14);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(252, 239, 236, 0.94));
@@ -2031,6 +2056,35 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 .research-lines-page--polkt a.research-line-card:hover h2,
 .research-lines-page--polkt a.research-line-card:hover .research-line-card__cta {
   color: #745bc7;
+}
+
+.research-lines-page--momag .research-line-card {
+  border-color: rgba(77, 138, 73, 0.14);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(238, 248, 232, 0.94));
+  box-shadow: 0 16px 34px rgba(47, 95, 50, 0.08);
+}
+
+.research-lines-page--momag .research-line-card::before {
+  background: linear-gradient(90deg, #4d8a49, #9bcf90);
+}
+
+.research-lines-page--momag .research-line-card__eyebrow {
+  color: #4d8a49;
+}
+
+.research-lines-page--momag .research-line-card h2,
+.research-lines-page--momag .research-line-card__cta {
+  color: #2f5f32;
+}
+
+.research-lines-page--momag a.research-line-card:hover {
+  border-color: rgba(77, 138, 73, 0.24);
+  box-shadow: 0 20px 38px rgba(47, 95, 50, 0.12);
+}
+
+.research-lines-page--momag a.research-line-card:hover h2,
+.research-lines-page--momag a.research-line-card:hover .research-line-card__cta {
+  color: #4d8a49;
 }
 
 .member-directory {

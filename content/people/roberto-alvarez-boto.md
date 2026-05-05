@@ -6,8 +6,8 @@ hide_page_hero: true
 weight: 27
 member_type: "researcher"
 photo: "/images/members/researchers/roberto-alvarez-boto.png"
-groups: ["moleles"]
-group_labels: ["MolEleS-KT"]
+groups: ["momag"]
+group_labels: ["MoMag-KT"]
 position: "Ikerbasque Research Fellow"
 affiliation: "Ikerbasque, EHU & DIPC"
 publication_names:
@@ -17,4 +17,11 @@ publication_names:
   - "Roberto Álvarez-Boto"
   - "R. Álvarez-Boto"
 orcid: "https://orcid.org/0000-0002-8012-1499"
+header:
+  variant: "subgroup"
+  menu: "momag"
+  accent: "momag"
+  brand_name: "MolMag-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/momag/"
 ---

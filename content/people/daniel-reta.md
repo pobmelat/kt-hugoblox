@@ -16,4 +16,11 @@ publication_names:
   - "D. Reta"
   - "D.Reta"
 orcid: "https://orcid.org/0000-0003-0000-9892"
+header:
+  variant: "subgroup"
+  menu: "momag"
+  accent: "momag"
+  brand_name: "MolMag-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/momag/"
 ---

@@ -7,6 +7,8 @@ weight: 114
 member_type: "postdoc"
 photo: "/images/members/postdocs/shivaprasad.png"
 role: "Postdoctoral Researcher"
+groups: ["momag"]
+group_labels: ["MoMag-KT"]
 affiliation: "DIPC"
 orcid: "https://orcid.org/0000-0002-1998-7912"
 publication_names:
@@ -15,4 +17,11 @@ publication_names:
   - "S. A. Balahoju"
   - "S.A. Balahoju"
   - "S. Achary Balahoju"
+header:
+  variant: "subgroup"
+  menu: "momag"
+  accent: "momag"
+  brand_name: "MolMag-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/momag/"
 ---

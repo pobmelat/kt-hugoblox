@@ -7,10 +7,19 @@ weight: 115
 member_type: "postdoc"
 photo: "/images/members/postdocs/nicholus.png"
 role: "Postdoctoral Researcher"
+groups: ["momag"]
+group_labels: ["MoMag-KT"]
 affiliation: "DIPC"
 orcid: "https://orcid.org/0009-0003-7714-5267"
 publication_names:
   - "Nicholus Bhattacharjee"
   - "N. Bhattacharjee"
   - "N.Bhattacharjee"
+header:
+  variant: "subgroup"
+  menu: "momag"
+  accent: "momag"
+  brand_name: "MolMag-KT Lab"
+  brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+  brand_url: "/momag/"
 ---

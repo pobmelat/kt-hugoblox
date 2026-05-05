@@ -1,0 +1,11 @@
+items:
+  - name: Home
+    url: /momag/
+  - name: Members
+    url: /momag/members/
+  - name: Research
+    url: /momag/research/
+  - name: Publications
+    url: /momag/publications/
+  - name: Contact
+    url: /momag/contact/

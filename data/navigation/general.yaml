@@ -28,7 +28,7 @@ items:
       - name: QCD-KT
         url: https://quantchemdev.github.io
       - name: MoMag-KT
-        url: https://www.danielreta.com
+        url: /momag
   - name: Publications
     url: /publications/
     children:
