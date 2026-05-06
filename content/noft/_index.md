@@ -1,6 +1,7 @@
 ---
 title: "NOFT-KT Lab"
 hide_hero: true
+home_title: "Welcome to the NOFT-KT Laboratory"
 weight: 5
 header:
   variant: "subgroup"
@@ -16,6 +17,7 @@ cascade:
     accent: "noft"
     brand_name: "NOFT-KT Lab"
     brand_note: "Euskal Herriko Unibertsitatea & DIPC"
+    subgroup_logo: "/images/groups/donof.png"
     brand_url: "/noft/"
 research_group_card:
   key: "noft"

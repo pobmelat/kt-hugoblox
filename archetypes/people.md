@@ -88,6 +88,7 @@ researcher_id: "https://www.webofscience.com/wos/author/record/XXXX-0000"
 google_scholar: "https://scholar.google.com/citations?user=XXXXXXXXXXX"
 research_gate: "https://www.researchgate.net/profile/Example"
 scopus: "https://www.scopus.com/authid/detail.uri?authorId=00000000000"
+ikerbasque: " "
 
 # Header configuration for the profile page.
 # Keep `variant: subgroup` when the page should use a subgroup header.

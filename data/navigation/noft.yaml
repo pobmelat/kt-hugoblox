@@ -1,5 +1,11 @@
 items:
   - name: Home
     url: /noft/
+  - name: Members
+    url: /noft/members/
   - name: Research
     url: /noft/research/
+  - name: Publications
+    url: /noft/publications/
+  - name: Contact
+    url: /noft/contact/

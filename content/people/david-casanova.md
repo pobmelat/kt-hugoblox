@@ -17,4 +17,5 @@ publication_names:
   - "D.Casanova"
 orcid: "https://orcid.org/0000-0002-8893-7089"
 researcher_id: "https://publons.com/researcher/1190522/david-casanova/"
+ikerbasque: "https://www.ikerbasque.net/en/david-casanova"
 ---

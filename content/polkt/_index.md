@@ -1,7 +1,7 @@
 ---
 title: "Pol-KT Lab"
 hide_hero: true
-polkt_plain: true
+home_title: "Welcome to the Pol-KT Laboratory"
 weight: 4
 header:
   variant: "subgroup"
@@ -31,3 +31,7 @@ research_group_card:
     - page: "/people/fernando-ruiperez"
       name: "Fernando Ruiperez"
 ---
+
+Pol-KT Laboratory operates within the Donostia Kimika Teorikoa research group and develops theory and simulation strategies for polymers, soft materials and responsive molecular assemblies. This landing page now follows the same subgroup-home structure used throughout the migration so the section can grow consistently.
+
+The visual block on the right acts as a compact three-line overview of the current Pol-KT research landscape.

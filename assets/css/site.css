@@ -202,7 +202,7 @@ img {
 .brand-lockup {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 14px;
   min-width: 0;
 }
 
@@ -225,6 +225,7 @@ img {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
+  margin-left: -4px;
 }
 
 .brand-lockup__logo {
@@ -263,7 +264,7 @@ img {
 }
 
 .site-header--subgroup.site-header--accent-isom .brand-lockup__subgroup-logo-link {
-  margin-right: 4.5rem;
+  margin-right: 2.25rem;
 }
 
 .brand-lockup__text {
@@ -1091,15 +1092,6 @@ img {
   z-index: -1;
 }
 
-.research-group-card--moleles .research-group-card__art,
-.research-group-card--noft .research-group-card__art {
-  background: transparent;
-}
-
-.research-group-card--moleles .research-group-card__art::before,
-.research-group-card--noft .research-group-card__art::before {
-  display: none;
-}
 
 .research-group-card__body {
   display: flex;
@@ -1584,6 +1576,15 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   align-items: center;
 }
 
+.subgroup-split--no-diagram {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.subgroup-split--no-diagram .subgroup-intro h1,
+.subgroup-split--no-diagram .subgroup-intro p {
+  max-width: none;
+}
+
 .subgroup-intro h1 {
   margin: 0 0 28px;
   color: #22324a;
@@ -1608,6 +1609,71 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 
 .subgroup-split--isom {
   align-items: center;
+}
+
+.group-center-logo {
+  width: 82%;
+  height: 82%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.94);
+  display: grid;
+  place-items: center;
+  padding: 12%;
+  box-shadow: 0 12px 24px rgba(15, 35, 70, 0.1);
+}
+
+.group-center-logo img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.matcat-wheel .group-center-logo img {
+  transform: scale(1.08);
+}
+
+.isom-orbit .group-center-logo {
+  width: 88%;
+  height: 88%;
+}
+
+.isom-orbit .group-center-logo img {
+  transform: scale(1.26);
+}
+
+.biokt-cluster .group-center-logo {
+  width: 84%;
+  height: 84%;
+}
+
+.biokt-cluster .group-center-logo img {
+  transform: scale(1.1);
+}
+
+.polkt-chain .group-center-logo {
+  width: 86%;
+  height: 86%;
+}
+
+.polkt-chain .group-center-logo img {
+  transform: scale(1.18);
+}
+
+.polkt-chain--momag .group-center-logo img {
+  transform: scale(1.22);
+}
+
+.noft-constellation .group-center-logo {
+  width: 88%;
+  height: 88%;
+  border-radius: 26px;
+}
+
+.noft-constellation .group-center-logo img {
+  transform: scale(1.16);
 }
 
 .matcat-wheel {
@@ -1681,11 +1747,6 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   background: #315a93;
   display: grid;
   place-content: center;
-  color: #ffffff;
-  font-size: clamp(2rem, 3.2vw, 2.9rem);
-  font-weight: 700;
-  line-height: 1.04;
-  text-align: center;
   z-index: 2;
 }
 
@@ -1763,11 +1824,6 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   background: linear-gradient(180deg, #1f7c74, #0f5d57);
   display: grid;
   place-content: center;
-  color: #fff;
-  font-size: clamp(1.8rem, 3vw, 2.65rem);
-  font-weight: 700;
-  line-height: 1.04;
-  text-align: center;
   z-index: 2;
   box-shadow: 0 18px 30px rgba(12, 77, 71, 0.22);
 }
@@ -1863,11 +1919,6 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   background: linear-gradient(180deg, #b24a42, #7f342f);
   display: grid;
   place-content: center;
-  color: #fff;
-  font-size: clamp(1.85rem, 3vw, 2.7rem);
-  font-weight: 700;
-  line-height: 1.04;
-  text-align: center;
   z-index: 2;
   box-shadow: 0 18px 30px rgba(127, 52, 47, 0.22);
 }
@@ -1941,11 +1992,6 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   background: linear-gradient(180deg, #745bc7, #4c3891);
   display: grid;
   place-content: center;
-  color: #fff;
-  font-size: clamp(1.85rem, 3vw, 2.7rem);
-  font-weight: 700;
-  line-height: 1.04;
-  text-align: center;
   z-index: 2;
   box-shadow: 0 18px 30px rgba(76, 56, 145, 0.22);
 }
@@ -1998,6 +2044,115 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 .polkt-chain--momag .polkt-chain__node {
   color: #2f5f32;
   box-shadow: 0 12px 28px rgba(47, 95, 50, 0.12);
+}
+
+.noft-constellation {
+  position: relative;
+  width: min(100%, 580px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.97) 0 16%, rgba(255, 255, 255, 0) 16.5%),
+    radial-gradient(circle at center, rgba(118, 199, 208, 0.2) 0 33%, rgba(118, 199, 208, 0) 33.5%),
+    radial-gradient(circle at center, rgba(31, 110, 127, 0.16) 0 56%, rgba(31, 110, 127, 0) 56.5%),
+    linear-gradient(135deg, #eef9fb 0%, #d8eef3 52%, #f4fbfc 100%);
+  box-shadow: 0 18px 42px rgba(19, 63, 83, 0.16);
+  overflow: hidden;
+}
+
+.noft-constellation::before,
+.noft-constellation::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 72%;
+  height: 1.5px;
+  background: linear-gradient(90deg, rgba(29, 103, 129, 0), rgba(29, 103, 129, 0.22), rgba(29, 103, 129, 0));
+  transform-origin: center center;
+}
+
+.noft-constellation::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.noft-constellation::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.noft-constellation__halo {
+  position: absolute;
+  inset: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 1.5px dashed rgba(29, 103, 129, 0.16);
+}
+
+.noft-constellation__halo--outer {
+  width: 84%;
+  height: 84%;
+}
+
+.noft-constellation__halo--inner {
+  width: 54%;
+  height: 54%;
+}
+
+.noft-constellation__core {
+  position: absolute;
+  inset: 50%;
+  width: 34%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: linear-gradient(180deg, #1f6e7f, #133f53);
+  display: grid;
+  place-content: center;
+  z-index: 2;
+  box-shadow: 0 18px 30px rgba(19, 63, 83, 0.22);
+}
+
+.noft-constellation__label {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 132px;
+  min-height: 54px;
+  padding: 0.8rem 1rem;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #133f53;
+  font-size: clamp(0.92rem, 1.4vw, 1.02rem);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.22;
+  box-shadow: 0 10px 24px rgba(19, 63, 83, 0.08);
+  z-index: 3;
+}
+
+.noft-constellation__label--top {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.noft-constellation__label--right {
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.noft-constellation__label--bottom {
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.noft-constellation__label--left {
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
 }
 
 .research-lines-page--biokt .research-line-card {
@@ -3062,6 +3217,35 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
     height: 90px;
   }
 
+  .site-header--subgroup .brand-lockup {
+    gap: 8px;
+  }
+
+  .site-header--subgroup .brand-lockup__logo {
+    width: 78px;
+    height: 78px;
+  }
+
+  .site-header--subgroup .brand-lockup__subgroup-logo-link {
+    margin-left: -8px;
+    margin-right: 0;
+  }
+
+  .site-header--subgroup .brand-lockup__subgroup-logo {
+    height: 62px;
+    max-width: 120px;
+  }
+
+  .site-header--subgroup.site-header--accent-isom .brand-lockup__subgroup-logo {
+    height: 62px;
+    max-width: 170px;
+    transform: scale(1.35);
+  }
+
+  .site-header--subgroup.site-header--accent-isom .brand-lockup__subgroup-logo-link {
+    margin-right: 0;
+  }
+
   .hero-copy,
   .hero-panel,
   .prose {
@@ -3106,7 +3290,7 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
     aspect-ratio: auto;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
+    gap: 10px;
   }
 
   .group-constellation::before,
@@ -3118,7 +3302,7 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   .group-orbit {
     position: static;
     width: auto;
-    min-height: 92px;
+    min-height: 104px;
     transform: none;
   }
 
@@ -3129,7 +3313,61 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   }
 
   .group-constellation__center img {
-    width: 88px;
-    height: 88px;
+    width: 78px;
+    height: 78px;
+  }
+
+  .group-orbit {
+    padding: 12px;
+    overflow: hidden;
+  }
+
+  .group-orbit img,
+  .group-orbit--isom img,
+  .group-orbit--matcat img,
+  .group-orbit--biokt img,
+  .group-orbit--polkt img,
+  .group-orbit--momag img,
+  .group-orbit--noft img,
+  .group-orbit--moleles img,
+  .group-orbit--qcd img {
+    transform: none;
+    max-width: 100%;
+  }
+
+  .group-orbit--isom img {
+    height: 64px;
+  }
+
+  .group-orbit--matcat img,
+  .group-orbit--biokt img,
+  .group-orbit--momag img {
+    height: 60px;
+  }
+
+  .group-orbit--polkt img {
+    height: 68px;
+  }
+
+  .group-orbit--noft img {
+    height: 46px;
+  }
+
+  .group-orbit--moleles img,
+  .group-orbit--qcd img {
+    height: 54px;
+  }
+
+  .group-center-logo {
+    padding: 14%;
+  }
+
+  .isom-orbit .group-center-logo img,
+  .polkt-chain .group-center-logo img,
+  .polkt-chain--momag .group-center-logo img,
+  .noft-constellation .group-center-logo img,
+  .biokt-cluster .group-center-logo img,
+  .matcat-wheel .group-center-logo img {
+    transform: none;
   }
 }

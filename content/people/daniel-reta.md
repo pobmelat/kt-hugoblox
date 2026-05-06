@@ -18,6 +18,7 @@ publication_names:
   - "D. Reta"
   - "D.Reta"
 orcid: "https://orcid.org/0000-0003-0000-9892"
+ikerbasque: "https://www.ikerbasque.net/es/daniel-reta"
 header:
   variant: "subgroup"
   menu: "momag"

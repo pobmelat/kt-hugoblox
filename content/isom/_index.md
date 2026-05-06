@@ -1,7 +1,7 @@
 ---
 title: "ISoM-KT Lab"
 hide_hero: true
-isom_plain: true
+home_title: "Welcome to the ISoM Laboratory"
 weight: 2
 header:
   variant: "subgroup"
@@ -29,3 +29,7 @@ research_group_card:
     - page: "/people/elixabete-rezabal"
       name: "Elixabete Rezabal"
 ---
+
+ISoM Laboratory operates within the Donostia Kimika Teorikoa research group and provides the structural home for the subgroup pages on ionic and soft matter. This section now follows the same migration pattern as MatCat so members, publications, research and contact content can evolve with a shared layout and consistent navigation.
+
+The visual block on the right summarizes four working directions that can later be refined as the final ISoM-specific landing scheme evolves.

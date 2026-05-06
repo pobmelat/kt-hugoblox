@@ -1,9 +1,23 @@
-{{ define "main" }}
-  {{ if and (not .Params.hide_hero) (not .Params.hide_page_hero) }}
-    {{ partial "page-hero.html" . }}
-  {{ end }}
-  <section class="page-content">
-    <div class="container page-layout">
+<section class="page-content">
+  <div class="container page-layout">
+    {{ if eq .FirstSection.RelPermalink .RelPermalink }}
+      {{ $diagram := partial (printf "groups/%s-diagram.html" .Section) . }}
+      {{ $hasDiagram := ne (strings.TrimSpace $diagram) "" }}
+      <article class="subgroup-home subgroup-home--{{ .Section }}">
+        <section class="subgroup-split subgroup-split--{{ .Section }}{{ if not $hasDiagram }} subgroup-split--no-diagram{{ end }}">
+          <div class="subgroup-intro">
+            <h1>{{ with .Params.home_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+            {{ .Content }}
+          </div>
+
+          {{ if $hasDiagram }}
+            <div class="subgroup-diagram">
+              {{ $diagram }}
+            </div>
+          {{ end }}
+        </section>
+      </article>
+    {{ else }}
       <article class="{{ if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">
         {{ if or .Params.hide_hero .Params.hide_page_hero }}
           <header class="page-title-inline page-title-inline--centered">
@@ -36,6 +50,6 @@
           </div>
         </section>
       {{ end }}
-    </div>
-  </section>
-{{ end }}
+    {{ end }}
+  </div>
+</section>

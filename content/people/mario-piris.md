@@ -18,6 +18,7 @@ publication_names:
   - "M.Piris"
 orcid: "https://orcid.org/0000-0003-0222-2953"
 researcher_id: "https://www.webofscience.com/wos/author/rid/E-7406-2010"
+ikerbasque: "https://www.ikerbasque.net/es/mario-piris"
 header:
   variant: "subgroup"
   menu: "noft"

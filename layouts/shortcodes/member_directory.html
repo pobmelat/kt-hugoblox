@@ -102,7 +102,7 @@
                 <p class="member-card__meta">{{ . }}</p>
               {{ end }}
 
-              {{ if or .Params.orcid .Params.researcher_id .Params.google_scholar .Params.research_gate .Params.scopus }}
+              {{ if or .Params.orcid .Params.researcher_id .Params.google_scholar .Params.research_gate .Params.scopus .Params.ikerbasque }}
                 <div class="member-card__links">
                   {{ with .Params.orcid }}
                     <a href="{{ . }}" aria-label="ORCID" title="ORCID">
@@ -112,6 +112,11 @@
                   {{ with .Params.researcher_id }}
                     <a href="{{ . }}" aria-label="Web of Science" title="Web of Science">
                       <img src="{{ "icons/wos.png" | absURL }}" alt="Web of Science">
+                    </a>
+                  {{ end }}
+                  {{ with .Params.ikerbasque }}
+                    <a href="{{ . }}" aria-label="Ikerbasque" title="Ikerbasque">
+                      <img src="{{ "icons/wos.png" | absURL }}" alt="Ikerbasque">
                     </a>
                   {{ end }}
                   {{ with .Params.google_scholar }}
@@ -213,7 +218,7 @@
                     <p class="member-card__note">{{ . }}</p>
                   {{ end }}
 
-                  {{ if or .Params.orcid .Params.researcher_id .Params.google_scholar .Params.research_gate .Params.scopus }}
+                  {{ if or .Params.orcid .Params.researcher_id .Params.google_scholar .Params.research_gate .Params.scopus .Params.ikerbasque}}
                     <div class="member-card__links">
                       {{ with .Params.orcid }}
                         <a href="{{ . }}" aria-label="ORCID" title="ORCID">
@@ -223,6 +228,11 @@
                       {{ with .Params.researcher_id }}
                         <a href="{{ . }}" aria-label="Web of Science" title="Web of Science">
                           <img src="{{ "icons/wos.png" | absURL }}" alt="Web of Science">
+                        </a>
+                      {{ end }}
+                      {{ with .Params.ikerbasque }}
+                        <a href="{{ . }}" aria-label="Ikerbasque" title="Ikerbasque">
+                          <img src="{{ "icons/ikerbasque.png" | absURL }}" alt="Ikerbasque">
                         </a>
                       {{ end }}
                       {{ with .Params.google_scholar }}

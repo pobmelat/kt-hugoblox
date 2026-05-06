@@ -1,7 +1,7 @@
 ---
 title: "MatCat-KT Lab"
 hide_hero: true
-matcat_plain: true
+home_title: "Welcome to the MatCat Laboratory"
 weight: 1
 header:
   variant: "subgroup"
@@ -35,3 +35,7 @@ research_group_card:
     - page: "/people/jose-m-mercero"
       name: "Jose M. Mercero"
 ---
+
+MatCat Laboratory operates within the Donostia Kimika Teorikoa research group and specializes in theoretical and computational approaches to catalysis and materials. Under the leadership of Dr. Elisa Jimenez-Izal and Prof. Jose M. Mercero, the lab aims to advance fundamental understanding of catalytic processes at surfaces, electrochemical interfaces and materials with uncommon chemical bonding through state-of-the-art electronic structure methods and multiscale modeling.
+
+The core research lines of the laboratory are outlined in the diagram.

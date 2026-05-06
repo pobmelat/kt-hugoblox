@@ -1,7 +1,8 @@
 ---
 title: "Research"
-eyebrow: "NOFT subgroup"
-lead: "Natural Orbital Functional Theory in the NOF-KT group: reduced-density-matrix methods, functional design, electron correlation, and open-source implementation through DoNOF."
+hide_page_hero: true
+content_frame: false
+hide_child_section: true
 weight: 2
 ---
 

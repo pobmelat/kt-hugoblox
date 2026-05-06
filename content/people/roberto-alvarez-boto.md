@@ -19,6 +19,7 @@ publication_names:
   - "Roberto Álvarez-Boto"
   - "R. Álvarez-Boto"
 orcid: "https://orcid.org/0000-0002-8012-1499"
+ikerbasque: "https://www.ikerbasque.net/es/roberto-a-boto"
 header:
   variant: "subgroup"
   menu: "momag"
