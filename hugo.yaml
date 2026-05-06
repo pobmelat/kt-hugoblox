@@ -16,7 +16,7 @@ markup:
 params:
   robots: "noindex, nofollow"
   site_tagline: "Euskal Herriko Unibertsitatea & DIPC"
-  footer_note: "Structure prototype for the migration from WordPress to Hugo/HugoBlox."
+  footer_note: ""
   utility_nav:
     - name: Home
       url: /

@@ -2,7 +2,9 @@
   <div class="container footer-row">
     <div>
       <p class="footer-title">Kimika Teorikoa</p>
-      <p class="footer-copy">{{ site.Params.footer_note }}</p>
+      {{ with site.Params.footer_note }}
+        <p class="footer-copy">{{ . }}</p>
+      {{ end }}
     </div>
     <div class="footer-institutions" aria-label="Institutional links">
       <a class="institution-logo institution-logo--dipc" href="https://dipc.ehu.eus/" aria-label="DIPC">
