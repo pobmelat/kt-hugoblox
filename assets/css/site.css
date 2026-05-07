@@ -860,6 +860,7 @@ img {
   grid-row: 2;
   min-height: 154px;
   padding: 16px;
+  overflow: hidden;
   border: 1px solid rgba(10, 35, 81, 0.1);
   border-radius: 18px;
   background: #ffffff;
@@ -873,9 +874,13 @@ img {
 }
 
 .group-constellation__center span {
+  display: block;
   margin-top: 4px;
+  max-width: 100%;
   font-size: 0.78rem;
   font-weight: 700;
+  line-height: 1.18;
+  overflow-wrap: anywhere;
 }
 
 .group-orbit {
@@ -3209,34 +3214,28 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 @media (max-width: 980px) {
   .group-constellation {
     aspect-ratio: auto;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
-    max-width: 760px;
-  }
-
-  .group-constellation::before,
-  .group-constellation::after {
-    display: none;
+    width: min(100%, 640px);
+    max-width: 640px;
   }
 
   .group-constellation__center,
   .group-orbit {
-    position: static;
-    width: auto;
-    min-height: 132px;
+    min-height: 118px;
     transform: none;
   }
 
   .group-constellation__center {
-    grid-column: 1 / -1;
-    aspect-ratio: auto;
+    grid-column: 2;
+    grid-row: 2;
     border-radius: 20px;
+    padding: 16px 12px;
   }
 
   .group-constellation__center img {
-    width: 96px;
-    height: 96px;
+    width: 68px;
+    height: 68px;
   }
 
   .group-orbit {
@@ -3401,21 +3400,33 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   }
 
   .group-constellation {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: min(100%, 392px);
+    max-width: 392px;
     gap: 10px;
   }
 
   .group-constellation__center,
   .group-orbit {
-    min-height: 104px;
+    min-height: 96px;
   }
 
   .group-constellation__center {
+    grid-column: 2;
+    grid-row: 2;
     border-radius: 16px;
+    min-height: 92px;
+    padding: 14px 12px;
   }
 
   .group-constellation__center img {
-    width: 78px;
-    height: 78px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .group-constellation__center span {
+    font-size: 0.74rem;
+    line-height: 1.2;
   }
 
   .group-orbit {

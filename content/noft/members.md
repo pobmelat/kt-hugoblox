@@ -1,5 +1,5 @@
 ---
-title: "MatCat-KT Members"
+title: "NOFT-KT Members"
 hide_page_hero: true
 content_frame: false
 weight: 1
