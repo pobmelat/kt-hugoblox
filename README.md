@@ -147,7 +147,7 @@ A `Makefile` is provided for common tasks. You can override any variable on the 
 |----------|---------|---------|
 | `PROD_BASEURL` | `https://www.ehu.eus/chemistry/theory/new/` | Base URL used for the production build. |
 | `LFTP_USER` | `scwtcg` | SFTP username. |
-| `LFTP_HOST` | `alweb.sw.ehu.eus` | SFTP server host. |
+| `LFTP_HOST` | `alweb.ehu.eus` | SFTP server host. |
 | `REMOTE_PATH` | `/users/scwtcg/public_html/new` | Destination directory on the server. |
 | `LFTP_PASS` | *(none)* | SFTP password. Provide via `.env` or environment; **never commit it**. |
 

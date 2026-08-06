@@ -99,4 +99,4 @@ contact:
 
 Bio-KT Laboratory operates within the Donostia Kimika Teorikoa research group and focuses on theoretical chemistry tools for biologically relevant molecules, recognition processes, conformational dynamics and reactive systems. The subgroup now follows the same shared landing structure used across the KT migration.
 
-The diagram on the right points to three broad research directions that can later unfold into more specific project pages.
+The diagram on the right points to three broad research directions that can later unfold into more specific project pages. 
