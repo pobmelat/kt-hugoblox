@@ -1,0 +1,25 @@
+---
+title: Contact
+hide_page_hero: true
+content_frame: false
+hide_child_section: true
+weight: 4
+header:
+  variant: subgroup
+  menu: matcat
+  accent: matcat
+  brand_name: MatCat-KT Lab
+  brand_note: Euskal Herriko Unibertsitatea & DIPC
+  brand_url: /matcat/
+contact:
+  title: Contact
+  people:
+  - name: Prof. Elisa Jimenez
+    email: elisa.jimenez@ehu.eus
+  - name: Prof. Jose Maria Mercero
+    email: jm.mercero@ehu.eus
+    social:
+      github: https://github.com/pobmelat
+---
+
+{{< contact_list >}}

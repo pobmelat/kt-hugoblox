@@ -9,7 +9,7 @@ email: "jm.mercero [@] ehu.eus"
 office: "Kimika Teorikoa Lab; Kimika Fakultatea"
 location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 phone: "+34 943 015 312"
-photo: "/images/members/researchers/txema.jpg"
+photo: "/images/members/researchers/txema.png"
 groups: ["matcat"]
 group_labels: ["MatCat-KT"]
 role: "MatCat-KT Group Co-Leader"

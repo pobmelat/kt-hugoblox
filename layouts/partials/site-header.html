@@ -8,7 +8,7 @@
 }}
 {{ $header := .Params.header | default $defaultHeader }}
 {{ $menuKey := $header.menu | default "general" }}
-{{ $menu := index hugo.Data.navigation $menuKey }}
+{{ $menu := index site.Data.navigation $menuKey }}
 {{ $current := .RelPermalink }}
 {{ $brandNote := $header.brand_note | default site.Params.site_tagline }}
 {{ $homeURL := "" | absURL }}
@@ -95,9 +95,73 @@
                   <ul class="nav-submenu">
                     {{ range . }}
                       {{ $childURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
-                      <li><a href="{{ $childURL }}">{{ .name }}</a></li>
+                      <li class="nav-subitem{{ if .children }} has-children{{ end }}">
+                        <a href="{{ $childURL }}">{{ .name }}</a>
+                        {{/* If the child points to a group section with research_lines, inject a nested submenu listing them */}}
+                        {{/* normalize child URL to a path by removing scheme+host then trim slashes */}}
+                        {{ $pathChild := replaceRE "^https?://[^/]+" "" $childURL }}
+                        {{ $trimmedChild := replaceRE "/$" "" (strings.TrimPrefix $pathChild "/") }}
+                        {{ $partsChild := split $trimmedChild "/" }}
+                        {{ $nChild := len $partsChild }}
+                        {{ $groupChild := cond (and (gt $nChild 1) (eq (index $partsChild (sub $nChild 1)) "research")) (index $partsChild (sub $nChild 2)) (index $partsChild (sub $nChild 1)) }}
+                        {{ if $groupChild }}
+                          {{ $groupPageChild := site.GetPage (printf "/%s/" $groupChild) }}
+                          {{ with $groupPageChild }}
+                            {{ $rlsChild := .Params.research_lines }}
+                            {{ if $rlsChild }}
+                              <ul class="nav-submenu nav-submenu--research">
+                                {{ range $rlsChild }}
+                                  {{ $slug := .slug | default (urlize .title) }}
+                                  {{ $href := printf "%s/research/%s/" $groupChild $slug | relURL }}
+                                  <li><a href="{{ $href }}">{{ .title }}</a></li>
+                                {{ end }}
+                              </ul>
+                            {{ end }}
+                          {{ end }}
+                        {{ end }}
+                      </li>
                     {{ end }}
                   </ul>
+                {{ else }}
+                  {{/* If this menu item has no static children, attempt to inject research lines dynamically for subgroup sections like /matcat/ */}}
+                  {{/* normalize itemURL to a path by removing scheme+host then trim slashes */}}
+                  {{ $pathItem := replaceRE "^https?://[^/]+" "" $itemURL }}
+                  {{ $trimmed := replaceRE "/$" "" (strings.TrimPrefix $pathItem "/") }}
+                  {{ $parts := split $trimmed "/" }}
+                  {{ $n := len $parts }}
+                  {{ $group := cond (and (gt $n 1) (eq (index $parts (sub $n 1)) "research")) (index $parts (sub $n 2)) (index $parts (sub $n 1)) }}
+                  {{ if and $group (ne $group "") }}
+                    {{ $groupPage := site.GetPage (printf "/%s/" $group) }}
+                    {{ with $groupPage }}
+                      {{ $rls := .Params.research_lines }}
+                      {{ if $rls }}
+                        <ul class="nav-submenu nav-submenu--research">
+                          {{ range $rls }}
+                            {{ $slug := .slug | default (urlize .title) }}
+                            {{ $href := printf "%s/research/%s/" $group $slug | relURL }}
+                            <li><a href="{{ $href }}">{{ .title }}</a></li>
+                          {{ end }}
+                        </ul>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+
+                  {{/* Deterministic fallback for menu items named 'Research' when header.menu points to a subgroup */}}
+                  {{ if and (eq .name "Research") (ne $menuKey "") }}
+                    {{ $groupPageFallback := site.GetPage (printf "/%s/" $menuKey) }}
+                    {{ with $groupPageFallback }}
+                      {{ $rlsFb := .Params.research_lines }}
+                      {{ if $rlsFb }}
+                        <ul class="nav-submenu nav-submenu--research">
+                          {{ range $rlsFb }}
+                            {{ $slug := .slug | default (urlize .title) }}
+                            {{ $href := printf "%s/research/%s/" $menuKey $slug | relURL }}
+                            <li><a href="{{ $href }}">{{ .title }}</a></li>
+                          {{ end }}
+                        </ul>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
                 {{ end }}
               </li>
             {{ end }}

@@ -1,0 +1,29 @@
+{{ $contact := .Page.Params.contact }}
+{{ $people := $contact.people | default (slice) }}
+{{ if gt (len $people) 0 }}
+<div class="contact-list" aria-label="Group contacts">
+  {{ range $people }}
+    {{ $personName := .name }}
+    <article class="contact-card">
+      <h2 class="contact-card__name">{{ $personName }}</h2>
+      {{ with .email }}
+        <p class="contact-card__email">
+          <a href="mailto:{{ . }}">{{ . }}</a>
+        </p>
+      {{ end }}
+      {{ with .social }}
+        <div class="contact-card__social">
+          {{ range $network, $url := . }}
+            <a class="contact-card__social-link" href="{{ $url }}" target="_blank" rel="noopener" aria-label="{{ $network }} - {{ $personName }}">
+              {{ partial "social-icon.html" (dict "network" $network) }}
+              <span>{{ $network }}</span>
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </article>
+  {{ end }}
+</div>
+{{ else }}
+  <p>No contact information available.</p>
+{{ end }}

@@ -1,13 +1,30 @@
 <section class="page-content">
   <div class="container page-layout">
     {{ if eq .FirstSection.RelPermalink .RelPermalink }}
-      {{ $diagram := partial (printf "groups/%s-diagram.html" .Section) . }}
+      {{/* Try a specific group partial first; if empty, fall back to the generic research-lines partial */}}
+      {{/* If research_lines are provided in front matter, prefer the generic research-lines grid.
+           Otherwise fall back to a specific group partial (diagram) if present. */}}
+      {{ $lines := default (slice) .Params.research_lines }}
+      {{ if gt (len $lines) 0 }}
+        {{ $diagram := partial "groups/research-lines.html" . }}
+        {{ .Scratch.Set "diagram" $diagram }}
+      {{ else }}
+        {{ $specific := partial (printf "groups/%s-diagram.html" .Section) . }}
+        {{ .Scratch.Set "diagram" $specific }}
+      {{ end }}
+      {{ $diagram := .Scratch.Get "diagram" }}
       {{ $hasDiagram := ne (strings.TrimSpace $diagram) "" }}
       <article class="subgroup-home subgroup-home--{{ .Section }}">
+        {{/* Centered page title outside the intro card */}}
+        <h2 class="subgroup-intro-title subgroup-intro-title--centered">{{ with .Params.home_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h2>
+
         <section class="subgroup-split subgroup-split--{{ .Section }}{{ if not $hasDiagram }} subgroup-split--no-diagram{{ end }}">
           <div class="subgroup-intro">
-            <h1>{{ with .Params.home_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
-            {{ .Content }}
+            {{/* intro card now contains only the body; title is above and centered. Add a group-specific class for styling. */}}
+            <article class="research-line-card research-line-card--intro research-line-card--{{ .Section }}">
+              {{ with .Params.eyebrow }}<p class="research-line-card__eyebrow">{{ . }}</p>{{ end }}
+              <div class="research-line-card__body">{{ .Content }}</div>
+            </article>
           </div>
 
           {{ if $hasDiagram }}

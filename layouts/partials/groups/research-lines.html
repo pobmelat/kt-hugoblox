@@ -1,0 +1,78 @@
+{{ $lines := default (slice) .Params.research_lines }}
+{{- $page := . -}}
+
+{{/* Compute intro: if research_intro is NOT set -> use default string; if set to false -> suppress; if set to a string -> use it */}}
+{{ .Scratch.Set "intro" "" }}
+{{ if not (isset .Params "research_intro") }}
+  {{ .Scratch.Set "intro" "These research lines capture the main topics addressed by the group. Click each card to explore related people, projects and publications." }}
+{{ else }}
+  {{ if and (isset .Params "research_intro") (ne .Params.research_intro false) }}
+    {{ .Scratch.Set "intro" .Params.research_intro }}
+  {{ end }}
+{{ end }}
+{{ $intro := .Scratch.Get "intro" }}
+
+{{ if gt (len $lines) 0 }}
+<div class="research-lines-page" aria-label="Research lines for {{ .Title }}">
+  {{ if ne $intro "" }}
+    <header class="research-lines-intro">
+      <p class="research-lines-lead">{{ $intro }}</p>
+    </header>
+  {{ end }}
+
+  <div class="research-lines-grid research-lines-grid--compact">
+    {{ range $i, $ln := $lines }}
+      {{ $slug := $ln.slug | default (printf "line-%d" (add $i 1)) }}
+      {{ $mod := printf "%s" $slug }}
+      {{/* Prefer an explicit research_group_card.key in the page params; fall back to Section values */}}
+      {{- $groupKey := "" -}}
+      {{- with $page.Params.research_group_card -}}
+        {{- $groupKey = (.key | default $groupKey) -}}
+      {{- end -}}
+      {{- if eq $groupKey "" -}}
+        {{/* Derive group key from the page RelPermalink (robust even for nested sections) */}}
+        {{- $rp := replaceRE "^/|/$" "" $page.RelPermalink -}}
+        {{- $parts := split $rp "/" -}}
+        {{- $last := index $parts (sub (len $parts) 1) -}}
+        {{- $groupKey = or $last $page.Section $page.Page.Section "matcat" -}}
+      {{- end -}}
+      {{ $href := printf "%s/research/%s/" (print $groupKey) $slug | relURL }}
+
+      <a class="research-line-card research-line-card--{{ $mod }} research-line-card--{{ $groupKey }}" href="{{ $href }}">
+        <p class="research-line-card__eyebrow">{{ $ln.eyebrow }}</p>
+        <h2>{{ $ln.title }}</h2>
+        {{/* Show a very short excerpt: prefer card_excerpt (added by generator). Fall back to first 4 words of summary/description */}}
+        {{ $excerpt := "" }}
+        {{ if $ln.card_excerpt }}
+          {{ $excerpt = $ln.card_excerpt }}
+        {{ else if $ln.summary }}
+          {{ $excerpt = replaceRE "^((?:\\S+\\s+){0,3}\\S+).*" "$1" ($ln.summary | plainify) }}
+        {{ else if $ln.description }}
+          {{ $excerpt = replaceRE "^((?:\\S+\\s+){0,3}\\S+).*" "$1" ($ln.description | plainify) }}
+        {{ end }}
+        {{ if $excerpt }}
+          <p>{{ $excerpt }}…</p>
+        {{ end }}
+        <p class="research-line-card__cta">Learn more →</p>
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ else }}
+  <!-- Fallback simple list -->
+  <div class="research-lines-page" aria-label="Research lines for {{ .Title }}">
+    <header class="research-lines-intro">
+      <h2>Core research lines</h2>
+      {{ if ne $intro "" }}
+        <p class="research-lines-lead">{{ $intro }}</p>
+      {{ end }}
+    </header>
+    <div class="research-lines-grid">
+      <ol>
+        <li><strong>Line 1</strong> — Description not provided.</li>
+        <li><strong>Line 2</strong> — Description not provided.</li>
+        <li><strong>Line 3</strong> — Description not provided.</li>
+      </ol>
+    </div>
+  </div>
+{{ end }}

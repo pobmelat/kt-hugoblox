@@ -1,7 +1,20 @@
 <footer class="site-footer">
   <div class="container footer-row">
     <div>
-      <p class="footer-title">Kimika Teorikoa</p>
+      <div class="footer-social">
+        <a class="footer-social__link" href="https://x.com/TheoChem_EHU" target="_blank" rel="noopener" aria-label="X (Twitter) - Kimika Teorikoa">
+          {{ partial "social-icon.html" (dict "network" "x") }}
+        </a>
+
+        <a class="footer-social__link" href="https://blueskydirectory.com/profiles/theochemehu.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky - Kimika Teorikoa">
+          {{ partial "social-icon.html" (dict "network" "bluesky") }}
+        </a>
+
+        <a class="footer-social__link" href="https://github.com/KimikaTeorikoa" target="_blank" rel="noopener" aria-label="GitHub - Kimika Teorikoa">
+          {{ partial "social-icon.html" (dict "network" "github") }}
+        </a>
+      </div>
+
       {{ with site.Params.footer_note }}
         <p class="footer-copy">{{ . }}</p>
       {{ end }}

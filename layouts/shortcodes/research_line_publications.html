@@ -9,29 +9,36 @@
   {{ end }}
 {{ end }}
 
-{{ $items := slice }}
-{{ range $year, $bucket := hugo.Data.publications.years }}
-  {{ with $bucket.items }}
-    {{ range . }}
-      {{ $items = $items | append . }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-
+{{/* Prefer page-level publications front matter if present */}}
 {{ $matches := slice }}
-{{ range $items }}
-  {{ $item := . }}
-  {{ if eq .type "article" }}
-    {{ $include := false }}
-    {{ if gt (len $tags) 0 }}
-      {{ range $tags }}
-        {{ if in ($item.tags | default (slice)) . }}
-          {{ $include = true }}
-        {{ end }}
+{{ with .Page.Params.publications }}
+  {{ range . }}
+    {{ $matches = $matches | append . }}
+  {{ end }}
+{{ else }}
+  {{ $items := slice }}
+  {{ range $year, $bucket := hugo.Data.publications.years }}
+    {{ with $bucket.items }}
+      {{ range . }}
+        {{ $items = $items | append . }}
       {{ end }}
     {{ end }}
-    {{ if $include }}
-      {{ $matches = $matches | append . }}
+  {{ end }}
+
+  {{ range $items }}
+    {{ $item := . }}
+    {{ if eq .type "article" }}
+      {{ $include := false }}
+      {{ if gt (len $tags) 0 }}
+        {{ range $tags }}
+          {{ if in ($item.tags | default (slice)) . }}
+            {{ $include = true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if $include }}
+        {{ $matches = $matches | append . }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -124,16 +131,31 @@
             </div>
           </div>
 
-          {{ if and .toc_image .toc_link }}
-            <div class="research-publication-entry__toc">
-              <a href="{{ .toc_link }}" target="_blank" rel="noopener">
-                <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .toc_image) }}" alt="Graphical abstract for {{ .title }}">
-              </a>
-            </div>
-          {{ else if .toc_image }}
-            <div class="research-publication-entry__toc">
-              <img src="{{ printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .toc_image) }}" alt="Graphical abstract for {{ .title }}">
-            </div>
+          {{/* Use a placeholder image when toc_image is not present. default will pick the placeholder path */}}
+          {{/* Only render a TOC image block when a real toc_image is present. This avoids leaving an empty gap for publications without TOC images. */}}
+          {{ if .toc_image }}
+            {{ $imgPath := .toc_image }}
+            {{ if .toc_link }}
+              <div class="research-publication-entry__toc">
+                <a href="{{ .toc_link }}" target="_blank" rel="noopener">
+                  {{ if or (hasPrefix $imgPath "http://") (hasPrefix $imgPath "https://") }}
+                    <img src="{{ $imgPath }}" alt="Graphical abstract for {{ .title }}">
+                  {{ else }}
+                                        {{ $p := replaceRE "^/+" "" $imgPath }}
+                    <img src="{{ $p | absURL }}" alt="Graphical abstract for {{ .title }}">
+                  {{ end }}
+                </a>
+              </div>
+            {{ else }}
+              <div class="research-publication-entry__toc">
+                {{ if or (hasPrefix $imgPath "http://") (hasPrefix $imgPath "https://") }}
+                  <img src="{{ $imgPath }}" alt="Graphical abstract for {{ .title }}">
+                {{ else }}
+                  {{ $p := replaceRE "^/+" "" $imgPath }}
+                  <img src="{{ $p | absURL }}" alt="Graphical abstract for {{ .title }}">
+                {{ end }}
+              </div>
+            {{ end }}
           {{ end }}
         </article>
       {{ end }}

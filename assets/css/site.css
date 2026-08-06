@@ -392,6 +392,72 @@ img {
   transform: translateY(0);
 }
 
+/* Allow nested submenu under a submenu item to appear when hovering the subitem */
+.nav-subitem {
+  position: relative;
+}
+.nav-subitem:hover > .nav-submenu,
+.nav-subitem:focus-within > .nav-submenu {
+
+}
+
+/* Footer social icons */
+.footer-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer-social__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  text-decoration: none;
+  transition: transform 0.12s ease, background-color 0.12s ease, color 0.12s ease;
+}
+.footer-social__link:hover {
+  transform: translateY(-2px);
+  color: var(--accent);
+  background: rgba(31,79,141,0.06);
+}
+.footer-social__icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex: 0 0 auto;
+}
+
+/* Ensure SVG icons inherit the color */
+.footer-social__icon [fill] { fill: currentColor; }
+.footer-social__icon [stroke] { stroke: currentColor; }
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Style the injected research-line submenu so it appears as a simple column inside the parent dropdown */
+.nav-submenu .nav-submenu--research {
+  position: static;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  padding: 0;
+}
+.nav-submenu--research li + li { border-top: 0; }
+.nav-submenu--research a {
+  padding-left: 18px;
+}
+
 .nav-submenu li + li {
   border-top: 1px solid rgba(10, 35, 81, 0.06);
 }
@@ -1024,6 +1090,112 @@ img {
   margin-top: 18px;
 }
 
+/* Intro card (left block) - reuse research-line-card styles */
+.subgroup-intro .research-line-card {
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  min-height: 160px;
+  display: block;
+}
+.subgroup-intro .research-line-card h2 {
+  margin: 0 0 0.6rem 0;
+  font-size: 3.2rem; /* title size adjusted */
+  line-height: 1.08;
+}
+.subgroup-home.subgroup-home--matcat .subgroup-intro .research-line-card__body,
+.subgroup-home.subgroup-home--matcat .subgroup-intro .research-line-card__body p {
+  margin: 0.6rem 0;
+  text-align: justify;
+  font-size: 1.3rem; /* comfortable body text */
+  line-height: 1.6;
+}
+
+/* Force override for MatCat intro body: very specific selector with !important to win over compiled rules */
+.subgroup-home.subgroup-home--matcat article.research-line-card.research-line-card--intro .research-line-card__body p {
+  font-size: 1.3rem !important;
+  line-height: 1.6 !important;
+}
+
+/* ISoM: left intro column should use ISoM green accent and the grid should be green-toned */
+.subgroup-home.subgroup-home--isom .subgroup-intro .research-line-card {
+ /* stronger ISoM intro card styling: explicit green tones and larger footprint */
+ background: linear-gradient(135deg, #e8f8f5, #ffffff) !important;
+ border: 1px solid rgba(10, 77, 71, 0.14) !important; /* soft green border */
+ box-shadow: 0 22px 42px rgba(10, 60, 54, 0.06) !important;
+ padding: 32px !important;
+ min-height: 220px !important;
+}
+
+/* Ensure the intro card top accent bar uses ISoM green */
+.subgroup-home.subgroup-home--isom .subgroup-intro .research-line-card::before {
+ background: linear-gradient(90deg, #17746d, #7ed7d0) !important;
+}
+.subgroup-home.subgroup-home--isom .subgroup-intro .research-line-card__body p {
+  /* Match MatCat intro body typography for consistent visual weight */
+  font-size: 1.3rem !important;
+  line-height: 1.6 !important;
+  color: #0a4d47; /* darker green for text */
+}
+
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom .research-line-card {
+ border-radius: 14px;
+ border: 1px solid rgba(10, 77, 71, 0.10) !important;
+ background: linear-gradient(135deg, #f7fffd, #ffffff) !important;
+}
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom .research-line-card__eyebrow {
+ color: var(--accent-strong) !important;
+}
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom a.research-line-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 18px 38px rgba(10, 77, 71, 0.08) !important;
+}
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom .research-line-card h2 {
+ color: var(--accent-strong) !important;
+}
+
+/* ISoM: override the top accent bar (::before) to use green instead of the default blue */
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom .research-line-card::before {
+ background: linear-gradient(90deg, #17746d, #7ed7d0) !important;
+}
+
+/* Ensure eyebrow and CTA use ISoM green accents on right-column cards */
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom .research-line-card__eyebrow {
+ color: var(--accent-strong) !important;
+}
+.subgroup-home.subgroup-home--isom .subgroup-diagram .research-lines-page--isom .research-line-card__cta {
+ color: var(--accent) !important;
+}
+
+/* Generic group intro card and grid accent overrides: target .research-line-card--<group> classes */
+.subgroup-intro .research-line-card--isom {
+ background: linear-gradient(135deg, #e8f8f5, #ffffff) !important;
+ border: 1px solid rgba(10, 77, 71, 0.14) !important;
+ box-shadow: 0 22px 42px rgba(10, 60, 54, 0.06) !important;
+ padding: 32px !important;
+ min-height: 220px !important;
+}
+.subgroup-intro .research-line-card--matcat { background: linear-gradient(135deg, #edf5fe, #fbfdff) !important; border: 1px solid rgba(18, 95, 166, 0.10) !important; }
+.subgroup-intro .research-line-card--polkt { background: linear-gradient(135deg, #f5f1ff, #ffffff) !important; border: 1px solid rgba(116, 91, 199, 0.08) !important; }
+.subgroup-intro .research-line-card--biokt { background: linear-gradient(135deg, #fff1ef, #ffffff) !important; border: 1px solid rgba(193, 96, 88, 0.08) !important; }
+
+/* Grid card top accent bar (by group) */
+.research-line-card--isom::before { background: linear-gradient(90deg, #17746d, #7ed7d0) !important; }
+.research-line-card--matcat::before { background: linear-gradient(90deg, #125fa6, #6fa3db) !important; }
+.research-line-card--polkt::before { background: linear-gradient(90deg, #745bc7, #c0a8ef) !important; }
+.research-line-card--biokt::before { background: linear-gradient(90deg, #c16058, #ecaaa0) !important; }
+
+.research-line-card--isom .research-line-card__eyebrow { color: #0a4d47 !important; }
+.research-line-card--isom .research-line-card__cta { color: #17746d !important; }
+.research-line-card--matcat .research-line-card__eyebrow { color: #125fa6 !important; }
+.research-line-card--matcat .research-line-card__cta { color: #125fa6 !important; }
+.research-line-card--polkt .research-line-card__eyebrow { color: #745bc7 !important; }
+.research-line-card--polkt .research-line-card__cta { color: #745bc7 !important; }
+.research-line-card--biokt .research-line-card__eyebrow { color: #c16058 !important; }
+.research-line-card--biokt .research-line-card__cta { color: #c16058 !important; }
+
 .group-pill {
   border-radius: 18px;
   overflow: hidden;
@@ -1319,6 +1491,7 @@ img {
 .research-lines-intro,
 .matcat-research-intro {
   margin: 0 0 30px;
+  font-size: .9rem;
   max-width: none;
   width: 100%;
 }
@@ -1334,8 +1507,42 @@ img {
 .research-lines-grid,
 .matcat-research-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr; /* Stack as three rows (single column) */
+  gap: 14px; /* reduce vertical space between cards */
+}
+
+.research-lines-grid--compact {
+  gap: 0; /* remove gap between cards */
+}
+
+.research-lines-grid--compact .research-line-card {
+  border-radius: 0;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 1px;
+  box-shadow: none;
+}
+
+.research-lines-grid--compact .research-line-card:first-child {
+  border-top-width: 1px;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.research-lines-grid--compact .research-line-card:last-child {
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  border-bottom-width: 0;
+}
+
+.research-lines-grid--compact .research-line-card::before {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  /* On very wide screens allow two narrow columns to make the right side occupy more visual weight */
+  .matcat-research-grid {
+    grid-template-columns: 1fr; /* keep single column for now; change if desired */
+  }
 }
 
 .research-lines-grid--four {
@@ -1345,12 +1552,30 @@ img {
 .research-line-card,
 .matcat-topic-card {
   position: relative;
-  min-height: 100%;
-  padding: 26px 24px 24px;
-  border: 1px solid rgba(18, 95, 166, 0.12);
-  border-radius: 24px;
+  min-height: 64px; /* further reduce vertical footprint */
+  padding: 12px 16px; /* less vertical and horizontal padding */
+  border: 1px solid rgba(18, 95, 166, 0.10);
+  border-radius: 14px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(233, 243, 255, 0.9));
-  box-shadow: 0 16px 34px rgba(18, 57, 101, 0.08);
+  box-shadow: 0 8px 18px rgba(18, 57, 101, 0.06);
+}
+
+.research-line-card h2,
+.matcat-topic-card h2 {
+  margin-bottom: 6px; /* tighter spacing */
+  font-size: 1.15rem;
+}
+
+.research-line-card p,
+.matcat-topic-card p {
+  margin-bottom: 4px;
+  font-size: 0.98rem;
+}
+
+.research-line-card__eyebrow,
+.matcat-topic-card__eyebrow {
+  margin-bottom: 6px;
+  font-size: 0.72rem;
 }
 
 a.research-line-card,
@@ -1566,6 +1791,20 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   max-width: 190px;
 }
 
+/* MatCat intro body size (centralized rule) */
+.subgroup-home.subgroup-home--matcat article.research-line-card.research-line-card--intro .research-line-card__body p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+/* Unified intro card body text size across all subgroups (matches MatCat) */
+.subgroup-home article.research-line-card.research-line-card--intro .research-line-card__body p {
+  font-size: 1.3rem !important;
+  line-height: 1.6 !important;
+}
+
+}
+
 .institution-logo--ikerbasque img {
   max-width: 170px;
 }
@@ -1581,9 +1820,47 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 
 .subgroup-split {
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(420px, 0.92fr);
-  gap: 54px;
-  align-items: center;
+  /* Make left column wider and right column slightly narrower to balance visuals */
+  grid-template-columns: minmax(0, 1.25fr) minmax(360px, 0.75fr);
+  gap: 44px;
+  align-items: start; /* default alignment */
+}
+
+/* Vertically center intro for MatCat specifically */
+.subgroup-split--matcat {
+  align-items: start; /* align left column to top so it lines up with the right column header */
+}
+
+.subgroup-split--matcat .subgroup-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* ensure content begins at the top */
+  padding-top: 60px; /* nudge intro panel slightly down to align visually */
+}
+
+/* Stronger, group-specific overrides to ensure rules are applied after generic minified CSS */
+.subgroup-home.subgroup-home--matcat .subgroup-intro p {
+  font-size: 1.06rem !important;
+  line-height: 1.8 !important;
+  max-width: 72ch !important;
+  text-align: justify !important;
+  hyphens: auto !important;
+  color: var(--text-soft);
+}
+
+.subgroup-home.subgroup-home--matcat .subgroup-intro h1 {
+  font-size: calc(var(--page-title-size) * 1.06) !important;
+  max-width: 44ch !important;
+}
+
+/* Centered intro title (moved out of the card) */
+.subgroup-intro-title.subgroup-intro-title--centered {
+  text-align: center;
+  margin: 0 0 18px;
+  font-size: 2.2rem;
+  line-height: 1.12;
+  color: var(--accent-strong);
+  font-weight: 700;
 }
 
 .subgroup-split--no-diagram {
@@ -1596,16 +1873,260 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 }
 
 .subgroup-intro h1 {
-  margin: 0 0 28px;
+  margin: 0 0 22px;
   color: #22324a;
-  font-size: var(--page-title-size);
+  font-size: calc(var(--page-title-size) * 1.06);
   line-height: var(--page-title-line);
   letter-spacing: var(--page-title-track);
-  max-width: 16ch;
+  max-width: 44ch; /* allow slightly wider heading lines to balance with cards */
+}
+.subgroup-intro { margin-top: 12px }
+.subgroup-intro p {
+  margin: 0 0 18px;
+  text-align: justify; /* fully justify intro paragraphs */
+  hyphens: auto;
+  color: var(--text-soft);
+  font-size: 1.06rem; /* slightly larger body for welcome text */
+  line-height: 1.8;
+  max-width: 72ch; /* allow the paragraph to span wider to balance the layout */
 }
 
-.subgroup-intro p {
-  margin: 0 0 28px;
+/* Enforced group color overrides for intro and grid cards
+   Targets multiple selectors to ensure both the intro card and
+   the research-lines grid pick the group's characteristic color.
+   Uses the header's accent class as a sibling selector so the rule
+   applies when the page header identifies the current subgroup. */
+
+/* ISoM (green) */
+.site-header--accent-isom ~ .page-content .research-line-card::before,
+.subgroup-home.subgroup-home--isom .subgroup-intro .research-line-card::before,
+.research-line-card--isom::before,
+.research-lines-page--isom .research-line-card::before {
+  background: linear-gradient(90deg, #17746d, #7ed7d0) !important;
+}
+.site-header--accent-isom ~ .page-content .research-line-card,
+.subgroup-home.subgroup-home--isom .subgroup-intro .research-line-card,
+.research-line-card--isom,
+.research-lines-page--isom .research-line-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(232, 248, 245, 0.94)) !important;
+  border-color: rgba(23, 116, 109, 0.12) !important;
+  box-shadow: 0 16px 34px rgba(10, 77, 71, 0.08) !important;
+}
+
+/* Pol-KT (mauve) */
+.site-header--accent-polkt ~ .page-content .research-line-card::before,
+.subgroup-home.subgroup-home--polkt .subgroup-intro .research-line-card::before,
+.research-line-card--polkt::before,
+.research-lines-page--polkt .research-line-card::before {
+  background: linear-gradient(90deg, #745bc7, #c0a8ef) !important;
+}
+.site-header--accent-polkt ~ .page-content .research-line-card,
+.subgroup-home.subgroup-home--polkt .subgroup-intro .research-line-card,
+.research-line-card--polkt,
+.research-lines-page--polkt .research-line-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(242, 237, 255, 0.94)) !important;
+  border-color: rgba(116, 91, 199, 0.12) !important;
+  box-shadow: 0 16px 34px rgba(76, 56, 145, 0.08) !important;
+}
+
+/* Biokt (terra) */
+.site-header--accent-biokt ~ .page-content .research-line-card::before,
+.subgroup-home.subgroup-home--biokt .subgroup-intro .research-line-card::before,
+.research-line-card--biokt::before,
+.research-lines-page--biokt .research-line-card::before {
+  background: linear-gradient(90deg, #c16058, #ecaaa0) !important;
+}
+.site-header--accent-biokt ~ .page-content .research-line-card,
+.subgroup-home.subgroup-home--biokt .subgroup-intro .research-line-card,
+.research-line-card--biokt,
+.research-lines-page--biokt .research-line-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 241, 239, 0.94)) !important;
+  border-color: rgba(193, 96, 88, 0.12) !important;
+  box-shadow: 0 16px 34px rgba(127, 52, 47, 0.08) !important;
+}
+
+/* NOFT (teal) */
+.site-header--accent-noft ~ .page-content .research-line-card::before,
+.subgroup-home.subgroup-home--noft .subgroup-intro .research-line-card::before,
+.research-line-card--noft::before,
+.research-lines-page--noft .research-line-card::before {
+  background: linear-gradient(90deg, #1d6781, #8dcfdd) !important;
+}
+.site-header--accent-noft ~ .page-content .research-line-card,
+.subgroup-home.subgroup-home--noft .subgroup-intro .research-line-card,
+.research-line-card--noft,
+.research-lines-page--noft .research-line-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(216, 238, 244, 0.94)) !important;
+  border-color: rgba(29, 103, 129, 0.12) !important;
+  box-shadow: 0 16px 34px rgba(19, 63, 83, 0.08) !important;
+}
+
+/* Generic fallback: use site-header accent variables where header is present */
+.site-header--accent-matcat ~ .page-content .research-line-card::before,
+.site-header--accent-moleles ~ .page-content .research-line-card::before,
+.site-header--accent-qcd ~ .page-content .research-line-card::before,
+.site-header--accent-momag ~ .page-content .research-line-card::before {
+  /* derive gradient from the header variables */
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft)) !important;
+}
+.site-header--accent-matcat ~ .page-content .research-line-card,
+.site-header--accent-moleles ~ .page-content .research-line-card,
+.site-header--accent-qcd ~ .page-content .research-line-card,
+.site-header--accent-momag ~ .page-content .research-line-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), var(--accent-soft)) !important;
+  border-color: color-mix(in srgb, var(--accent) 12%, transparent) !important;
+  box-shadow: 0 16px 34px color-mix(in srgb, var(--accent-strong) 8%, transparent) !important;
+}
+
+/* Resources list (software / data repositories) */
+.resources-list {
+  display: grid;
+  gap: 20px;
+}
+
+.resource-card {
+  position: relative;
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+}
+
+.resource-card__name {
+  margin: 0 0 8px;
+  font-size: 1.35rem;
+  color: var(--accent-strong);
+}
+
+.resource-card__summary {
+  margin: 0 0 12px;
+  color: var(--text-soft);
+  line-height: 1.55;
+}
+
+.resource-card__link {
+  word-break: break-all;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resource-card__link:hover {
+  text-decoration: underline;
+}
+
+/* Group-specific resource card accent colors */
+.site-header--accent-biokt ~ .page-content .resource-card::before,
+.site-header--accent-biokt ~ .page-content .contact-card::before,
+.resource-card--biokt::before,
+.contact-card--biokt::before {
+  background: linear-gradient(90deg, #c16058, #ecaaa0) !important;
+}
+
+.site-header--accent-isom ~ .page-content .resource-card::before,
+.site-header--accent-isom ~ .page-content .contact-card::before,
+.resource-card--isom::before,
+.contact-card--isom::before {
+  background: linear-gradient(90deg, #17746d, #7ed7d0) !important;
+}
+
+.site-header--accent-polkt ~ .page-content .resource-card::before,
+.site-header--accent-polkt ~ .page-content .contact-card::before,
+.resource-card--polkt::before,
+.contact-card--polkt::before {
+  background: linear-gradient(90deg, #745bc7, #c0a8ef) !important;
+}
+
+.site-header--accent-matcat ~ .page-content .resource-card::before,
+.site-header--accent-matcat ~ .page-content .contact-card::before,
+.resource-card--matcat::before,
+.contact-card--matcat::before {
+  background: linear-gradient(90deg, #125fa6, #6fa3db) !important;
+}
+
+/* Contact page */
+.contact-list {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-card {
+  position: relative;
+  padding: 22px 26px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.contact-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+}
+
+.contact-card__name {
+  margin: 0 0 10px;
+  font-size: 1.45rem;
+  color: var(--accent-strong);
+}
+
+.contact-card__email {
+  margin: 0 0 14px;
+}
+
+.contact-card__email a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-card__email a:hover {
+  text-decoration: underline;
+}
+
+.contact-card__social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contact-card__social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: var(--surface-muted);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.contact-card__social-link:hover {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.contact-card__social-link .social-icon {
+  display: block;
+}
+
   color: #4c617d;
   font-size: 1.06rem;
   line-height: 1.82;

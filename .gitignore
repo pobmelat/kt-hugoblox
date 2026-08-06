@@ -3,3 +3,6 @@ resources/
 .hugo_build.lock
 *.swp
 *.ORIG.pdf
+
+# Local env file for deploy/build secrets - DO NOT COMMIT
+.env

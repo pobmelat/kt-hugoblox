@@ -1,0 +1,22 @@
+<div class="research-lines-page" aria-label="Research lines for {{ .Page.Title }}">
+  {{ with .Page.Params.research_intro }}
+    <header class="research-lines-intro">
+      <p class="research-lines-lead">{{ . }}</p>
+    </header>
+  {{ end }}
+
+  <div class="research-lines-grid research-lines-grid--compact">
+    {{ range .Page.Pages.ByWeight }}
+      <a class="research-line-card research-line-card--{{ .File.BaseFileName }}" href="{{ .RelPermalink }}">
+        {{ with .Params.eyebrow }}<p class="research-line-card__eyebrow">{{ . }}</p>{{ end }}
+        <h2>{{ .Title }}</h2>
+        {{ if .Params.summary }}
+          <p>{{ .Params.summary | plainify | truncate 220 }}</p>
+        {{ else if .Summary }}
+          <p>{{ .Summary | plainify | truncate 220 }}</p>
+        {{ end }}
+        <p class="research-line-card__cta">Learn more →</p>
+      </a>
+    {{ end }}
+  </div>
+</div>

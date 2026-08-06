@@ -1,5 +1,5 @@
-baseURL: "https://pobmelat.github.io/kt-hugoblox/"
-languageCode: "en"
+baseURL: "https://www.ehu.eus/chemistry/theory/new/"
+locale: "en"
 title: "Kimika Teorikoa"
 enableRobotsTXT: true
 
@@ -14,7 +14,7 @@ markup:
       unsafe: true
 
 params:
-  robots: "noindex, nofollow"
+  robots: "index, follow"
   site_tagline: "Euskal Herriko Unibertsitatea & DIPC"
   footer_note: ""
   utility_nav:

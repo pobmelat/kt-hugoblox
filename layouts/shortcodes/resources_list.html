@@ -1,0 +1,19 @@
+{{ $resources := .Page.Params.resources }}
+{{ $items := $resources.items | default (slice) }}
+{{ if gt (len $items) 0 }}
+<div class="resources-list" aria-label="Software and data repositories">
+  {{ range $items }}
+    <article class="resource-card">
+      <h2 class="resource-card__name">{{ .name }}</h2>
+      {{ with .summary }}
+        <p class="resource-card__summary">{{ . }}</p>
+      {{ end }}
+      {{ with .link }}
+        <a class="resource-card__link" href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a>
+      {{ end }}
+    </article>
+  {{ end }}
+</div>
+{{ else }}
+  <p>No resources listed yet.</p>
+{{ end }}

@@ -1,21 +1,33 @@
-<div class="matcat-wheel" aria-label="MatCat research areas">
-  <div class="matcat-wheel__outer"></div>
-  <div class="matcat-wheel__hub">
-    <div class="group-center-logo">
-      <img src="{{ "images/groups/matcat2.png" | relURL }}" alt="MatCat logo">
-    </div>
-  </div>
+{{ $lines := .Params.research_lines }}
+{{ if gt (len $lines) 0 }}
+<div class="matcat-research-list matcat-research-page" aria-label="MatCat research areas">
+  <header class="matcat-research-intro">
+    <h2>Core research lines</h2>
+  </header>
 
-  <span class="matcat-wheel__label matcat-wheel__label--left">Exotic Matter</span>
-  <span class="matcat-wheel__label matcat-wheel__label--right">
-    <span>Metal</span>
-    <span>Nanoclusters</span>
-    <span>on Surfaces</span>
-  </span>
-  <span class="matcat-wheel__label matcat-wheel__label--bottom">
-    <span>Heterogeneous</span>
-    <span>Catalysis</span>
-    <span>and</span>
-    <span>Electrocatalysis</span>
-  </span>
+  <div class="matcat-research-grid">
+    {{ range $i, $ln := $lines }}
+      {{ $slug := $ln.slug | default (printf "line-%d" (add $i 1)) }}
+      {{ $mod := printf "%s" $slug }}
+      {{ $section := or .Section .Page.Section .Params.research_group_card.key "matcat" }}
+      {{ $href := printf "%s/research/%s/" $section $slug | relURL }}
+      <a class="matcat-topic-card matcat-topic-card--{{ $mod }}" href="{{ $href }}">
+        <p class="matcat-topic-card__eyebrow">{{ $ln.eyebrow }}</p>
+        <h2>{{ $ln.title }}</h2>
+        <p>{{ $ln.description }}</p>
+        <p class="matcat-topic-card__cta">Learn more →</p>
+      </a>
+    {{ end }}
+  </div>
 </div>
+{{ else }}
+  <!-- Fallback to the static list if no research_lines defined -->
+  <div class="matcat-research-list" aria-label="MatCat research areas">
+    <h2>Core research lines</h2>
+    <ol>
+      <li><strong>Exotic Matter</strong> — theoretical studies of unusual bonding and electronic structure in novel materials.</li>
+      <li><strong>Metal Nanoclusters on Surfaces</strong> — modelling metal/support interactions, nanocluster stability and reactivity on surfaces.</li>
+      <li><strong>Heterogeneous Catalysis and Electrocatalysis</strong> — mechanistic and computational studies of catalytic processes at interfaces.</li>
+    </ol>
+  </div>
+{{ end }}
