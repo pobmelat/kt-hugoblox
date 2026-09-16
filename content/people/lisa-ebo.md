@@ -24,3 +24,21 @@ header:
   brand_note: "Euskal Herriko Unibertsitatea & DIPC"
   brand_url: "/momag/"
 ---
+
+## Main Research Interest
+
+
+- EPR spectropscopy
+- organic radicals
+
+## Professional Experience
+
+- `[2022 – 2022]` Research Assistant, University of Konstanz, Konstanz, Germany.
+- `[2023 – 2023]` Teaching Assistant, University of Konstanz, Konstanz, Germany.
+- `[2023 – 2024]` Research Assistant, University of Konstanz, Konstanz, Germany.
+- `[2024 – 2024]` Research Internship, Max Planck Institute for Solid State Research, Stuttgart, Germany.
+
+## Education
+
+- `[2020 – 2023]` Bachelor of Science, University of Konstanz, Konstanz, Germany.
+- `[2023 – 2025]` Master of Science, University of Konstanz, Konstanz, Germany.
