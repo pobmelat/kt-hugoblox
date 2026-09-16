@@ -17,7 +17,7 @@ id: "firstname-lastname"
 
 # Permanent URL for this profile page. Replace <group> with your group key
 # (biokt, isom, polkt, matcat, noft, moleles, qcd, momag).
-url: "/<group>/people/firstname-lastname/"
+url: "/group/people/firstname-lastname/"
 
 # Redirects from the old /people/... URL if needed.
 aliases:
@@ -43,12 +43,11 @@ office: "Kimika Teorikoa Lab; Kimika Fakultatea"
 location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 
 # Profile photo. Should match the file you added to static/images/members/<member_type>/
-photo: "/images/members/phd/firstname-lastname.png"
+photo: "/images/members/phd/name.png"
 
 # Group membership. Add all groups you belong to.
 # Group keys: biokt, isom, polkt, matcat, noft, moleles, qcd, momag
-groups:
-  - "<group>"
+groups:  ["group"]
 
 # Human-readable group labels (must match the order in `groups`).
 group_labels:
