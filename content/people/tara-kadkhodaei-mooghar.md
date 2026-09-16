@@ -7,7 +7,7 @@ weight: 100
 member_type: "phd"
 office: "Ciencia de materiales II; Kimika Fakultatea "
 location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
-photo: "/images/members/phd/tara-kadkhodaei.png"
+photo: "/images/members/phd/tara.jpg"
 groups: ["momag"]
 
 role: "PhD Student"
