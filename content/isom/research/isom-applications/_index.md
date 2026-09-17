@@ -18,7 +18,6 @@ publications:
   - Agustin S. Picco
   - Matias L. Picchio
   - Ana Beloqui
-  year: 2025
   journal: Advanced Materials
   volume: ''
   issue: ''
@@ -38,7 +37,6 @@ publications:
   - Elixabete Rezabal
   - Francesca Re
   - Luca Salassa
-  year: 2025
   journal: Chemical Communications
   volume: '61'
   issue: '65'

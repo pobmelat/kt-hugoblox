@@ -8,6 +8,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import date
 from pathlib import Path
 
 
@@ -70,6 +71,39 @@ def make_absolute(url: str) -> str:
 def image_extension(url: str) -> str:
     suffix = Path(urllib.parse.urlparse(url).path).suffix.lower()
     return suffix if suffix in {".jpg", ".jpeg", ".png", ".webp"} else ".jpg"
+
+
+def title_date(title: str) -> date | None:
+    """Return the last date or year found in a gallery title."""
+    matches = list(
+        re.finditer(r"\b(\d{1,2})[./-](\d{1,2})[./-](\d{4})\b", title)
+    )
+    if matches:
+        match = matches[-1]
+        try:
+            return date(int(match.group(3)), int(match.group(2)), int(match.group(1)))
+        except ValueError:
+            pass
+
+    years = list(re.finditer(r"\b((?:19|20)\d{2})\b", title))
+    if years:
+        return date(int(years[-1].group(1)), 1, 1)
+    return None
+
+
+def sort_events(events: list[dict[str, object]]) -> list[dict[str, object]]:
+    """Sort dated events newest first, keeping undated events at the end."""
+    indexed_events = sorted(
+        enumerate(events),
+        key=lambda pair: (
+            title_date(str(pair[1].get("title", ""))) is None,
+            -(title_date(str(pair[1].get("title", ""))).toordinal()
+              if title_date(str(pair[1].get("title", "")))
+              else 0),
+            pair[0],
+        ),
+    )
+    return [event for _, event in indexed_events]
 
 
 def download_image(url: str, event_slug: str, index: int) -> str:
@@ -159,7 +193,7 @@ def parse_gallery() -> list[dict[str, object]]:
 def write_yaml(events: list[dict[str, object]]) -> None:
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     lines = [
-        "# Generated from https://www.ehu.eus/chemistry/theory/8_gallery/donostia-quantum-chemistry-group/",
+        "# Gallery data. Imported events retain their original source URLs.",
         "items:",
     ]
     for event in events:
@@ -180,7 +214,7 @@ def write_yaml(events: list[dict[str, object]]) -> None:
 
 
 def main() -> int:
-    events = parse_gallery()
+    events = sort_events(parse_gallery())
     write_yaml(events)
     image_count = sum(len(event["images"]) for event in events)  # type: ignore[arg-type]
     local_count = sum(

@@ -693,3 +693,131 @@ items:
   volume: '148'
   issue: '33'
   pages: 35375-35385
+- id: loizate-2026-hydrogen-bond-networks-and
+  type: article
+  title: 'Hydrogen-bond networks and proton transfer in choline geranate: insights from IR spectroscopy'
+  doi: 10.1039/d6cp01217e
+  year: 2026
+  journal: Physical Chemistry Chemical Physics
+  groups:
+  - isom
+  tags:
+  - ISoM-KT
+  - IT2067
+  authors:
+  - Mikel Loizate
+  - Trân Ngọc Khanh Lê
+  - Matias L. Picchio
+  - Jon Zubeltzu
+  - Elena Formoso
+  - Tom Frömbgen
+  - Barbara Kirchner
+  - Thierry Tassaing
+  - Elixabete Rezabal
+  volume: '28'
+  issue: '28'
+  pages: 17605-17614
+- id: armentia-2026-molecular-determinants-of-arginine
+  type: article
+  title: Molecular determinants of arginine versus lysine cation–π interactions in biomolecular condensates
+  doi: 10.1038/s42004-026-02075-7
+  year: 2026
+  journal: Communications Chemistry
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  - IT2067
+  authors:
+  - Lydia Armentia
+  - Xabier López
+  - David De Sancho
+  volume: '9'
+  issue: '1'
+  pages: '279'
+- id: irigoyen-2026-quantum-chemical-study-for
+  type: article
+  title: 'Quantum-Chemical Study for Understanding the Low Incorporation
+
+    of 2-Methylen-1,3-Dioxepane (MDO) in Radical Ring-Opening Copolymerization
+
+    with Vinyl Monomers'
+  doi: 10.1021/acs.macromol.6c00681
+  year: 2026
+  journal: Macromolecules
+  groups:
+  - polkt
+  tags:
+  - Pol-KT
+  - IT2067
+  authors:
+  - Mikel Irigoyen
+  - Alice Marchand
+  - Xabier Lopez de Pariza
+  - Timo Melchin
+  - Aitor Barquero
+  - Jon M. Matxain
+  - Haritz Sardón
+  - Jose R. Leiza
+  - Fernando Ruipérez
+  volume: '59'
+  issue: '14'
+  pages: 8509-8521
+- id: chuiko-2026-toward-more-accurate-natural
+  type: article
+  title: 'Toward more accurate natural orbital functional approximations: Including 4-index cumulant contributions'
+  doi: 10.1063/5.0326054
+  year: 2026
+  journal: The Journal of Chemical Physics
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  - IT2067
+  authors:
+  - Valerii Chuiko
+  - Paul W. Ayers
+  - Eduard Matito
+  volume: '165'
+  issue: '5'
+  pages: '054105'
+- id: cioslowski-2026-refractory-to-improvement-a
+  type: article
+  title: 'Refractory to Improvement: A Cautionary Tale of Two-Electron
+
+    Densities Computed with One-Electron Basis Sets and of Their Employment
+
+    in Quantum-Chemical Formalisms'
+  doi: 10.1021/acs.jctc.6c00413
+  year: 2026
+  journal: Journal of Chemical Theory and Computation
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  - IT2067
+  authors:
+  - Jerzy Cioslowski
+  - Javier Domin
+  - Eduard Matito
+  volume: '22'
+  issue: '15'
+  pages: 7609-7623
+- id: ding-2026-chemical-bonding-concepts-emerge
+  type: article
+  title: Chemical bonding concepts emerge naturally from maximally entangled atomic orbitals
+  doi: 10.1038/s41467-026-73527-w
+  year: 2026
+  journal: Nature Communications
+  groups:
+  - qcd
+  tags:
+  - QCD-KT
+  - IT2067
+  authors:
+  - Lexin Ding
+  - Eduard Matito
+  - Christian Schilling
+  volume: '17'
+  issue: '1'
+  pages: '4732'

@@ -10,20 +10,17 @@ publications:
   authors:
   - Jon Zubeltzu
   - Elixabete Rezabal
-  year: 2024
   journal: Physical Chemistry Chemical Physics
   volume: '26'
   issue: '43'
   pages: 27486-27497
 - doi: 10.1103/physreve.104.024604
-  title: Computational approach to<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi
-    mathvariant="normal">ZnS</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>i</mml:mi></mml:msub></mml:math>nanoclusters
+  title: Computational approach to ZnSᵢ nanoclusters in
     in ionic liquids
   authors:
   - Jon Zubeltzu
   - Jon M. Matxain
   - Elixabete Rezabal
-  year: 2021
   journal: Physical Review E
   volume: '104'
   issue: '2'
@@ -34,7 +31,6 @@ publications:
   - Jon Zubeltzu
   - Elena Formoso
   - Elixabete Rezabal
-  year: 2020
   journal: Journal of Molecular Liquids
   volume: '303'
   issue: ''

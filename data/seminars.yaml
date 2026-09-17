@@ -2,15 +2,46 @@
 
 next:
   entries:
-    - date: "May 15th, 10:00 am"
-      place: "DIPC (Josebe Olarra Auditorium)"
+    - date: "date: TBA"
+      place: "place: TBA"
       talks:
-        - title: ""
-          speaker: "Verònica Postils"
+        - title: "title: TBA"
+          speaker: "title: TBA"
 
 items:
   - year: 2026
     entries:
+      - date: "September 2nd, 12:00"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+        - title: "Localized Alternatives to Becke Weights for Molecular Quadrature"
+          speaker: "Peter Gill"
+
+      - date: "June 19th, 10:00"
+        place: "Kimika Fakultatea (Salón de Actos)"
+        talks:
+        - title: "Motivating and constructing correlation diagrams for molecular transformations using X-Ray spectroscopic signatures: “Think Orbitals”"
+          speaker: "Ambar Banerjee"
+      - date: "June 10th, 10:00"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+        - title: "Chiral light-matter interactions – Circular dichroism and the anisotropic dissymmetry factor"
+          speaker: "Jakob Kranich"
+      - date: "June 4th, 16:00"
+        place: "DIPC (Josebe Olarra Auditorium)"
+        talks:
+        - title: "Self-Assembly of the Tau Protein: Liquid-Liquid Phase Separation and Fibrillization"
+          speaker: "Joan-Emma Shea"
+      - date: "May 25th, 12:00 am"
+        place: "DIPC (Josebe Olarra Seminar Room)"
+        talks:
+        - title: "Are dative and ionic bonds one-electron bonds?"
+          speaker: "Ángel Martín Pendás"
+      - date: "May 20th, 10:00 am"
+        place: "Kimika Fakultatea (Salón de Actos)"
+        talks:
+         - title: "Performance of the simplified TD-DFT family of methods for the description of nonlinear optical properties: a benchmarking study"
+           speaker: "Verònica Postils" 
       - date: "April 30th, 10:00 am"
         place: "DIPC (Josebe Olarra Auditorium)"
         talks:

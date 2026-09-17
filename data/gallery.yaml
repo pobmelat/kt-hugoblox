@@ -1,5 +1,15 @@
-# Generated from https://www.ehu.eus/chemistry/theory/8_gallery/donostia-quantum-chemistry-group/
+# Gallery data. Imported events retain their original source URLs.
 items:
+  - title: "ESPA 2026 in Salamanca (01.07.2026)"
+    slug: "espa-2026-in-salamanca-01-07-2026"
+    images:
+      - src: "/images/gallery/espa-2026-in-salamanca-01-07-2026/01-espa-2026.jpeg"
+        alt: "ESPA 2026 in Salamanca (01.07.2026)"
+  - title: "Bidassoa Tap Room (15.05.2026)"
+    slug: "bidassoa-tap-room-15-05-2026"
+    images:
+      - src: "/images/gallery/bidassoa-tap-room-15-05-2026/01-bidasoa.jpeg"
+        alt: "Bidassoa Tap Room (15.05.2026)"
   - title: "Celebrating the Antonio Cebreiro's PhD, EHU (03.10.2025)"
     slug: "celebrating-the-antonio-cebreiro-s-phd-ehu-03-10-2025"
     images:
@@ -124,6 +134,21 @@ items:
         width: 1024
         height: 576
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/WhatsApp-Image-2023-06-07-at-09.36.07-1024x576.jpeg"
+  - title: "DIPC 2023/02"
+    slug: "dipc-2023-02"
+    images:
+      - src: "/images/gallery/dipc-2023-02/01-whatsapp-image-2023-02-27-at-14-28-02-768x1024.jpeg"
+        width: 768
+        height: 1024
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/WhatsApp-Image-2023-02-27-at-14.28.02-768x1024.jpeg"
+      - src: "/images/gallery/dipc-2023-02/02-whatsapp-image-2023-02-27-at-14-24-54-768x1024.jpeg"
+        width: 768
+        height: 1024
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/WhatsApp-Image-2023-02-27-at-14.24.54-768x1024.jpeg"
+      - src: "/images/gallery/dipc-2023-02/03-img-20230227-142318598-hdr-768x1024.jpg"
+        width: 768
+        height: 1024
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/IMG_20230227_142318598_HDR-768x1024.jpg"
   - title: "Celebrating the Carmelo Naim's PhD, Université de Bordeaux (02.12.2022)"
     slug: "celebrating-the-carmelo-naim-s-phd-universite-de-bordeaux-02-12-2022"
     images:
@@ -155,6 +180,11 @@ items:
         width: 1024
         height: 768
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/WhatsApp-Image-2022-10-05-at-13.55.07-1024x768.jpeg"
+  - title: "International Conference on RDMFT, Miramar Palace, (15-17.06.2022)"
+    slug: "international-conference-on-rdmft-miramar-palace-15-17-06-2022"
+    images:
+      - src: "/images/gallery/international-conference-on-rdmft-miramar-palace-15-17-06-2022/01-img-20220616-170637500-hdr-scaled.jpg"
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/IMG_20220616_170637500_HDR-scaled.jpg"
   - title: "Celebrating the Sebastian Sitkewicz's PhD (2022)"
     slug: "celebrating-the-sebastian-sitkewicz-s-phd-2022"
     images:
@@ -166,11 +196,6 @@ items:
         width: 355
         height: 316
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/defensa-sebastian.png"
-  - title: "International Conference on RDMFT, Miramar Palace, (15-17.06.2022)"
-    slug: "international-conference-on-rdmft-miramar-palace-15-17-06-2022"
-    images:
-      - src: "/images/gallery/international-conference-on-rdmft-miramar-palace-15-17-06-2022/01-img-20220616-170637500-hdr-scaled.jpg"
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/IMG_20220616_170637500_HDR-scaled.jpg"
   - title: "Celebrating the Irene's PhD, Plaza Julio Caro Baroja (23.07.2021)"
     slug: "celebrating-the-irene-s-phd-plaza-julio-caro-baroja-23-07-2021"
     images:
@@ -253,6 +278,28 @@ items:
         width: 1024
         height: 626
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/sidreria-iparraguirre_24.02.18-1024x626.jpeg"
+  - title: "DIC 2018/02"
+    slug: "dic-2018-02"
+    images:
+      - src: "/images/gallery/dic-2018-02/01-20180228-104006-1024x420.jpg"
+        width: 1024
+        height: 420
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/20180228_104006-1024x420.jpg"
+      - src: "/images/gallery/dic-2018-02/02-dipc4-3-1024x576.jpg"
+        width: 1024
+        height: 576
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/dipc4-3-1024x576.jpg"
+      - src: "/images/gallery/dic-2018-02/03-dipc4-1-1-1024x633.jpg"
+        width: 1024
+        height: 633
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/dipc4-1-1-1024x633.jpg"
+  - title: "DIPC 2017"
+    slug: "dipc-2017"
+    images:
+      - src: "/images/gallery/dipc-2017/01-dipc-2017-1024x440.jpg"
+        width: 1024
+        height: 440
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/dipc-2017-1024x440.jpg"
   - title: "Astigarraga Cider House \"Ipintza\" (11.02.2017) DIPC 4 (06.10.2016)"
     slug: "astigarraga-cider-house-ipintza-11-02-2017-dipc-4-06-10-2016"
     images:
@@ -286,6 +333,21 @@ items:
         width: 581
         height: 325
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/photo-4.jpg"
+  - title: "Mutriku(06.11.2015) Donostia (10.11.2013) Elgoibar (17.09.2011)"
+    slug: "mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011"
+    images:
+      - src: "/images/gallery/mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011/01-20151106-121806-1024x703.jpg"
+        width: 1024
+        height: 703
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/20151106_121806-1024x703.jpg"
+      - src: "/images/gallery/mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011/02-boda-ivan-1024x623.jpg"
+        width: 1024
+        height: 623
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/boda_ivan-1024x623.jpg"
+      - src: "/images/gallery/mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011/03-img-8026-1024x788.jpg"
+        width: 1024
+        height: 788
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/IMG_8026-1024x788.jpg"
   - title: "WATOC, Santiago de Compostela (20.07.2011) Jesus' Basque gastronomic society (10.05.2009)"
     slug: "watoc-santiago-de-compostela-20-07-2011-jesus-basque-gastronomic-society-10-05-2009"
     images:
@@ -297,17 +359,6 @@ items:
         width: 1024
         height: 712
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/grupo_julen-1024x712.jpg"
-  - title: "THEOBIO 2009, Roscoff, France Chemistry Faculty, Donostia (2004)"
-    slug: "theobio-2009-roscoff-france-chemistry-faculty-donostia-2004"
-    images:
-      - src: "/images/gallery/theobio-2009-roscoff-france-chemistry-faculty-donostia-2004/01-theobio2009-1.jpg"
-        width: 504
-        height: 378
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/THEOBIO2009_1.jpg"
-      - src: "/images/gallery/theobio-2009-roscoff-france-chemistry-faculty-donostia-2004/02-grupo-2005.jpg"
-        width: 599
-        height: 452
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/grupo-2005.jpg"
   - title: "ESPA 2008, Mallorca"
     slug: "espa-2008-mallorca"
     images:
@@ -330,55 +381,14 @@ items:
         width: 504
         height: 378
         original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/ESPA2006_2.jpg"
-  - title: "Mutriku(06.11.2015) Donostia (10.11.2013) Elgoibar (17.09.2011)"
-    slug: "mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011"
+  - title: "THEOBIO 2009, Roscoff, France Chemistry Faculty, Donostia (2004)"
+    slug: "theobio-2009-roscoff-france-chemistry-faculty-donostia-2004"
     images:
-      - src: "/images/gallery/mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011/01-20151106-121806-1024x703.jpg"
-        width: 1024
-        height: 703
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/20151106_121806-1024x703.jpg"
-      - src: "/images/gallery/mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011/02-boda-ivan-1024x623.jpg"
-        width: 1024
-        height: 623
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/boda_ivan-1024x623.jpg"
-      - src: "/images/gallery/mutriku-06-11-2015-donostia-10-11-2013-elgoibar-17-09-2011/03-img-8026-1024x788.jpg"
-        width: 1024
-        height: 788
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/IMG_8026-1024x788.jpg"
-  - title: "DIPC 2023/02"
-    slug: "dipc-2023-02"
-    images:
-      - src: "/images/gallery/dipc-2023-02/01-whatsapp-image-2023-02-27-at-14-28-02-768x1024.jpeg"
-        width: 768
-        height: 1024
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/WhatsApp-Image-2023-02-27-at-14.28.02-768x1024.jpeg"
-      - src: "/images/gallery/dipc-2023-02/02-whatsapp-image-2023-02-27-at-14-24-54-768x1024.jpeg"
-        width: 768
-        height: 1024
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/WhatsApp-Image-2023-02-27-at-14.24.54-768x1024.jpeg"
-      - src: "/images/gallery/dipc-2023-02/03-img-20230227-142318598-hdr-768x1024.jpg"
-        width: 768
-        height: 1024
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/IMG_20230227_142318598_HDR-768x1024.jpg"
-  - title: "DIC 2018/02"
-    slug: "dic-2018-02"
-    images:
-      - src: "/images/gallery/dic-2018-02/01-20180228-104006-1024x420.jpg"
-        width: 1024
-        height: 420
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/20180228_104006-1024x420.jpg"
-      - src: "/images/gallery/dic-2018-02/02-dipc4-3-1024x576.jpg"
-        width: 1024
-        height: 576
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/dipc4-3-1024x576.jpg"
-      - src: "/images/gallery/dic-2018-02/03-dipc4-1-1-1024x633.jpg"
-        width: 1024
-        height: 633
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/dipc4-1-1-1024x633.jpg"
-  - title: "DIPC 2017"
-    slug: "dipc-2017"
-    images:
-      - src: "/images/gallery/dipc-2017/01-dipc-2017-1024x440.jpg"
-        width: 1024
-        height: 440
-        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/dipc-2017-1024x440.jpg"
+      - src: "/images/gallery/theobio-2009-roscoff-france-chemistry-faculty-donostia-2004/01-theobio2009-1.jpg"
+        width: 504
+        height: 378
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/THEOBIO2009_1.jpg"
+      - src: "/images/gallery/theobio-2009-roscoff-france-chemistry-faculty-donostia-2004/02-grupo-2005.jpg"
+        width: 599
+        height: 452
+        original_url: "https://www.ehu.eus/chemistry/theory/wordpress/wp-content/uploads/grupo-2005.jpg"

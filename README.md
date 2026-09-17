@@ -198,6 +198,19 @@ make deploy
 
 > **Security note:** never commit `.env` or any file containing passwords. The repository already ignores `.env`.
 
+## Adding gallery photos
+
+Add one or more local images to an event with:
+
+```bash
+python3 scripts/add_gallery.py "Group dinner (17.09.2026)" photos/*.jpg
+```
+
+The command also accepts directories, copies the images into
+`static/images/gallery/`, updates `data/gallery.yaml`, reuses an event with
+the same title, and sorts events from newest to oldest using the last date
+found in each title. Use `--dry-run` to preview the operation.
+
 ## Typical workflow
 
 1. Add or edit `content/<group>/_index.md` with research lines and/or resources.
