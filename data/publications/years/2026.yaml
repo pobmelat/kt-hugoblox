@@ -398,3 +398,298 @@ items:
   - Luisa Ronga
   - Raphael E.F. de Paiva
   teachpress_id: '1309'
+- id: loirette-pelous-2026-addressing-intramolecular-vibrational-redistribution
+  type: article
+  title: Addressing Intramolecular Vibrational Redistribution in a Single Molecule through Pump and Probe Surface-Enhanced Vibrational Spectroscopy
+  doi: 10.1021/acsphotonics.6c00030
+  year: 2026
+  journal: ACS Photonics
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Aurelian Loirette-Pelous
+  - Roberto A. Boto
+  - Javier Aizpurua
+  - Ruben Esteban
+  volume: '13'
+  issue: '11'
+  pages: 3088-3101
+- id: jime-nez-garci-a-2026-martinisurf-automated-simulations-of
+  type: article
+  title: 'MartiniSurf: Automated
+
+    Simulations of Surface-Immobilized
+
+    Biomolecular Systems with Martini'
+  doi: 10.1021/acs.jcim.6c00953
+  year: 2026
+  journal: 'Journal of Chemical Information
+
+    and Modeling'
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  - IT2067
+  authors:
+  - Juan Carlos Jiménez-García
+  - Fernando López-Gallego
+  - Xabier López
+  - David De Sancho
+  volume: '66'
+  issue: '15'
+  pages: 8683-8690
+- id: teotonico-2026-dynamic-exchange-in-vinylogous
+  type: article
+  title: 'Dynamic exchange in vinylogous urethane vitrimers: computational and experimental approaches to screen structure–property relationships of dynamic bonds'
+  doi: 10.1039/d6py00217j
+  year: 2026
+  journal: Polymer Chemistry
+  groups:
+  - polkt
+  tags:
+  - Pol-KT
+  - IT2067
+  authors:
+  - Jacopo Teotonico
+  - Fernando Ruipérez
+  - Nicholas Ballard
+  volume: '17'
+  issue: '23'
+  pages: 2479-2490
+- id: churchill-2026-a-new-cr10ni4-seahorse
+  type: article
+  title: A new {Cr10Ni4} seahorse featuring an oxalate ligand
+  doi: 10.1016/j.inoche.2026.116828
+  year: 2026
+  journal: Inorganic Chemistry Communications
+  groups:
+  - momag
+  tags:
+  - MoMag-KT
+  - IT2067
+  authors:
+  - Olivia Churchill
+  - Robert Martin
+  - Selena J. Lockyer
+  - George F.S. Whitehead
+  - Grigore A. Timco
+  - David Collison
+  - Eric J.L. McInnes
+  - Daniel Reta
+  - Jürgen Schnack
+  - Richard E.P. Winpenny
+  volume: '190'
+  pages: '116828'
+- id: lew-yee-2026-a-python-based-module
+  type: article
+  title: A Python-Based Module for Exploring Machine Learning-Inspired Optimization Algorithms Using Quantum Chemistry
+  doi: 10.1021/acs.jchemed.5c01470
+  year: 2026
+  journal: Journal of Chemical Education
+  groups:
+  - noft
+  - matcat
+  tags:
+  - NOFT-KT
+  - MatCat-KT
+  - IT2067
+  authors:
+  - Juan Felipe Huan Lew-Yee
+  - Elixabete Rezabal
+  - Xabier Lopez
+  - Mario Piris
+  - Jose M. Mercero
+  volume: '103'
+  issue: '7'
+  pages: 3929-3937
+- id: verdugo-2026-reshaping-ru-polypyridyl-photochemistry
+  type: article
+  title: Reshaping Ru polypyridyl photochemistry with choline–geranate (CAGE) ionic liquids
+  doi: 10.1039/d6cc02290a
+  year: 2026
+  journal: Chemical Communications
+  groups:
+  - isom
+  tags:
+  - ISoM-KT
+  - IT2067
+  authors:
+  - Marta Costa Verdugo
+  - Virginia Martínez-Martínez
+  - Laura Hernandez-Fernandez
+  - Francesca Re
+  - Elixabete Rezabal
+  - Luca Salassa
+  volume: '62'
+  issue: '55'
+  pages: 13757-13761
+- id: sun-2026-spin-dependent-fluorescence-mediated
+  type: article
+  title: Spin-Dependent Fluorescence Mediated by Antisymmetric Exchange in Triplet Exciton Pairs
+  doi: 10.1103/7mt2-968k
+  year: 2026
+  journal: Physical Review Letters
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Yan Sun
+  - G. Ricci
+  - M. Monteverde
+  - V. Derkach
+  - T. Chanelière
+  - E. Aldridge
+  - D. Casanova
+  - D. Beljonne
+  - J. E. Anthony
+  - A. D. Chepelianskii
+  volume: '136'
+  issue: '21'
+  pages: '216903'
+- id: santamar-a-2026-anharmonic-effects-revealed-by
+  type: article
+  title: Anharmonic Effects Revealed by Temperature-Dependent Phonon Lifetimes and Thermal Conductivities in a π-Conjugated Molecular Crystal
+  doi: 10.1021/acs.jctc.6c00412
+  year: 2026
+  journal: Journal of Chemical Theory and Computation
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Guillermo Santamaría
+  - Francesco Siddi
+  - Abel Carreras
+  - Riccardo Dettori
+  - Michele Simoncelli
+  - Claudio Melis
+  - David Casanova
+  - David Beljonne
+  volume: '22'
+  issue: '11'
+  pages: 5742-5751
+- id: wu-2026-efficient-nonadiabatic-molecular-dynamics
+  type: article
+  title: Efficient Nonadiabatic Molecular Dynamics with Machine Learning Hamiltonian Interpolation
+  doi: 10.1021/acs.jpclett.6c01666
+  year: 2026
+  journal: The Journal of Physical Chemistry Letters
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Yifan Wu
+  - Bipeng Wang
+  - Mohit Chaudhary
+  - David Casanova
+  - Oleg V. Prezhdo
+  volume: '17'
+  issue: '26'
+  pages: 7328-7335
+- id: chithra-2026-electron-transfer-from-singlet
+  type: article
+  title: 'Electron transfer from singlet fission dimers: possibilities and limitations'
+  doi: 10.1039/d6sc00259e
+  year: 2026
+  journal: Chemical Science
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Sree Chithra
+  - Corentin Pigot
+  - Claire Tonnelé
+  - Ashley J. Redman
+  - Sabine Richert
+  - David Casanova
+  - Victor Gray
+  volume: '17'
+  issue: '26'
+  pages: 12970-12980
+- id: ricci-2026-tuning-the-spin-component
+  type: article
+  title: 'Tuning the spin-component scaling scheme for inverted singlet–triplet (INVEST) systems: improving CC2 and ADC(2) from excited-state energies to topological features'
+  doi: 10.1007/s00214-026-03323-8
+  year: 2026
+  journal: Theoretical Chemistry Accounts
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  authors:
+  - Gaetano Ricci
+  volume: '145'
+  issue: '8'
+  pages: '71'
+- id: noguchi-2026-elucidating-the-mechanism-of
+  type: article
+  title: 'Elucidating
+
+    the Mechanism of Photoinduced Sulfur Monoxide
+
+    Extrusion from Dianthryl Sulfoxide'
+  doi: 10.1021/jacs.6c09333
+  year: 2026
+  journal: 'Journal of the American
+
+    Chemical Society'
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Hikaru Noguchi
+  - Clàudia Climent
+  - Ka-Ming Tong
+  - Jennifer Yuan
+  - Charles J. Walsby
+  - David Casanova
+  - Michael O. Wolf
+  volume: '148'
+  issue: '32'
+  pages: 34678-34686
+- id: richards-2026-open-and-closed-shell
+  type: article
+  title: 'Open- and Closed-Shell
+
+    Roles of Sensitizer and Annihilator
+
+    in Pseudo-Single Component Mixtures for Upconversion'
+  doi: 10.1021/jacs.6c04090
+  year: 2026
+  journal: 'Journal of the American
+
+    Chemical Society'
+  groups:
+  - moleles
+  tags:
+  - MolEleS-KT
+  - IT2067
+  authors:
+  - Kieran D. Richards
+  - Wenzhao Wang
+  - Philipp Thielert
+  - James D. Green
+  - John M. Hudson
+  - Claire Tonnelé
+  - David Casanova
+  - Yoann Olivier
+  - Timothy J. H. Hele
+  - Sabine Richert
+  - Feng Li
+  - Emrys W. Evans
+  volume: '148'
+  issue: '33'
+  pages: 35375-35385
