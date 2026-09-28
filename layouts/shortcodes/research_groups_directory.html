@@ -1,5 +1,5 @@
 {{ $groups := where site.Pages "Params.research_group_card" "ne" nil }}
-{{ $groups = sort $groups "Weight" "asc" }}
+{{ $groups = sort $groups "Params.research_group_card.label" "asc" }}
 
 <div class="research-groups-directory">
   {{ range $groups }}

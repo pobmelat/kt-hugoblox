@@ -96,7 +96,6 @@ researcher_id: "https://scholar.google.com/citations?user=BZNTCI4AAAAJ&hl=en"
 ## Professional Experience
 
 - `[2024 – 2025]` Junior Research Fellow, University of Hyderabad, Hyderabad, India.
-- `[Year – Year]` Position, Institution, City, Country.
 
 ## Education
 

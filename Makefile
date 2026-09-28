@@ -24,7 +24,7 @@ SFTP_HOST    ?= alweb.ehu.eus
 REMOTE_PATH  ?= /users/scwtcg/public_html/new
 
 serve:
-	hugo server -D --bind 127.0.0.1 --port 1313 --baseURL http://127.0.0.1:1313/
+	hugo server -D -F --bind 127.0.0.1 --port 1313 --baseURL http://127.0.0.1:1313/
 
 build:
 	echo "Building with baseURL: $(PROD_BASEURL)"

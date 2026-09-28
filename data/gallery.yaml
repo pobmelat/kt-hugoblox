@@ -1,5 +1,14 @@
 # Gallery data. Imported events retain their original source URLs.
 items:
+  - title: "Jesus Receives the Distinction of Bergara’s First Ambassador in Recognition of His Scientific Career (28.09.2026)"
+    slug: "jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026"
+    images:
+      - src: "/images/gallery/jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026/00-banner.jpg"
+        alt: "Jesus Receives the Distinction of Bergara’s First Ambassador in Recognition of His Scientific Career"
+      - src: "/images/gallery/jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026/02-12-54-10.jpeg"
+        alt: "Jesus Receives the Distinction of Bergara’s First Ambassador in Recognition of His Scientific Career"
+      - src: "/images/gallery/jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026/03-13-52-17.jpeg"
+        alt: "Jesus Receives the Distinction of Bergara’s First Ambassador in Recognition of His Scientific Career"
   - title: "ESPA 2026 in Salamanca (01.07.2026)"
     slug: "espa-2026-in-salamanca-01-07-2026"
     images:

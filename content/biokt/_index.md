@@ -2,7 +2,7 @@
 title: Bio-KT Lab
 hide_hero: true
 home_title: Welcome to the Bio-KT Laboratory
-weight: 3
+weight: 1
 header:
   variant: subgroup
   menu: biokt

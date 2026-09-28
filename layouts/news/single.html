@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <section class="page-content">
+    <div class="container page-layout">
+      <article class="news-article">
+        <a class="news-article__back" href="{{ "news/" | relURL }}">← All news</a>
+        <header class="news-article__header">
+          <time class="news-card__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.summary }}<p class="news-article__summary">{{ . }}</p>{{ end }}
+        </header>
+        {{ with .Params.banner }}
+          {{ $banner := strings.TrimPrefix "/" . }}
+          <img class="news-article__banner" src="{{ $banner | relURL }}" alt="Banner for {{ $.Title }}">
+        {{ end }}
+        <div class="news-article__content prose">{{ .Content }}</div>
+        {{ with .Params.gallery_images }}
+          <section class="news-article__gallery" aria-label="Photos">
+            {{ range . }}
+              {{ $image := strings.TrimPrefix "/" . }}
+              <a href="{{ $image | relURL }}" target="_blank" rel="noopener">
+                <img src="{{ $image | relURL }}" alt="{{ $.Title }}" loading="lazy">
+              </a>
+            {{ end }}
+          </section>
+        {{ end }}
+      </article>
+    </div>
+  </section>
+{{ end }}

@@ -13,22 +13,22 @@ items:
   - name: Research Groups
     url: /research-groups/
     children:
+      - name: Bio-KT
+        url: /biokt/
       - name: iSoM-KT
         url: /isom/
       - name: MatCat-KT
         url: /matcat/
-      - name: Bio-KT
-        url: /biokt/
-      - name: Pol-KT
-        url: /polkt/
-      - name: NOFT-KT
-        url: /noft/
       - name: MolEleS-KT
         url: https://molecular-electronic-structure-group.github.io
-      - name: QCD-KT
-        url: https://quantchemdev.github.io
       - name: MoMag-KT
         url: /momag
+      - name: NOFT-KT
+        url: /noft/
+      - name: Pol-KT
+        url: /polkt/
+      - name: QCD-KT
+        url: https://quantchemdev.github.io
   - name: Publications
     url: /publications/
     children:
@@ -38,5 +38,7 @@ items:
         url: /publications/thesis/
   - name: KT-Seminars
     url: /kt-seminars/
+  - name: News
+    url: /news/
   - name: Gallery
     url: /gallery/

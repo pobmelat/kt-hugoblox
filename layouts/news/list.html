@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <section class="page-content">
+    <div class="container page-layout">
+      <article class="news-page">
+        <header class="news-page__header">
+          <p class="news-page__eyebrow">Kimika Teorikoa</p>
+          <h1>{{ .Title }}</h1>
+          <p>Updates, achievements and events from our research community.</p>
+        </header>
+        {{ $news := .Pages.ByDate.Reverse }}
+        {{ if $news }}
+          <div class="news-list">
+            {{ range $news }}
+              {{ $page := . }}
+              <article class="news-card{{ if not $page.Params.banner }} news-card--without-image{{ end }}">
+                {{ with $page.Params.banner }}
+                {{ $banner := strings.TrimPrefix "/" . }}
+                <a class="news-card__image" href="{{ $page.RelPermalink }}">
+                  <img src="{{ $banner | relURL }}" alt="" loading="lazy">
+                </a>
+              {{ end }}
+                <div class="news-card__body">
+                  <time class="news-card__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                  {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+                  <a class="news-card__link" href="{{ .RelPermalink }}">Read news <span aria-hidden="true">→</span></a>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="news-page__empty">There are no news items yet. Please check back soon.</p>
+        {{ end }}
+      </article>
+    </div>
+  </section>
+{{ end }}

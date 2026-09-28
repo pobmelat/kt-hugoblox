@@ -3,7 +3,7 @@ title: Research
 hide_page_hero: true
 content_frame: false
 hide_child_section: true
-weight: 2
+weight: 1
 header:
   variant: subgroup
   menu: biokt

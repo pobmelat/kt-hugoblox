@@ -211,6 +211,30 @@ The command also accepts directories, copies the images into
 the same title, and sorts events from newest to oldest using the last date
 found in each title. Use `--dry-run` to preview the operation.
 
+## Adding news
+
+Create a news post interactively:
+
+```bash
+python3 scripts/add_news.py
+```
+
+Enter a date (`DD.MM.YYYY`, or press Enter to use today's date), title, and
+whether the news item has a banner photo (default: no). If yes, enter its image
+path. The script then asks if the article has additional photos (default: no);
+if yes, enter the number of photos and each image path. If any photos were
+provided, choose whether to add them to the photo gallery (default: no).
+Finish by entering the Markdown text, ending with a single `.` on its own line.
+The script creates a dated post under `content/news/` and copies any media into
+`static/images/news/`. If you opt in, it also copies the provided photos to
+`static/images/gallery/` and creates a gallery event. News posts are shown
+newest first on `/news/`; the home-page ticker also includes the next seminar,
+the latest past seminar, and recent news. The local `make serve` target
+includes future-dated news so scheduled items can be previewed; normal
+production builds still publish them
+on their date. Use `--dry-run` to walk through the prompts without writing
+files, or `--help` to see the available option.
+
 ## Typical workflow
 
 1. Add or edit `content/<group>/_index.md` with research lines and/or resources.
