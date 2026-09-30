@@ -1,0 +1,16 @@
+{{- $publication := .publication -}}
+{{- if isset $publication "profile_ids" -}}
+  {{- delimit ($publication.profile_ids | default (slice)) " " -}}
+{{- else -}}
+  {{- $memberAliases := .memberAliases -}}
+  {{- $matchedIDs := slice -}}
+  {{- range $publication.authors -}}
+    {{- $author := . | lower | replaceRE `[áàäâãå]` `a` | replaceRE `[éèëê]` `e` | replaceRE `[íìïî]` `i` | replaceRE `[óòöôõ]` `o` | replaceRE `[úùüû]` `u` | replaceRE `ñ` `n` | replaceRE `ç` `c` | replaceRE `[ýÿ]` `y` | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` -}}
+    {{- range (index $memberAliases $author | default (slice)) -}}
+      {{- if not (in $matchedIDs .) -}}
+        {{- $matchedIDs = $matchedIDs | append . -}}
+      {{ end }}
+    {{- end -}}
+  {{- end -}}
+  {{- delimit $matchedIDs " " -}}
+{{- end -}}

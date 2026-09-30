@@ -161,6 +161,24 @@ python3 scripts/add_submitted_publication.py --tags MatCat-KT
 
 Build and deploy the site to publish the updated profile pages.
 
+## Updating selected research publications
+
+To replace one DOI selected for a research line:
+
+```bash
+python3 scripts/update_research_publication.py
+```
+
+The helper asks for the group, research line, current selected publication and replacement DOI. It validates the DOI, prevents selecting the same DOI twice in one line, and automatically regenerates the selected research-line page. Use `--no-regenerate` only when regeneration should be done separately. The equivalent MyTools wrappers are `update_research_pub` and `update_selected`; use `--group matcat` to skip the group selection.
+
+To regenerate research-line pages interactively:
+
+```bash
+generate_research_pages
+```
+
+It asks for the group and line (or all lines). Command-line options remain available, for example `generate_research_pages --group matcat --slug polymers --force`.
+
 When you later add the published article with `scripts/add_publication.py`, the script checks for submitted entries with the same normalized title. It shows the submitted and published authors and asks before removing each possible match; the default is to keep the submitted entry for manual review.
 
 ## Local preview and deploy

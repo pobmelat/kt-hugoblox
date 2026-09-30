@@ -62,6 +62,50 @@ def safe_filename(s: str) -> str:
     return s
 
 
+def interactive_arguments() -> list[str]:
+    """Collect group and research-line choices when no CLI arguments are given."""
+    groups = []
+    for subdir in sorted(CONTENT_DIR.iterdir()):
+        if not subdir.is_dir():
+            continue
+        index = subdir / "_index.md"
+        if not index.exists():
+            continue
+        fm, _ = load_front_matter(index)
+        lines = fm.get("research_lines") or []
+        if isinstance(lines, list) and lines:
+            groups.append((subdir.name, lines))
+
+    if not groups:
+        raise ValueError("No groups with research lines were found.")
+
+    print("Research groups:")
+    for number, (group, _) in enumerate(groups, start=1):
+        print(f"  {number}. {group}")
+    while True:
+        selected = input("Group number: ").strip()
+        if selected.isdigit() and 1 <= int(selected) <= len(groups):
+            break
+        print(f"Enter a number from 1 to {len(groups)}.", file=sys.stderr)
+
+    group, lines = groups[int(selected) - 1]
+    print("\nResearch lines:")
+    print("  0. All research lines")
+    for number, line in enumerate(lines, start=1):
+        title = line.get("title") or line.get("eyebrow") or line.get("slug", "")
+        print(f"  {number}. {title}")
+    while True:
+        selected_line = input("Research line number [0=all]: ").strip() or "0"
+        if selected_line.isdigit() and 0 <= int(selected_line) <= len(lines):
+            break
+        print(f"Enter a number from 0 to {len(lines)}.", file=sys.stderr)
+
+    arguments = ["--group", group, "--force"]
+    if int(selected_line) != 0:
+        arguments.extend(["--slug", str(lines[int(selected_line) - 1].get("slug", ""))])
+    return arguments
+
+
 def fetch_crossref_record(doi: str) -> dict | None:
     doi = doi.strip()
     if not doi:
@@ -445,10 +489,8 @@ def write_research_page(group: str, rl: dict, publications: list[dict], dry_run:
     }
 
     # If a page already exists, preserve any existing toc_image/toc_from/toc_landing
-    # for matching publications (match by DOI), and also preserve any existing
-    # publication entries that are not present in the newly generated list. This
-    # prevents losing downloaded TOC images or manually-added publications when
-    # regenerating pages with --force.
+    # for matching publications (match by DOI). The generated list is authoritative:
+    # removing a DOI from the research line must also remove it from the page.
     if out_file.exists():
         try:
             existing_fm, _ = load_front_matter(out_file)
@@ -475,15 +517,6 @@ def write_research_page(group: str, rl: dict, publications: list[dict], dry_run:
                             if (not newp.get(k)) and old.get(k):
                                 newp[k] = old.get(k)
                         new_pubs[idx] = newp
-
-            # Append any existing publication entries that are not present in the
-            # newly generated list (preserve manual or auto-added entries).
-            for ep in existing_pubs_list:
-                if not isinstance(ep, dict):
-                    continue
-                doi = (ep.get("doi") or "").strip().lower()
-                if doi and doi not in new_dois:
-                    new_pubs.append(ep)
 
             fm["publications"] = new_pubs
         except Exception as exc:
@@ -617,7 +650,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--update-index", action="store_true", help="Write back modified research_lines to the group's _index.md (add card_excerpt and card_tone)")
     ap.add_argument("--excerpt-words", type=int, default=4, help="Number of words to keep for grid card excerpts (default: 4)")
-    args = ap.parse_args(argv)
+    raw_args = list(sys.argv[1:] if argv is None else argv)
+    if not raw_args:
+        try:
+            raw_args = interactive_arguments()
+        except (OSError, ValueError) as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            return 1
+    args = ap.parse_args(raw_args)
 
     if not args.group and not args.all_groups:
         ap.error("Specify --group/-g or --all-groups")

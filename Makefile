@@ -15,7 +15,7 @@
 # Load optional .env (if present) so users can keep credentials out of the shell.
 -include .env
 
-.PHONY: serve build deploy deploy-full clean
+.PHONY: serve build check-public-links deploy deploy-full clean
 
 # Defaults (override via environment, .env, or on the make command line)
 PROD_BASEURL ?= https://www.ehu.eus/chemistry/theory/new/
@@ -28,12 +28,19 @@ serve:
 
 build:
 	echo "Building with baseURL: $(PROD_BASEURL)"
-	hugo -D --minify --baseURL "$(PROD_BASEURL)"
+	hugo -D --minify --cleanDestinationDir --baseURL "$(PROD_BASEURL)"
+
+check-public-links:
+	@test -d public || (echo "Run 'make build' before deploying" >&2 && exit 1)
+	@if find public -type f -name '*.html' -exec grep -nHE 'https?://(localhost|127\.0\.0\.1)(:[0-9]+)?([/\"?#]|$$)' {} +; then \
+		echo "Refusing to deploy: generated HTML contains localhost links. Run 'make build' first." >&2; \
+		exit 1; \
+	fi
 
 # Incremental deploy using lftp mirror --only-newer.
 # Only uploads files that are newer than the remote copy.
 # Requires a working SSH key for $(SFTP_USER)@$(SFTP_HOST).
-deploy:
+deploy: check-public-links
 	@test -n "$(SFTP_USER)" || (echo "Set SFTP_USER" && exit 1)
 	@test -n "$(SFTP_HOST)" || (echo "Set SFTP_HOST" && exit 1)
 	@test -n "$(REMOTE_PATH)" || (echo "Set REMOTE_PATH" && exit 1)
@@ -43,7 +50,7 @@ deploy:
 
 # Full deploy using lftp mirror.
 # Overwrites the remote directory completely (use for first deploy or full reset).
-deploy-full:
+deploy-full: check-public-links
 	@test -n "$(SFTP_USER)" || (echo "Set SFTP_USER" && exit 1)
 	@test -n "$(SFTP_HOST)" || (echo "Set SFTP_HOST" && exit 1)
 	@test -n "$(REMOTE_PATH)" || (echo "Set REMOTE_PATH" && exit 1)

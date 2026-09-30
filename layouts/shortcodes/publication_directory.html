@@ -9,6 +9,29 @@
 {{ end }}
 {{ $matches := slice }}
 {{ $tagSet := slice }}
+{{ $years := slice }}
+{{ $members := slice }}
+{{ range site.RegularPages }}
+  {{ if and .Params.member_type (or (not $group) (in .Params.groups $group)) }}
+    {{ $members = $members | append . }}
+  {{ end }}
+{{ end }}
+{{ $memberAliases := dict }}
+{{ range $members }}
+  {{ $memberID := .Params.id | default .File.ContentBaseName }}
+  {{ $names := .Params.publication_names | default (slice (replaceRE `^(Prof\.|Dr\.)\s+` `` .Title)) }}
+  {{ range $names }}
+    {{ $name := . | lower | replaceRE `[áàäâãå]` `a` | replaceRE `[éèëê]` `e` | replaceRE `[íìïî]` `i` | replaceRE `[óòöôõ]` `o` | replaceRE `[úùüû]` `u` | replaceRE `ñ` `n` | replaceRE `ç` `c` | replaceRE `[ýÿ]` `y` | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` }}
+    {{ if $name }}
+      {{ $aliasIDs := index $memberAliases $name | default (slice) }}
+      {{ if not (in $aliasIDs $memberID) }}
+        {{ $aliasIDs = $aliasIDs | append $memberID }}
+        {{ $memberAliases = merge $memberAliases (dict $name $aliasIDs) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $memberIDs := slice }}
 {{ $groupLabels := dict
   "isom" "ISoM-KT"
   "matcat" "MatCat-KT"
@@ -35,6 +58,12 @@
   {{ end }}
   {{ if and $inGroup (eq .type "article") }}
     {{ $matches = $matches | append . }}
+    {{ $years = $years | append (printf "%v" .year) }}
+    {{ range (split (partial "publication-member-ids.html" (dict "publication" . "memberAliases" $memberAliases)) " ") }}
+      {{ if and . (not (in $memberIDs .)) }}
+        {{ $memberIDs = $memberIDs | append . }}
+      {{ end }}
+    {{ end }}
     {{ if not $group }}
       {{ range .groups }}
         {{ $groupLabel := index $groupLabels . | default (upper .) }}
@@ -67,6 +96,11 @@
       {{ range $submission.tags }}
         {{ if eq (lower .) (lower $groupLabel) }}
           {{ $submittedMatches = $submittedMatches | append $submission }}
+          {{ range (split (partial "publication-member-ids.html" (dict "publication" $submission "memberAliases" $memberAliases)) " ") }}
+            {{ if and . (not (in $memberIDs .)) }}
+              {{ $memberIDs = $memberIDs | append . }}
+            {{ end }}
+          {{ end }}
           {{ if not (in $tagSet .) }}
             {{ $tagSet = $tagSet | append . }}
           {{ end }}
@@ -85,47 +119,73 @@
 {{ end }}
 
 <section class="publication-directory" data-publication-directory>
-  {{ if gt (len $tagSet) 0 }}
-    <div class="publication-toolbar">
-      <span class="publication-toolbar__label">Tags</span>
-      <div class="publication-tags publication-tags--toolbar">
-        <a class="publication-tag publication-tag--reset" href="#all" data-publication-filter="all">All</a>
-        {{ range sort $tagSet }}
-          {{ $slug := . | urlize }}
-          <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
-        {{ end }}
-      </div>
-    </div>
-  {{ end }}
-
-  {{ if or (gt (len $matches) 0) (gt (len $submittedMatches) 0) }}
-    <ol class="publication-list" data-publication-list>
-      {{ range (sort $submittedMatches "date" "asc" | collections.Reverse) }}
-        {{ $tagSlugs := slice }}
-        {{ range .tags }}
-          {{ $tagSlugs = $tagSlugs | append (. | urlize) }}
-        {{ end }}
-        <li class="publication-entry publication-entry--submitted" data-publication-item data-tags="{{ delimit $tagSlugs " " }}">
-          <span class="publication-entry__number" data-publication-number></span>
-          {{ with .authors }}
-            <p class="publication-entry__authors">{{ delimit . "; " }}</p>
-          {{ end }}
-          <h3 class="publication-entry__title">{{ .title }}</h3>
-          <p class="publication-entry__citation"><strong>Submitted</strong> · {{ .date }}</p>
-          <div class="publication-tags">
-            {{ range .tags }}
-              {{ $slug := . | urlize }}
-              <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
-            {{ end }}
-          </div>
-        </li>
+  {{ if gt (len $years) 0 }}
+    <nav class="publication-years" aria-label="Filter publications by year">
+      {{ range (collections.Reverse (uniq (sort $years))) }}
+        <button class="publication-year" type="button" data-publication-year-filter="{{ . }}" aria-pressed="false">{{ . }}</button>
       {{ end }}
-    </ol>
+    </nav>
   {{ end }}
 
-  {{ if gt (len $matches) 0 }}
-    <ol class="publication-list" data-publication-list>
-      {{ range (sort $matches "year" "asc" | collections.Reverse) }}
+  <div class="publication-directory__content">
+    {{ if gt (len $tagSet) 0 }}
+      <div class="publication-toolbar">
+        <span class="publication-toolbar__label">Tags</span>
+        <div class="publication-tags publication-tags--toolbar">
+          <a class="publication-tag publication-tag--reset" href="#all" data-publication-filter="all">All</a>
+          {{ range sort $tagSet }}
+            {{ $slug := . | urlize }}
+            <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+
+    {{ if gt (len $memberIDs) 0 }}
+      <div class="publication-member-filter">
+        <label class="publication-toolbar__label" for="publication-member-select">Browse by group member</label>
+        <select id="publication-member-select" class="publication-member-filter__select" data-publication-member-filter>
+          <option value="all">All members</option>
+          {{ range sort $members "Title" }}
+            {{ $memberID := .Params.id | default .File.ContentBaseName }}
+            {{ if in $memberIDs $memberID }}
+              <option value="{{ $memberID }}">{{ .Title }}</option>
+            {{ end }}
+          {{ end }}
+        </select>
+      </div>
+    {{ end }}
+
+    {{ if or (gt (len $matches) 0) (gt (len $submittedMatches) 0) }}
+      {{ if gt (len $submittedMatches) 0 }}
+        <ol class="publication-list publication-list--submitted" data-publication-list>
+          {{ range (sort $submittedMatches "date" "asc" | collections.Reverse) }}
+            {{ $tagSlugs := slice }}
+            {{ range .tags }}
+              {{ $tagSlugs = $tagSlugs | append (. | urlize) }}
+            {{ end }}
+            {{ $publicationMemberIDs := split (partial "publication-member-ids.html" (dict "publication" . "memberAliases" $memberAliases)) " " }}
+            <li class="publication-entry publication-entry--submitted" data-publication-item data-publication-members="{{ delimit $publicationMemberIDs " " }}" data-tags="{{ delimit $tagSlugs " " }}">
+              <span class="publication-entry__number" data-publication-number></span>
+              {{ with .authors }}
+                <p class="publication-entry__authors">{{ delimit . "; " }}</p>
+              {{ end }}
+              <h3 class="publication-entry__title">{{ .title }}</h3>
+              <p class="publication-entry__citation"><strong>Submitted</strong> · {{ .date }}</p>
+              <div class="publication-tags">
+                {{ range .tags }}
+                  {{ $slug := . | urlize }}
+                  <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
+                {{ end }}
+              </div>
+            </li>
+          {{ end }}
+        </ol>
+      {{ end }}
+
+      {{ if gt (len $matches) 0 }}
+        <ol class="publication-list" data-publication-list>
+          {{ range (sort $matches "year" "asc" | collections.Reverse) }}
         {{ $tagSlugs := slice }}
         {{ $bibKey := .id | default ((replace .title " " "-") | urlize) }}
         {{ $bibtexLines := slice
@@ -167,7 +227,8 @@
         {{ range .tags }}
           {{ $tagSlugs = $tagSlugs | append (. | urlize) }}
         {{ end }}
-        <li class="publication-entry" data-publication-item data-tags="{{ delimit $tagSlugs " " }}">
+        {{ $publicationMemberIDs := split (partial "publication-member-ids.html" (dict "publication" . "memberAliases" $memberAliases)) " " }}
+        <li class="publication-entry" data-publication-item data-publication-year="{{ .year }}" data-publication-members="{{ delimit $publicationMemberIDs " " }}" data-tags="{{ delimit $tagSlugs " " }}">
           <span class="publication-entry__number" data-publication-number></span>
           {{ with .authors }}
             <p class="publication-entry__authors">{{ delimit . "; " }}</p>
@@ -232,11 +293,14 @@
             </div>
           {{ end }}
         </li>
+          {{ end }}
+        </ol>
       {{ end }}
-    </ol>
-  {{ else if eq (len $submittedMatches) 0 }}
-    <p class="publication-directory__empty">No publication entries added yet.</p>
-  {{ end }}
+      <p class="publication-directory__empty" data-publication-empty hidden>No publications match the selected filters.</p>
+    {{ else }}
+      <p class="publication-directory__empty">No publication entries added yet.</p>
+    {{ end }}
+  </div>
 </section>
 
 <script>
@@ -245,8 +309,13 @@
     if (!root || !root.matches('[data-publication-directory]')) return;
 
     const filters = Array.from(root.querySelectorAll('[data-publication-filter]'));
+    const yearFilters = Array.from(root.querySelectorAll('[data-publication-year-filter]'));
+    const memberFilter = root.querySelector('[data-publication-member-filter]');
     const detailsBlocks = Array.from(root.querySelectorAll('.publication-bibtex-details'));
     const items = Array.from(root.querySelectorAll('[data-publication-item]'));
+    const emptyMessage = root.querySelector('[data-publication-empty]');
+    let activeYear = 'all';
+    let activeMember = 'all';
 
     const applyFilter = (slug) => {
       const active = slug && slug !== 'all' ? slug : 'all';
@@ -254,10 +323,16 @@
 
       items.forEach((item) => {
         const tags = (item.getAttribute('data-tags') || '').split(/\s+/).filter(Boolean);
-        const visible = active === 'all' || tags.includes(active);
+        const year = item.getAttribute('data-publication-year');
+        const members = (item.getAttribute('data-publication-members') || '').split(/\s+/).filter(Boolean);
+        const visible = (active === 'all' || tags.includes(active))
+          && (activeYear === 'all' || year === activeYear)
+          && (activeMember === 'all' || members.includes(activeMember));
         item.hidden = !visible;
         if (visible) visibleItems.push(item);
       });
+
+      if (emptyMessage) emptyMessage.hidden = visibleItems.length > 0;
 
       visibleItems.forEach((item, index) => {
         const number = visibleItems.length - index;
@@ -276,12 +351,30 @@
     };
 
     root.addEventListener('click', (event) => {
+      const yearButton = event.target.closest('[data-publication-year-filter]');
+      if (yearButton) {
+        const selectedYear = yearButton.getAttribute('data-publication-year-filter') || 'all';
+        activeYear = activeYear === selectedYear ? 'all' : selectedYear;
+        yearFilters.forEach((button) => {
+          const selected = button.getAttribute('data-publication-year-filter') === activeYear;
+          button.classList.toggle('is-active', selected);
+          button.setAttribute('aria-pressed', String(selected));
+        });
+        applyFilter(readHash());
+        return;
+      }
+
       const link = event.target.closest('[data-publication-filter]');
       if (!link) return;
       event.preventDefault();
       const slug = link.getAttribute('data-publication-filter') || 'all';
       history.replaceState(null, '', slug === 'all' ? '#all' : `#tag-${slug}`);
       applyFilter(slug);
+    });
+
+    memberFilter?.addEventListener('change', () => {
+      activeMember = memberFilter.value || 'all';
+      applyFilter(readHash());
     });
 
     detailsBlocks.forEach((details) => {

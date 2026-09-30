@@ -608,6 +608,10 @@ img {
   gap: 32px;
 }
 
+.page-layout:has(.publication-directory) {
+  max-width: 1600px;
+}
+
 .prose {
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(10, 35, 81, 0.08);
@@ -3573,7 +3577,49 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 
 .publication-directory {
   display: grid;
+  grid-template-columns: minmax(4rem, 7rem) minmax(0, 1fr);
+  align-items: start;
+  column-gap: 24px;
+  row-gap: 0;
+}
+
+.publication-years {
+  position: sticky;
+  top: 1rem;
+  display: grid;
+  gap: 4px;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+
+.publication-year {
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #c0c8d4;
+  font: inherit;
+  font-size: 0.68em;
+  font-style: italic;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease, font-size 0.18s ease;
+}
+
+.publication-year:hover,
+.publication-year.is-active {
+  background: rgba(220, 233, 251, 0.9);
+  color: #365a8e;
+}
+
+.publication-year:hover {
+  font-size: 0.76em;
+}
+
+.publication-directory__content {
+  display: grid;
   gap: 24px;
+  min-width: 0;
 }
 
 .publication-toolbar {
@@ -3587,6 +3633,23 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.publication-member-filter {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+}
+
+.publication-member-filter__select {
+  width: min(100%, 22rem);
+  min-height: 40px;
+  padding: 7px 36px 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
 }
 
 .publication-list {
@@ -3606,7 +3669,7 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   padding: 0;
   border: 0;
   background: transparent;
-  padding-left: 4.2rem;
+  padding-left: 3.2rem;
 }
 
 .publication-entry::marker {
@@ -3618,9 +3681,9 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   left: 0;
   top: 0;
   color: #4b607d;
-  font-size: 0.95em;
+  font-size: 0.82em;
   line-height: 1.5;
-  min-width: 3.1rem;
+  min-width: 2.4rem;
 }
 
 .publication-entry__authors {
@@ -3777,6 +3840,25 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 }
 
 @media (max-width: 700px) {
+  .publication-directory {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 16px;
+  }
+
+  .publication-years {
+    position: static;
+    display: flex;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+  }
+
+  .publication-year {
+    flex: 0 0 auto;
+    text-align: center;
+  }
+
   .publication-entry__citation-row {
     flex-direction: column;
     align-items: flex-start;

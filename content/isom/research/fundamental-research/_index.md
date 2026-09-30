@@ -10,27 +10,36 @@ publications:
   authors:
   - Jon Zubeltzu
   - Elixabete Rezabal
+  year: 2024
   journal: Physical Chemistry Chemical Physics
   volume: '26'
   issue: '43'
   pages: 27486-27497
-- doi: 10.1103/physreve.104.024604
-  title: Computational approach to ZnSᵢ nanoclusters in
-    in ionic liquids
+- doi: 10.1039/d6cp01217e
+  title: 'Hydrogen-bond networks and proton transfer in choline geranate: insights
+    from IR spectroscopy'
   authors:
+  - Mikel Loizate
+  - Trân Ngọc Khanh Lê
+  - Matias L. Picchio
   - Jon Zubeltzu
-  - Jon M. Matxain
+  - Elena Formoso
+  - Tom Frömbgen
+  - Barbara Kirchner
+  - Thierry Tassaing
   - Elixabete Rezabal
-  journal: Physical Review E
-  volume: '104'
-  issue: '2'
-  pages: '024604'
+  year: 2026
+  journal: Physical Chemistry Chemical Physics
+  volume: '28'
+  issue: '28'
+  pages: 17605-17614
 - doi: 10.1016/j.molliq.2020.112588
   title: 'Lignin solvation by ionic liquids: The role of cation'
   authors:
   - Jon Zubeltzu
   - Elena Formoso
   - Elixabete Rezabal
+  year: 2020
   journal: Journal of Molecular Liquids
   volume: '303'
   issue: ''

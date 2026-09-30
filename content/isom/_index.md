@@ -23,8 +23,7 @@ research_group_card:
   label: iSoM-KT
   logo: /images/groups/iSoM.png
   logo_class: group-logo--wide
-  summary: Computational soft matter, ionic liquids, interfaces and multiscale modelling
-    of complex molecular environments
+  summary: Computational soft matter, ionic liquids, interfaces and multiscale modelling of complex molecular environments
   leadership_label: led by
   leaders:
   - page: /people/elixabete-rezabal
@@ -34,17 +33,10 @@ research_lines:
 - slug: fundamental-research
   eyebrow: Fundamental Research
   title: Fundamental Research
-  summary: We investigate the structural and dynamical properties of ionic liquids
-    and deep eutectic solvents by combining advanced theoretical approaches with complementary
-    experimental insights from our collaborators. Our work spans multiple computational
-    methodologies, including classical molecular dynamics simulations—refined when
-    necessary to capture specific interactions—as well as ab initio molecular dynamics
-    and neural-network-based potentials. This multiscale strategy allows us to achieve
-    an accurate and detailed description of the complex interactions that govern these
-    systems.
+  summary: We investigate the structural and dynamical properties of ionic liquids and deep eutectic solvents by combining advanced theoretical approaches with complementary experimental insights from our collaborators. Our work spans multiple computational methodologies, including classical molecular dynamics simulations—refined when necessary to capture specific interactions—as well as ab initio molecular dynamics and neural-network-based potentials. This multiscale strategy allows us to achieve an accurate and detailed description of the complex interactions that govern these systems.
   dois:
   - 10.1039/d4cp03233k
-  - 10.1103/PhysRevE.104.024604
+  - 10.1039/d6cp01217e
   - 10.1016/j.molliq.2020.112588
   image: /images/research/isom/fundamental-research.jpg
   card_excerpt: Understanding ionic liquids and deep eutectic solvents through multiscale computational modeling.
@@ -52,12 +44,7 @@ research_lines:
 - slug: isom-applications
   eyebrow: Applications
   title: Applications
-  summary: Building on this fundamental understanding, we explore a wide range of
-    applications of ionic soft matter. These include therapeutic systems, where the
-    molecular environment can influence activity and delivery, as well as the development
-    of advanced functional materials such as eutectogels. More broadly, we aim to
-    leverage the tunability of these systems to design materials with tailored properties
-    for specific technological and biomedical applications.
+  summary: Building on this fundamental understanding, we explore a wide range of applications of ionic soft matter. These include therapeutic systems, where the molecular environment can influence activity and delivery, as well as the development of advanced functional materials such as eutectogels. More broadly, we aim to leverage the tunability of these systems to design materials with tailored properties for specific technological and biomedical applications.
   dois:
   - 10.1002/adma.202517014
   - 10.1039/d5cc02226f

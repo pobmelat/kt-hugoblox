@@ -18,9 +18,10 @@ publications:
   - Agustin S. Picco
   - Matias L. Picchio
   - Ana Beloqui
+  year: 2026
   journal: Advanced Materials
-  volume: ''
-  issue: ''
+  volume: '38'
+  issue: '51'
   pages: e17014
 - doi: 10.1039/d5cc02226f
   title: Choline–geranate (CAGE) ionic liquids potentiate the anticancer activity
@@ -37,6 +38,7 @@ publications:
   - Elixabete Rezabal
   - Francesca Re
   - Luca Salassa
+  year: 2025
   journal: Chemical Communications
   volume: '61'
   issue: '65'
