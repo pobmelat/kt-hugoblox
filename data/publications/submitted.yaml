@@ -1,0 +1,34 @@
+items:
+- id: submitted-2026-09-29-exploring-tricoordinated-graphitic-oxygen-as-a-reactivity-modulator-for-efficient-oxygen-reduction-catalysis
+  status: submitted
+  title: Exploring tricoordinated graphitic oxygen as a reactivity modulator for efficient oxygen reduction catalysis
+  authors:
+  - Camara, Idoia
+  - Jimenez-Izal, Elisa
+  - Lois, Sara
+  - Sarasola, Ane
+  - Garcia-Lekue, Aran
+  date: '2026-09-29'
+  profile_ids:
+  - idoia-camara
+  - elisa-jimenez-izal
+  tags:
+  - MatCat-KT
+- id: submitted-2026-09-29-voltage-dependent-hydrogen-evolution-reaction-on-ptge-surfaces
+  status: submitted
+  title: Voltage-Dependent Hydrogen Evolution Reaction on PtGe surfaces
+  authors:
+  - Idoia Camara
+  - Andoni Ugartemendia
+  - Ramon M. Bergua
+  - Jose M. Mercero
+  - Elisa Jimenez-Izal
+  date: '2026-09-29'
+  profile_ids:
+  - idoia-camara
+  - andoni-ugartemendia
+  - ramon-bergua
+  - jose-m-mercero
+  - elisa-jimenez-izal
+  tags:
+  - MatCat-KT

@@ -30,6 +30,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - M. Piris
   - X. Lopez
@@ -46,6 +48,9 @@ items:
   volume: '105'
   issue: '11'
   pages: 1446-1456
+  tags:
+  - ISoM-KT
+  - Bio-KT
   authors:
   - J. I. Mujika
   - X. Lopez
@@ -153,6 +158,8 @@ items:
   volume: '7'
   issue: '6'
   pages: 1640-1646
+  tags:
+  - POL-KT
   authors:
   - F. Ruiperez
   - F. Aquilante
@@ -168,6 +175,8 @@ items:
   volume: '128'
   issue: 4-6
   pages: 477-484
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - J. M. Ugalde
@@ -221,6 +230,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Lopez
   - F. Ruiperez
@@ -294,6 +305,8 @@ items:
   volume: '50'
   issue: '19'
   pages: 9219-9229
+  tags:
+  - POL-KT
   authors:
   - F. Ruiperez
   - J. M. Ugalde
@@ -342,6 +355,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - M. Piris
@@ -383,6 +398,8 @@ items:
   volume: (28)
   issue: '28'
   pages: 4457-4463
+  tags:
+  - POL-KT
   authors:
   - L. Andrews
   - X. F. Wang
@@ -420,6 +437,8 @@ items:
   volume: '111'
   issue: 7-8
   pages: 1808-1818
+  tags:
+  - Bio-KT
   authors:
   - E. V. Ludena
   - L. Echevarria
@@ -440,6 +459,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Lopez
   - M. Piris
@@ -509,6 +530,9 @@ items:
   volume: '115'
   issue: '24'
   pages: 6717-6723
+  tags:
+  - Bio-KT
+  - POL-KT
   authors:
   - J. I. Mujika
   - F. Ruiperez
@@ -525,6 +549,9 @@ items:
   journal: Journal of Chemical Physics
   volume: '134'
   issue: '6'
+  tags:
+  - ISoM-KT
+  - POL-KT
   authors:
   - E. Rezabal
   - J. Gauss
@@ -605,6 +632,8 @@ items:
   - matcat
   tags:
   - MatCat-NanoSurf
+  - MatCat-KT
+  - POL-KT
   authors:
   - E. Jimenez-Izal
   - J. M. Matxain

@@ -7,6 +7,11 @@ items:
   journal: Computational and Structural Biotechnology Journal
   volume: '9'
   issue: '15'
+  tags:
+  - ISoM-KT
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. I. Mujika
   - E. Rezabal
@@ -25,6 +30,8 @@ items:
   volume: '118'
   issue: '24'
   pages: 6680-6686
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - J. M. Ugalde
@@ -43,6 +50,7 @@ items:
   - noft
   tags:
   - NOFT
+  - POL-KT
   authors:
   - M. Piris
   - F. Ruiperez
@@ -119,6 +127,9 @@ items:
   journal: Journal of Molecular Modeling
   volume: '20'
   issue: '6'
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - E. Jimenez-Izal
   - J. M. Azpiroz
@@ -178,6 +189,8 @@ items:
   volume: '20'
   issue: '37'
   pages: 11820-11825
+  tags:
+  - ISoM-KT
   authors:
   - I. Machado
   - V. C. Ozalp
@@ -193,6 +206,9 @@ items:
   volume: '118'
   issue: '24'
   pages: 4309-4314
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - E. Jimenez-Izal
   - D. Moreno
@@ -256,6 +272,8 @@ items:
   volume: '47'
   issue: '3'
   pages: 964-972
+  tags:
+  - POL-KT
   authors:
   - N. Ballard
   - M. Salsamendi
@@ -362,6 +380,9 @@ items:
   volume: '16'
   issue: '37'
   pages: 20107-20119
+  tags:
+  - ISoM-KT
+  - Bio-KT
   authors:
   - N. B. Luque
   - J. I. Mujika
@@ -417,6 +438,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - X. Lopez
   - M. Piris
@@ -513,6 +535,8 @@ items:
   volume: '3'
   issue: '9'
   pages: 849-853
+  tags:
+  - POL-KT
   authors:
   - A. Pascual
   - H. Sardon

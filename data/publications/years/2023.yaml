@@ -46,6 +46,8 @@ items:
   volume: '42'
   issue: '20'
   pages: 2991--2998
+  tags:
+  - POL-KT
   authors:
   - Unai Prieto-Pascual
   - Iñigo V. Alli
@@ -68,6 +70,7 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - Bio-KT
   authors:
   - Xiang Xu
   - Luis Soriano-Agueda
@@ -111,6 +114,7 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - Bio-KT
   authors:
   - X. Telleria-Allika
   - J. M. Ugalde
@@ -172,6 +176,8 @@ items:
   journal: Communications Physics
   volume: '6'
   issue: '1'
+  tags:
+  - Bio-KT
   authors:
   - A. Reifs
   - I. R. Ortiz
@@ -346,6 +352,8 @@ items:
   journal: Biophysical Journal
   volume: '122'
   issue: '3'
+  tags:
+  - Bio-KT
   authors:
   - David Silva-Brea
   - David de Sancho
@@ -359,6 +367,10 @@ items:
   journal: International Journal of Quantum Chemistry
   volume: '123'
   issue: '5'
+  tags:
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Telleria-Allika
   - J. M. Mercero
@@ -375,6 +387,8 @@ items:
   volume: '62'
   issue: '25'
   pages: 9792--9806
+  tags:
+  - POL-KT
   authors:
   - David Dalmau
   - Olga Crespo
@@ -426,6 +440,8 @@ items:
   journal: ChemCatChem
   volume: '15'
   issue: '24'
+  tags:
+  - POL-KT
   authors:
   - Jon M. Matxain
   - Miguel A. Huertos
@@ -436,6 +452,8 @@ items:
   doi: 10.1039/d3cp03179a
   year: 2023
   journal: Phys. Chem. Chem. Phys.
+  tags:
+  - Bio-KT
   authors:
   - David Silva-Brea
   - David de Sancho
@@ -498,6 +516,7 @@ items:
   - noft
   tags:
   - NOFT
+  - MatCat-KT
   authors:
   - Jose M. Mercero
   - Rafael Grande-Aztatzi
@@ -543,6 +562,9 @@ items:
   journal: ChemPhysChem
   volume: '24'
   issue: '15'
+  tags:
+  - ISoM-KT
+  - Bio-KT
   authors:
   - Oksana Azpitarte
   - Ane Zudaire
@@ -693,6 +715,8 @@ items:
   volume: '88'
   issue: '2'
   pages: 972--987
+  tags:
+  - MatCat-KT
   authors:
   - Leire Villaescusa
   - Iker Hernández
@@ -712,6 +736,9 @@ items:
   volume: '25'
   issue: '40'
   pages: 27618--27627
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - Julen Aduriz-Arrizabalaga
   - Jose M. Mercero
@@ -814,6 +841,8 @@ items:
   journal: Biophysical Journal
   volume: '122'
   issue: '3'
+  tags:
+  - Bio-KT
   authors:
   - Ines Martinez-Martin
   - Audrey Crousilles
@@ -856,6 +885,8 @@ items:
   journal: Cell Reports
   volume: '42'
   issue: '12'
+  tags:
+  - Bio-KT
   authors:
   - Ines Martinez-Martin
   - Audrey Crousilles

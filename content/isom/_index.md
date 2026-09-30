@@ -46,7 +46,8 @@ research_lines:
   - 10.1039/d4cp03233k
   - 10.1103/PhysRevE.104.024604
   - 10.1016/j.molliq.2020.112588
-  card_excerpt: ''
+  image: /images/research/isom/fundamental-research.jpg
+  card_excerpt: Understanding ionic liquids and deep eutectic solvents through multiscale computational modeling.
   card_tone: isom
 - slug: isom-applications
   eyebrow: Applications
@@ -60,7 +61,8 @@ research_lines:
   dois:
   - 10.1002/adma.202517014
   - 10.1039/d5cc02226f
-  card_excerpt: ''
+  image: /images/research/isom/applications.png
+  card_excerpt: Translating insight into soft-matter systems into therapeutic and functional materials.
   card_tone: isom
 contact:
   title: Contact

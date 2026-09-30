@@ -8,6 +8,10 @@ items:
   volume: '101'
   issue: '9'
   pages: 1192-1200
+  tags:
+  - ISoM-KT
+  - MatCat-KT
+  - Bio-KT
   authors:
   - E. Rezabal
   - J. M. Mercero
@@ -42,6 +46,9 @@ items:
   volume: '3'
   issue: '5'
   pages: 1830-1836
+  tags:
+  - ISoM-KT
+  - MatCat-KT
   authors:
   - E. Rezabal
   - T. Marino
@@ -58,6 +65,9 @@ items:
   volume: '46'
   issue: '16'
   pages: 6413-6419
+  tags:
+  - ISoM-KT
+  - MatCat-KT
   authors:
   - E. Rezabal
   - T. Marino
@@ -77,6 +87,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - M. Piris
   - X. Lopez
@@ -141,6 +152,8 @@ items:
   volume: '111'
   issue: '9'
   pages: 3560-3565
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - L. A. Eriksson
@@ -157,6 +170,10 @@ items:
   volume: '8'
   issue: '14'
   pages: 2096-2099
+  tags:
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - M. Piris
@@ -212,6 +229,9 @@ items:
   volume: '111'
   issue: '30'
   pages: 9099-9103
+  tags:
+  - Bio-KT
+  - POL-KT
   authors:
   - E. S. Sebastian
   - J. M. Matxain
@@ -249,6 +269,9 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - L. A. Eriksson
@@ -287,6 +310,10 @@ items:
   volume: '8'
   issue: '14'
   pages: 2119-2124
+  tags:
+  - ISoM-KT
+  - MatCat-KT
+  - Bio-KT
   authors:
   - E. Rezabal
   - J. M. Mercero

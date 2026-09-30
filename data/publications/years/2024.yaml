@@ -1,4 +1,95 @@
 items:
+- id: 10-1039-d4fd90037e
+  type: article
+  title: 'New directions in experiment and theory, interfaces, and interactions: general discussion'
+  doi: 10.1039/d4fd90037e
+  year: 2024
+  journal: FARADAY DISCUSSIONS
+  volume: '253'
+  issue: '0'
+  pages: 493-509
+  tags:
+  - ISoM-KT
+  authors:
+  - Rob Atkin
+  - Duncan W. Bruce
+  - Robert A. W. Dryfe
+  - Emmanuelle Dubois
+  - Karen J. Edler
+  - Christopher E. Elgar
+  - Andrew Feeney
+  - Kateryna Goloviznina
+  - Timothy S. Groves
+  - Benworth Hansen
+  - John D. Holbrey
+  - Christian Holm
+  - Alexei Kornyshev
+  - Claudio J. Margulis
+  - Daniel M. Markiewitz
+  - Richard P. Matthews
+  - Joshua Maurer
+  - Shurui Miao
+  - Frederik Philippi
+  - Elixabete Rezabal
+  - Bernhard Roling
+  - Benjamin Rotenberg
+  - Joshua Sangoro
+  - Monika Schonhoff
+  - John M. Slattery
+  - Malgorzata Swadzba-Kwasny
+  - Neave Taylor
+  - Masayoshi Watanabe
+  - Jake Yang
+- id: 10-1039-d4fd90034k
+  type: article
+  title: 'Structure and dynamics in dense ionic fluids: general discussion'
+  doi: 10.1039/d4fd90034k
+  year: 2024
+  journal: FARADAY DISCUSSIONS
+  volume: '253'
+  issue: '0'
+  pages: 146-180
+  tags:
+  - ISoM-KT
+  authors:
+  - Andrew P. Abbott
+  - Rob Atkin
+  - Muhammad Dabai Bala
+  - Stuart J. Brown
+  - Duncan W. Bruce
+  - Paola Carbone
+  - Franca Castiglione
+  - Margarida Costa Gomes
+  - Jean-Francois Dufreche
+  - Karen J. Edler
+  - Andrew Feeney
+  - Kateryna Goloviznina
+  - Juan Luis Gomez-Estevez
+  - Timothy S. Groves
+  - Benworth Hansen
+  - Rachel Hendrikse
+  - Christian Holm
+  - Pierre Illien
+  - Roland Kjellander
+  - Alexei Kornyshev
+  - Claudio J. Margulis
+  - Joshua Maurer
+  - Shurui Miao
+  - Susan Perkin
+  - Elixabete Rezabal
+  - Beatriz Rocha de Moraes
+  - Bernhard Roling
+  - Benjamin Rotenberg
+  - Joshua Sangoro
+  - Nicolas Schaeffer
+  - Monika Schoenhoff
+  - Karina Shimizu
+  - John M. Slattery
+  - Neave Taylor
+  - Yasuhiro Umebayashi
+  - Adriaan van den Bruinhorst
+  - Masayoshi Watanabe
+  - Fabian Zills
 - id: 10-1002-chem-202303549
   type: article
   title: '3,4-Dimethylenecyclobutene: A Building Block for Design of Macrocycles with Excited State Aromatic Low-Lying High-Spin States'
@@ -146,6 +237,8 @@ items:
   doi: 10.1002/adfm.202406097
   year: 2024
   journal: Adv Funct Materials
+  tags:
+  - Bio-KT
   authors:
   - Maialen Iturralde
   - Magdalena Ripoll
@@ -181,6 +274,8 @@ items:
   volume: '147'
   issue: '8'
   pages: 2867--2883
+  tags:
+  - Bio-KT
   authors:
   - Pablo Iruzubieta
   - Alberto Damborenea
@@ -293,6 +388,7 @@ items:
   - MatCat-Exotic
   - MatCat
   - EJ1584
+  - MatCat-KT
   authors:
   - Andoni Ugartemendia
   - Irene Casademont-Reig
@@ -499,6 +595,8 @@ items:
   journal: Chemistry A European J
   volume: '30'
   issue: '15'
+  tags:
+  - POL-KT
   authors:
   - Douglas H. Nakahata
   - Ioannis Kanavos
@@ -519,6 +617,8 @@ items:
   journal: Journal of Biological Chemistry
   volume: '300'
   issue: '4'
+  tags:
+  - Bio-KT
   authors:
   - Antonio Reifs
   - Alba Fernandez-Calvo
@@ -553,6 +653,8 @@ items:
   year: 2024
   journal: Materials Today Chemistry
   volume: '37'
+  tags:
+  - POL-KT
   authors:
   - Eric Gómez Urreizti
   - Xuban Gastearena
@@ -570,6 +672,8 @@ items:
   journal: Biomolecules
   volume: '14'
   issue: '8'
+  tags:
+  - Bio-KT
   authors:
   - Mawadda Alghrably
   - Mohamed A. Tammam
@@ -593,6 +697,8 @@ items:
   volume: '146'
   issue: '35'
   pages: 24348--24357
+  tags:
+  - Bio-KT
   authors:
   - Fabian Hink
   - Julen Aduriz-Arrizabalaga
@@ -774,6 +880,8 @@ items:
   year: 2024
   journal: International Journal of Solids and Structures
   volume: '304'
+  tags:
+  - POL-KT
   authors:
   - Héctor Lobato
   - Carlos Cernuda
@@ -970,6 +1078,7 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - POL-KT
   authors:
   - Asier E. Izu
   - Jon M. Matxain
@@ -1080,6 +1189,8 @@ items:
   journal: Protein Science
   volume: '33'
   issue: '7'
+  tags:
+  - Bio-KT
   authors:
   - Alba Fernandez‐Calvo
   - Antonio Reifs
@@ -1130,6 +1241,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - Mario Piris
   - Xabier Lopez
@@ -1193,6 +1305,7 @@ items:
   tags:
   - MatCat-ExMat
   - MatCat-Exotic
+  - MatCat-KT
   authors:
   - Xuban Gastearena
   - Jesus M. Ugalde
@@ -1213,6 +1326,7 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - MatCat-KT
   authors:
   - Sílvia Escayola
   - Elisa Jimenez-Izal
@@ -1247,6 +1361,8 @@ items:
   volume: '62'
   issue: '12'
   pages: 2704--2715
+  tags:
+  - POL-KT
   authors:
   - Carlo Andrea Pagnacco
   - Xuban Gastearena

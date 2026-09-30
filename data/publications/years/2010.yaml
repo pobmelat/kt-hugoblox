@@ -1,4 +1,21 @@
 items:
+- id: 10-1021-ic100952q
+  type: article
+  title: Ligand Effects on the [Cu(PhO)(PhOH)]+ Redox Active Complex
+  doi: 10.1021/ic100952q
+  year: 2010
+  journal: INORGANIC CHEMISTRY
+  volume: '49'
+  issue: '18'
+  pages: 8421-8429
+  tags:
+  - ISoM-KT
+  authors:
+  - Elixabete Rezabal
+  - Lucie Duchackova
+  - Petr Milko
+  - Max C. Holthausen
+  - Jana Roithova
 - id: 10-3390-sym2021156
   type: article
   title: A Critical Assessment of the Performance of Magnetic and Electronic Indices of Aromaticity
@@ -61,6 +78,8 @@ items:
   volume: '114'
   issue: '27'
   pages: 9017-9022
+  tags:
+  - ISoM-KT
   authors:
   - J. Larrucea
   - E. Rezabal
@@ -129,6 +148,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - M. Piris
   - J. M. Matxain
@@ -147,6 +168,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - M. Piris
   - J. M. Matxain
@@ -166,6 +189,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - M. Piris
@@ -272,6 +297,8 @@ items:
   volume: '24'
   issue: 25-26
   pages: 5139-5151
+  tags:
+  - Bio-KT
   authors:
   - V. V. Karasiev
   - X. Lopez
@@ -305,6 +332,9 @@ items:
   volume: '114'
   issue: '21'
   pages: 7371-7382
+  tags:
+  - Bio-KT
+  - POL-KT
   authors:
   - E. Formoso
   - J. M. Matxain
@@ -343,6 +373,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Lopez
   - M. Piris
@@ -393,6 +425,8 @@ items:
   volume: '11'
   issue: '14'
   pages: 3172-3178
+  tags:
+  - POL-KT
   authors:
   - O. Lakuntza
   - J. M. Matxain
@@ -406,6 +440,10 @@ items:
   journal: Journal of Chemical Physics
   volume: '132'
   issue: '13'
+  tags:
+  - ISoM-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - E. Rezabal
@@ -461,6 +499,8 @@ items:
   - matcat
   tags:
   - MatCat-NanoSurf
+  - MatCat-KT
+  - POL-KT
   authors:
   - E. Jimenez-Izal
   - J. M. Matxain

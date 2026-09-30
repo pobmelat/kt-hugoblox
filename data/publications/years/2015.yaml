@@ -1,4 +1,49 @@
 items:
+- id: 10-1021-acs-catal-5b01513
+  type: article
+  title: 'Alloying Pt Sub-nano-clusters with Boron: Sintering Preventative and Coke Antagonist?'
+  doi: 10.1021/acscatal.5b01513
+  year: 2015
+  journal: ACS CATALYSIS
+  volume: '5'
+  issue: '10'
+  pages: 5719-5727
+  tags:
+  - MatCat-KT
+  authors:
+  - Jonny Dadras
+  - Elisa Jimenez-Izal
+  - Anastassia N. Alexandrova
+- id: 10-1002-jcc-23852
+  type: article
+  title: 'Estimating π Binding Energy of N-Heterocyclic Carbenes: The Role of Polarization'
+  doi: 10.1002/jcc.23852
+  year: 2015
+  journal: JOURNAL OF COMPUTATIONAL CHEMISTRY
+  volume: '36'
+  issue: '8'
+  pages: 564-572
+  tags:
+  - ISoM-KT
+  authors:
+  - Elixabete Rezabal
+  - Gilles Frison
+- id: 10-1039-c4cc08434a
+  type: article
+  title: Unprecedented directed lateral lithiations of tertiary carbons on NHC platforms
+  doi: 10.1039/c4cc08434a
+  year: 2015
+  journal: CHEMICAL COMMUNICATIONS
+  volume: '51'
+  issue: '15'
+  pages: 3049-3052
+  tags:
+  - ISoM-KT
+  authors:
+  - Andreas A. Danopoulos
+  - Pierre Braunstein
+  - Elixabete Rezabal
+  - Gilles Frison
 - id: 10-1039-c4dt03445g
   type: article
   title: A theoretical study of the aromaticity in neutral and anionic borole compounds
@@ -29,6 +74,8 @@ items:
   journal: Journal of Inorganic Biochemistry
   volume: '152'
   pages: 139-146
+  tags:
+  - Bio-KT
   authors:
   - E. Formoso
   - J. I. Mujika
@@ -44,6 +91,8 @@ items:
   volume: '5'
   issue: '78'
   pages: 63874-63881
+  tags:
+  - Bio-KT
   authors:
   - N. Luque
   - J. I. Mujika
@@ -75,6 +124,8 @@ items:
   volume: '119'
   issue: '50'
   pages: 15430-15442
+  tags:
+  - POL-KT
   authors:
   - J. Uranga
   - J. I. Mujika
@@ -89,6 +140,8 @@ items:
   volume: '5'
   issue: '55'
   pages: 44282-44290
+  tags:
+  - Bio-KT
   authors:
   - E. Axpe
   - A. B. Garcia-Arribas
@@ -122,6 +175,8 @@ items:
   volume: '6'
   issue: '30'
   pages: 5437-5450
+  tags:
+  - POL-KT
   authors:
   - A. Veloso
   - W. Garcia
@@ -152,6 +207,8 @@ items:
   volume: '53'
   issue: '4'
   pages: 552-561
+  tags:
+  - POL-KT
   authors:
   - A. Pascual
   - H. Sardon
@@ -190,6 +247,7 @@ items:
   tags:
   - NOFT
   - QCD-KT
+  - Bio-KT
   authors:
   - Eloy Ramos-Cordoba
   - Xabier Lopez
@@ -341,6 +399,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Lopez
   - M. Piris
@@ -368,6 +428,8 @@ items:
   volume: '17'
   issue: '6'
   pages: 4620-4624
+  tags:
+  - MatCat-KT
   authors:
   - R. Grande-Aztatzi
   - J. L. Cabellos
@@ -403,6 +465,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - X. Lopez
   - M. Piris
@@ -453,6 +516,8 @@ items:
   volume: '44'
   issue: '18'
   pages: 6519-6534
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - A. I. Boldyrev
@@ -541,6 +606,9 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - Jose M. Mercero
   - Eduard Matito

@@ -24,6 +24,14 @@
   {{ $inGroup := true }}
   {{ if $group }}
     {{ $inGroup = in .groups $group }}
+    {{ $groupLabel := index $groupLabels $group }}
+    {{ if $groupLabel }}
+      {{ range .tags }}
+        {{ if eq (lower .) (lower $groupLabel) }}
+          {{ $inGroup = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
   {{ end }}
   {{ if and $inGroup (eq .type "article") }}
     {{ $matches = $matches | append . }}
@@ -50,6 +58,24 @@
   {{ end }}
 {{ end }}
 
+{{ $submittedMatches := slice }}
+{{ if and $group (isset $groupLabels $group) }}
+  {{ $groupLabel := index $groupLabels $group }}
+  {{ with hugo.Data.publications.submitted }}
+    {{ range .items }}
+      {{ $submission := . }}
+      {{ range $submission.tags }}
+        {{ if eq (lower .) (lower $groupLabel) }}
+          {{ $submittedMatches = $submittedMatches | append $submission }}
+          {{ if not (in $tagSet .) }}
+            {{ $tagSet = $tagSet | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 {{ if not $group }}
   {{ range $groupKey, $groupLabel := $groupLabels }}
     {{ if not (in $tagSet $groupLabel) }}
@@ -70,6 +96,31 @@
         {{ end }}
       </div>
     </div>
+  {{ end }}
+
+  {{ if or (gt (len $matches) 0) (gt (len $submittedMatches) 0) }}
+    <ol class="publication-list" data-publication-list>
+      {{ range (sort $submittedMatches "date" "asc" | collections.Reverse) }}
+        {{ $tagSlugs := slice }}
+        {{ range .tags }}
+          {{ $tagSlugs = $tagSlugs | append (. | urlize) }}
+        {{ end }}
+        <li class="publication-entry publication-entry--submitted" data-publication-item data-tags="{{ delimit $tagSlugs " " }}">
+          <span class="publication-entry__number" data-publication-number></span>
+          {{ with .authors }}
+            <p class="publication-entry__authors">{{ delimit . "; " }}</p>
+          {{ end }}
+          <h3 class="publication-entry__title">{{ .title }}</h3>
+          <p class="publication-entry__citation"><strong>Submitted</strong> · {{ .date }}</p>
+          <div class="publication-tags">
+            {{ range .tags }}
+              {{ $slug := . | urlize }}
+              <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ol>
   {{ end }}
 
   {{ if gt (len $matches) 0 }}
@@ -183,7 +234,7 @@
         </li>
       {{ end }}
     </ol>
-  {{ else }}
+  {{ else if eq (len $submittedMatches) 0 }}
     <p class="publication-directory__empty">No publication entries added yet.</p>
   {{ end }}
 </section>

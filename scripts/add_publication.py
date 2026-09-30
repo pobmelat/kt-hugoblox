@@ -8,6 +8,8 @@ The script asks for:
 
 Then it fetches metadata from Crossref and appends the article to the
 corresponding yearly YAML file used by the Hugo prototype.
+After saving, it checks for a submitted entry with the same title and asks
+before removing any possible match.
 """
 
 from __future__ import annotations
@@ -15,15 +17,19 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 import yaml
 
+from add_submitted_publication import load_submissions, write_submissions
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "publications" / "years"
+SUBMITTED_FILE = ROOT / "data" / "publications" / "submitted.yaml"
 CROSSREF_API = "https://api.crossref.org/works/"
 USER_AGENT = "kt-hugoblox-prototype/1.0 (publication import helper)"
 
@@ -223,6 +229,50 @@ def confirm(prompt_text: str, default: bool = True) -> bool:
     return raw in ("y", "yes")
 
 
+def normalize_match_text(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value)
+    normalized = "".join(char for char in normalized if not unicodedata.combining(char))
+    return re.sub(r"[^a-z0-9]", "", normalized.casefold())
+
+
+def reconcile_submitted_publications(title: str, authors: list[str]) -> None:
+    if not SUBMITTED_FILE.exists():
+        return
+    submissions = load_submissions()
+    normalized_title = normalize_match_text(title)
+    candidates = [
+        item
+        for item in submissions["items"]
+        if normalize_match_text(str(item.get("title", ""))) == normalized_title
+    ]
+    if not candidates:
+        return
+
+    removed_items = set()
+    for item in candidates:
+        submitted_authors = item.get("authors", [])
+        print("\nPossible submitted entry for this published article:")
+        print(f"Title:   {item.get('title', '')}")
+        print(f"Authors: {'; '.join(str(author) for author in submitted_authors)}")
+        print(f"Date:    {item.get('date', '')}")
+        if authors and submitted_authors:
+            print(f"Published authors: {'; '.join(authors)}")
+        if confirm("Remove this submitted entry now that the article is published?", default=False):
+            removed_items.add(id(item))
+
+    if not removed_items:
+        print("Submitted entry retained for manual review.")
+        return
+
+    submissions["items"] = [
+        item
+        for item in submissions["items"]
+        if id(item) not in removed_items
+    ]
+    write_submissions(submissions)
+    print(f"Removed {len(removed_items)} matching submitted entry/entries.")
+
+
 def ask_doi(initial: str = "") -> str | None:
     """Ask for a DOI and validate it; loop until valid or empty."""
     doi = normalize_doi(initial) if initial else ""
@@ -311,6 +361,14 @@ def main(argv: list[str] | None = None) -> int:
     write_year_file(year_path, data)
 
     print(f"\nAdded publication to {year_path}")
+    try:
+        reconcile_submitted_publications(title, authors)
+    except (OSError, ValueError, yaml.YAMLError) as exc:
+        print(
+            f"Publication was added, but submitted-entry reconciliation failed: {exc}",
+            file=sys.stderr,
+        )
+        return 1
     print("Run 'make build && make deploy' to publish the changes.")
     return 0
 

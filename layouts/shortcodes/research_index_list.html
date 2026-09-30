@@ -1,3 +1,8 @@
+{{ if in (slice "matcat" "isom") .Page.Parent.Section }}
+  {{ $parent := .Page.Parent }}
+  {{ $imageOverrides := dict "heterogeneous-catalysis-and-electrocatalysis" "/images/publications/toc/cctc-202301137.png" }}
+  {{ partial "groups/research-lines.html" (dict "page" $parent "imageOverrides" $imageOverrides) }}
+{{ else }}
 <div class="research-lines-page" aria-label="Research lines for {{ .Page.Title }}">
   {{ with .Page.Params.research_intro }}
     <header class="research-lines-intro">
@@ -19,4 +24,5 @@
       </a>
     {{ end }}
   </div>
+  {{ end }}
 </div>

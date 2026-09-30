@@ -137,6 +137,32 @@ python3 scripts/attach_found_toc_images.py
 
 This script scans the existing images in `static/images/publications/toc/` and attaches them to the matching publication entries by DOI. It preserves any manually added `toc_image` fields.
 
+## Adding submitted publications
+
+Use the interactive helper to add a publication that has been submitted but does not yet have publication metadata:
+
+```bash
+python3 scripts/add_submitted_publication.py
+```
+
+Enter the title, authors separated by semicolons, submission date (the default is today), and optional research-group tags. The script compares author names with profile `publication_names`, assigns exact matches automatically, and asks whether to associate unmatched authors with a team member. The saved profile IDs determine which profiles display the entry; group tags also make the submission appear on that group's publications page, but not in the site-wide publications directory. Review the preview and confirm before writing.
+
+To provide a non-default date:
+
+```bash
+python3 scripts/add_submitted_publication.py --date 2026-09-29
+```
+
+Group tags can be passed directly as well:
+
+```bash
+python3 scripts/add_submitted_publication.py --tags MatCat-KT
+```
+
+Build and deploy the site to publish the updated profile pages.
+
+When you later add the published article with `scripts/add_publication.py`, the script checks for submitted entries with the same normalized title. It shows the submitted and published authors and asks before removing each possible match; the default is to keep the submitted entry for manual review.
+
 ## Local preview and deploy
 
 A `Makefile` is provided for common tasks. You can override any variable on the command line or in a local `.env` file.

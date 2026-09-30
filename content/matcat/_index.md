@@ -54,7 +54,8 @@ research_lines:
   - 10.1016/j.ijhydene.2024.09.279
   - 10.1002/cctc.202301137
   - 10.1016/j.apsusc.2022.154052
-  card_excerpt: ''
+  image: /images/publications/toc/cctc-202301137.png
+  card_excerpt: Designing efficient, selective and durable catalysts for energy conversion and chemical processes.
   card_tone: matcat
 - slug: metal-nanoclusters-on-surfaces
   eyebrow: Metal Nanoclusters on Surfaces
@@ -70,7 +71,8 @@ research_lines:
   dois:
   - 10.1021/acsnano.5c13305
   - 10.1002/cctc.202201533
-  card_excerpt: ''
+  image: /images/publications/toc/acsnano-5c13305.png
+  card_excerpt: Modeling how metal nanoclusters interact with surfaces and how interfaces shape their properties.
   card_tone: matcat
 - slug: exotic-matter
   eyebrow: Exotic Matter
@@ -84,7 +86,8 @@ research_lines:
   - 10.1039/d4sc00142g
   - 10.1038/s42005-024-01651-4
   - 10.3390/computation1030031
-  card_excerpt: ''
+  image: /images/publications/toc/d4sc00142g.png
+  card_excerpt: Uncovering unusual chemical bonding to guide the design of materials with exceptional properties.
   card_tone: matcat
 contact:
   title: Contact

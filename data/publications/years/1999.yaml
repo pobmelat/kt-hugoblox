@@ -8,6 +8,8 @@ items:
   volume: '59'
   issue: '6'
   pages: 4255-4258
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. E. Fowler
@@ -51,6 +53,8 @@ items:
   volume: '60'
   issue: '6'
   pages: 4375-4378
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. M. Elorza

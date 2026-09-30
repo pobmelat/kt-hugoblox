@@ -8,6 +8,8 @@ items:
   volume: '104'
   issue: '30'
   pages: 7053-7060
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. E. Fowler
@@ -76,6 +78,8 @@ items:
   volume: '21'
   issue: '1'
   pages: 43-51
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - P. Barrett
@@ -124,6 +128,8 @@ items:
   journal: Physical Review A
   volume: '62'
   issue: '5'
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. E. Fowler
@@ -137,6 +143,8 @@ items:
   journal: Physical Review A
   volume: '61'
   issue: '5'
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. E. Fowler

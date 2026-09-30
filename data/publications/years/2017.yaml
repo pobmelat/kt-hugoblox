@@ -1,4 +1,54 @@
 items:
+- id: wos-000430568507286
+  type: article
+  title: 'Alloying supported Pt clusters with boron: Coke antagonist'
+  year: 2017
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '253'
+  tags:
+  - MatCat-KT
+  authors:
+  - Anastassia Alexandrova
+  - Mai-Anh Ha
+  - Elisa Jimenez-Izal
+- id: wos-000430568502716
+  type: article
+  title: 'Borated Pt subnanoclusters on metal oxides: Coke prevention via minimizing dehydrogenation of alkenes and C-sticking'
+  year: 2017
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '253'
+  tags:
+  - MatCat-KT
+  authors:
+  - Mai-Anh Ha
+  - Eric Baxter
+  - Jonny Dadras
+  - Elisa Jimenez-Izal
+  - Scott Anderson
+  - Anastassia Alexandrova
+- id: 10-1039-c6dt03565e
+  type: article
+  title: 'Heteroleptic, two-coordinate [M(NHC){N(SiMe3)2}] (M = Co, Fe) complexes: synthesis, reactivity and magnetism rationalized by an unexpected metal oxidation state'
+  doi: 10.1039/c6dt03565e
+  year: 2017
+  journal: DALTON TRANSACTIONS
+  volume: '46'
+  issue: '4'
+  pages: 1163-1171
+  tags:
+  - ISoM-KT
+  authors:
+  - Andreas A. Danopoulos
+  - Pierre Braunstein
+  - Kirill Yu. Monakhov
+  - Jan van Leusen
+  - Paul Koegerler
+  - Martin Clemancey
+  - Jean-Marc Latour
+  - Anass Benayad
+  - Moniek Tromp
+  - Elixabete Rezabal
+  - Gilles Frison
 - id: 10-1039-c6ra24792j
   type: article
   title: '`Aggregation induced emission'' active iridium(III) complexes with applications in mitochondrial staining'
@@ -32,6 +82,8 @@ items:
   volume: '7'
   issue: '10'
   pages: 6064-6079
+  tags:
+  - Bio-KT
   authors:
   - E. Formoso
   - X. Lopez
@@ -119,6 +171,7 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - POL-KT
   authors:
   - Maude Desroches
   - Paula Mayorga Burrezo
@@ -315,6 +368,8 @@ items:
   volume: '8'
   issue: '7'
   pages: 5041-5049
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - J. R. G. Pedregal
@@ -531,6 +586,8 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - Jon Uranga
   - Jon M. Matxain
@@ -568,6 +625,7 @@ items:
   pages: 4619-4625
   tags:
   - iSoM-KT
+  - Bio-KT
   authors:
   - S. Alonso-de Castro
   - E. Ruggiero
@@ -647,6 +705,7 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - MatCat-KT
   authors:
   - Rafael Grande-Aztatzi
   - Jose M. Mercero
@@ -722,6 +781,7 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - POL-KT
   authors:
   - Diego Lopez-Carballeira
   - David Casanova
@@ -748,6 +808,8 @@ items:
   volume: '121'
   issue: '33'
   pages: 7786-7796
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - X. Lopez

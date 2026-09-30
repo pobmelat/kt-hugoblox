@@ -66,6 +66,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - M. Piris
   - X. Lopez
@@ -83,6 +84,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - M. Piris
   - X. Lopez
@@ -97,6 +99,10 @@ items:
   volume: '14'
   issue: '28'
   pages: 8547-8554
+  tags:
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - E. Formoso
@@ -138,6 +144,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - M. Piris
   - X. Lopez
@@ -190,6 +197,7 @@ items:
   - noft
   tags:
   - NOFT
+  - POL-KT
   authors:
   - M. Piris
   - J. M. Matxain
@@ -239,6 +247,10 @@ items:
   journal: Journal of Chemical Physics
   volume: '128'
   issue: '19'
+  tags:
+  - ISoM-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - E. Rezabal
@@ -325,6 +337,8 @@ items:
   volume: '10'
   issue: '21'
   pages: 4759-4762
+  tags:
+  - Bio-KT
   authors:
   - Y. Vara
   - T. Bello

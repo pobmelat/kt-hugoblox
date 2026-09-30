@@ -36,6 +36,8 @@ items:
   volume: '102'
   issue: '35'
   pages: 7006-7012
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. E. Fowler
@@ -50,6 +52,8 @@ items:
   volume: '57'
   issue: '4'
   pages: 2550-2555
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. E. Fowler
@@ -93,6 +97,8 @@ items:
   volume: '102'
   issue: '11'
   pages: 2055-2064
+  tags:
+  - MatCat-KT
   authors:
   - A. Garcia
   - J. M. Mercero

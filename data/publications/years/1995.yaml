@@ -8,6 +8,8 @@ items:
   volume: '99'
   issue: '32'
   pages: 12170-12178
+  tags:
+  - Bio-KT
   authors:
   - E. M. Cruz
   - X. Lopez
@@ -23,6 +25,8 @@ items:
   volume: '99'
   issue: '18'
   pages: 6812-6818
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - M. Ayerbe
@@ -38,6 +42,8 @@ items:
   volume: '117'
   issue: '49'
   pages: 12314-12321
+  tags:
+  - Bio-KT
   authors:
   - B. Lecea
   - A. Arrieta
@@ -69,6 +75,8 @@ items:
   volume: '99'
   issue: '17'
   pages: 6432-6440
+  tags:
+  - Bio-KT
   authors:
   - A. Largo
   - C. Barrientos

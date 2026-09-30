@@ -6,7 +6,7 @@
            Otherwise fall back to a specific group partial (diagram) if present. */}}
       {{ $lines := default (slice) .Params.research_lines }}
       {{ if gt (len $lines) 0 }}
-        {{ $diagram := partial "groups/research-lines.html" . }}
+        {{ $diagram := partial "groups/research-lines.html" (dict "page" .) }}
         {{ .Scratch.Set "diagram" $diagram }}
       {{ else }}
         {{ $specific := partial (printf "groups/%s-diagram.html" .Section) . }}
@@ -18,7 +18,7 @@
         {{/* Centered page title outside the intro card */}}
         <h2 class="subgroup-intro-title subgroup-intro-title--centered">{{ with .Params.home_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h2>
 
-        <section class="subgroup-split subgroup-split--{{ .Section }}{{ if not $hasDiagram }} subgroup-split--no-diagram{{ end }}">
+        <section class="subgroup-split subgroup-split--{{ if in (slice "matcat" "isom") .Section }}{{ .Section }}-home{{ else }}{{ .Section }}{{ end }}{{ if not $hasDiagram }} subgroup-split--no-diagram{{ end }}">
           <div class="subgroup-intro">
             {{/* intro card now contains only the body; title is above and centered. Add a group-specific class for styling. */}}
             <article class="research-line-card research-line-card--intro research-line-card--{{ .Section }}">
@@ -35,8 +35,8 @@
         </section>
       </article>
     {{ else }}
-      <article class="{{ if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">
-        {{ if or .Params.hide_hero .Params.hide_page_hero }}
+      <article class="{{ if or .Params.matcat_research_index .Params.isom_research_index }}research-index-page{{ else if eq .Params.content_frame false }}prose prose--plain{{ else }}prose{{ end }}">
+        {{ if and (or .Params.hide_hero .Params.hide_page_hero) (not (or .Params.matcat_research_index .Params.isom_research_index)) }}
           <header class="page-title-inline page-title-inline--centered">
             <h1>{{ .Title }}</h1>
             {{ with .Params.lead }}

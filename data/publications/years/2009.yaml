@@ -75,6 +75,8 @@ items:
   volume: '113'
   issue: '29'
   pages: 9629-9632
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - D. Padro
@@ -108,6 +110,8 @@ items:
   volume: '113'
   issue: '16'
   pages: 5607-5616
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - X. Lopez
@@ -179,6 +183,9 @@ items:
   - matcat
   tags:
   - MatCat-NanoSurf
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - M. Piris
@@ -198,6 +205,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - M. Piris
   - J. M. Matxain
@@ -265,6 +274,9 @@ items:
   volume: '15'
   issue: '20'
   pages: 5138-5144
+  tags:
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - M. Piris

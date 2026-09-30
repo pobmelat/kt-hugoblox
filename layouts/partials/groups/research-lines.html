@@ -1,26 +1,28 @@
-{{ $lines := default (slice) .Params.research_lines }}
-{{- $page := . -}}
+{{- $page := .page -}}
+{{- $imageOverrides := .imageOverrides | default dict -}}
+{{ $lines := default (slice) $page.Params.research_lines }}
 
-{{/* Compute intro: if research_intro is NOT set -> use default string; if set to false -> suppress; if set to a string -> use it */}}
-{{ .Scratch.Set "intro" "" }}
-{{ if not (isset .Params "research_intro") }}
-  {{ .Scratch.Set "intro" "These research lines capture the main topics addressed by the group. Click each card to explore related people, projects and publications." }}
-{{ else }}
-  {{ if and (isset .Params "research_intro") (ne .Params.research_intro false) }}
-    {{ .Scratch.Set "intro" .Params.research_intro }}
-  {{ end }}
+{{ $intro := "" }}
+{{ if not (isset $page.Params "research_intro") }}
+  {{ $intro = "These research lines capture the main topics addressed by the group. Click each card to explore related people, projects and publications." }}
+{{ else if ne $page.Params.research_intro false }}
+  {{ $intro = $page.Params.research_intro }}
 {{ end }}
-{{ $intro := .Scratch.Get "intro" }}
 
 {{ if gt (len $lines) 0 }}
-<div class="research-lines-page" aria-label="Research lines for {{ .Title }}">
+<div class="research-lines-page{{ if eq $page.Section "matcat" }} research-lines-page--matcat-home{{ else if eq $page.Section "isom" }} research-lines-page--isom-home{{ end }}" aria-label="Research lines for {{ $page.Title }}">
+  {{ if in (slice "matcat" "isom") $page.Section }}
+    <header class="research-lines-section-heading">
+      <h2>Research Lines</h2>
+    </header>
+  {{ end }}
   {{ if ne $intro "" }}
     <header class="research-lines-intro">
       <p class="research-lines-lead">{{ $intro }}</p>
     </header>
   {{ end }}
 
-  <div class="research-lines-grid research-lines-grid--compact">
+  <div class="research-lines-grid{{ if eq $page.Section "matcat" }} research-lines-grid--matcat-home{{ else if eq $page.Section "isom" }} research-lines-grid--isom-home{{ else }} research-lines-grid--compact{{ end }}">
     {{ range $i, $ln := $lines }}
       {{ $slug := $ln.slug | default (printf "line-%d" (add $i 1)) }}
       {{ $mod := printf "%s" $slug }}
@@ -37,10 +39,16 @@
         {{- $groupKey = or $last $page.Section $page.Page.Section "matcat" -}}
       {{- end -}}
       {{ $href := printf "%s/research/%s/" (print $groupKey) $slug | relURL }}
+      {{ $imagePath := index $imageOverrides $slug | default $ln.image }}
 
-      <a class="research-line-card research-line-card--{{ $mod }} research-line-card--{{ $groupKey }}" href="{{ $href }}">
-        <p class="research-line-card__eyebrow">{{ $ln.eyebrow }}</p>
-        <h2>{{ $ln.title }}</h2>
+      <a class="research-line-card research-line-card--{{ $mod }} research-line-card--{{ $groupKey }}{{ if eq $page.Section "matcat" }} research-line-card--matcat-home{{ else if eq $page.Section "isom" }} research-line-card--isom-home{{ end }}" href="{{ $href }}">
+        {{ with $imagePath }}
+          {{ $image := strings.TrimPrefix "/" . }}
+          <img class="research-line-card__image" src="{{ $image | relURL }}" alt="{{ $ln.eyebrow }}" loading="lazy">
+        {{ end }}
+        <div class="research-line-card__content">
+          <p class="research-line-card__eyebrow">{{ $ln.eyebrow }}</p>
+          <h2>{{ $ln.title }}</h2>
         {{/* Show a very short excerpt: prefer card_excerpt (added by generator). Fall back to first 4 words of summary/description */}}
         {{ $excerpt := "" }}
         {{ if $ln.card_excerpt }}
@@ -50,17 +58,18 @@
         {{ else if $ln.description }}
           {{ $excerpt = replaceRE "^((?:\\S+\\s+){0,3}\\S+).*" "$1" ($ln.description | plainify) }}
         {{ end }}
-        {{ if $excerpt }}
-          <p>{{ $excerpt }}…</p>
-        {{ end }}
-        <p class="research-line-card__cta">Learn more →</p>
+          {{ if $excerpt }}
+            <p>{{ $excerpt }}{{ if not $ln.card_excerpt }}…{{ end }}</p>
+          {{ end }}
+          <p class="research-line-card__cta">Learn more →</p>
+        </div>
       </a>
     {{ end }}
   </div>
 </div>
 {{ else }}
   <!-- Fallback simple list -->
-  <div class="research-lines-page" aria-label="Research lines for {{ .Title }}">
+  <div class="research-lines-page" aria-label="Research lines for {{ $page.Title }}">
     <header class="research-lines-intro">
       <h2>Core research lines</h2>
       {{ if ne $intro "" }}

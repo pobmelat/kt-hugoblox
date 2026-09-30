@@ -36,6 +36,8 @@ items:
   volume: '20'
   issue: '23'
   pages: 16256-16265
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - G. Dalla Torre
@@ -49,6 +51,8 @@ items:
   journal: Journal of Inorganic Biochemistry
   volume: '181'
   pages: 111-116
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - G. D. Torre
@@ -105,6 +109,8 @@ items:
   volume: '12'
   issue: '11'
   pages: 11426-11433
+  tags:
+  - POL-KT
   authors:
   - J. I. Santos
   - I. Rivilla
@@ -242,6 +248,7 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - Bio-KT
   authors:
   - M. Rodriguez-Mayorga
   - M. Via-Nadal
@@ -295,6 +302,8 @@ items:
   volume: '122'
   issue: '49'
   pages: 11147-11154
+  tags:
+  - Bio-KT
   authors:
   - D. De Sancho
   - J. Schonfelder
@@ -371,6 +380,8 @@ items:
   year: 2018
   journal: Nature Communications
   volume: '9'
+  tags:
+  - Bio-KT
   authors:
   - A. Alonso-Caballero
   - J. Schonfelder
@@ -436,6 +447,8 @@ items:
   journal: Journal of Chemical Physics
   volume: '148'
   issue: '21'
+  tags:
+  - Bio-KT
   authors:
   - M. Dibak
   - M. J. Razo
@@ -606,6 +619,8 @@ items:
   volume: '122'
   issue: '19'
   pages: 4956-4971
+  tags:
+  - POL-KT
   authors:
   - J. Uranga
   - J. I. Mujika
@@ -642,6 +657,7 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - POL-KT
   authors:
   - D. Lopez-Carballeira
   - D. Casanova
@@ -693,6 +709,8 @@ items:
   year: 2018
   journal: Communications Chemistry
   volume: '1'
+  tags:
+  - Bio-KT
   authors:
   - J. Schonfelder
   - D. De Sancho
@@ -863,6 +881,8 @@ items:
   volume: '20'
   issue: '17'
   pages: 12323-12323
+  tags:
+  - MatCat-KT
   authors:
   - R. Grande-Aztatzi
   - J. M. Mercero
@@ -960,6 +980,7 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - Bio-KT
   authors:
   - Gabriele Dalla Torre
   - Jon I. Mujika

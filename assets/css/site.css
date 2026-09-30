@@ -1516,6 +1516,143 @@ img {
 .research-line-card--biokt .research-line-card__eyebrow { color: #c16058 !important; }
 .research-line-card--biokt .research-line-card__cta { color: #c16058 !important; }
 
+.research-lines-page--matcat-home .research-lines-intro {
+  margin-bottom: 18px;
+}
+
+.research-lines-page--isom-home .research-lines-intro {
+  margin-bottom: 18px;
+}
+
+.research-index-page,
+.research-index-page .research-lines-page--matcat-home,
+.research-index-page .research-lines-page--isom-home {
+  width: 100%;
+  min-width: 0;
+}
+
+.research-lines-section-heading {
+  margin: 0 0 16px;
+}
+
+.research-lines-section-heading h2 {
+  margin: 0;
+  color: #093965;
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  line-height: 1.2;
+}
+
+.research-lines-page--isom-home .research-lines-section-heading h2 {
+  color: #0a4d47;
+}
+
+.subgroup-home .research-lines-grid--matcat-home,
+.research-index-page .research-lines-grid--matcat-home {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.subgroup-home .research-lines-grid--isom-home,
+.research-index-page .research-lines-grid--isom-home {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.subgroup-home .research-line-card--matcat-home,
+.research-index-page .research-line-card--matcat-home,
+.subgroup-home .research-line-card--isom-home,
+.research-index-page .research-line-card--isom-home {
+  display: flex !important;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fff !important;
+  box-shadow: 0 14px 34px rgba(18, 57, 101, 0.09);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.subgroup-home .research-line-card--matcat-home::before,
+.research-index-page .research-line-card--matcat-home::before,
+.subgroup-home .research-line-card--isom-home::before,
+.research-index-page .research-line-card--isom-home::before {
+  z-index: 1;
+}
+
+.subgroup-home .research-line-card--matcat-home:hover,
+.research-index-page .research-line-card--matcat-home:hover,
+.subgroup-home .research-line-card--isom-home:hover,
+.research-index-page .research-line-card--isom-home:hover {
+  transform: translateY(-4px);
+}
+
+.research-line-card__image {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: #edf5fe;
+}
+
+.research-line-card__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 24px 24px;
+}
+
+.subgroup-home .research-line-card--matcat-home .research-line-card__eyebrow,
+.research-index-page .research-line-card--matcat-home .research-line-card__eyebrow,
+.subgroup-home .research-line-card--isom-home .research-line-card__eyebrow,
+.research-index-page .research-line-card--isom-home .research-line-card__eyebrow {
+  margin-bottom: 9px;
+}
+
+.subgroup-home .research-line-card--matcat-home h2,
+.research-index-page .research-line-card--matcat-home h2,
+.subgroup-home .research-line-card--isom-home h2,
+.research-index-page .research-line-card--isom-home h2 {
+  margin-bottom: 12px;
+}
+
+.subgroup-home .research-line-card--matcat-home .research-line-card__content > p:not(.research-line-card__eyebrow):not(.research-line-card__cta),
+.research-index-page .research-line-card--matcat-home .research-line-card__content > p:not(.research-line-card__eyebrow):not(.research-line-card__cta),
+.subgroup-home .research-line-card--isom-home .research-line-card__content > p:not(.research-line-card__eyebrow):not(.research-line-card__cta),
+.research-index-page .research-line-card--isom-home .research-line-card__content > p:not(.research-line-card__eyebrow):not(.research-line-card__cta) {
+  margin-bottom: 20px;
+  color: #61758d;
+}
+
+.subgroup-home .research-line-card--matcat-home .research-line-card__cta,
+.research-index-page .research-line-card--matcat-home .research-line-card__cta,
+.subgroup-home .research-line-card--isom-home .research-line-card__cta,
+.research-index-page .research-line-card--isom-home .research-line-card__cta {
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+@media (max-width: 980px) {
+  .subgroup-home .research-lines-grid--matcat-home,
+  .research-index-page .research-lines-grid--matcat-home {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .subgroup-home .research-lines-grid--matcat-home,
+  .research-index-page .research-lines-grid--matcat-home,
+  .subgroup-home .research-lines-grid--isom-home,
+  .research-index-page .research-lines-grid--isom-home {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .research-line-card__image {
+    height: 210px;
+  }
+}
+
 .group-pill {
   border-radius: 18px;
   overflow: hidden;
@@ -2152,6 +2289,41 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   align-items: start; /* align left column to top so it lines up with the right column header */
 }
 
+.subgroup-split--matcat-home {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px;
+}
+
+.subgroup-split--matcat-home .subgroup-intro {
+  padding-top: 0;
+}
+
+.subgroup-home.subgroup-home--isom .subgroup-split--isom-home {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px;
+}
+
+.subgroup-home.subgroup-home--isom .subgroup-split--isom-home .subgroup-intro {
+  padding-top: 0;
+}
+
+.subgroup-home.subgroup-home--isom .subgroup-split--isom-home .subgroup-intro .research-line-card__body p {
+  font-size: 1.06rem !important;
+  line-height: 1.8 !important;
+  max-width: none !important;
+  width: 100% !important;
+  text-align: left !important;
+}
+
+.subgroup-split--isom-home {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px;
+}
+
+.subgroup-split--isom-home .subgroup-intro {
+  padding-top: 0;
+}
+
 .subgroup-split--matcat .subgroup-intro {
   display: flex;
   flex-direction: column;
@@ -2163,7 +2335,8 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
 .subgroup-home.subgroup-home--matcat .subgroup-intro p {
   font-size: 1.06rem !important;
   line-height: 1.8 !important;
-  max-width: 72ch !important;
+  max-width: none !important;
+  width: 100% !important;
   text-align: justify !important;
   hyphens: auto !important;
   color: var(--text-soft);
@@ -3422,6 +3595,10 @@ a.matcat-topic-card:hover .matcat-topic-card__cta {
   display: grid;
   gap: 26px;
   list-style: none;
+}
+
+.publication-list--submitted + .publication-list {
+  margin-top: 1.5rem;
 }
 
 .publication-entry {

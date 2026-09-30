@@ -8,6 +8,9 @@ items:
   volume: '105'
   issue: '31'
   pages: 7446-7453
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - J. M. Mercero
   - A. Irigoras
@@ -35,6 +38,8 @@ items:
   journal: Abstracts of Papers of the American Chemical Society
   volume: '222'
   pages: U400-U401
+  tags:
+  - Bio-KT
   authors:
   - S. Z. Zlatkova
   - K. Range
@@ -63,6 +68,8 @@ items:
   journal: Physical Review A
   volume: '63'
   issue: '1'
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - A. Irigoras
@@ -76,6 +83,8 @@ items:
   journal: Abstracts of Papers of the American Chemical Society
   volume: '222'
   pages: U401-U401
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - S. Z. Zlatkova
@@ -103,6 +112,8 @@ items:
   journal: Abstracts of Papers of the American Chemical Society
   volume: '222'
   pages: U395-U395
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   teachpress_id: '553'
@@ -114,6 +125,9 @@ items:
   journal: Physical Review A
   volume: '64'
   issue: '5'
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Mercero
@@ -129,6 +143,8 @@ items:
   volume: '123'
   issue: '47'
   pages: 11755-11763
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - A. Dejaegere
@@ -143,6 +159,8 @@ items:
   volume: '57'
   issue: '52'
   pages: 10299-10307
+  tags:
+  - Bio-KT
   authors:
   - M. Schuman
   - X. Lopez
@@ -158,6 +176,8 @@ items:
   volume: '123'
   issue: '21'
   pages: 5040-5043
+  tags:
+  - MatCat-KT
   authors:
   - A. Irigoras
   - J. M. Mercero
@@ -173,6 +193,8 @@ items:
   volume: '34'
   issue: '3'
   pages: 275-283
+  tags:
+  - MatCat-KT
   authors:
   - E. Valderrama
   - J. M. Mercero

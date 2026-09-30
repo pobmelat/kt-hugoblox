@@ -8,6 +8,8 @@ items:
   volume: '115'
   issue: '3'
   pages: 995-1004
+  tags:
+  - Bio-KT
   authors:
   - F. P. Cossio
   - J. M. Ugalde
@@ -24,6 +26,8 @@ items:
   volume: '97'
   issue: '37'
   pages: 9337-9340
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde
@@ -41,6 +45,8 @@ items:
   volume: '97'
   issue: '16'
   pages: 4078-4079
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - C. Sarasola
@@ -58,6 +64,8 @@ items:
   volume: '97'
   issue: '22'
   pages: 5860-5863
+  tags:
+  - Bio-KT
   authors:
   - C. Sarasola
   - X. Lopez
@@ -75,6 +83,8 @@ items:
   volume: (18)
   issue: '18'
   pages: 1450-1452
+  tags:
+  - Bio-KT
   authors:
   - F. Cossio
   - B. Lecea
@@ -92,6 +102,8 @@ items:
   volume: '97'
   issue: '8'
   pages: 1521-1525
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde
@@ -108,6 +120,8 @@ items:
   volume: '34'
   issue: '38'
   pages: 6111-6114
+  tags:
+  - Bio-KT
   authors:
   - J. Maiz
   - A. Arrieta

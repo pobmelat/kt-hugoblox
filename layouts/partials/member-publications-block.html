@@ -38,12 +38,47 @@
   {{ end }}
 {{ end }}
 
+{{ $submittedMatches := slice }}
+{{ $memberID := $member.Params.id | default "" }}
+{{ with hugo.Data.publications.submitted }}
+  {{ range .items }}
+    {{ $submission := . }}
+    {{ $matched := and $memberID (in ($submission.profile_ids | default (slice)) $memberID) }}
+    {{ if not (isset $submission "profile_ids") }}
+      {{ range $submission.authors }}
+        {{ $normalizedSubmissionAuthor := . | lower | replaceRE `[áàäâãå]` `a` | replaceRE `[éèëê]` `e` | replaceRE `[íìïî]` `i` | replaceRE `[óòöôõ]` `o` | replaceRE `[úùüû]` `u` | replaceRE `ñ` `n` | replaceRE `ç` `c` | replaceRE `[ýÿ]` `y` | replaceRE `\.` `` | replaceRE `\s+` `` | replaceRE `[-‐‑‒–—]` `` | replaceRE `[^[:alnum:]]` `` }}
+        {{ if and $normalizedSubmissionAuthor (in $normalizedAuthorNames $normalizedSubmissionAuthor) }}
+          {{ $matched = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if $matched }}
+      {{ $submittedMatches = $submittedMatches | append $submission }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedSubmissions := sort $submittedMatches "date" "asc" }}
 {{ $sortedMatches := sort (sort (sort $matches "journal" "asc") "title" "asc") "year" "asc" }}
 
 <section class="member-publications">
   <div class="section-heading">
     <h2>Publications</h2>
   </div>
+
+  {{ if gt (len $sortedSubmissions) 0 }}
+    <ol class="publication-list publication-list--submitted">
+      {{ range $index, $submission := collections.Reverse $sortedSubmissions }}
+        {{ $number := sub (add (len $sortedMatches) (len $sortedSubmissions)) $index }}
+        <li class="publication-entry publication-entry--submitted">
+          <span class="publication-entry__number">{{ $number }}.</span>
+          <p class="publication-entry__authors">{{ delimit $submission.authors "; " }}</p>
+          <h4 class="publication-entry__title">{{ $submission.title }}</h4>
+          <p class="publication-entry__citation"><strong>Submitted</strong> · {{ $submission.date }}</p>
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
 
   {{ if gt (len $sortedMatches) 0 }}
     <ol class="publication-list">

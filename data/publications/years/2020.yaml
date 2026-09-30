@@ -1,4 +1,27 @@
 items:
+- id: 10-1021-acs-organomet-9b00834
+  type: article
+  title: '[(dcpp)Ni(η2-Arene)] Precursors: Synthesis, Reactivity, and Catalytic Application to the Suzuki-Miyaura Reaction'
+  doi: 10.1021/acs.organomet.9b00834
+  year: 2020
+  journal: ORGANOMETALLICS
+  volume: '39'
+  issue: '10'
+  pages: 1688-1699
+  tags:
+  - ISoM-KT
+  authors:
+  - Florian D'Accriscio
+  - Alexia Ohleier
+  - Emmanuel Nicolas
+  - Matthieu Demange
+  - Olivier Thillaye Du Boullay
+  - Nathalie Saffon-Merceron
+  - Marie Fustier-Boutignon
+  - Elixabete Rezabal
+  - Gilles Frison
+  - Noel Nebra
+  - Nicolas Mezailles
 - id: 10-1039-d0cp01291b
   type: article
   title: A new tuned range-separated density functional for the accurate calculation of second hyperpolarizabilities
@@ -138,6 +161,8 @@ items:
   volume: '26'
   issue: '71'
   pages: 17230-17241
+  tags:
+  - ISoM-KT
   authors:
   - R. Gupta
   - E. Rezabal
@@ -153,6 +178,8 @@ items:
   volume: '22'
   issue: '15'
   pages: 8118-8127
+  tags:
+  - Bio-KT
   authors:
   - I. Ruiz-Ortiz
   - D. De Sancho
@@ -166,6 +193,8 @@ items:
   volume: '59'
   issue: '17'
   pages: 12711-12721
+  tags:
+  - Bio-KT
   authors:
   - S. Elleuchi
   - I. O. Luzuriaga
@@ -184,6 +213,8 @@ items:
   volume: '142'
   issue: '42'
   pages: 17989-17996
+  tags:
+  - POL-KT
   authors:
   - E. San Sebastian
   - J. Cepeda
@@ -270,6 +301,7 @@ items:
   pages: 187-196
   tags:
   - iSoM-KT
+  - Bio-KT
   authors:
   - J. Gurruchaga-Pereda
   - V. Martinez-Martinez
@@ -357,6 +389,8 @@ items:
   volume: '12'
   issue: '11'
   pages: 2641-2645
+  tags:
+  - Bio-KT
   authors:
   - C. Exley
   - G. Guerriero
@@ -500,6 +534,8 @@ items:
   volume: '49'
   issue: '9'
   pages: 2862-2879
+  tags:
+  - Bio-KT
   authors:
   - J. I. Lachowicz
   - G. Dalla Torre
@@ -559,6 +595,8 @@ items:
   volume: '85'
   issue: '20'
   pages: 13133-13140
+  tags:
+  - POL-KT
   authors:
   - P. Andrade-Sampedro
   - A. Correa
@@ -619,6 +657,8 @@ items:
   volume: '39'
   issue: '8'
   pages: 1238-1248
+  tags:
+  - POL-KT
   authors:
   - V. San Nacianceno
   - M. A. Garralda
@@ -742,6 +782,7 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - POL-KT
   authors:
   - Maria Zubiria-Ulacia
   - Jon M. Matxain
@@ -754,6 +795,8 @@ items:
   year: 2020
   journal: Journal of Inorganic Biochemistry
   volume: '210'
+  tags:
+  - Bio-KT
   authors:
   - R. Grande-Aztatzi
   - E. Formoso
@@ -791,6 +834,8 @@ items:
   volume: '118'
   issue: '12'
   pages: 2979-2988
+  tags:
+  - Bio-KT
   authors:
   - D. J. Reilley
   - J. T. Fuller

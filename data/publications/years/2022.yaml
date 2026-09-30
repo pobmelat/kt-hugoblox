@@ -130,6 +130,9 @@ items:
   issue: '7'
   tags:
   - EJ1584
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Telleria-Allika
   - J. M. Mercero
@@ -146,6 +149,7 @@ items:
   pages: 200-207
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - J. Lanuza
   - V. Postils
@@ -228,26 +232,6 @@ items:
   - A. Cozar
   - E. Jimenez-Izal
   teachpress_id: '275'
-- id: 10-1063-5-0098161
-  type: article
-  title: Does the composition in PtGe clusters play any role in fighting CO poisoning? (vol 156, 174301, 2022)
-  doi: 10.1063/5.0098161
-  year: 2022
-  journal: Journal of Chemical Physics
-  volume: '156'
-  issue: '20'
-  groups:
-  - matcat
-  tags:
-  - EJ1584
-  - MatCat-KT
-  - MatCat
-  authors:
-  - A. Ugartemendia
-  - J. M. Mercero
-  - A. De Cozar
-  - E. Jimenez-Izal
-  teachpress_id: '276'
 - id: 10-1021-acs-jpclett-2c01452
   type: article
   title: Electron-Volt Fluctuation of Defect Levels in Metal Halide Perovskites on a 100 ps Time Scale
@@ -313,6 +297,8 @@ items:
   issue: '5'
   tags:
   - EJ1584
+  - ISoM-KT
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - E. Rezabal
@@ -352,6 +338,7 @@ items:
   tags:
   - EJ1584
   - iSoM-KT
+  - Bio-KT
   authors:
   - S. Scoditti
   - E. Dabbish
@@ -459,6 +446,8 @@ items:
   issue: '36'
   tags:
   - EJ1584
+  - Bio-KT
+  - POL-KT
   authors:
   - N. Almenara
   - M. A. Garralda
@@ -518,6 +507,7 @@ items:
   pages: 2959-2967
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - A. Urriolabeitia
   - D. De Sancho
@@ -554,6 +544,8 @@ items:
   pages: 2264-2272
   tags:
   - EJ1584
+  - MatCat-KT
+  - POL-KT
   authors:
   - A. Rogolino
   - N. Claes
@@ -624,6 +616,7 @@ items:
   pages: 8303-8317
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - R. Zarroug
   - B. Artetxe
@@ -683,6 +676,7 @@ items:
   pages: 4119-4127
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - D. De Sancho
   teachpress_id: '346'
@@ -776,6 +770,7 @@ items:
   pages: 2072-2079
   tags:
   - EJ1584
+  - POL-KT
   authors:
   - P. Andrade-Sampedro
   - J. M. Matxain
@@ -806,6 +801,7 @@ items:
   pages: 11510-11519
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - I. O. Luzuriaga
   - S. Elleuchi
@@ -863,6 +859,7 @@ items:
   journal: Dalton Transactions
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - J. I. Lachowicz
   - A. Mateddu
@@ -885,6 +882,7 @@ items:
   issue: '1'
   tags:
   - EJ1584
+  - MatCat-KT
   authors:
   - A. Ugartemendia
   - A. Garcia-Lekue
@@ -900,6 +898,8 @@ items:
   issue: '17'
   tags:
   - EJ1584
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Telleria-Allika
   - M. E. Azor
@@ -955,6 +955,7 @@ items:
   issue: '1'
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - J. I. Lachowicz
   - G. Pichiri
@@ -1067,6 +1068,7 @@ items:
   pages: 25918-25929
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - I. O. Luzuriaga
   - A. Sanchez-Gonzalez

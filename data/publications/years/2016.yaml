@@ -1,4 +1,56 @@
 items:
+- id: 10-1039-c5cp04330a
+  type: article
+  title: σ-Aromaticity in polyhydride complexes of Ru, Ir, Os, and Pt
+  doi: 10.1039/c5cp04330a
+  year: 2016
+  journal: PHYSICAL CHEMISTRY CHEMICAL PHYSICS
+  volume: '18'
+  issue: '17'
+  pages: 11644-11652
+  tags:
+  - MatCat-KT
+  authors:
+  - Elisa Jimenez-Izal
+  - Anastassia N. Alexandrova
+- id: wos-000431903801684
+  type: article
+  title: Battling deactivation of sub-nano surface-deposited Pt cluster catalysts
+  year: 2016
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '251'
+  tags:
+  - MatCat-KT
+  authors:
+  - Elisa Jimenez-Izal
+  - Mai-Anh Ha
+  - Anastassia Alexandrova
+- id: wos-000431903801833
+  type: article
+  title: Improvement of platinum nanocatalysts via boron doping
+  year: 2016
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '251'
+  tags:
+  - MatCat-KT
+  authors:
+  - Elisa Jimenez-Izal
+  - Mai-Anh Ha
+  - Jonny Dadras
+  - Anastassia Alexandrova
+- id: wos-000431903806040
+  type: article
+  title: 'Sub-nano, surface-deposited Pt cluster catalysts: Realistic modeling and tuning through the electronic structure insights'
+  year: 2016
+  journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+  volume: '251'
+  tags:
+  - MatCat-KT
+  authors:
+  - Elisa Jimenez-Izal
+  - Mai-Anh Ha
+  - Huanchen Zhai
+  - Anastassia Alexandrova
 - id: 10-1021-acs-jpca-6b11179
   type: article
   title: 4th International Conference on Chemical Bonding
@@ -23,6 +75,8 @@ items:
   volume: '18'
   issue: '45'
   pages: 30972-30981
+  tags:
+  - POL-KT
   authors:
   - J. Uranga
   - O. Lakuntza
@@ -162,6 +216,8 @@ items:
   volume: '32'
   issue: '21'
   pages: 5434-5444
+  tags:
+  - Bio-KT
   authors:
   - A. B. Garcia-Arribas
   - E. Axpe
@@ -223,6 +279,8 @@ items:
   year: 2016
   journal: Abstracts of Papers of the American Chemical Society
   volume: '251'
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. Asua
@@ -240,6 +298,8 @@ items:
   volume: '18'
   issue: '3'
   pages: 1758-1770
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Asua
@@ -254,6 +314,8 @@ items:
   volume: '18'
   issue: '18'
   pages: 12810-12818
+  tags:
+  - POL-KT
   authors:
   - S. J. Grabowski
   - F. Ruiperez
@@ -294,6 +356,8 @@ items:
   journal: Journal of Molecular Modeling
   volume: '22'
   issue: '4'
+  tags:
+  - POL-KT
   authors:
   - D. Lopez-Carballeira
   - F. Ruiperez
@@ -312,6 +376,7 @@ items:
   tags:
   - MolEles-KT
   - QCD-KT
+  - Bio-KT
   authors:
   - E. Matito
   - D. Casanova
@@ -435,6 +500,8 @@ items:
   volume: '37'
   issue: '14'
   pages: 1135-1142
+  tags:
+  - POL-KT
   authors:
   - M. Isik
   - F. Ruiperez
@@ -543,6 +610,8 @@ items:
   volume: '4'
   issue: '21'
   pages: 8190-8197
+  tags:
+  - POL-KT
   authors:
   - S. Zulfiqar
   - D. Mantione
@@ -576,6 +645,8 @@ items:
   volume: '37'
   issue: '16'
   pages: 1364-1368
+  tags:
+  - POL-KT
   authors:
   - N. Ballard
   - S. Hamzehlou
@@ -615,6 +686,8 @@ items:
   volume: '18'
   issue: '10'
   pages: 7197-7207
+  tags:
+  - Bio-KT
   authors:
   - R. Grande-Aztatzi
   - E. Formoso
@@ -635,6 +708,7 @@ items:
   - moleles
   tags:
   - MolEles-KT
+  - POL-KT
   authors:
   - David Casanova
   - Jon M. Matxain
@@ -665,6 +739,8 @@ items:
   journal: Journal of Chemical Physics
   volume: '145'
   issue: '6'
+  tags:
+  - POL-KT
   authors:
   - I. Leon
   - F. Ruiperez
@@ -696,6 +772,8 @@ items:
   volume: '7'
   issue: '11'
   pages: 2105-2111
+  tags:
+  - POL-KT
   authors:
   - A. Yuen
   - A. Bossion
@@ -768,6 +846,9 @@ items:
   journal: Journal of Chemical Physics
   volume: '144'
   issue: '11'
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - R. Grande-Aztatzi
   - E. Formoso
@@ -785,6 +866,8 @@ items:
   volume: '4'
   issue: '12'
   pages: 7200-7208
+  tags:
+  - POL-KT
   authors:
   - M. Isik
   - S. Zulfiqar
@@ -806,6 +889,7 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
   authors:
   - M. Piris
   - X. Lopez
@@ -824,6 +908,8 @@ items:
   - qcd
   tags:
   - QCD-KT
+  - MatCat-KT
+  - Bio-KT
   authors:
   - J. M. Mercero
   - M. Rodriguez-Mayorga
@@ -840,6 +926,8 @@ items:
   volume: '18'
   issue: '17'
   pages: 11879-11884
+  tags:
+  - MatCat-KT
   authors:
   - R. Grande-Aztatzi
   - J. M. Mercero
@@ -854,6 +942,8 @@ items:
   volume: '4'
   issue: '26'
   pages: 6220-6223
+  tags:
+  - POL-KT
   authors:
   - A. R. Luzuriaga
   - J. M. Matxain
@@ -881,6 +971,8 @@ items:
   year: 2016
   journal: Scientific Reports
   volume: '6'
+  tags:
+  - Bio-KT
   authors:
   - J. Beardmore
   - X. Lopez

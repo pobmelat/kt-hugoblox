@@ -8,6 +8,8 @@ items:
   volume: '98'
   issue: '9'
   pages: 2294-2297
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - F. P. Cossio
@@ -40,6 +42,8 @@ items:
   volume: '116'
   issue: '23'
   pages: 10670-10678
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - A. Irigoras
@@ -115,6 +119,8 @@ items:
   volume: '98'
   issue: '15'
   pages: 3985-3988
+  tags:
+  - Bio-KT
   authors:
   - A. Largo
   - C. Barrientos
@@ -130,6 +136,8 @@ items:
   volume: '98'
   issue: '12'
   pages: 3148-3153
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde

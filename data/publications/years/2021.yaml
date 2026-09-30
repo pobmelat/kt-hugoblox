@@ -89,6 +89,7 @@ items:
   - noft
   tags:
   - NOFT
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. M. Ugalde
@@ -178,6 +179,7 @@ items:
   issue: '2'
   tags:
   - iSoM-KT
+  - POL-KT
   authors:
   - J. Zubeltzu
   - J. M. Matxain
@@ -284,6 +286,8 @@ items:
   volume: '125'
   issue: '24'
   pages: 5246-5255
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. M. Ugalde
@@ -327,6 +331,7 @@ items:
   pages: 4504-4508
   tags:
   - iSoM-KT
+  - Bio-KT
   authors:
   - J. Gurruchaga-Pereda
   - V. Martinez-Martinez
@@ -525,6 +530,8 @@ items:
   year: 2021
   journal: Journal of Inorganic Biochemistry
   volume: '222'
+  tags:
+  - Bio-KT
   authors:
   - J. I. Lachowicz
   - D. Todde
@@ -546,6 +553,8 @@ items:
   year: 2021
   volume: '50'
   pages: 209-243
+  tags:
+  - Bio-KT
   authors:
   - I. O. Luzuriaga
   - X. Lopez
@@ -561,6 +570,8 @@ items:
   journal: Journal of Chemical Physics
   volume: '155'
   issue: '5'
+  tags:
+  - Bio-KT
   authors:
   - I. Mitxelena
   - X. Lopez
@@ -594,6 +605,8 @@ items:
   volume: '60'
   issue: '15'
   pages: 11177-11191
+  tags:
+  - Bio-KT
   authors:
   - J. Lanuza
   - A. Sanchez-Gonzalez
@@ -661,6 +674,8 @@ items:
   journal: Molecules
   volume: '26'
   issue: '16'
+  tags:
+  - Bio-KT
   authors:
   - A. Sanchez-Gonzalez
   - N. A. G. Bandeira
@@ -703,6 +718,8 @@ items:
   volume: '27'
   issue: '18'
   pages: 5782-5789
+  tags:
+  - POL-KT
   authors:
   - P. Andrade-Sampedro
   - J. M. Matxain
@@ -717,6 +734,8 @@ items:
   volume: '27'
   issue: '35'
   pages: 8977-8984
+  tags:
+  - Bio-KT
   authors:
   - F. F. Martins
   - A. Sanchez-Gonzalez
@@ -752,6 +771,9 @@ items:
   volume: '6'
   issue: '25'
   pages: 16612-16622
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - E. Jimenez-Izal
   - I. O. Luzuriaga

@@ -206,6 +206,7 @@ items:
   issue: RP104950
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - David De Sancho
   - Xabier Lopez
@@ -220,6 +221,7 @@ items:
   pages: '112807'
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - D. Silva-Brea
   - J. Aduriz-Arrizabalaga
@@ -308,6 +310,7 @@ items:
   - noft
   tags:
   - NOFT
+  - MatCat-KT
   authors:
   - Élodie Boutou
   - Juan Felipe Huan Lew-Yee
@@ -392,6 +395,7 @@ items:
   pages: '113908'
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - Jose Lanuza
   - Ángel Sanchez-Gonzalez
@@ -410,6 +414,7 @@ items:
   tags:
   - EJ1584
   - QCD-KT
+  - Bio-KT
   authors:
   - Xiang Xu
   - Luis Soriano-Agueda
@@ -523,6 +528,7 @@ items:
   pages: 1077--1091
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - Irene Olaizola
   - Mikel Odriozola-Gimeno
@@ -648,6 +654,7 @@ items:
   pages: 23798--23807
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - Shivaprasad Achary Balahoju
   - Nicholus Bhattacharjee
@@ -685,6 +692,7 @@ items:
   pages: 10613--10623
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - Asier Urriolabeitia
   - Julia Contreras-García
@@ -699,6 +707,7 @@ items:
   journal: Ann Clin Transl Neurol
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - Nuria Muelas
   - Pablo Iruzubieta
@@ -771,6 +780,7 @@ items:
   tags:
   - EJ1584
   - QCD-KT
+  - MatCat-KT
   authors:
   - Rafael Grande‐Aztazi
   - Eduard Matito
@@ -786,6 +796,7 @@ items:
   issue: '12'
   tags:
   - EJ1584
+  - Bio-KT
   authors:
   - Eduardo V. Ludeña
   - Jesus M. Ugalde

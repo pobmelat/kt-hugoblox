@@ -50,6 +50,8 @@ items:
   volume: '118'
   issue: '11'
   pages: 2718-2725
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde
@@ -64,6 +66,8 @@ items:
   volume: '74'
   issue: '6'
   pages: 1032-1048
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde
@@ -79,6 +83,8 @@ items:
   volume: '74'
   issue: '10'
   pages: 1824-1829
+  tags:
+  - Bio-KT
   authors:
   - A. Irigoras
   - J. M. Ugalde
@@ -122,6 +128,8 @@ items:
   volume: '61'
   issue: '9'
   pages: 3070-3079
+  tags:
+  - Bio-KT
   authors:
   - B. Lecea
   - I. Arrastia

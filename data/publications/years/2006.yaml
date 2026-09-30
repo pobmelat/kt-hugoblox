@@ -26,6 +26,10 @@ items:
   volume: '100'
   issue: '3'
   pages: 374-384
+  tags:
+  - ISoM-KT
+  - MatCat-KT
+  - Bio-KT
   authors:
   - E. Rezabal
   - J. M. Mercero
@@ -134,6 +138,8 @@ items:
   volume: '25'
   issue: '19'
   pages: 4483-4490
+  tags:
+  - MatCat-KT
   authors:
   - I. Silanes
   - J. M. Mercero
@@ -148,6 +154,8 @@ items:
   volume: '76'
   issue: '5'
   pages: 808-814
+  tags:
+  - MatCat-KT
   authors:
   - J. Wang
   - J. M. Mercero
@@ -235,6 +243,9 @@ items:
   volume: '17'
   issue: '16'
   pages: 4100-4105
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - L. A. Eriksson
@@ -266,6 +277,8 @@ items:
   journal: Physical Review A
   volume: '74'
   issue: '4'
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde
@@ -281,6 +294,8 @@ items:
   volume: '110'
   issue: '23'
   pages: 11525-11539
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - A. Dejaegere
@@ -316,6 +331,9 @@ items:
   volume: '128'
   issue: '11'
   pages: 3554-3563
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - E. San Sebastian
   - J. M. Mercero
@@ -368,6 +386,8 @@ items:
   volume: '25'
   issue: '4'
   pages: 423-433
+  tags:
+  - Bio-KT
   authors:
   - T. J. Giese
   - B. A. Gregersen
@@ -394,6 +414,9 @@ items:
   volume: '110'
   issue: '30'
   pages: 15000-15011
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - J. I. Mujika
   - E. Formoso
@@ -409,6 +432,9 @@ items:
   volume: '12'
   issue: '27'
   pages: 7215-7224
+  tags:
+  - Bio-KT
+  - POL-KT
   authors:
   - J. I. Mujika
   - J. M. Matxain
@@ -424,6 +450,9 @@ items:
   volume: '12'
   issue: '17'
   pages: 4495-4502
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - E. Formoso

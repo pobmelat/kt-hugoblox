@@ -8,6 +8,8 @@ items:
   volume: '109'
   issue: '3'
   pages: 118-124
+  tags:
+  - Bio-KT
   authors:
   - A. R. Dinner
   - X. Lopez
@@ -22,6 +24,9 @@ items:
   volume: '107'
   issue: '31'
   pages: 6099-6107
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - J. I. Mujika
   - J. M. Mercero
@@ -36,6 +41,8 @@ items:
   volume: '107'
   issue: '13'
   pages: 2304-2315
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. I. Mujika
@@ -51,6 +58,9 @@ items:
   volume: '107'
   issue: '46'
   pages: 9918-9923
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Mercero
@@ -63,6 +73,8 @@ items:
   year: 2003
   volume: '116'
   pages: 205-239
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - E. Valderrama
@@ -79,6 +91,9 @@ items:
   volume: '125'
   issue: '31'
   pages: 9494-9499
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Mercero
@@ -94,6 +109,8 @@ items:
   volume: '372'
   issue: 1-2
   pages: 82-89
+  tags:
+  - POL-KT
   authors:
   - R. P. Diez
   - J. A. Alonso
@@ -109,6 +126,10 @@ items:
   volume: '295'
   issue: '2'
   pages: 175-184
+  tags:
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - J. I. Mujika
@@ -139,6 +160,8 @@ items:
   volume: '109'
   issue: '3'
   pages: 149-159
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - D. M. York
@@ -171,6 +194,8 @@ items:
   volume: '107'
   issue: '46'
   pages: 10004-10010
+  tags:
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Ugalde
@@ -186,6 +211,8 @@ items:
   volume: '376'
   issue: 3-4
   pages: 310-317
+  tags:
+  - MatCat-KT
   authors:
   - A. Irigoras
   - M. D. Michelini
@@ -202,6 +229,8 @@ items:
   journal: Physical Review Letters
   volume: '90'
   issue: '25'
+  tags:
+  - Bio-KT
   authors:
   - M. A. L. Marques
   - X. Lopez

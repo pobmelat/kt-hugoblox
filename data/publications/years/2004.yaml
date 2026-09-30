@@ -8,6 +8,8 @@ items:
   volume: '120'
   issue: '2'
   pages: 540-547
+  tags:
+  - Bio-KT
   authors:
   - E. V. Ludena
   - J. M. Ugalde
@@ -40,6 +42,9 @@ items:
   volume: '108'
   issue: '47'
   pages: 10502-10508
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Mercero
@@ -55,6 +60,9 @@ items:
   volume: '102'
   issue: 23-24
   pages: 2635-2637
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - J. M. Mercero
@@ -85,6 +93,8 @@ items:
   volume: '126'
   issue: '24'
   pages: 7504-7513
+  tags:
+  - Bio-KT
   authors:
   - B. A. Gregersen
   - X. Lopez
@@ -120,6 +130,9 @@ items:
   volume: '43'
   issue: '41'
   pages: 5485-5488
+  tags:
+  - MatCat-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - J. M. Matxain
@@ -134,6 +147,8 @@ items:
   volume: '5'
   issue: '7'
   pages: 1045-1049
+  tags:
+  - Bio-KT
   authors:
   - C. S. Lopez
   - A. N. Faza
@@ -151,6 +166,8 @@ items:
   volume: '126'
   issue: '16'
   pages: 5243-5252
+  tags:
+  - Bio-KT
   authors:
   - A. Zubia
   - F. P. Cossio
@@ -167,6 +184,8 @@ items:
   volume: '126'
   issue: '11'
   pages: 3380-3381
+  tags:
+  - MatCat-KT
   authors:
   - J. M. Mercero
   - J. M. Ugalde
@@ -180,6 +199,11 @@ items:
   volume: '98'
   issue: '4'
   pages: 409-424
+  tags:
+  - ISoM-KT
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - J. M. Matxain
@@ -212,6 +236,8 @@ items:
   volume: '126'
   issue: '6'
   pages: 1654-1665
+  tags:
+  - Bio-KT
   authors:
   - K. Range
   - M. J. McGrath

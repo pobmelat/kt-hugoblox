@@ -8,6 +8,8 @@ items:
   volume: '14'
   issue: '26'
   pages: 9306-9310
+  tags:
+  - POL-KT
   authors:
   - O. Lakuntza
   - J. M. Matxain
@@ -27,6 +29,8 @@ items:
   volume: '22'
   issue: '40'
   pages: 21453-21465
+  tags:
+  - Bio-KT
   authors:
   - J. M. Azpiroz
   - I. Infante
@@ -43,6 +47,8 @@ items:
   volume: '14'
   issue: '36'
   pages: 12465-12475
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - J. M. Ugalde
@@ -57,6 +63,8 @@ items:
   volume: '14'
   issue: '24'
   pages: 8732-8741
+  tags:
+  - POL-KT
   authors:
   - K. R. Geethalakshmi
   - F. Ruiperez
@@ -89,6 +97,8 @@ items:
   volume: '14'
   issue: '43'
   pages: 14764-14768
+  tags:
+  - MatCat-KT
   authors:
   - A. C. Castro
   - G. Martinez-Guajardo
@@ -157,6 +167,8 @@ items:
   volume: '116'
   issue: '27'
   pages: 14561-14567
+  tags:
+  - MatCat-KT
   authors:
   - E. Jimenez-Izal
   - F. Chiatti
@@ -204,6 +216,8 @@ items:
   volume: '10'
   issue: '6'
   pages: 1207-1218
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - X. Lopez
@@ -218,6 +232,8 @@ items:
   volume: '116'
   issue: '4'
   pages: 2740-2750
+  tags:
+  - Bio-KT
   authors:
   - J. M. Azpiroz
   - X. Lopez
@@ -233,6 +249,8 @@ items:
   volume: '51'
   issue: '35'
   pages: 7017-7027
+  tags:
+  - Bio-KT
   authors:
   - J. I. Mujika
   - B. Escribano
@@ -267,6 +285,8 @@ items:
   journal: Journal of Chemical Physics
   volume: '136'
   issue: '8'
+  tags:
+  - Bio-KT
   authors:
   - E. V. Ludena
   - L. Echevarria
@@ -337,6 +357,8 @@ items:
   tags:
   - NOFT
   - QCD-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - X. Lopez
   - F. Ruiperez
@@ -353,6 +375,8 @@ items:
   journal: Chemical Physics Letters
   volume: 519-20
   pages: 29-33
+  tags:
+  - MatCat-KT
   authors:
   - A. C. Castro
   - M. Audiffred
@@ -369,6 +393,9 @@ items:
   journal: Journal of Inorganic Biochemistry
   volume: '117'
   pages: 118-123
+  tags:
+  - Bio-KT
+  - POL-KT
   authors:
   - F. Ruiperez
   - J. J. Mujika
@@ -401,6 +428,8 @@ items:
   - matcat
   tags:
   - MatCat-NanoSurf
+  - MatCat-KT
+  - POL-KT
   authors:
   - E. Jimenez-Izal
   - J. M. Matxain
@@ -419,6 +448,9 @@ items:
   - noft
   tags:
   - NOFT
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - M. Piris
@@ -451,6 +483,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - M. Piris
   - J. M. Matxain
@@ -470,6 +504,8 @@ items:
   - noft
   tags:
   - NOFT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Matxain
   - M. Piris
@@ -523,6 +559,8 @@ items:
   volume: '48'
   issue: '62'
   pages: 7708-7710
+  tags:
+  - MatCat-KT
   authors:
   - S. M. Huber
   - E. Jimenez-Izal
@@ -538,6 +576,8 @@ items:
   volume: '43'
   issue: '10'
   pages: 1397-1406
+  tags:
+  - MatCat-KT
   authors:
   - W. Nuansing
   - A. Rebollo

@@ -8,6 +8,9 @@ items:
   volume: '101'
   issue: '30'
   pages: 5574-5579
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - J. M. Mercero
   - X. Lopez
@@ -44,6 +47,8 @@ items:
   volume: '56'
   issue: '2'
   pages: 1642-1645
+  tags:
+  - Bio-KT
   authors:
   - J. M. Ugalde
   - C. Sarasola
@@ -86,6 +91,8 @@ items:
   volume: '101'
   issue: '11'
   pages: 2166-2172
+  tags:
+  - Bio-KT
   authors:
   - E. M. Cruz
   - X. Lopez
@@ -100,6 +107,8 @@ items:
   volume: '18'
   issue: '1'
   pages: 9-19
+  tags:
+  - Bio-KT
   authors:
   - E. M. Cruz
   - X. Lopez
@@ -117,6 +126,8 @@ items:
   volume: '101'
   issue: '33'
   pages: 5953-5957
+  tags:
+  - MatCat-KT
   authors:
   - A. Garcia
   - J. M. Mercero
@@ -145,6 +156,8 @@ items:
   volume: '101'
   issue: '26'
   pages: 4807-4813
+  tags:
+  - Bio-KT
   authors:
   - E. M. Cruz
   - J. E. Fowler
@@ -160,6 +173,8 @@ items:
   volume: '101'
   issue: '10'
   pages: 1804-1807
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - C. Sarasola

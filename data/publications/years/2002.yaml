@@ -8,6 +8,10 @@ items:
   volume: '90'
   issue: '2'
   pages: 859-881
+  tags:
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - J. M. Matxain
@@ -23,6 +27,8 @@ items:
   journal: Physical Review E
   volume: '66'
   issue: '2'
+  tags:
+  - MatCat-KT
   authors:
   - I. Silanes
   - J. M. Mercero
@@ -49,6 +55,8 @@ items:
   volume: '106'
   issue: '16'
   pages: 4187-4191
+  tags:
+  - MatCat-KT
   authors:
   - M. J. Fernandez-Berridi
   - J. J. Iruin
@@ -90,6 +98,8 @@ items:
   volume: '124'
   issue: '18'
   pages: 5010-5018
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - M. Schaefer
@@ -105,6 +115,8 @@ items:
   volume: '86'
   issue: '1'
   pages: 10-26
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - D. M. York

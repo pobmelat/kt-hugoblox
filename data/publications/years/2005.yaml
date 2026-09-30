@@ -1,4 +1,22 @@
 items:
+- id: 10-1016-j-chemosphere-2004-08-101
+  type: article
+  title: The long-term environmental behaviour of strontium and barium released from former mine workings in the granites of the Sunart region of Scotland, UK
+  doi: 10.1016/j.chemosphere.2004.08.101
+  year: 2005
+  journal: CHEMOSPHERE
+  volume: '58'
+  issue: '6'
+  pages: 793-798
+  tags:
+  - ISoM-KT
+  authors:
+  - C. M. Davidson
+  - M. D. Gibson
+  - E. Hamilton
+  - B. H. MacGillivray
+  - J. Reglinski
+  - E. Rezabal
 - id: 10-1021-ja051544
   type: article
   title: 'A joint experimental and theoretical study of cation-pi interactions: Multiple-decker sandwich complexes of ferrocene with alkali metal ions (Li+, Na+, K+, Rb+, Cs+)'
@@ -8,6 +26,8 @@ items:
   volume: '127'
   issue: '30'
   pages: 10656-10666
+  tags:
+  - MatCat-KT
   authors:
   - A. H. Ilkhechi
   - J. M. Mercero
@@ -98,6 +118,8 @@ items:
   volume: '109'
   issue: '42'
   pages: 19987-20003
+  tags:
+  - Bio-KT
   authors:
   - Y. Liu
   - B. A. Gregersen
@@ -126,6 +148,8 @@ items:
   volume: '412'
   issue: 4-6
   pages: 381-385
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - J. M. Ugalde
@@ -140,6 +164,8 @@ items:
   volume: (31)
   issue: '31'
   pages: 3909-3911
+  tags:
+  - Bio-KT
   authors:
   - Y. Liu
   - X. Lopez
@@ -196,6 +222,8 @@ items:
   journal: Journal of Chemical Physics
   volume: '123'
   issue: '2'
+  tags:
+  - Bio-KT
   authors:
   - E. V. Ludena
   - X. Lopez
@@ -210,6 +238,8 @@ items:
   volume: '127'
   issue: '35'
   pages: 12329-12337
+  tags:
+  - Bio-KT
   authors:
   - X. Lopez
   - M. A. L. Marques
@@ -222,6 +252,8 @@ items:
   year: 2005
   volume: 4A-4B
   pages: 1217-1221
+  tags:
+  - Bio-KT
   authors:
   - E. V. Ludena
   - X. Lopez
@@ -257,6 +289,8 @@ items:
   volume: '109'
   issue: '7'
   pages: 2703-2709
+  tags:
+  - POL-KT
   authors:
   - S. Hamad
   - C. R. A. Catlow
@@ -309,6 +343,10 @@ items:
   volume: '240'
   issue: '1'
   pages: 37-99
+  tags:
+  - MatCat-KT
+  - Bio-KT
+  - POL-KT
   authors:
   - J. M. Mercero
   - J. M. Matxain
@@ -327,6 +365,9 @@ items:
   volume: '127'
   issue: '12'
   pages: 4445-4453
+  tags:
+  - MatCat-KT
+  - Bio-KT
   authors:
   - J. I. Mujika
   - J. M. Mercero
