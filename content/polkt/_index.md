@@ -1,5 +1,6 @@
 ---
 title: Pol-KT Lab
+layout: subgroup
 hide_hero: true
 home_title: Welcome to the Pol-KT Laboratory
 weight: 4

@@ -8,13 +8,17 @@
   (dict "key" "phd" "title" "PhD Students")
 }}
 {{ $formerSections := slice
-  (dict "key" "former_postdoc" "title" "Former Postdoctoral Researchers")
-  (dict "key" "former_phd" "title" "Former PhD Students")
+  (dict "key" "former_researcher" "title" "Former Researchers")
+  (dict "key" "former_visitor" "legacyKey" "visitor" "title" "Visiting Professors")
+  (dict "key" "former_postdoc" "legacyKey" "postdoc" "title" "Postdoctoral Members")
+  (dict "key" "former_phd" "legacyKey" "phd" "title" "PhD Students")
+  (dict "key" "former_technician" "title" "Former Technical Staff")
 }}
 {{ $sections := cond (eq $mode "former") $formerSections $activeSections }}
 {{ $dataOrderRoot := index hugo.Data "member_order" }}
+{{ $legacyFormerMembers := site.Data.former_members }}
 
-<section class="member-directory">
+<section class="member-directory{{ if eq $mode "former" }} member-directory--former{{ end }}">
   {{ if $group }}
     {{ $matches := slice }}
     {{ range sort $people "Params.weight" }}
@@ -86,7 +90,11 @@
                 <p class="member-card__title">{{ . }}</p>
               {{ end }}
 
-              {{ with .Params.group_labels }}
+              {{ $groupLabels := .Params.group_labels | default (slice) }}
+              {{ with .Params.groups }}
+                {{ $groupLabels = split (partial "groups/labels.html" (dict "ids" .)) "|" }}
+              {{ end }}
+              {{ with $groupLabels }}
                 <div class="member-card__groups">
                   {{ range . }}
                     <span class="member-card__group">{{ . }}</span>
@@ -172,12 +180,18 @@
         {{ end }}
       {{ end }}
 
+      {{ $legacyMembers := slice }}
+      {{ with .legacyKey }}
+        {{ $legacyMembers = index $legacyFormerMembers . | default (slice) }}
+      {{ end }}
+
       <section class="member-directory__section" id="{{ $sectionKey }}">
         <div class="section-heading">
           <h2>{{ .title }}</h2>
         </div>
 
-        {{ if gt (len $orderedMatches) 0 }}
+        {{ if or (gt (len $orderedMatches) 0) (gt (len $legacyMembers) 0) }}
+          {{ if gt (len $orderedMatches) 0 }}
           <div class="member-grid">
             {{ range $orderedMatches }}
               {{ $member := . }}
@@ -256,6 +270,20 @@
               </article>
             {{ end }}
           </div>
+          {{ end }}
+          {{ with $legacyMembers }}
+            <ul class="member-legacy-list">
+              {{ range . }}
+                <li class="member-legacy-list__item">
+                  {{ if .url }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                  {{ else }}
+                    {{ .name }}
+                  {{ end }}
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
         {{ else }}
           <p class="member-directory__empty">No entries added yet.</p>
         {{ end }}

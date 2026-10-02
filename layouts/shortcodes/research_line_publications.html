@@ -93,7 +93,7 @@
 
           <h3 class="publication-entry__title">
             {{ with .doi }}
-              <a href="https://doi.org/{{ . }}">{{ $item.title }}</a>
+              <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">{{ $item.title }}</a>
             {{ else }}
               {{ $item.title }}
             {{ end }}
@@ -109,7 +109,7 @@
             </p>
             <div class="publication-entry__actions publication-entry__actions--inline">
               {{ with .doi }}
-                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" aria-label="Open DOI" title="Open DOI">
+                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" target="_blank" rel="noopener" aria-label="Open DOI" title="Open DOI">
                   <span class="publication-entry__action-text">DOI</span>
                 </a>
               {{ end }}

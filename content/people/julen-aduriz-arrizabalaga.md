@@ -6,7 +6,7 @@ aliases:
   - "/people/julen-aduriz-arrizabalaga/"
 hide_page_hero: true
 weight: 217
-member_type: "phd"
+member_type: "former_phd"
 office: "Kimika Teorikoa Lab; Kimika Fakultatea"
 location: "Euskal Herriko Unibertsitatea, PK 1072, 20080 Donostia, Spain"
 photo: "/images/members/phd/julen-aduriz-arrizabalaga.jpeg"

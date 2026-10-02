@@ -62,9 +62,7 @@ photo_position: "center center"
 # matcat, isom, biokt, polkt, noft, moleles, qcd, momag
 groups: ["matcat"]
 
-# Labels shown above the person name.
-# Use the public subgroup names here.
-group_labels: ["MatCat-KT"]
+# Group labels are derived automatically from `groups`.
 
 # Optional role shown prominently below the name.
 role: "MatCat-KT Group Leader"

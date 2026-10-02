@@ -6,6 +6,7 @@ summary: Jesús M. Ugalde Named Bergara’s First Ambassador in Recognition of H
   Career
 banner: /images/news/2026-09-28-jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career/banner.jpg
 gallery_images:
+- /images/gallery/jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026/01-20260928-123306.jpg
 - /images/gallery/jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026/02-12-54-10.jpeg
 - /images/gallery/jesus-receives-the-distinction-of-bergaras-first-ambassador-in-recognition-of-his-scientific-career-28-09-2026/03-13-52-17.jpeg
 ---

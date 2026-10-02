@@ -25,6 +25,7 @@ from pathlib import Path
 import yaml
 
 from add_submitted_publication import load_submissions, write_submissions
+from group_metadata import load_groups
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -169,20 +170,8 @@ def write_year_file(path: Path, data: dict) -> None:
         )
 
 
-GROUP_LABELS = {
-    "isom": "ISoM-KT",
-    "matcat": "MatCat-KT",
-    "biokt": "Bio-KT",
-    "polkt": "Pol-KT",
-    "noft": "NOFT-KT",
-    "moleles": "MolEleS-KT",
-    "qcd": "QCD-KT",
-    "momag": "MoMag-KT",
-}
-
-
-def build_tags(groups: list[str], extra_tags: list[str]) -> list[str]:
-    tags = [GROUP_LABELS[g] for g in groups if g in GROUP_LABELS]
+def build_tags(groups: list[str], extra_tags: list[str], group_labels: dict[str, str]) -> list[str]:
+    tags = [group_labels[g] for g in groups if g in group_labels]
     for tag in extra_tags:
         tag = tag.strip()
         if tag and tag not in tags:
@@ -190,7 +179,9 @@ def build_tags(groups: list[str], extra_tags: list[str]) -> list[str]:
     return tags
 
 
-def build_entry(message: dict, groups: list[str], extra_tags: list[str]) -> dict:
+def build_entry(
+    message: dict, groups: list[str], extra_tags: list[str], group_labels: dict[str, str]
+) -> dict:
     year = extract_year(message)
     title = extract_title(message)
     journal = extract_journal(message)
@@ -204,7 +195,7 @@ def build_entry(message: dict, groups: list[str], extra_tags: list[str]) -> dict
         "year": year,
         "journal": journal,
         "groups": groups,
-        "tags": build_tags(groups, extra_tags),
+        "tags": build_tags(groups, extra_tags, group_labels),
         "authors": authors,
     }
 
@@ -310,6 +301,7 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"DOI: {doi}")
 
+    group_labels = {key: group.label for key, group in load_groups().items()}
     existing = publication_exists(doi)
     if existing:
         print(f"DOI already exists in {existing}")
@@ -334,13 +326,13 @@ def main(argv: list[str] | None = None) -> int:
     print(f"DOI:     {doi}")
     print("=========================\n")
 
-    print(f"Available groups: {', '.join(GROUP_LABELS.keys())}")
+    print(f"Available groups: {', '.join(group_labels.keys())}")
     groups_raw = prompt("Groups (comma-separated, e.g. biokt,isom): ").lower()
     groups = [g.strip() for g in groups_raw.split(",") if g.strip()]
-    invalid = [g for g in groups if g not in GROUP_LABELS]
+    invalid = [g for g in groups if g not in group_labels]
     if invalid:
         print(f"Invalid group(s): {', '.join(invalid)}", file=sys.stderr)
-        print(f"Valid groups are: {', '.join(GROUP_LABELS.keys())}", file=sys.stderr)
+        print(f"Valid groups are: {', '.join(group_labels.keys())}", file=sys.stderr)
         return 1
     if not groups:
         print("No group provided.", file=sys.stderr)
@@ -351,9 +343,9 @@ def main(argv: list[str] | None = None) -> int:
         extra_tags.append("IT2067")
 
     print(f"\nGroups: {', '.join(groups)}")
-    print(f"Tags:   {', '.join(build_tags(groups, extra_tags))}")
+    print(f"Tags:   {', '.join(build_tags(groups, extra_tags, group_labels))}")
 
-    entry = build_entry(message, groups, extra_tags)
+    entry = build_entry(message, groups, extra_tags, group_labels)
 
     year_path = DATA_DIR / f"{year}.yaml"
     data = load_year_file(year_path)

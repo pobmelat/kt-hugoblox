@@ -1,0 +1,66 @@
+{{ $defaultHeader := dict "menu" "general" "variant" "main" "accent" "primary" "brand_name" site.Title "brand_note" site.Params.site_tagline "brand_url" "/" }}
+{{ $header := .Params.header | default $defaultHeader }}
+{{ $menuKey := $header.menu | default "general" }}
+{{ $menu := index site.Data.navigation $menuKey }}
+{{ $current := .RelPermalink }}
+{{ $brandName := $header.brand_name | default site.Title }}
+{{ $brandNameCompact := replaceRE " Lab$" "" $brandName }}
+{{ $brandNote := $header.brand_note | default site.Params.site_tagline }}
+{{ $homeURL := "" | absURL }}
+{{ $brandURL := (strings.TrimPrefix "/" ($header.brand_url | default "/")) | absURL }}
+{{ $isSubgroup := eq ($header.variant | default "main") "subgroup" }}
+{{ $subgroupLogo := $header.subgroup_logo }}
+{{ if and (not $subgroupLogo) $isSubgroup }}
+  {{ with site.GetPage (printf "/%s/" ($header.menu | default $header.accent)) }}
+    {{ with .Params.research_group_card }}{{ $subgroupLogo = .logo }}{{ end }}
+  {{ end }}
+{{ end }}
+<header class="site-header site-header--classic site-header--{{ $header.variant | default "main" }} site-header--accent-{{ $header.accent | default "primary" }}">
+  <div class="container classic-header__row">
+    <div class="brand-lockup">
+      <a class="brand-lockup__logo-link" href="{{ $homeURL }}" aria-label="Kimika Teorikoa home">
+        <img class="brand-lockup__logo" src="{{ "images/logo.png" | relURL }}" alt="Kimika Teorikoa logo">
+      </a>
+      {{ with $subgroupLogo }}
+        <a class="brand-lockup__subgroup-logo-link" href="{{ $brandURL }}" aria-label="{{ $brandName }}">
+          <img class="brand-lockup__subgroup-logo" src="{{ (strings.TrimPrefix "/" .) | absURL }}" alt="{{ $header.subgroup_logo_alt | default $brandName }}">
+        </a>
+      {{ end }}
+      <a class="brand-lockup__text-link" href="{{ $brandURL }}">
+        <span class="brand-lockup__text">
+          <span class="brand-lockup__note">{{ if eq $brandNote "Euskal Herriko Unibertsitatea" }}EHU &amp; DIPC{{ else }}{{ $brandNote }}{{ end }}</span>
+          <span class="brand-lockup__name">{{ $brandNameCompact }}</span>
+        </span>
+      </a>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-primary-nav">Menu</button>
+    <nav id="site-primary-nav" class="site-nav site-nav--classic" aria-label="Primary navigation">
+      <ul class="nav-list">
+        {{ if not $isSubgroup }}
+          <li class="nav-item{{ if eq $current "/" }} is-active{{ end }}"><a href="{{ $homeURL }}">Home</a></li>
+        {{ end }}
+        {{ with $menu }}
+          {{ range .items }}
+            {{ if not (and (not $isSubgroup) (eq .name "Research Groups")) }}
+              {{ $itemURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
+              <li class="nav-item{{ if .children }} has-children{{ end }}{{ if or (eq $current $itemURL) (and (ne $itemURL "/") (hasPrefix $current $itemURL)) }} is-active{{ end }}">
+                <a href="{{ $itemURL }}">{{ .name }}</a>
+                {{ with .children }}
+                  <ul class="nav-submenu">
+                    {{ range . }}
+                      {{ $childURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
+                      <li class="nav-subitem"><a href="{{ $childURL }}">{{ .name }}</a></li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if not $isSubgroup }}
+          <li class="nav-item{{ if hasPrefix $current "/contact/" }} is-active{{ end }}"><a href="{{ "contact/" | absURL }}">Contact</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

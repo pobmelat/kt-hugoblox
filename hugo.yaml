@@ -14,6 +14,7 @@ markup:
       unsafe: true
 
 params:
+  header_style: "classic"
   robots: "index, follow"
   site_tagline: "Euskal Herriko Unibertsitatea & DIPC"
   footer_note: ""
@@ -24,20 +25,4 @@ params:
       url: /contact/
     - name: KT-Groups
       url: /research-groups/
-      children:
-        - name: MatCat-KT
-          url: /matcat/
-        - name: ISoM-KT
-          url: /isom/
-        - name: Pol-KT
-          url: /polkt/
-        - name: Bio-KT
-          url: /biokt/
-        - name: NOFT-KT
-          url: /noft/
-        - name: MolEleS-KT
-          url: https://molecular-electronic-structure-group.github.io
-        - name: QCD-KT
-          url: https://quantchemdev.github.io
-        - name: MoMag-KT
-          url: /momag
+      groups: true

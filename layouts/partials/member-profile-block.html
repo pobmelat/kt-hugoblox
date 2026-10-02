@@ -10,7 +10,11 @@
     </div>
 
     <div class="member-profile__summary">
-      {{ with $member.Params.group_labels }}
+      {{ $groupLabels := $member.Params.group_labels | default (slice) }}
+      {{ with $member.Params.groups }}
+        {{ $groupLabels = split (partial "groups/labels.html" (dict "ids" .)) "|" }}
+      {{ end }}
+      {{ with $groupLabels }}
         <p class="member-profile__eyebrow">{{ delimit . " · " }}</p>
       {{ end }}
 

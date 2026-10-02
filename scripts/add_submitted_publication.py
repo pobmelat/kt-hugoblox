@@ -13,20 +13,12 @@ from pathlib import Path
 
 import yaml
 
+from group_metadata import group_aliases, load_groups, normalize_group_token
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SUBMITTED_FILE = ROOT / "data" / "publications" / "submitted.yaml"
 PEOPLE_DIR = ROOT / "content" / "people"
-GROUP_TAGS = {
-    "isom-kt": "ISoM-KT",
-    "matcat-kt": "MatCat-KT",
-    "bio-kt": "Bio-KT",
-    "pol-kt": "POL-KT",
-    "noft-kt": "NOFT-KT",
-    "moleles-kt": "MolEleS-KT",
-    "qcd-kt": "QCD-KT",
-    "momag-kt": "MoMag-KT",
-}
 
 
 def normalize_text(value: str) -> str:
@@ -67,25 +59,27 @@ def prompt_authors() -> list[str]:
 
 
 def parse_group_tags(raw: str) -> list[str]:
+    groups = load_groups()
+    aliases = group_aliases(groups)
     tags = []
     invalid = []
     for value in raw.split(","):
         tag = normalize_text(value)
         if not tag:
             continue
-        canonical = GROUP_TAGS.get(tag.casefold())
-        if canonical is None:
+        group = aliases.get(normalize_group_token(tag))
+        if group is None:
             invalid.append(tag)
-        elif canonical not in tags:
-            tags.append(canonical)
+        elif group.label not in tags:
+            tags.append(group.label)
     if invalid:
-        valid = ", ".join(GROUP_TAGS.values())
+        valid = ", ".join(group.label for group in groups.values())
         raise ValueError(f"Unknown group tag(s): {', '.join(invalid)}. Valid tags: {valid}")
     return tags
 
 
 def prompt_group_tags() -> list[str]:
-    valid_tags = ", ".join(GROUP_TAGS.values())
+    valid_tags = ", ".join(group.label for group in load_groups().values())
     while True:
         raw = input(f"Research group tag(s), comma-separated (optional; {valid_tags}): ").strip()
         try:

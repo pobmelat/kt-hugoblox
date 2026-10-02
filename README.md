@@ -67,6 +67,41 @@ Bio-KT Laboratory operates within the Donostia Kimika Teorikoa research group...
 | `research_intro` | Optional intro text above the grid; `false` suppresses it. |
 | `resources` | Optional software/data list. Creates a `Resources` menu item and a page at `/resources/`. |
 
+### Canonical content sources
+
+Keep each kind of information in one place:
+
+- A group is defined by `content/<group>/_index.md`. Its `research_group_card`
+  supplies the public group label and logo to templates and maintenance scripts.
+- A person is defined by `content/people/<person>.md`. Set `groups` with group
+  keys such as `matcat` or `polkt`; labels are derived automatically.
+- Published articles live in `data/publications/years/<year>.yaml`, while
+  submissions live in `data/publications/submitted.yaml`.
+- News, gallery, seminars and theses use their respective `content/news/` or
+  `data/` sources. Do not create backups or templates under `content/`, because
+  Hugo publishes every content file.
+
+When adding a group, use its `_index.md` as the only source for its key, label,
+logo, leaders, research lines and contact data. Navigation and scripts derive
+the public label from that definition.
+
+Create a standard internal group interactively:
+
+```bash
+python3 scripts/add_group.py
+```
+
+The command can also be scripted:
+
+```bash
+python3 scripts/add_group.py --slug new-kt --label New-KT --title "New-KT Lab"
+```
+
+It creates the group landing page, members, publications, research and contact
+pages, plus its local navigation. Add the requested logo beneath `static/` and
+run `make validate`. The global menus and home constellation pick up the new
+group automatically.
+
 ## Generating research pages
 
 The main generator script is:
@@ -190,10 +225,9 @@ A `Makefile` is provided for common tasks. You can override any variable on the 
 | Variable | Default | Purpose |
 |----------|---------|---------|
 | `PROD_BASEURL` | `https://www.ehu.eus/chemistry/theory/new/` | Base URL used for the production build. |
-| `LFTP_USER` | `scwtcg` | SFTP username. |
-| `LFTP_HOST` | `alweb.ehu.eus` | SFTP server host. |
+| `SFTP_USER` | `scwtcg` | SFTP username. |
+| `SFTP_HOST` | `alweb.ehu.eus` | SFTP server host. |
 | `REMOTE_PATH` | `/users/scwtcg/public_html/new` | Destination directory on the server. |
-| `LFTP_PASS` | *(none)* | SFTP password. Provide via `.env` or environment; **never commit it**. |
 
 ### Makefile targets
 
@@ -201,8 +235,8 @@ A `Makefile` is provided for common tasks. You can override any variable on the 
 # Local development server
 make serve
 
-# Production build (uses PROD_BASEURL)
-make build
+# Validate data and produce the production build (uses PROD_BASEURL)
+make validate
 
 # Deploy the public/ folder via SFTP using lftp
 make deploy
@@ -214,11 +248,11 @@ make clean
 ### Example: deploy from scratch
 
 ```bash
-# 1. Build for production
-make build
+# 1. Validate and build for production
+make validate
 
-# 2. Deploy (password can be set inline or in .env)
-LFTP_PASS="yourpassword" make deploy
+# 2. Deploy using your configured SFTP authentication
+make deploy
 ```
 
 ### Recommended `.env` file
@@ -227,16 +261,15 @@ Create a `.env` file in the repository root (it is already ignored by git):
 
 ```bash
 PROD_BASEURL="https://www.ehu.eus/chemistry/theory/new/"
-LFTP_USER="scwtcg"
-LFTP_PASS="your-password-here"
-LFTP_HOST="alweb.sw.ehu.eus"
+SFTP_USER="scwtcg"
+SFTP_HOST="alweb.ehu.eus"
 REMOTE_PATH="/users/scwtcg/public_html/new"
 ```
 
 Then simply run:
 
 ```bash
-make build
+make validate
 make deploy
 ```
 
@@ -296,9 +329,42 @@ files, or `--help` to see the available option.
    ```
 5. Build and deploy:
    ```bash
-   make build
+   make validate
    make deploy
    ```
+
+## Validation
+
+Run the following before deploying manually edited YAML or generated content:
+
+```bash
+make validate
+```
+
+It validates every data YAML file, verifies person and publication group keys,
+builds the production site, and rejects generated localhost links.
+
+## Header themes
+
+Two header layouts are available:
+
+- `default`: the current multi-band header.
+- `classic`: a compact one-row header with the KT logo and subgroup logo on the
+  left, and the navigation on the right. The footer is unchanged.
+
+Switch theme and build the site:
+
+```bash
+scripts/change_theme.sh classic
+scripts/change_theme.sh default
+```
+
+Running `change_theme` without an argument opens an interactive selection. The
+same command is available from any directory through:
+
+```bash
+~/MyTools/change_theme classic
+```
 
 ---
 

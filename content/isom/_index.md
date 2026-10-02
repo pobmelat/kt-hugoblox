@@ -1,5 +1,6 @@
 ---
 title: ISoM-KT Lab
+layout: subgroup
 hide_hero: true
 home_title: Welcome to the ISoM Laboratory
 weight: 2

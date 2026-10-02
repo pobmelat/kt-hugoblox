@@ -1,5 +1,6 @@
 ---
 title: MatCat-KT Lab
+layout: subgroup
 hide_hero: true
 home_title: Welcome to the MatCat Laboratory
 weight: 1

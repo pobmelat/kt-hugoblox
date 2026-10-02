@@ -1,5 +1,6 @@
 ---
 title: "NOFT-KT Lab"
+layout: subgroup
 hide_hero: true
 home_title: "Welcome to the NOFT-KT Laboratory"
 weight: 5

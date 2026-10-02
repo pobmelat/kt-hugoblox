@@ -32,16 +32,17 @@
   {{ end }}
 {{ end }}
 {{ $memberIDs := slice }}
-{{ $groupLabels := dict
-  "isom" "ISoM-KT"
-  "matcat" "MatCat-KT"
-  "biokt" "Bio-KT"
-  "polkt" "Pol-KT"
-  "noft" "NOFT-KT"
-  "moleles" "MolEleS-KT"
-  "qcd" "QCD-KT"
-  "momag" "MoMag-KT"
-}}
+{{ $groupLabels := dict }}
+{{ range where site.Pages "Params.research_group_card" "ne" nil }}
+  {{ $groupPage := . }}
+  {{ with $groupPage.Params.research_group_card }}
+    {{ $key := .key | default $groupPage.Section }}
+    {{ $label := .label | default $key }}
+    {{ with $key }}
+      {{ $groupLabels = merge $groupLabels (dict . $label) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 
 {{ range $items }}
   {{ $inGroup := true }}
@@ -119,43 +120,48 @@
 {{ end }}
 
 <section class="publication-directory" data-publication-directory>
-  {{ if gt (len $years) 0 }}
-    <nav class="publication-years" aria-label="Filter publications by year">
-      {{ range (collections.Reverse (uniq (sort $years))) }}
-        <button class="publication-year" type="button" data-publication-year-filter="{{ . }}" aria-pressed="false">{{ . }}</button>
+  {{ if or (gt (len $years) 0) (gt (len $memberIDs) 0) (gt (len $tagSet) 0) }}
+    <div class="publication-filters" aria-label="Filter publications">
+      {{ if gt (len $years) 0 }}
+        <div class="publication-filter">
+          <label class="publication-toolbar__label" for="publication-year-select">Year</label>
+          <select id="publication-year-select" class="publication-filter__select" data-publication-year-filter>
+            <option value="all">All years</option>
+            {{ range (collections.Reverse (uniq (sort $years))) }}
+              <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
       {{ end }}
-    </nav>
+      {{ if gt (len $memberIDs) 0 }}
+        <div class="publication-filter">
+          <label class="publication-toolbar__label" for="publication-member-select">Group member</label>
+          <select id="publication-member-select" class="publication-filter__select" data-publication-member-filter>
+            <option value="all">All members</option>
+            {{ range sort $members "Title" }}
+              {{ $memberID := .Params.id | default .File.ContentBaseName }}
+              {{ if in $memberIDs $memberID }}
+                <option value="{{ $memberID }}">{{ .Title }}</option>
+              {{ end }}
+            {{ end }}
+          </select>
+        </div>
+      {{ end }}
+      {{ if gt (len $tagSet) 0 }}
+        <div class="publication-filter">
+          <label class="publication-toolbar__label" for="publication-tag-select">Tag</label>
+          <select id="publication-tag-select" class="publication-filter__select" data-publication-tag-filter>
+            <option value="all">All tags</option>
+            {{ range sort $tagSet }}
+              <option value="{{ . | urlize }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
+      {{ end }}
+    </div>
   {{ end }}
 
   <div class="publication-directory__content">
-    {{ if gt (len $tagSet) 0 }}
-      <div class="publication-toolbar">
-        <span class="publication-toolbar__label">Tags</span>
-        <div class="publication-tags publication-tags--toolbar">
-          <a class="publication-tag publication-tag--reset" href="#all" data-publication-filter="all">All</a>
-          {{ range sort $tagSet }}
-            {{ $slug := . | urlize }}
-            <a class="publication-tag" href="#tag-{{ $slug }}" data-publication-filter="{{ $slug }}">{{ . }}</a>
-          {{ end }}
-        </div>
-      </div>
-    {{ end }}
-
-    {{ if gt (len $memberIDs) 0 }}
-      <div class="publication-member-filter">
-        <label class="publication-toolbar__label" for="publication-member-select">Browse by group member</label>
-        <select id="publication-member-select" class="publication-member-filter__select" data-publication-member-filter>
-          <option value="all">All members</option>
-          {{ range sort $members "Title" }}
-            {{ $memberID := .Params.id | default .File.ContentBaseName }}
-            {{ if in $memberIDs $memberID }}
-              <option value="{{ $memberID }}">{{ .Title }}</option>
-            {{ end }}
-          {{ end }}
-        </select>
-      </div>
-    {{ end }}
-
     {{ if or (gt (len $matches) 0) (gt (len $submittedMatches) 0) }}
       {{ if gt (len $submittedMatches) 0 }}
         <ol class="publication-list publication-list--submitted" data-publication-list>
@@ -229,12 +235,19 @@
         {{ end }}
         {{ $publicationMemberIDs := split (partial "publication-member-ids.html" (dict "publication" . "memberAliases" $memberAliases)) " " }}
         <li class="publication-entry" data-publication-item data-publication-year="{{ .year }}" data-publication-members="{{ delimit $publicationMemberIDs " " }}" data-tags="{{ delimit $tagSlugs " " }}">
+          {{ $publication := . }}
           <span class="publication-entry__number" data-publication-number></span>
           {{ with .authors }}
             <p class="publication-entry__authors">{{ delimit . "; " }}</p>
           {{ end }}
 
-          <h3 class="publication-entry__title">{{ .title }}</h3>
+          <h3 class="publication-entry__title">
+            {{ with $publication.doi }}
+              <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">{{ $publication.title }}</a>
+            {{ else }}
+              {{ $publication.title }}
+            {{ end }}
+          </h3>
 
           <div class="publication-entry__citation-row">
             <p class="publication-entry__citation">
@@ -246,7 +259,7 @@
             </p>
             <div class="publication-entry__actions publication-entry__actions--inline">
               {{ with .doi }}
-                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" aria-label="Open DOI" title="Open DOI">
+                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" target="_blank" rel="noopener" aria-label="Open DOI" title="Open DOI">
                   <span class="publication-entry__action-text">DOI</span>
                 </a>
               {{ end }}
@@ -308,24 +321,24 @@
     const root = document.currentScript?.previousElementSibling;
     if (!root || !root.matches('[data-publication-directory]')) return;
 
-    const filters = Array.from(root.querySelectorAll('[data-publication-filter]'));
-    const yearFilters = Array.from(root.querySelectorAll('[data-publication-year-filter]'));
+    const yearFilter = root.querySelector('[data-publication-year-filter]');
     const memberFilter = root.querySelector('[data-publication-member-filter]');
+    const tagFilter = root.querySelector('[data-publication-tag-filter]');
     const detailsBlocks = Array.from(root.querySelectorAll('.publication-bibtex-details'));
     const items = Array.from(root.querySelectorAll('[data-publication-item]'));
     const emptyMessage = root.querySelector('[data-publication-empty]');
     let activeYear = 'all';
     let activeMember = 'all';
+    let activeTag = 'all';
 
-    const applyFilter = (slug) => {
-      const active = slug && slug !== 'all' ? slug : 'all';
+    const applyFilter = () => {
       const visibleItems = [];
 
       items.forEach((item) => {
         const tags = (item.getAttribute('data-tags') || '').split(/\s+/).filter(Boolean);
         const year = item.getAttribute('data-publication-year');
         const members = (item.getAttribute('data-publication-members') || '').split(/\s+/).filter(Boolean);
-        const visible = (active === 'all' || tags.includes(active))
+        const visible = (activeTag === 'all' || tags.includes(activeTag))
           && (activeYear === 'all' || year === activeYear)
           && (activeMember === 'all' || members.includes(activeMember));
         item.hidden = !visible;
@@ -340,9 +353,6 @@
         if (slot) slot.textContent = `${number}.`;
       });
 
-      filters.forEach((link) => {
-        link.classList.toggle('is-active', link.getAttribute('data-publication-filter') === active);
-      });
     };
 
     const readHash = () => {
@@ -350,31 +360,30 @@
       return hash.startsWith('#tag-') ? hash.replace('#tag-', '') : 'all';
     };
 
-    root.addEventListener('click', (event) => {
-      const yearButton = event.target.closest('[data-publication-year-filter]');
-      if (yearButton) {
-        const selectedYear = yearButton.getAttribute('data-publication-year-filter') || 'all';
-        activeYear = activeYear === selectedYear ? 'all' : selectedYear;
-        yearFilters.forEach((button) => {
-          const selected = button.getAttribute('data-publication-year-filter') === activeYear;
-          button.classList.toggle('is-active', selected);
-          button.setAttribute('aria-pressed', String(selected));
-        });
-        applyFilter(readHash());
-        return;
-      }
+    yearFilter?.addEventListener('change', () => {
+      activeYear = yearFilter.value || 'all';
+      applyFilter();
+    });
 
-      const link = event.target.closest('[data-publication-filter]');
-      if (!link) return;
+    tagFilter?.addEventListener('change', () => {
+      activeTag = tagFilter.value || 'all';
+      history.replaceState(null, '', activeTag === 'all' ? '#all' : `#tag-${activeTag}`);
+      applyFilter();
+    });
+
+    root.addEventListener('click', (event) => {
+      const tagLink = event.target.closest('[data-publication-filter]');
+      if (!tagLink) return;
       event.preventDefault();
-      const slug = link.getAttribute('data-publication-filter') || 'all';
-      history.replaceState(null, '', slug === 'all' ? '#all' : `#tag-${slug}`);
-      applyFilter(slug);
+      activeTag = tagLink.getAttribute('data-publication-filter') || 'all';
+      if (tagFilter) tagFilter.value = activeTag;
+      history.replaceState(null, '', activeTag === 'all' ? '#all' : `#tag-${activeTag}`);
+      applyFilter();
     });
 
     memberFilter?.addEventListener('change', () => {
       activeMember = memberFilter.value || 'all';
-      applyFilter(readHash());
+      applyFilter();
     });
 
     detailsBlocks.forEach((details) => {
@@ -420,7 +429,13 @@
       }
     });
 
-    window.addEventListener('hashchange', () => applyFilter(readHash()));
-    applyFilter(readHash());
+    window.addEventListener('hashchange', () => {
+      activeTag = readHash();
+      if (tagFilter) tagFilter.value = activeTag;
+      applyFilter();
+    });
+    activeTag = readHash();
+    if (tagFilter) tagFilter.value = activeTag;
+    applyFilter();
   })();
 </script>

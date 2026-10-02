@@ -15,7 +15,7 @@
 # Load optional .env (if present) so users can keep credentials out of the shell.
 -include .env
 
-.PHONY: serve build check-public-links deploy deploy-full clean
+.PHONY: serve build validate-data validate check-public-links deploy deploy-full clean
 
 # Defaults (override via environment, .env, or on the make command line)
 PROD_BASEURL ?= https://www.ehu.eus/chemistry/theory/new/
@@ -29,6 +29,11 @@ serve:
 build:
 	echo "Building with baseURL: $(PROD_BASEURL)"
 	hugo -D --minify --cleanDestinationDir --baseURL "$(PROD_BASEURL)"
+
+validate-data:
+	python3 scripts/validate_site_data.py
+
+validate: validate-data build check-public-links
 
 check-public-links:
 	@test -d public || (echo "Run 'make build' before deploying" >&2 && exit 1)

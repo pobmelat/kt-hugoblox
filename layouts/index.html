@@ -1,12 +1,5 @@
 {{ define "main" }}
-  {{ $bioktURL := relref . "/biokt" }}
-  {{ $isomURL := relref . "/isom" }}
-  {{ $matcatURL := relref . "/matcat" }}
-  {{ $momagURL := "https://www.danielreta.com"  }}
-  {{ $noftURL := relref . "/noft" }}
-  {{ $polktURL := relref . "/polkt" }}
-  {{ $molelesURL := "https://molecular-electronic-structure-group.github.io" }}
-  {{ $qcdURL := "https://quantchemdev.github.io" }}
+  {{ $groups := sort (where site.Pages "Params.research_group_card" "ne" nil) "Params.weight" "asc" }}
   {{ $consolURL := "https://research.science.eus/grupos/16950/detalle?lang=en"}}
   {{ if not .Params.hide_hero }}
     {{ partial "page-hero.html" . }}
@@ -61,46 +54,44 @@
           {{ if not $nextHasDate }}
             {{ $slides = $slides | append $nextSlide }}
           {{ end }}
-          <section class="landing-feature">
-            <header class="landing-heading">
-              <h1>Welcome to the Donostia Kimika Teorikoa Group</h1>
-              <p style="color: #FF8C00; font-size: 1.2em; font-weight: 600; margin-top: 10px;">Web under development</p>
-            </header>
-            <aside class="landing-news" aria-label="Recent news and events" {{ if gt (len $slides) 1 }}data-news-rotator{{ end }}>
-              <div class="landing-news__topline">
-                <p class="landing-news__eyebrow">News &amp; events</p>
-              </div>
-              <div class="landing-news__slides" aria-live="off" data-news-slides>
-                {{ range $index, $slide := $slides }}
-                  <article class="landing-news__slide{{ with $slide.banner }} landing-news__slide--with-image{{ end }}" role="group" aria-roledescription="slide" aria-label="{{ add $index 1 }} of {{ len $slides }}" data-more-url="{{ $slide.moreUrl | default $slide.url }}" data-more-label="{{ $slide.more }}" {{ if gt $index 0 }}hidden{{ end }}>
-                    {{ with $slide.banner }}
-                      {{ $banner := strings.TrimPrefix "/" . }}
-                      <img class="landing-news__image" src="{{ $banner | relURL }}" alt="" loading="lazy">
-                    {{ end }}
-                    <span class="landing-news__date">{{ $slide.kind }}{{ with $slide.date }} · {{ . }}{{ end }}</span>
-                    <a class="landing-news__title" href="{{ $slide.url }}">{{ $slide.title }}</a>
-                    {{ with $slide.speaker }}<span class="landing-news__speaker">{{ . }}</span>{{ end }}
-                    {{ with $slide.summary }}<span class="landing-news__summary">{{ . }}</span>{{ end }}
-                  </article>
-                {{ end }}
-              </div>
-              {{ if gt (len $slides) 1 }}
-                <div class="landing-news__controls" aria-label="News controls">
-                  <button class="landing-news__control landing-news__control--toggle" type="button" aria-label="Pause news rotation" aria-pressed="false">Pause</button>
-                  <button class="landing-news__control landing-news__control--previous" type="button" aria-label="Previous news item">←</button>
-                  <button class="landing-news__control landing-news__control--next" type="button" aria-label="Next news item">→</button>
-                </div>
-              {{ end }}
-              <a class="landing-news__more landing-news__more--active" href="{{ with index $slides 0 }}{{ .moreUrl | default .url }}{{ end }}" data-news-more>
-                <span data-news-more-label>{{ with index $slides 0 }}{{ .more }}{{ end }}</span> <span aria-hidden="true">→</span>
-              </a>
-            </aside>
-          </section>
+          <header class="landing-heading">
+            <h1>Welcome to the Donostia Kimika Teorikoa Group</h1>
+            <p style="color: #FF8C00; font-size: 1.2em; font-weight: 600; margin-top: 10px;">Web under development</p>
+          </header>
           <section class="landing-split">
             <div class="landing-intro">
               <p>Founded in 1990, the Kimika Teorikoa Group in Donostia has established itself as a reference center in theoretical and computational chemistry. Initially led by Prof. Jesus M. Ugalde and currently co-led by Prof. Xabier Lopez, the group has been recognized by the Basque Government as a <a href="{{ $consolURL }}"> consolidated research group</a>.</p>
               <p>The team coordinates and participates in more than ten competitive research projects and collaborates internationally across multiple scientific domains.</p>
               <p>The main research areas are summarized in the diagram shown on the right.</p>
+              <aside class="landing-news" aria-label="Recent news and events" {{ if gt (len $slides) 1 }}data-news-rotator{{ end }}>
+                <div class="landing-news__topline">
+                  <p class="landing-news__eyebrow">News &amp; events</p>
+                </div>
+                <div class="landing-news__slides" aria-live="off" data-news-slides>
+                  {{ range $index, $slide := $slides }}
+                    <article class="landing-news__slide{{ with $slide.banner }} landing-news__slide--with-image{{ end }}" role="group" aria-roledescription="slide" aria-label="{{ add $index 1 }} of {{ len $slides }}" data-more-url="{{ $slide.moreUrl | default $slide.url }}" data-more-label="{{ $slide.more }}" {{ if gt $index 0 }}hidden{{ end }}>
+                      {{ with $slide.banner }}
+                        {{ $banner := strings.TrimPrefix "/" . }}
+                        <img class="landing-news__image" src="{{ $banner | relURL }}" alt="" loading="lazy">
+                      {{ end }}
+                      <span class="landing-news__date">{{ $slide.kind }}{{ with $slide.date }} · {{ . }}{{ end }}</span>
+                      <a class="landing-news__title" href="{{ $slide.url }}">{{ $slide.title }}</a>
+                      {{ with $slide.speaker }}<span class="landing-news__speaker">{{ . }}</span>{{ end }}
+                      {{ with $slide.summary }}<span class="landing-news__summary">{{ . }}</span>{{ end }}
+                    </article>
+                  {{ end }}
+                </div>
+                {{ if gt (len $slides) 1 }}
+                  <div class="landing-news__controls" aria-label="News controls">
+                    <button class="landing-news__control landing-news__control--toggle" type="button" aria-label="Pause news rotation" aria-pressed="false">Pause</button>
+                    <button class="landing-news__control landing-news__control--previous" type="button" aria-label="Previous news item">←</button>
+                    <button class="landing-news__control landing-news__control--next" type="button" aria-label="Next news item">→</button>
+                  </div>
+                {{ end }}
+                <a class="landing-news__more landing-news__more--active" href="{{ with index $slides 0 }}{{ .moreUrl | default .url }}{{ end }}" data-news-more>
+                  <span data-news-more-label>{{ with index $slides 0 }}{{ .more }}{{ end }}</span> <span aria-hidden="true">→</span>
+                </a>
+              </aside>
             </div>
 
             <div class="landing-diagram">
@@ -110,38 +101,15 @@
                   <span>Research Groups</span>
                 </a>
 
-                <a class="group-orbit group-orbit--biokt" href="{{ $bioktURL }}">
-                  <img src="{{ "images/groups/biokt.png" | relURL }}" alt="Bio-KT logo">
-                  <span>Bio-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--isom" href="{{ $isomURL }}">
-                  <img src="{{ "images/groups/iSoM.png" | relURL }}" alt="ISoM-KT logo">
-                  <span>ISoM-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--matcat" href="{{ $matcatURL }}">
-                  <img src="{{ "images/groups/matcat2.png" | relURL }}" alt="MatCat-KT logo">
-                  <span>MatCat-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--moleles" href="{{ $molelesURL }}">
-                  <img src="{{ "images/groups/moleles.png" | relURL }}" alt="MolEleS-KT logo">
-                  <span>MolEleS-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--momag" href="{{ $momagURL }}">
-                  <img src="{{ "images/groups/momag.png" | relURL }}" alt="MoMag-KT logo">
-                  <span>MoMag-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--noft" href="{{ $noftURL }}">
-                  <img src="{{ "images/groups/donof.png" | relURL }}" alt="NOFT-KT logo">
-                  <span>NOFT-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--polkt" href="{{ $polktURL }}">
-                  <img src="{{ "images/groups/polkt.png" | relURL }}" alt="Pol-KT logo">
-                  <span>Pol-KT</span>
-                </a>
-                <a class="group-orbit group-orbit--qcd" href="{{ $qcdURL }}">
-                  <img src="{{ "images/groups/qcd.png" | relURL }}" alt="QCD-KT logo">
-                  <span>QCD-KT</span>
-                </a>
+                {{ range $groups }}
+                  {{ $card := .Params.research_group_card }}
+                  {{ $groupURL := .RelPermalink }}
+                  {{ with $card.external_url }}{{ $groupURL = . }}{{ end }}
+                  <a class="group-orbit group-orbit--{{ $card.key }}" href="{{ $groupURL }}">
+                    <img src="{{ (strings.TrimPrefix "/" $card.logo) | relURL }}" alt="{{ $card.label }} logo">
+                    <span>{{ $card.label }}</span>
+                  </a>
+                {{ end }}
               </div>
             </div>
           </section>

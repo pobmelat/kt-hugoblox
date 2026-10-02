@@ -18,6 +18,20 @@
         {{ with .Params.lead }}
           <p class="lead">{{ . }}</p>
         {{ end }}
+        {{ with .Params.contact_locations }}
+          <div class="contact-locations">
+            {{ range . }}
+              <section class="contact-location">
+                <h2>{{ .name }}</h2>
+                <address>
+                  {{ range $index, $line := .address }}
+                    {{ if $index }}<br>{{ end }}{{ $line }}
+                  {{ end }}
+                </address>
+              </section>
+            {{ end }}
+          </div>
+        {{ end }}
 
         {{ with $actions }}
           <div class="hero-actions">

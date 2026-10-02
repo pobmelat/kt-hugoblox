@@ -1,0 +1,12 @@
+{{- $labels := slice -}}
+{{- range .ids -}}
+  {{- $groupPage := site.GetPage (printf "/%s/" .) -}}
+  {{- $label := . -}}
+  {{- with $groupPage -}}
+    {{- with .Params.research_group_card -}}
+      {{- $label = .label | default $label -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $labels = $labels | append $label -}}
+{{- end -}}
+{{- delimit $labels "|" -}}

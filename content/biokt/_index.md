@@ -1,5 +1,6 @@
 ---
 title: Bio-KT Lab
+layout: subgroup
 hide_hero: true
 home_title: Welcome to the Bio-KT Laboratory
 weight: 1

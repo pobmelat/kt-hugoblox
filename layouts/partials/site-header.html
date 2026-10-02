@@ -1,3 +1,6 @@
+{{ if eq (site.Params.header_style | default "default") "classic" }}
+  {{ partial "site-header-classic.html" . }}
+{{ else }}
 {{ $defaultHeader := dict
   "menu" "general"
   "variant" "main"
@@ -13,19 +16,15 @@
 {{ $brandNote := $header.brand_note | default site.Params.site_tagline }}
 {{ $homeURL := "" | absURL }}
 {{ $brandURL := (strings.TrimPrefix "/" ($header.brand_url | default "/")) | absURL }}
-{{ $subgroupLogos := dict
-  "matcat" "/images/groups/matcat2.png"
-  "isom" "/images/groups/iSoM.png"
-  "biokt" "/images/groups/biokt.png"
-  "polkt" "/images/groups/polkt.png"
-  "noft" "/images/groups/donof.png"
-  "moleles" "/images/groups/moleles.png"
-  "qcd" "/images/groups/qcd.png"
-  "momag" "/images/groups/momag.png"
-}}
+{{ $groupPages := sort (where site.Pages "Params.research_group_card" "ne" nil) "Params.weight" "asc" }}
 {{ $subgroupLogo := $header.subgroup_logo }}
 {{ if and (not $subgroupLogo) (eq ($header.variant | default "main") "subgroup") }}
-  {{ $subgroupLogo = index $subgroupLogos ($header.menu | default $header.accent) }}
+  {{ $groupKey := $header.menu | default $header.accent }}
+  {{ with site.GetPage (printf "/%s/" $groupKey) }}
+    {{ with .Params.research_group_card }}
+      {{ $subgroupLogo = .logo }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 <header class="site-header site-header--{{ $header.variant | default "main" }} site-header--accent-{{ $header.accent | default "primary" }}">
@@ -34,15 +33,26 @@
       <nav class="utility-nav" aria-label="Research groups navigation">
         {{ range site.Params.utility_nav }}
           {{ $utilityURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
-          <div class="utility-nav__item{{ if .children }} has-children{{ end }}">
+          <div class="utility-nav__item{{ if or .children .groups }} has-children{{ end }}">
             <a href="{{ $utilityURL }}">{{ .name }}</a>
-            {{ with .children }}
+            {{ if .groups }}
               <div class="utility-nav__submenu">
-                {{ range . }}
-                  {{ $childURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
-                  <a href="{{ $childURL }}">{{ .name }}</a>
+                {{ range $groupPages }}
+                  {{ $card := .Params.research_group_card }}
+                  {{ $groupURL := .RelPermalink }}
+                  {{ with $card.external_url }}{{ $groupURL = . }}{{ end }}
+                  <a href="{{ $groupURL }}">{{ $card.label }}</a>
                 {{ end }}
               </div>
+            {{ else }}
+              {{ with .children }}
+                <div class="utility-nav__submenu">
+                  {{ range . }}
+                    {{ $childURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
+                    <a href="{{ $childURL }}">{{ .name }}</a>
+                  {{ end }}
+                </div>
+              {{ end }}
             {{ end }}
           </div>
         {{ end }}
@@ -89,9 +99,19 @@
             {{ range .items }}
               {{ $itemURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
               {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (hasPrefix $current $itemURL)) }}
-              <li class="nav-item{{ if .children }} has-children{{ end }}{{ if $isActive }} is-active{{ end }}">
+              <li class="nav-item{{ if or .children .groups }} has-children{{ end }}{{ if $isActive }} is-active{{ end }}">
                 <a href="{{ $itemURL }}">{{ .name }}</a>
-                {{ with .children }}
+                {{ if .groups }}
+                  <ul class="nav-submenu">
+                    {{ range $groupPages }}
+                      {{ $card := .Params.research_group_card }}
+                      {{ $groupURL := .RelPermalink }}
+                      {{ with $card.external_url }}{{ $groupURL = . }}{{ end }}
+                      <li class="nav-subitem"><a href="{{ $groupURL }}">{{ $card.label }}</a></li>
+                    {{ end }}
+                  </ul>
+                {{ else }}
+                  {{ with .children }}
                   <ul class="nav-submenu">
                     {{ range . }}
                       {{ $childURL := cond (or (hasPrefix .url "http://") (hasPrefix .url "https://")) .url ((strings.TrimPrefix "/" .url) | absURL) }}
@@ -122,7 +142,7 @@
                       </li>
                     {{ end }}
                   </ul>
-                {{ else }}
+                  {{ else }}
                   {{/* If this menu item has no static children, attempt to inject research lines dynamically for subgroup sections like /matcat/ */}}
                   {{/* normalize itemURL to a path by removing scheme+host then trim slashes */}}
                   {{ $pathItem := replaceRE "^https?://[^/]+" "" $itemURL }}
@@ -140,6 +160,7 @@
                             {{ $slug := .slug | default (urlize .title) }}
                             {{ $href := printf "%s/research/%s/" $group $slug | relURL }}
                             <li><a href="{{ $href }}">{{ .title }}</a></li>
+                            {{ end }}
                           {{ end }}
                         </ul>
                       {{ end }}
@@ -171,3 +192,4 @@
     </div>
   </div>
 </header>
+{{ end }}

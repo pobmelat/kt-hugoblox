@@ -1,8 +1,11 @@
 public/
-resources/
+/resources/
 .hugo_build.lock
 *.swp
 *.ORIG.pdf
+.DS_Store
+__pycache__/
+*.pyc
 
 # Local env file for deploy/build secrets - DO NOT COMMIT
 .env

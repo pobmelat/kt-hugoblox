@@ -9,8 +9,13 @@
         {{ $diagram := partial "groups/research-lines.html" (dict "page" .) }}
         {{ .Scratch.Set "diagram" $diagram }}
       {{ else }}
-        {{ $specific := partial (printf "groups/%s-diagram.html" .Section) . }}
-        {{ .Scratch.Set "diagram" $specific }}
+        {{ $partialName := printf "partials/groups/%s-diagram.html" .Section }}
+        {{ if templates.Exists $partialName }}
+          {{ $specific := partial (printf "groups/%s-diagram.html" .Section) . }}
+          {{ .Scratch.Set "diagram" $specific }}
+        {{ else }}
+          {{ .Scratch.Set "diagram" "" }}
+        {{ end }}
       {{ end }}
       {{ $diagram := .Scratch.Get "diagram" }}
       {{ $hasDiagram := ne (strings.TrimSpace $diagram) "" }}

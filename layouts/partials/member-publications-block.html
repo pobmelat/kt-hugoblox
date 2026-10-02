@@ -124,7 +124,13 @@
             <p class="publication-entry__authors">{{ delimit . "; " }}</p>
           {{ end }}
 
-          <h3 class="publication-entry__title">{{ $publication.title }}</h3>
+          <h3 class="publication-entry__title">
+            {{ with $publication.doi }}
+              <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">{{ $publication.title }}</a>
+            {{ else }}
+              {{ $publication.title }}
+            {{ end }}
+          </h3>
 
           <div class="publication-entry__citation-row">
             <p class="publication-entry__citation">
@@ -136,7 +142,7 @@
             </p>
             <div class="publication-entry__actions publication-entry__actions--inline">
               {{ with $publication.doi }}
-                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" aria-label="Open DOI" title="Open DOI">
+                <a class="publication-entry__action publication-entry__action--doi" href="https://doi.org/{{ . }}" target="_blank" rel="noopener" aria-label="Open DOI" title="Open DOI">
                   <span class="publication-entry__action-text">DOI</span>
                 </a>
               {{ end }}

@@ -1,8 +1,8 @@
 ---
-title: "Contact and Location"
-eyebrow: "General site"
-lead: "Placeholder page for contact information, addresses, and maps."
-hero_note: "Useful to validate the shared header and the utility navigation before migrating detailed content."
+title: "Donostia Kimika Teorikoa"
+eyebrow: "Contact and Location"
+lead: "kimikateorikoa@gmail.com"
+address: "Manuel de Lardizabal, 3"
 header:
   variant: "main"
   menu: "general"
@@ -13,10 +13,39 @@ header:
 ---
 
 <section class="page-section">
-  <h2>Planned content</h2>
-  <ul>
-    <li>Main contact addresses and email accounts.</li>
-    <li>DIPC and Faculty of Chemistry location details.</li>
-    <li>Map embeds or static map images if needed.</li>
+  <h2>Research Groups</h2>
+  <ul class="contact-groups">
+    <li class="contact-groups__item">
+      <h3>Bio-KT</h3>
+      <a href="mailto:email@ehu.eus">email@ehu.eus</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>ISoM-KT</h3>
+      <a href="mailto:email@ehu.eus">email@ehu.eus</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>MatCat-KT</h3>
+      <a href="mailto:email@ehu.eus">email@ehu.eus</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>MolEleS-KT</h3>
+      <a href="mailto:email@dipc.org">email@dipc.org</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>MolMag-KT</h3>
+      <a href="mailto:email@ehu.eus">email@ehu.eus</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>NOFT-KT</h3>
+      <a href="mailto:email@ehu.eus">email@ehu.eus</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>Pol-KT</h3>
+      <a href="mailto:email@ehu.eus">email@ehu.eus</a>
+    </li>
+    <li class="contact-groups__item">
+      <h3>QCS-KT</h3>
+      <a href="mailto:email@dipc.org">email@dipc.org</a>
+    </li>
   </ul>
 </section>

@@ -1,5 +1,6 @@
 ---
 title: "MoMag-KT"
+layout: subgroup
 hide_hero: true
 home_title: "Welcome to the MoMag-KT Laboratory"
 weight: 8

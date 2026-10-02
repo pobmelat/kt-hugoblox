@@ -49,9 +49,8 @@ photo: "/images/members/phd/name.png"
 # Group keys: biokt, isom, polkt, matcat, noft, moleles, qcd, momag
 groups:  ["group"]
 
-# Human-readable group labels (must match the order in `groups`).
-group_labels:
-  - "Your Group Label"
+# Group labels are derived automatically from `groups`.
+# Do not add `group_labels` to new profiles.
 
 # Main role shown on the profile card, e.g. "Postdoctoral Researcher", "PhD Student".
 role: "PhD Student"
