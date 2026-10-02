@@ -14,7 +14,7 @@ markup:
       unsafe: true
 
 params:
-  header_style: "classic"
+  header_style: "classic_news_last_line"
   robots: "index, follow"
   site_tagline: "Euskal Herriko Unibertsitatea & DIPC"
   footer_note: ""

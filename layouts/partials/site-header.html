@@ -1,4 +1,4 @@
-{{ if eq (site.Params.header_style | default "default") "classic" }}
+{{ if in (slice "classic" "classic_news_last_line") (site.Params.header_style | default "default") }}
   {{ partial "site-header-classic.html" . }}
 {{ else }}
 {{ $defaultHeader := dict

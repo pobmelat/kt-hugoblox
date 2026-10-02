@@ -9,9 +9,11 @@
   {{ $intro = $page.Params.research_intro }}
 {{ end }}
 
+{{ $groupHome := in (slice "polkt" "biokt") $page.Section }}
+
 {{ if gt (len $lines) 0 }}
-<div class="research-lines-page{{ if eq $page.Section "matcat" }} research-lines-page--matcat-home{{ else if eq $page.Section "isom" }} research-lines-page--isom-home{{ end }}" aria-label="Research lines for {{ $page.Title }}">
-  {{ if in (slice "matcat" "isom") $page.Section }}
+<div class="research-lines-page{{ if eq $page.Section "matcat" }} research-lines-page--matcat-home{{ else if eq $page.Section "isom" }} research-lines-page--isom-home{{ else if $groupHome }} research-lines-page--group-home{{ end }}" aria-label="Research lines for {{ $page.Title }}">
+  {{ if or (in (slice "matcat" "isom") $page.Section) $groupHome }}
     <header class="research-lines-section-heading">
       <h2>Research Lines</h2>
     </header>
@@ -22,7 +24,7 @@
     </header>
   {{ end }}
 
-  <div class="research-lines-grid{{ if eq $page.Section "matcat" }} research-lines-grid--matcat-home{{ else if eq $page.Section "isom" }} research-lines-grid--isom-home{{ else }} research-lines-grid--compact{{ end }}">
+  <div class="research-lines-grid{{ if eq $page.Section "matcat" }} research-lines-grid--matcat-home{{ else if eq $page.Section "isom" }} research-lines-grid--isom-home{{ else if $groupHome }} research-lines-grid--group-home{{ else }} research-lines-grid--compact{{ end }}">
     {{ range $i, $ln := $lines }}
       {{ $slug := $ln.slug | default (printf "line-%d" (add $i 1)) }}
       {{ $mod := printf "%s" $slug }}
@@ -41,7 +43,7 @@
       {{ $href := printf "%s/research/%s/" (print $groupKey) $slug | relURL }}
       {{ $imagePath := index $imageOverrides $slug | default $ln.image }}
 
-      <a class="research-line-card research-line-card--{{ $mod }} research-line-card--{{ $groupKey }}{{ if eq $page.Section "matcat" }} research-line-card--matcat-home{{ else if eq $page.Section "isom" }} research-line-card--isom-home{{ end }}" href="{{ $href }}">
+      <a class="research-line-card research-line-card--{{ $mod }} research-line-card--{{ $groupKey }}{{ if eq $page.Section "matcat" }} research-line-card--matcat-home{{ else if eq $page.Section "isom" }} research-line-card--isom-home{{ else if $groupHome }} research-line-card--group-home{{ end }}" href="{{ $href }}">
         {{ with $imagePath }}
           {{ $image := strings.TrimPrefix "/" . }}
           <img class="research-line-card__image" src="{{ $image | relURL }}" alt="{{ $ln.eyebrow }}" loading="lazy">

@@ -23,7 +23,7 @@
         {{/* Centered page title outside the intro card */}}
         <h2 class="subgroup-intro-title subgroup-intro-title--centered">{{ with .Params.home_title }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h2>
 
-        <section class="subgroup-split subgroup-split--{{ if in (slice "matcat" "isom") .Section }}{{ .Section }}-home{{ else }}{{ .Section }}{{ end }}{{ if not $hasDiagram }} subgroup-split--no-diagram{{ end }}">
+        <section class="subgroup-split subgroup-split--{{ if in (slice "matcat" "isom") .Section }}{{ .Section }}-home{{ else if in (slice "polkt" "biokt") .Section }}group-home{{ else }}{{ .Section }}{{ end }}{{ if not $hasDiagram }} subgroup-split--no-diagram{{ end }}">
           <div class="subgroup-intro">
             {{/* intro card now contains only the body; title is above and centered. Add a group-specific class for styling. */}}
             <article class="research-line-card research-line-card--intro research-line-card--{{ .Section }}">

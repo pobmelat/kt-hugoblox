@@ -1,0 +1,31 @@
+{{ $slides := .slides }}
+{{ $lineVariant := .lineVariant }}
+<aside class="landing-news{{ if $lineVariant }} landing-news--line{{ end }}" aria-label="Recent news and events" {{ if gt (len $slides) 1 }}data-news-rotator{{ end }}>
+  <div class="landing-news__topline">
+    <p class="landing-news__eyebrow">News &amp; events</p>
+  </div>
+  <div class="landing-news__slides" aria-live="off" data-news-slides>
+    {{ range $index, $slide := $slides }}
+      <article class="landing-news__slide{{ with $slide.banner }} landing-news__slide--with-image{{ end }}" role="group" aria-roledescription="slide" aria-label="{{ add $index 1 }} of {{ len $slides }}" data-more-url="{{ $slide.moreUrl | default $slide.url }}" data-more-label="{{ $slide.more }}" {{ if gt $index 0 }}hidden{{ end }}>
+        {{ with $slide.banner }}
+          {{ $banner := strings.TrimPrefix "/" . }}
+          <img class="landing-news__image" src="{{ $banner | relURL }}" alt="" loading="lazy">
+        {{ end }}
+        <span class="landing-news__date">{{ $slide.kind }}{{ with $slide.date }} · {{ . }}{{ end }}</span>
+        <a class="landing-news__title" href="{{ $slide.url }}">{{ $slide.title }}</a>
+        {{ with $slide.speaker }}<span class="landing-news__speaker">{{ . }}</span>{{ end }}
+        {{ with $slide.summary }}<span class="landing-news__summary">{{ . }}</span>{{ end }}
+      </article>
+    {{ end }}
+  </div>
+  {{ if gt (len $slides) 1 }}
+    <div class="landing-news__controls" aria-label="News controls">
+      <button class="landing-news__control landing-news__control--toggle" type="button" aria-label="Pause news rotation" aria-pressed="false">Pause</button>
+      <button class="landing-news__control landing-news__control--previous" type="button" aria-label="Previous news item">←</button>
+      <button class="landing-news__control landing-news__control--next" type="button" aria-label="Next news item">→</button>
+    </div>
+  {{ end }}
+  <a class="landing-news__more landing-news__more--active" href="{{ with index $slides 0 }}{{ .moreUrl | default .url }}{{ end }}" data-news-more>
+    <span data-news-more-label>{{ with index $slides 0 }}{{ .more }}{{ end }}</span> <span aria-hidden="true">→</span>
+  </a>
+</aside>

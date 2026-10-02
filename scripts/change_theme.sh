@@ -6,7 +6,7 @@ CONFIG="$ROOT/hugo.yaml"
 
 if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
   cat <<'EOF'
-Usage: change_theme.sh [default|classic]
+Usage: change_theme.sh [default|classic|classic_news_last_line]
 
 Without an argument, prompts for the header theme. The selected theme is written
 to hugo.yaml and make build is run automatically.
@@ -19,19 +19,20 @@ choose_theme() {
     printf '%s\n' "$1"
     return
   fi
-  printf 'Select header theme:\n1) default (current header)\n2) classic (one-row header)\n> ' >&2
+  printf 'Select header theme:\n1) default (current header)\n2) classic (one-row header)\n3) classic_news_last_line (classic header, full-width single-line news)\n> ' >&2
   read -r selection
   case "$selection" in
     1|default) printf 'default\n' ;;
     2|classic) printf 'classic\n' ;;
-    *) echo "Choose 1/default or 2/classic." >&2; exit 1 ;;
+    3|classic_news_last_line) printf 'classic_news_last_line\n' ;;
+    *) echo "Choose 1/default, 2/classic, or 3/classic_news_last_line." >&2; exit 1 ;;
   esac
 }
 
 theme="$(choose_theme "$@")"
 case "$theme" in
-  default|classic) ;;
-  *) echo "Unknown theme '$theme'. Use default or classic." >&2; exit 1 ;;
+  default|classic|classic_news_last_line) ;;
+  *) echo "Unknown theme '$theme'. Use default, classic, or classic_news_last_line." >&2; exit 1 ;;
 esac
 
 python3 - "$CONFIG" "$theme" <<'PY'
