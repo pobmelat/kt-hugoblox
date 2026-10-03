@@ -1076,3 +1076,86 @@ items:
   - X. Lopez
   - A. Gil
   teachpress_id: '342'
+- id: pappenheim-2022-widespread-occurrence-of-covalent
+  type: article
+  title: Widespread occurrence of covalent lysine–cysteine redox switches in proteins
+  doi: 10.1038/s41589-021-00966-5
+  year: 2022
+  journal: Nature Chemical Biology
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Fabian Rabe von Pappenheim
+  - Marie Wensien
+  - Jin Ye
+  - Jon Uranga
+  - Iker Irisarri
+  - Jan de Vries
+  - Lisa-Marie Funk
+  - Ricardo A. Mata
+  - Kai Tittmann
+  volume: '18'
+  issue: '4'
+  pages: 368-375
+- id: rindfleisch-2022-ground-state-destabilization-by
+  type: article
+  title: Ground-state destabilization by electrostatic repulsion is not a driving force in orotidine-5′-monophosphate decarboxylase catalysis
+  doi: 10.1038/s41929-022-00771-w
+  year: 2022
+  journal: Nature Catalysis
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Sören Rindfleisch
+  - Matthias Krull
+  - Jon Uranga
+  - Tobias Schmidt
+  - Fabian Rabe von Pappenheim
+  - Laura Liliana Kirck
+  - Angeliki Balouri
+  - Thomas Schneider
+  - Ashwin Chari
+  - Ronald Kluger
+  - Gleb Bourenkov
+  - Ulf Diederichsen
+  - Ricardo A. Mata
+  - Kai Tittmann
+  volume: '5'
+  issue: '4'
+  pages: 332-341
+- id: funk-2022-redox-regulation-of-the
+  type: article
+  title: Redox regulation of the SARS-CoV-2 main protease provides new opportunities for drug design
+  doi: 10.1101/2022.04.18.487732
+  year: 2022
+  journal: ''
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Lisa-Marie Funk
+  - Gereon Poschmann
+  - Ashwin Chari
+  - Fabian Rabe von Pappenheim
+  - Kim-Maren Stegmann
+  - Antje Dickmanns
+  - Nora Eulig
+  - Marie Wensien
+  - Elham Paknia
+  - Gabi Heyne
+  - Elke Penka
+  - Arwen R. Pearson
+  - Carsten Berndt
+  - Tobias Fritz
+  - Sophia Bazzi
+  - Jon Uranga
+  - Ricardo A. Mata
+  - Matthias Dobbelstein
+  - Rolf Hilgenfeld
+  - Ute Curth
+  - Kai Tittmann

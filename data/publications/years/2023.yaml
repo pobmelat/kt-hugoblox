@@ -981,3 +981,78 @@ items:
   - Jose L. Segura
   - Juan Casado
   teachpress_id: '1159'
+- id: uranga-2023-dynamic-protonation-states-underlie
+  type: article
+  title: 'Dynamic Protonation States Underlie Carbene Formation in ThDP-Dependent Enzymes: A Theoretical Study'
+  doi: 10.1021/acs.jpcb.3c03137
+  year: 2023
+  journal: The Journal of Physical Chemistry B
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Jon Uranga
+  - Fabian Rabe von Pappenheim
+  - Kai Tittmann
+  - Ricardo A. Mata
+  volume: '127'
+  issue: '44'
+  pages: acs.jpcb.3c03137
+- id: ye-2023-mechanisms-of-cysteine-lysine
+  type: article
+  title: Mechanisms of Cysteine‐Lysine Covalent Linkage—The Role of Reactive Oxygen Species and Competition with Disulfide Bonds**
+  doi: 10.1002/anie.202304163
+  year: 2023
+  journal: Angewandte Chemie International Edition
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Jin Ye
+  - Sophia Bazzi
+  - Tobias Fritz
+  - Kai Tittmann
+  - Ricardo A. Mata
+  - Jon Uranga
+  volume: '62'
+  issue: '36'
+  pages: e202304163
+- id: l-ce-2023-modulating-secondary-structure-motifs
+  type: article
+  title: Modulating Secondary Structure Motifs Through Photo‐Labile Peptide Staples
+  doi: 10.1002/cbic.202300270
+  year: 2023
+  journal: ChemBioChem
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Ilze Lāce
+  - Sophia Bazzi
+  - Jon Uranga
+  - Anastasiya Schirmacher
+  - Ulf Diederichsen
+  - Ricardo A. Mata
+  - Nadja A. Simeth
+  volume: '24'
+  issue: '16'
+  pages: e202300270
+- id: uranga-2023-the-catalytic-mechanism-of
+  type: article
+  title: 'The Catalytic Mechanism of Acetoacetate Decarboxylase: A Detailed Study of Schiff Base Formation, Protonation States, and Their Impact on Catalysis'
+  doi: 10.1021/acs.jcim.3c00241
+  year: 2023
+  journal: Journal of Chemical Information and Modeling
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Jon Uranga
+  - Ricardo A. Mata
+  volume: '63'
+  issue: '10'
+  pages: 3118-3127

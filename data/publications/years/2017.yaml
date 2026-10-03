@@ -814,3 +814,21 @@ items:
   - J. I. Mujika
   - X. Lopez
   teachpress_id: '645'
+- id: manzoni-2017-can-system-truncation-speed
+  type: article
+  title: Can System Truncation Speed up Ligand-Binding Calculations with Periodic Free-Energy Simulations?
+  doi: 10.1021/acs.jcim.7b00324
+  year: 2017
+  journal: Journal of Chemical Information and Modeling
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Francesco Manzoni
+  - Jon Uranga
+  - Samuel Genheden
+  - Ulf Ryde
+  volume: '57'
+  issue: '11'
+  pages: 2865-2873

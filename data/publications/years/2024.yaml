@@ -1370,3 +1370,38 @@ items:
   - Jon M. Matxain
   - Fabienne Barroso‐Bujans
   teachpress_id: '871'
+- id: funk-2024-multiple-redox-switches-of
+  type: article
+  title: Multiple redox switches of the SARS-CoV-2 main protease in vitro provide opportunities for drug design
+  doi: 10.1038/s41467-023-44621-0
+  year: 2024
+  journal: Nature Communications
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Lisa-Marie Funk
+  - Gereon Poschmann
+  - Fabian Rabe von Pappenheim
+  - Ashwin Chari
+  - Kim M. Stegmann
+  - Antje Dickmanns
+  - Marie Wensien
+  - Nora Eulig
+  - Elham Paknia
+  - Gabi Heyne
+  - Elke Penka
+  - Arwen R. Pearson
+  - Carsten Berndt
+  - Tobias Fritz
+  - Sophia Bazzi
+  - Jon Uranga
+  - Ricardo A. Mata
+  - Matthias Dobbelstein
+  - Rolf Hilgenfeld
+  - Ute Curth
+  - Kai Tittmann
+  volume: '15'
+  issue: '1'
+  pages: '411'

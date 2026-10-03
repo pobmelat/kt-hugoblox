@@ -1175,3 +1175,26 @@ items:
   - S. Es
   - J. M. Asua
   teachpress_id: '766'
+- id: dai-2019-low-barrier-hydrogen-bonds
+  type: article
+  title: Low-barrier hydrogen bonds in enzyme cooperativity
+  doi: 10.1038/s41586-019-1581-9
+  year: 2019
+  journal: Nature
+  groups:
+  - biokt
+  tags:
+  - Bio-KT
+  authors:
+  - Shaobo Dai
+  - Lisa-Marie Funk
+  - Fabian Rabe von Pappenheim
+  - Viktor Sautner
+  - Mirko Paulikat
+  - Benjamin Schröder
+  - Jon Uranga
+  - Ricardo A. Mata
+  - Kai Tittmann
+  volume: '573'
+  issue: '7775'
+  pages: 609-613
