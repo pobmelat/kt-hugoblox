@@ -11,3 +11,5 @@ items:
     url: /biokt/resources/
   - name: Contact
     url: /biokt/contact/
+  - name: KT-Home
+    url: /
