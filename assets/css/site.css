@@ -706,6 +706,8 @@ img {
   border-radius: 0;
   box-shadow: none;
   padding: 0;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .page-title-inline {
@@ -1236,6 +1238,7 @@ img {
   font-size: 1.04rem;
   line-height: 1.76;
   max-width: 54ch;
+  text-align: justify;
 }
 
 .landing-intro a {
